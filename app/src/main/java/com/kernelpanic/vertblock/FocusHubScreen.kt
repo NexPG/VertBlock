@@ -29,7 +29,7 @@ val TextGray = Color(0xFFA0A0A0)
 val DividerColor = Color(0xFF2A2A2E)
 
 @Composable
-fun FocusHubMainScreen() {
+fun FocusHubScreen() {
     Column(
         modifier = Modifier
             .fillMaxSize()
@@ -275,6 +275,6 @@ fun StatCard(modifier: Modifier = Modifier, title: String, value: String, unit: 
 
 @Preview(showBackground = true)
 @Composable
-fun PreviewFocusHubMainScreen() {
-    FocusHubMainScreen()
+fun PreviewFocusHubScreen() {
+    FocusHubScreen()
 }
