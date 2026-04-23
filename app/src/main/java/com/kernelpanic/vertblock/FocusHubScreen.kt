@@ -1,3 +1,6 @@
+package com.kernelpanic.vertblock
+
+import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.*
@@ -11,6 +14,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
@@ -200,12 +204,12 @@ fun MainScoreCard() {
 }
 
 @Composable
-fun ActionCard(modifier: Modifier = Modifier, icon: androidx.compose.ui.graphics.vector.ImageVector, title: String) {
+fun ActionCard(modifier: Modifier = Modifier, icon: ImageVector, title: String) {
     Surface(
         modifier = modifier,
         shape = RoundedCornerShape(16.dp),
         color = SurfaceColor,
-        border = androidx.compose.foundation.BorderStroke(1.dp, DividerColor)
+        border = BorderStroke(1.dp, DividerColor)
     ) {
         Row(
             modifier = Modifier.padding(20.dp),
