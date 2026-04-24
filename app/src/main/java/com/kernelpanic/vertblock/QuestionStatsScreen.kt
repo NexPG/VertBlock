@@ -59,7 +59,7 @@ fun QuestionStatsScreen(
     // Состояние экрана. По умолчанию нули.
     var uiState by remember { mutableStateOf(QuestionStatsState()) }
 
-    /* // РАСКОММЕНТИРУЙ для проверки внешнего вида с данными (сумма = 1284):
+/*     // РАСКОММЕНТИРУЙ для проверки внешнего вида с данными (сумма = 1284):
     uiState = QuestionStatsState(
         totalAnswers = 1284,
         attempts = listOf(
@@ -74,7 +74,7 @@ fun QuestionStatsScreen(
             StatItem("Custom", 44)
         )
     )
-    */
+*/
 
     Column(
         modifier = Modifier

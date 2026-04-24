@@ -32,7 +32,8 @@ val DividerColor = Color(0xFF2A2A2E)
 @Composable
 fun FocusHubScreen(onAvatarClick: () -> Unit = {},
                    onSettingsClick: () -> Unit = {},
-                   onWatchTimeClick: () -> Unit = {}
+                   onWatchTimeClick: () -> Unit = {},
+                   onQuestionStatsClick: () -> Unit = {}
                    ) {
     Column(
         modifier = Modifier
@@ -81,7 +82,8 @@ fun FocusHubScreen(onAvatarClick: () -> Unit = {},
                 ActionCard(
                     modifier = Modifier.weight(1f),
                     icon = Icons.Default.SsidChart, // Замените на нужную иконку графика
-                    title = "Question\nStats"
+                    title = "Question\nStats",
+                    onClick = onQuestionStatsClick
                 )
             }
 

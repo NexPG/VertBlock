@@ -33,7 +33,8 @@ fun AppNavigation() {
             FocusHubScreen(
                 onAvatarClick = { navController.navigate("profile") },
                 onSettingsClick = { navController.navigate("settings") },
-                onWatchTimeClick = { navController.navigate("watchtime") }
+                onWatchTimeClick = { navController.navigate("watchtime") },
+                onQuestionStatsClick = { navController.navigate("questionstats") }
             )
         }
         composable("profile") {
@@ -54,6 +55,9 @@ fun AppNavigation() {
         }
         composable("watchtime") {
             WatchTimeScreen(onNavigateBack = { navController.popBackStack() })
+        }
+        composable("questionstats") {   // новый маршрут
+            QuestionStatsScreen(onNavigateBack = { navController.popBackStack() })
         }
     }
 }
