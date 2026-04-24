@@ -34,6 +34,7 @@ fun FocusHubScreen() {
         modifier = Modifier
             .fillMaxSize()
             .background(BackgroundColor)
+            .statusBarsPadding()      // Отступ системного статус бара
     ) {
         TopBar()
         HorizontalDivider(color = DividerColor, thickness = 1.dp)
