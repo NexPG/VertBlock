@@ -37,7 +37,8 @@ fun AppNavigation() {
         }
         composable("profile") {
             ProfileSettingsScreen(
-                onNavigateBack = { navController.popBackStack() }
+                onNavigateBack = { navController.popBackStack() },
+                onNavigateToInterest = { navController.navigate("interests") }
             )
         }
         composable("interests") {
