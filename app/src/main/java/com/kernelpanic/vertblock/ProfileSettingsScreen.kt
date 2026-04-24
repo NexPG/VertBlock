@@ -279,8 +279,8 @@ fun ProfileSettingsScreen(
                 },
                 modifier = Modifier
                     .fillMaxWidth()
-                    .height(56.dp)
-                    .padding(bottom = 24.dp),
+                    .height(115.dp)
+                    .padding(bottom = 36.dp),
                 shape = RoundedCornerShape(16.dp),
                 colors = ButtonDefaults.buttonColors(
                     containerColor = if (hasChanges) PrimaryPurple else SurfaceColor,

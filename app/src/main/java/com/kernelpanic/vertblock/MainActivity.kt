@@ -36,8 +36,9 @@ fun AppNavigation() {
             })
         }
         composable("profile") {
-            // Если ProfileSettingsScreen пока пустой, можно оставить заглушку
-            ProfileSettingsScreen()
+            ProfileSettingsScreen(
+                onNavigateBack = { navController.popBackStack() }
+            )
         }
     }
 }
