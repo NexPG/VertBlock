@@ -30,14 +30,16 @@ val TextGray = Color(0xFFA0A0A0)
 val DividerColor = Color(0xFF2A2A2E)
 
 @Composable
-fun FocusHubScreen(onAvatarClick: () -> Unit = {}) {
+fun FocusHubScreen(onAvatarClick: () -> Unit = {},
+                   onSettingsClick: () -> Unit = {}
+                   ) {
     Column(
         modifier = Modifier
             .fillMaxSize()
             .background(BackgroundColor)
             .statusBarsPadding()      // Отступ системного статус бара
     ) {
-        TopBar(onAvatarClick = onAvatarClick)
+        TopBar(onAvatarClick = onAvatarClick, onSettingsClick = onSettingsClick)
         HorizontalDivider(color = DividerColor, thickness = 1.dp)
 
         Column(
@@ -112,7 +114,9 @@ fun FocusHubScreen(onAvatarClick: () -> Unit = {}) {
 }
 
 @Composable
-fun TopBar(onAvatarClick: () -> Unit = {}) {
+fun TopBar(onAvatarClick: () -> Unit = {},
+           onSettingsClick: () -> Unit = {}
+           ) {
     Row(
         modifier = Modifier
             .fillMaxWidth()
@@ -140,11 +144,13 @@ fun TopBar(onAvatarClick: () -> Unit = {}) {
             fontWeight = FontWeight.Medium
         )
 
-        Icon(
-            imageVector = Icons.Default.Settings,
-            contentDescription = "Settings",
-            tint = TextGray
-        )
+        IconButton(onClick = onSettingsClick) {
+            Icon(
+                imageVector = Icons.Default.Settings,
+                contentDescription = "Settings",
+                tint = TextGray
+            )
+        }
     }
 }
 

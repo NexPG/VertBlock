@@ -30,10 +30,10 @@ fun AppNavigation() {
 
     NavHost(navController = navController, startDestination = "focus") {
         composable("focus") {
-            // Здесь передаём колбэк, который будет вызван при нажатии на аватар
-            FocusHubScreen(onAvatarClick = {
-                navController.navigate("profile")
-            })
+            FocusHubScreen(
+                onAvatarClick = { navController.navigate("profile") },
+                onSettingsClick = { navController.navigate("settings") }
+            )
         }
         composable("profile") {
             ProfileSettingsScreen(
@@ -43,6 +43,11 @@ fun AppNavigation() {
         }
         composable("interests") {
             InterestSettingsScreen(
+                onNavigateBack = { navController.popBackStack() }
+            )
+        }
+        composable("settings") {
+            SettingsScreen(
                 onNavigateBack = { navController.popBackStack() }
             )
         }
