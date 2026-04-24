@@ -6,9 +6,6 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
-import androidx.compose.foundation.lazy.grid.GridCells
-import androidx.compose.foundation.lazy.grid.LazyVerticalGrid
-import androidx.compose.foundation.lazy.grid.items
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
@@ -118,34 +115,41 @@ fun InterestSettingsScreen(
             lineHeight = 24.sp
         )
 
-        // 3. Сетка с плитками (LazyVerticalGrid)
-        LazyVerticalGrid(
-            columns = GridCells.Fixed(2), // 2 столбца
+        // 3. Адаптивная сетка плиток (всегда на экране, без скролла)
+        Column(
             modifier = Modifier
                 .fillMaxSize()
-                .padding(horizontal = 16.dp),
-            horizontalArrangement = Arrangement.spacedBy(16.dp),
-            verticalArrangement = Arrangement.spacedBy(16.dp),
-            contentPadding = PaddingValues(bottom = 24.dp)
+                .padding(start = 16.dp, end = 16.dp, top = 1.dp, bottom = 38.dp),
+            verticalArrangement = Arrangement.spacedBy(12.dp) // отступ между рядами
         ) {
-            items(topicsList) { topic ->
-                val isSelected = selectedTopics.contains(topic.id)
-
-                InterestTile(
-                    topic = topic,
-                    isSelected = isSelected,
-                    onClick = {
-                        // Логика добавления/удаления из списка выбранных
-                        selectedTopics = if (isSelected) {
-                            selectedTopics - topic.id
-                        } else {
-                            selectedTopics + topic.id
-                        }
-
-                        // TODO: Здесь можно сразу сохранять выбранные данные в DataStore или БД
-                        println("Текущие выбранные темы: $selectedTopics")
+            // Разбиваем список тем на строки по 2 элемента
+            val rows = topicsList.chunked(2)
+            for (row in rows) {
+                Row(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .weight(1f), // каждая строка забирает равную долю доступной высоты
+                    horizontalArrangement = Arrangement.spacedBy(12.dp) // отступ между плитками в ряду
+                ) {
+                    for (topic in row) {
+                        val isSelected = selectedTopics.contains(topic.id)
+                        InterestTile(
+                            modifier = Modifier.weight(1f), // плитка занимает всю ширину и высоту строки
+                            topic = topic,
+                            isSelected = isSelected,
+                            onClick = {
+                                selectedTopics = if (isSelected) selectedTopics - topic.id
+                                else selectedTopics + topic.id
+                                println("Текущие выбранные темы: $selectedTopics")
+                            }
+                        )
                     }
-                )
+                    // Если в последней строке только одна тема (нечётное количество),
+                    // добавляем пустой заполнитель, чтобы плитка не растянулась на всю ширину
+                    if (row.size < 2) {
+                        Spacer(modifier = Modifier.weight(1f))
+                    }
+                }
             }
         }
     }
@@ -153,6 +157,7 @@ fun InterestSettingsScreen(
 
 @Composable
 fun InterestTile(
+    modifier: Modifier = Modifier,
     topic: InterestTopic,
     isSelected: Boolean,
     onClick: () -> Unit
@@ -172,8 +177,7 @@ fun InterestTile(
     )
 
     Box(
-        modifier = Modifier
-            .aspectRatio(1f) // Делает плитку квадратной
+        modifier = modifier
             .clip(RoundedCornerShape(16.dp))
             .background(backgroundColor)
             .border(1.dp, borderColor, RoundedCornerShape(16.dp))
