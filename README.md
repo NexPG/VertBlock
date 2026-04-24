@@ -1,24 +1,30 @@
 # VertBlock
 
-**Stop doomscrolling. Start thinking.**
+**Stop mindless scrolling. Wake up your brain.**
 
-VertBlock is an Android application designed to interrupt endless vertical video scrolling. It periodically engages you with thought-provoking questions on topics you care about, helping you regain focus and break the scroll loop.
+Tired of losing hours to endless vertical videos? VertBlock is your guard against doomscrolling.  
+While you scroll, the app occasionally hits you with a short, thought‑provoking question — like a mental jolt — to snap you out of autopilot and bring back your focus. Keep your brain in shape, one interruption at a time.
+
+## 📸 Screenshots
+
+<img src="documents/screenshots/Screenshot_20260424_211127.png" width="200" /> <img src="documentsscreenshots/Screenshot_20260424_211200.png" width="200" /> <img src="documents/screenshots/Screenshot_20260424_224327.png" width="200" />
+
 
 ## 🧠 What It Does
 
-- Monitors your vertical video activity
-- Gently interrupts the scroll with a question
-- Encourages active thinking instead of passive consumption
-- Helps restore attention span and mental clarity
+- Watches for vertical video sessions
+- Interrupts the scroll with a “brain zap” question on topics you choose
+- Brings your attention back and helps restore concentration
+- Turns passive scrolling into active thinking
 
-## 📱 Minimum Requirements
+## 📱 Requirements
 
-- Android 12 (API level 31) or higher
+- Android 12+
 
-## 🚧 Development Status
+## 👥 Team
 
-VertBlock is currently **under active development** by **Kernel Panic**. Stay tuned for updates.
+Made with ❤️ by **Kernel Panic**
 
----
+## 🚧 Status
 
-*This README is temporary and will be updated as the project evolves.*
+VertBlock is currently under development. This README is temporary and will be updated as the project evolves.
