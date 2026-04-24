@@ -7,7 +7,7 @@ While you scroll, the app occasionally hits you with a short, thought‑provokin
 
 ## 📸 Screenshots
 
-<img src="documents/screenshots/Screenshot_20260424_211127.png" width="289" /> <img src="documents/screenshots/Screenshot_20260424_211200.png" width="289" /> <img src="documents/screenshots/Screenshot_20260424_224327.png" width="289" />
+<img src="documents/screenshots/Screenshot_20260424_211127.png" width="285" /> <img src="documents/screenshots/Screenshot_20260424_211200.png" width="285" /> <img src="documents/screenshots/Screenshot_20260424_224327.png" width="285" />
 
 
 ## 🧠 What It Does
