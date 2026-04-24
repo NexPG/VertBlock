@@ -22,6 +22,10 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import java.text.DecimalFormat
 import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.ui.geometry.CornerRadius
+import androidx.compose.ui.geometry.Offset
+import androidx.compose.ui.geometry.Size
+import androidx.compose.ui.graphics.drawscope.Stroke
 
 // Палитра приложения
 //private val BackgroundColor = Color(0xFF121214)
@@ -51,13 +55,13 @@ fun WatchTimeScreen(
     // Когда подключишь БД, просто передавай сюда данные из ViewModel.
     var uiState by remember { mutableStateOf(WatchTimeState()) }
 
-    /* // Раскомментируй этот блок, чтобы увидеть, как выглядит заполненный график:
+/*     // Раскомментируй этот блок, чтобы увидеть, как выглядит заполненный график:
     uiState = WatchTimeState(
         totalHours = 2840f, dailyHours = 4.2f, weeklyHours = 28.5f, monthlyHours = 114.8f, yearlyHours = 1392f,
         weeklyPercentages = listOf(15f, 30f, 45f, 25f, 60f, 35f, 20f), // Имитация данных графика
         mostActiveDay = "Friday", mostActiveHours = 5.4f
     )
-    */
+*/
 
     Column(
         modifier = Modifier
@@ -257,37 +261,40 @@ fun ActivityInsightsCard(
                     .height(200.dp)
             ) {
                 val maxPercent = percentages.maxOrNull() ?: 1f
-                // Если все нули, предотвращаем деление на 0
                 val safeMax = if (maxPercent == 0f) 1f else maxPercent
 
                 Canvas(modifier = Modifier.fillMaxSize()) {
                     val width = size.width
                     val height = size.height
+                    val topPadding = 12.dp.toPx()
+                    val bottomPadding = 4.dp.toPx()
+                    val availableHeight = height - topPadding - bottomPadding
                     val colWidth = width / 7f
+                    val barWidth = colWidth * 0.66f // 2/3 ширины колонки
+                    val cornerRadius = 8.dp.toPx()
 
-                    val path = Path().apply {
-                        moveTo(0f, height) // Начинаем с левого нижнего угла
+                    for (i in 0 until 7) {
+                        val percent = percentages.getOrElse(i) { 0f }
+                        val barHeight = availableHeight * (percent / safeMax)
+                        val x = i * colWidth + (colWidth - barWidth) / 2f
+                        val y = topPadding + (availableHeight - barHeight)
 
-                        for (i in 0 until 7) {
-                            val percent = percentages.getOrElse(i) { 0f }
-                            // Высчитываем высоту колонки относительно максимума
-                            val colHeight = height * (percent / safeMax)
-                            val y = height - colHeight
-                            val xStart = i * colWidth
-                            val xEnd = (i + 1) * colWidth
-
-                            lineTo(xStart, y)
-                            lineTo(xEnd, y)
-                        }
-
-                        lineTo(width, height) // В правый нижний угол
-                        close()
+                        // Залитый столбец с закруглёнными углами
+                        drawRoundRect(
+                            color = PrimaryPurple,
+                            topLeft = Offset(x, y),
+                            size = Size(barWidth, barHeight),
+                            cornerRadius = CornerRadius(cornerRadius, cornerRadius)
+                        )
+                        // Обводка столбца
+                        drawRoundRect(
+                            color = DividerColor,
+                            topLeft = Offset(x, y),
+                            size = Size(barWidth, barHeight),
+                            cornerRadius = CornerRadius(cornerRadius, cornerRadius),
+                            style = Stroke(width = 1.dp.toPx())
+                        )
                     }
-
-                    drawPath(
-                        path = path,
-                        color = PrimaryPurple
-                    )
                 }
             }
 

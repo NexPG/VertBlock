@@ -31,7 +31,8 @@ val DividerColor = Color(0xFF2A2A2E)
 
 @Composable
 fun FocusHubScreen(onAvatarClick: () -> Unit = {},
-                   onSettingsClick: () -> Unit = {}
+                   onSettingsClick: () -> Unit = {},
+                   onWatchTimeClick: () -> Unit = {}
                    ) {
     Column(
         modifier = Modifier
@@ -74,7 +75,8 @@ fun FocusHubScreen(onAvatarClick: () -> Unit = {},
                 ActionCard(
                     modifier = Modifier.weight(1f),
                     icon = Icons.Default.RemoveRedEye,
-                    title = "Watch\nTime"
+                    title = "Watch\nTime",
+                    onClick = onWatchTimeClick
                 )
                 ActionCard(
                     modifier = Modifier.weight(1f),
@@ -213,9 +215,15 @@ fun MainScoreCard() {
 }
 
 @Composable
-fun ActionCard(modifier: Modifier = Modifier, icon: ImageVector, title: String) {
+fun ActionCard(
+    modifier: Modifier = Modifier,
+    icon: ImageVector,
+    title: String,
+    onClick: () -> Unit = {}
+) {
     Surface(
-        modifier = modifier,
+        modifier = modifier
+            .clickable { onClick() },
         shape = RoundedCornerShape(16.dp),
         color = SurfaceColor,
         border = BorderStroke(1.dp, DividerColor)
