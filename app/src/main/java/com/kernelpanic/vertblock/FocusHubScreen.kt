@@ -20,6 +20,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.compose.foundation.clickable
 
 // Цветовая палитра на основе макета
 val BackgroundColor = Color(0xFF121214)
@@ -29,14 +30,14 @@ val TextGray = Color(0xFFA0A0A0)
 val DividerColor = Color(0xFF2A2A2E)
 
 @Composable
-fun FocusHubScreen() {
+fun FocusHubScreen(onAvatarClick: () -> Unit = {}) {
     Column(
         modifier = Modifier
             .fillMaxSize()
             .background(BackgroundColor)
             .statusBarsPadding()      // Отступ системного статус бара
     ) {
-        TopBar()
+        TopBar(onAvatarClick = onAvatarClick)
         HorizontalDivider(color = DividerColor, thickness = 1.dp)
 
         Column(
@@ -111,7 +112,7 @@ fun FocusHubScreen() {
 }
 
 @Composable
-fun TopBar() {
+fun TopBar(onAvatarClick: () -> Unit = {}) {
     Row(
         modifier = Modifier
             .fillMaxWidth()
@@ -125,7 +126,8 @@ fun TopBar() {
                 .size(36.dp)
                 .clip(CircleShape)
                 .background(SurfaceColor)
-                .border(1.dp, DividerColor, CircleShape),
+                .border(1.dp, DividerColor, CircleShape)
+                .clickable { onAvatarClick() },
             contentAlignment = Alignment.Center
         ) {
             Icon(Icons.Default.Person, contentDescription = "Profile", tint = Color.LightGray, modifier = Modifier.size(24.dp))

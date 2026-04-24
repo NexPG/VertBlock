@@ -4,6 +4,10 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
+import androidx.compose.runtime.Composable
+import androidx.navigation.compose.NavHost
+import androidx.navigation.compose.composable
+import androidx.navigation.compose.rememberNavController
 import com.kernelpanic.vertblock.ui.theme.VertBlockTheme
 
 class MainActivity : ComponentActivity() {
@@ -14,8 +18,26 @@ class MainActivity : ComponentActivity() {
 
         setContent {
             VertBlockTheme {
-                FocusHubScreen()   // Ваш экран Focus Hub
+                AppNavigation()
             }
+        }
+    }
+}
+
+@Composable
+fun AppNavigation() {
+    val navController = rememberNavController()
+
+    NavHost(navController = navController, startDestination = "focus") {
+        composable("focus") {
+            // Здесь передаём колбэк, который будет вызван при нажатии на аватар
+            FocusHubScreen(onAvatarClick = {
+                navController.navigate("profile")
+            })
+        }
+        composable("profile") {
+            // Если ProfileSettingsScreen пока пустой, можно оставить заглушку
+            ProfileSettingsScreen()
         }
     }
 }
