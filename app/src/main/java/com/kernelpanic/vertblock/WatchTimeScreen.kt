@@ -134,11 +134,13 @@ fun WatchTimeScreen(
                 Spacer(modifier = Modifier.height(12.dp))
 
                 // 4. График Activity Insights – тоже внутри weight, чтобы делить пространство
-                ActivityInsightsCard(
-                    percentages = uiState.weeklyPercentages,
-                    mostActiveDay = uiState.mostActiveDay,
-                    mostActiveHours = uiState.mostActiveHours
-                )
+                Box(modifier = Modifier.padding(bottom = 36.dp)) {
+                    ActivityInsightsCard(
+                        percentages = uiState.weeklyPercentages,
+                        mostActiveDay = uiState.mostActiveDay,
+                        mostActiveHours = uiState.mostActiveHours
+                    )
+                }
             }
         }
     }
@@ -235,7 +237,9 @@ fun ActivityInsightsCard(
     mostActiveHours: Float
 ) {
     Surface(
-        modifier = Modifier.fillMaxWidth(),
+        modifier = Modifier
+            .fillMaxWidth(),
+//            .fillMaxHeight(),
         shape = RoundedCornerShape(24.dp),
         color = SurfaceColor,
         border = androidx.compose.foundation.BorderStroke(1.dp, DividerColor)
@@ -261,7 +265,7 @@ fun ActivityInsightsCard(
             Box(
                 modifier = Modifier
                     .fillMaxWidth()
-                    .height(200.dp)
+                    .weight(1f)
             ) {
                 val maxPercent = percentages.maxOrNull() ?: 1f
                 val safeMax = if (maxPercent == 0f) 1f else maxPercent
