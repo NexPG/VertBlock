@@ -36,33 +36,29 @@ fun AppNavigation() {
     NavHost(
         navController = navController,
         startDestination = "focus",
-        // Анимация появления нового экрана
         enterTransition = {
             slideInHorizontally(
-                initialOffsetX = { fullWidth -> fullWidth / 4 }, // выезд на четверть экрана
-                animationSpec = tween(durationMillis = 350)
-            ) + fadeIn(animationSpec = tween(200), initialAlpha = 0.9f)
+                initialOffsetX = { fullWidth -> fullWidth / 4 },
+                animationSpec = tween(durationMillis = 200)
+            ) // Никакого fadeIn!
         },
-        // Анимация ухода текущего экрана
         exitTransition = {
             slideOutHorizontally(
-                targetOffsetX = { fullWidth -> -fullWidth / 6 }, // небольшой сдвиг влево
-                animationSpec = tween(350)
-            ) + fadeOut(animationSpec = tween(200), targetAlpha = 0.9f)
+                targetOffsetX = { fullWidth -> -fullWidth / 6 },
+                animationSpec = tween(durationMillis = 200)
+            ) // Никакого fadeOut!
         },
-        // Анимация возврата предыдущего экрана
         popEnterTransition = {
             slideInHorizontally(
-                initialOffsetX = { fullWidth -> -fullWidth / 6 }, // появление слева
-                animationSpec = tween(350)
-            ) + fadeIn(animationSpec = tween(200))
+                initialOffsetX = { fullWidth -> -fullWidth / 6 },
+                animationSpec = tween(durationMillis = 200)
+            )
         },
-        // Анимация ухода текущего экрана при жесте "Назад"
         popExitTransition = {
             slideOutHorizontally(
-                targetOffsetX = { fullWidth -> fullWidth / 4 }, // уход вправо
-                animationSpec = tween(350)
-            ) + fadeOut(animationSpec = tween(200))
+                targetOffsetX = { fullWidth -> fullWidth / 4 },
+                animationSpec = tween(durationMillis = 200)
+            )
         }
     ) {
         // ... ваши маршруты остаются без изменений
