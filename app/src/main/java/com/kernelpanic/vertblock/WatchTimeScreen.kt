@@ -109,34 +109,37 @@ fun WatchTimeScreen(
                 .fillMaxSize()
                 .padding(horizontal = 24.dp)
         ) {
-            Spacer(modifier = Modifier.height(24.dp))
+            // Небольшой фиксированный отступ сверху (можно оставить)
+            Spacer(modifier = Modifier.height(12.dp))
 
-            // 2. Карточка TOTAL WATCH TIME
+            // 2. Карточка TOTAL WATCH TIME – фиксированная высота по контенту
             TotalWatchTimeCard(uiState.totalHours)
 
-            Spacer(modifier = Modifier.height(16.dp))
+            Spacer(modifier = Modifier.height(12.dp))
 
-            // 3. Сетка со статистикой (Daily, Weekly, Monthly, Yearly)
-            Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(16.dp)) {
-                TimeStatCard(modifier = Modifier.weight(1f), title = "Daily", value = uiState.dailyHours)
-                TimeStatCard(modifier = Modifier.weight(1f), title = "Weekly", value = uiState.weeklyHours)
+            // 3. Сетка со статистикой – занимает долю доступного места
+            Column(
+                modifier = Modifier.weight(1f)   // ← забирает всё свободное пространство, чтобы график не вылезал
+            ) {
+                Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(16.dp)) {
+                    TimeStatCard(modifier = Modifier.weight(1f), title = "Daily", value = uiState.dailyHours)
+                    TimeStatCard(modifier = Modifier.weight(1f), title = "Weekly", value = uiState.weeklyHours)
+                }
+                Spacer(modifier = Modifier.height(12.dp))
+                Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(16.dp)) {
+                    TimeStatCard(modifier = Modifier.weight(1f), title = "Monthly", value = uiState.monthlyHours)
+                    TimeStatCard(modifier = Modifier.weight(1f), title = "Yearly", value = uiState.yearlyHours)
+                }
+
+                Spacer(modifier = Modifier.height(12.dp))
+
+                // 4. График Activity Insights – тоже внутри weight, чтобы делить пространство
+                ActivityInsightsCard(
+                    percentages = uiState.weeklyPercentages,
+                    mostActiveDay = uiState.mostActiveDay,
+                    mostActiveHours = uiState.mostActiveHours
+                )
             }
-            Spacer(modifier = Modifier.height(16.dp))
-            Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(16.dp)) {
-                TimeStatCard(modifier = Modifier.weight(1f), title = "Monthly", value = uiState.monthlyHours)
-                TimeStatCard(modifier = Modifier.weight(1f), title = "Yearly", value = uiState.yearlyHours)
-            }
-
-            Spacer(modifier = Modifier.height(24.dp))
-
-            // 4. График Activity Insights
-            ActivityInsightsCard(
-                percentages = uiState.weeklyPercentages,
-                mostActiveDay = uiState.mostActiveDay,
-                mostActiveHours = uiState.mostActiveHours
-            )
-
-            Spacer(modifier = Modifier.height(24.dp))
         }
     }
 }
