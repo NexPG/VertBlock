@@ -41,14 +41,14 @@ fun AppNavigation() {
             slideInHorizontally(
                 initialOffsetX = { fullWidth -> fullWidth / 4 }, // выезд на четверть экрана
                 animationSpec = tween(durationMillis = 350)
-            ) + fadeIn(animationSpec = tween(200))
+            ) + fadeIn(animationSpec = tween(200), initialAlpha = 0.9f)
         },
         // Анимация ухода текущего экрана
         exitTransition = {
             slideOutHorizontally(
                 targetOffsetX = { fullWidth -> -fullWidth / 6 }, // небольшой сдвиг влево
                 animationSpec = tween(350)
-            ) + fadeOut(animationSpec = tween(200))
+            ) + fadeOut(animationSpec = tween(200), targetAlpha = 0.9f)
         },
         // Анимация возврата предыдущего экрана
         popEnterTransition = {
