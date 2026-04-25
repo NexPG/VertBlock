@@ -38,25 +38,25 @@ fun AppNavigation() {
         enterTransition = {
             slideInHorizontally(
                 initialOffsetX = { fullWidth -> fullWidth / 4 },
-                animationSpec = tween(durationMillis = 200)
+                animationSpec = tween(durationMillis = 150)
             ) // Никакого fadeIn!
         },
         exitTransition = {
             slideOutHorizontally(
                 targetOffsetX = { fullWidth -> -fullWidth / 6 },
-                animationSpec = tween(durationMillis = 200)
+                animationSpec = tween(durationMillis = 150)
             ) // Никакого fadeOut!
         },
         popEnterTransition = {
             slideInHorizontally(
                 initialOffsetX = { fullWidth -> -fullWidth / 6 },
-                animationSpec = tween(durationMillis = 200)
+                animationSpec = tween(durationMillis = 150)
             )
         },
         popExitTransition = {
             slideOutHorizontally(
                 targetOffsetX = { fullWidth -> fullWidth / 4 },
-                animationSpec = tween(durationMillis = 200)
+                animationSpec = tween(durationMillis = 150)
             )
         }
     ) {
