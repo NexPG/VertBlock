@@ -1,7 +1,10 @@
 <resources>
     <style name="Theme.VertBlock" parent="android:Theme.Material.NoActionBar">
+        <!-- Вот эта строка убирает белую вспышку -->
         <item name="android:windowBackground">#FF121214</item>
+        <!-- Эти строки делают системные панели прозрачными -->
         <item name="android:statusBarColor">@android:color/transparent</item>
         <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowSplashScreenBackground">#FF121214</item>
     </style>
 </resources>
