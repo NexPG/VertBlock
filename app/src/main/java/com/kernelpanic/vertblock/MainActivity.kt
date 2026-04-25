@@ -10,10 +10,9 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.kernelpanic.vertblock.ui.theme.VertBlockTheme
 import androidx.compose.animation.core.tween
-import androidx.compose.animation.fadeIn
-import androidx.compose.animation.fadeOut
 import androidx.compose.animation.slideInHorizontally
 import androidx.compose.animation.slideOutHorizontally
+import androidx.lifecycle.compose.dropUnlessResumed
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -64,33 +63,33 @@ fun AppNavigation() {
         // ... ваши маршруты остаются без изменений
         composable("focus") {
             FocusHubScreen(
-                onAvatarClick = { navController.navigate("profile") },
-                onSettingsClick = { navController.navigate("settings") },
-                onWatchTimeClick = { navController.navigate("watchtime") },
-                onQuestionStatsClick = { navController.navigate("questionstats") }
+                onAvatarClick = dropUnlessResumed { navController.navigate("profile") },
+                onSettingsClick = dropUnlessResumed { navController.navigate("settings") },
+                onWatchTimeClick = dropUnlessResumed { navController.navigate("watchtime") },
+                onQuestionStatsClick = dropUnlessResumed { navController.navigate("questionstats") }
             )
         }
         composable("profile") {
             ProfileSettingsScreen(
-                onNavigateBack = { navController.popBackStack() },
-                onNavigateToInterest = { navController.navigate("interests") }
+                onNavigateBack = dropUnlessResumed { navController.popBackStack() },
+                onNavigateToInterest = dropUnlessResumed { navController.navigate("interests") }
             )
         }
         composable("interests") {
             InterestSettingsScreen(
-                onNavigateBack = { navController.popBackStack() }
+                onNavigateBack = dropUnlessResumed { navController.popBackStack() }
             )
         }
         composable("settings") {
             SettingsScreen(
-                onNavigateBack = { navController.popBackStack() }
+                onNavigateBack = dropUnlessResumed { navController.popBackStack() }
             )
         }
         composable("watchtime") {
-            WatchTimeScreen(onNavigateBack = { navController.popBackStack() })
+            WatchTimeScreen(onNavigateBack = dropUnlessResumed { navController.popBackStack() })
         }
         composable("questionstats") {   // новый маршрут
-            QuestionStatsScreen(onNavigateBack = { navController.popBackStack() })
+            QuestionStatsScreen(onNavigateBack = dropUnlessResumed { navController.popBackStack() })
         }
     }
 }
