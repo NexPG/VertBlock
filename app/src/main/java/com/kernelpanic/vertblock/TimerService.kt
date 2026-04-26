@@ -77,9 +77,10 @@ class TimerService : Service() {
         val progress = (secondsLeft * 100) / TOTAL_TIME
         return NotificationCompat.Builder(this, CHANNEL_ID)
             .setContentTitle("VertBlock")
-            .setContentText("До вопроса: ${formatTime(secondsLeft)}")
+            .setContentText("Before the question: ${formatTime(secondsLeft)}")
             .setSmallIcon(android.R.drawable.ic_dialog_info)
             .setOngoing(true)
+            .setPriority(NotificationCompat.PRIORITY_HIGH)  // ← вот эта строка
             .setProgress(TOTAL_TIME, progress, false)
             .build()
     }
