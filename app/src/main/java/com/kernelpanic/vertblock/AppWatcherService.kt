@@ -39,6 +39,11 @@ class AppWatcherService : AccessibilityService() {
             }
             return
         }
+
+        // 3. Мы в YouTube — запускаем повторные проверки для поиска Shorts
+        if (rootInActiveWindow != null) {
+            checkForShortsWithRetry(4)  // 4 попытки
+        }
     }
 
     private fun checkForShortsWithRetry(retryCount: Int = 0) {
@@ -80,7 +85,6 @@ class AppWatcherService : AccessibilityService() {
             "com.android.systemui",           // Шторка уведомлений, статус-бар
             "com.android.settings",           // Настройки
             "com.android.launcher",           // Лаунчер
-            "com.google.android.apps.nexuslauncher", // Pixel Launcher
             "android" -> true                 // Системный процесс
             else -> false
         }
