@@ -11,8 +11,14 @@ class AppWatcherService : AccessibilityService() {
     private var wasInShorts = false
 
     override fun onAccessibilityEvent(event: AccessibilityEvent?) {
-        if (event?.packageName != "com.google.android.youtube") {
-            // Событие НЕ от YouTube — если отслеживаем, то точно вышли
+        if (event == null) return
+
+        // Игнорируем системные окна: шторка, диалоги и т.д.
+        if (event.eventType == AccessibilityEvent.TYPE_WINDOW_STATE_CHANGED) {
+            return
+        }
+
+        if (event.packageName != "com.google.android.youtube") {
             if (isTracking) {
                 isTracking = false
                 stopService(Intent(this, TimerService::class.java))
@@ -20,17 +26,14 @@ class AppWatcherService : AccessibilityService() {
             return
         }
 
-        // Событие от YouTube, проверяем интерфейс
         val root = rootInActiveWindow ?: return
         val isShorts = isYouTubeShorts(root)
 
         if (isShorts && !isTracking) {
-            // Только что вошли в Shorts
             isTracking = true
             val intent = Intent(this, TimerService::class.java)
             startService(intent)
         } else if (!isShorts && isTracking) {
-            // Вышли из Shorts (но всё ещё в YouTube)
             isTracking = false
             stopService(Intent(this, TimerService::class.java))
         }
