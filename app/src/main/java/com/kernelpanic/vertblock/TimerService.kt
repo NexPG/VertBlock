@@ -73,13 +73,19 @@ class TimerService : Service() {
     }
 
     private fun createNotificationChannel() {
-        val channel = NotificationChannel(
-            CHANNEL_ID,
-            "VertBlock Timer",
-            NotificationManager.IMPORTANCE_LOW
-        )
-        val manager = getSystemService(NotificationManager::class.java)
-        manager.createNotificationChannel(channel)
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+            val channel = NotificationChannel(
+                CHANNEL_ID,
+                "VertBlock Timer",
+                NotificationManager.IMPORTANCE_HIGH // ← Меняем на HIGH
+            ).apply {
+                description = "Shows remaining time until next question"
+                enableVibration(false) // Вибрацию можно отключить, чтобы не бесить
+                setSound(null, null)    // Звук тоже лучше убрать
+            }
+            val manager = getSystemService(NotificationManager::class.java)
+            manager.createNotificationChannel(channel)
+        }
     }
 
     private fun formatTime(totalSeconds: Int): String {
