@@ -14,15 +14,28 @@ class TimerService : Service() {
 
     private val serviceScope = CoroutineScope(Dispatchers.Default + SupervisorJob())
     private var timerJob: Job? = null
-    private var remainingSeconds = 15 * 60 // 15 минут по умолчанию
+    private var remainingSeconds = 15 * 60 // 15 минут по умолчанию (позже заменим настройкой)
+
+    // ✅ НОВОЕ: репозиторий для сохранения прогресса
+    private lateinit var timerRepository: TimerRepository
 
     override fun onCreate() {
         super.onCreate()
         createNotificationChannel()
+
+        // ✅ НОВОЕ: инициализируем репозиторий и читаем сохранённое время
+        timerRepository = TimerRepository(this)
+        serviceScope.launch {
+            timerRepository.remainingSeconds.collect { savedSeconds ->
+                // Если таймер ещё не запущен и есть сохранённое значение — используем его
+                if (remainingSeconds == 15 * 60 && savedSeconds > 0) {
+                    remainingSeconds = savedSeconds
+                }
+            }
+        }
     }
 
     override fun onStartCommand(intent: Intent?, flags: Int, startId: Int): Int {
-        // Проверяем разрешение на уведомления (Android 13+)
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
             if (ContextCompat.checkSelfPermission(this, android.Manifest.permission.POST_NOTIFICATIONS)
                 != PackageManager.PERMISSION_GRANTED) {
@@ -32,7 +45,6 @@ class TimerService : Service() {
         }
 
         val notification = buildNotification(remainingSeconds)
-        // Вызов startForeground с явным указанием типа сервиса (dataSync доступен с API 30)
         startForeground(
             NOTIFICATION_ID,
             notification,
@@ -66,7 +78,7 @@ class TimerService : Service() {
         return NotificationCompat.Builder(this, CHANNEL_ID)
             .setContentTitle("VertBlock")
             .setContentText("До вопроса: ${formatTime(secondsLeft)}")
-            .setSmallIcon(android.R.drawable.ic_dialog_info) // временная системная иконка
+            .setSmallIcon(android.R.drawable.ic_dialog_info)
             .setOngoing(true)
             .setProgress(TOTAL_TIME, progress, false)
             .build()
@@ -77,11 +89,11 @@ class TimerService : Service() {
             val channel = NotificationChannel(
                 CHANNEL_ID,
                 "VertBlock Timer",
-                NotificationManager.IMPORTANCE_HIGH // ← Меняем на HIGH
+                NotificationManager.IMPORTANCE_HIGH
             ).apply {
                 description = "Shows remaining time until next question"
-                enableVibration(false) // Вибрацию можно отключить, чтобы не бесить
-                setSound(null, null)    // Звук тоже лучше убрать
+                enableVibration(false)
+                setSound(null, null)
             }
             val manager = getSystemService(NotificationManager::class.java)
             manager.createNotificationChannel(channel)
@@ -95,6 +107,10 @@ class TimerService : Service() {
     }
 
     override fun onDestroy() {
+        // ✅ НОВОЕ: сохраняем оставшееся время перед остановкой
+        serviceScope.launch {
+            timerRepository.saveRemaining(remainingSeconds)
+        }
         timerJob?.cancel()
         serviceScope.cancel()
         super.onDestroy()
