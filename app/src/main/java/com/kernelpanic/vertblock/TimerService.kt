@@ -102,18 +102,13 @@ class TimerService : Service() {
     }
 
     private fun buildNotification(secondsLeft: Int): Notification {
-        // Используем totalTimeSeconds для расчёта прогресса
-        val progressMax = totalTimeSeconds * 100
-        val progress = if (totalTimeSeconds > 0) (secondsLeft * 100) / totalTimeSeconds else 0
-
         return NotificationCompat.Builder(this, CHANNEL_ID)
             .setContentTitle("VertBlock")
-            .setContentText("До вопроса: ${formatTime(secondsLeft)}")
+            .setContentText("Next question in ${formatTime(secondsLeft)}")
             .setSmallIcon(android.R.drawable.ic_dialog_info)
-            .setOngoing(true)                     // постоянное уведомление
-            .setPriority(NotificationCompat.PRIORITY_LOW) // не heads-up, не отвлекает
-            .setProgress(totalTimeSeconds * 100, progress, false)
-            .setStyle(NotificationCompat.BigTextStyle().bigText("Осталось времени: ${formatTime(secondsLeft)}"))
+            .setOngoing(true)
+            .setPriority(NotificationCompat.PRIORITY_LOW)
+            .setStyle(NotificationCompat.BigTextStyle().bigText("There is time left until the next question: ${formatTime(secondsLeft)}"))
             .build()
     }
 
