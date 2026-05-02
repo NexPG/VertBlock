@@ -1,6 +1,7 @@
 package com.kernelpanic.vertblock
 
 import android.app.*
+import android.content.Context
 import android.content.Intent
 import android.content.pm.PackageManager
 import android.content.pm.ServiceInfo
@@ -17,7 +18,11 @@ class TimerService : Service() {
 
     private val serviceScope = CoroutineScope(Dispatchers.Default + SupervisorJob())
     private var timerJob: Job? = null
-    private var remainingSeconds = 15 * 60
+
+    private val DEFAULT_TOTAL_TIME = 15 * 60 // значение по умолчанию, позже заменим настройкой
+    private var totalTimeSeconds = DEFAULT_TOTAL_TIME
+    private var remainingSeconds = DEFAULT_TOTAL_TIME
+
     private var currentSession: WatchSessionEntity? = null
     private lateinit var database: VertBlockDatabase
 
@@ -40,21 +45,35 @@ class TimerService : Service() {
             }
         }
 
-        val notification = buildNotification(remainingSeconds)
-        startForeground(
-            NOTIFICATION_ID,
-            notification,
-            ServiceInfo.FOREGROUND_SERVICE_TYPE_DATA_SYNC
-        )
-
-        // Запускаем сессию в базе данных
+        // Запускаем корутину для восстановления/создания сессии, затем стартуем таймер
         serviceScope.launch {
-            val session = WatchSessionEntity(startTime = System.currentTimeMillis())
-            val sessionId = database.watchSessionDao().insertSession(session)
-            currentSession = session.copy(id = sessionId)
-        }
+            // 1. Пытаемся восстановить активную сессию (незавершённую)
+            val activeSession = database.watchSessionDao().getActiveSession()
+            if (activeSession != null) {
+                // Восстанавливаем оставшееся время из сохранённого remainingSeconds
+                remainingSeconds = activeSession.durationSeconds // используем durationSeconds для хранения оставшегося времени
+                totalTimeSeconds = activeSession.startTime.toInt() // заглушка, позже будем хранить totalTime отдельно
+                currentSession = activeSession
+            } else {
+                // Создаём новую сессию
+                val session = WatchSessionEntity(
+                    startTime = System.currentTimeMillis(),
+                    durationSeconds = remainingSeconds, // здесь durationSeconds - оставшееся время
+                    appName = "youtube_shorts"
+                )
+                val sessionId = database.watchSessionDao().insertSession(session)
+                currentSession = session.copy(id = sessionId)
+            }
 
-        startTimer()
+            // Запускаем foreground с начальным уведомлением
+            val notification = buildNotification(remainingSeconds)
+            startForeground(
+                NOTIFICATION_ID,
+                notification,
+                ServiceInfo.FOREGROUND_SERVICE_TYPE_DATA_SYNC
+            )
+            startTimer()
+        }
         return START_STICKY
     }
 
@@ -65,27 +84,36 @@ class TimerService : Service() {
                 delay(1000L)
                 remainingSeconds--
                 updateNotification(remainingSeconds)
+                // Периодически сохраняем оставшееся время в сессию (каждые 5 секунд для производительности)
+                if (remainingSeconds % 5 == 0) {
+                    saveProgress()
+                }
             }
+            // Таймер истёк – завершаем сессию
+            finishSession()
             stopSelf()
         }
     }
 
     private fun updateNotification(secondsLeft: Int) {
         val notification = buildNotification(secondsLeft)
-        val manager = getSystemService(NotificationManager::class.java)
+        val manager = getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
         manager.notify(NOTIFICATION_ID, notification)
     }
 
     private fun buildNotification(secondsLeft: Int): Notification {
-        val progress = (secondsLeft * 100) / TOTAL_TIME
+        // Используем totalTimeSeconds для расчёта прогресса
+        val progressMax = totalTimeSeconds * 100
+        val progress = if (totalTimeSeconds > 0) (secondsLeft * 100) / totalTimeSeconds else 0
+
         return NotificationCompat.Builder(this, CHANNEL_ID)
             .setContentTitle("VertBlock")
             .setContentText("До вопроса: ${formatTime(secondsLeft)}")
             .setSmallIcon(android.R.drawable.ic_dialog_info)
-            .setOngoing(false)  // <-- Теперь уведомление можно скрыть
-            .setAutoCancel(true) // <-- Оно спрячется автоматически
-            .setPriority(NotificationCompat.PRIORITY_HIGH)
-            .setProgress(TOTAL_TIME, progress, false)
+            .setOngoing(true)                     // постоянное уведомление
+            .setPriority(NotificationCompat.PRIORITY_LOW) // не heads-up, не отвлекает
+            .setProgress(totalTimeSeconds * 100, progress, false)
+            .setStyle(NotificationCompat.BigTextStyle().bigText("Осталось времени: ${formatTime(secondsLeft)}"))
             .build()
     }
 
@@ -94,7 +122,7 @@ class TimerService : Service() {
             val channel = NotificationChannel(
                 CHANNEL_ID,
                 "VertBlock Timer",
-                NotificationManager.IMPORTANCE_HIGH
+                NotificationManager.IMPORTANCE_LOW // тихий канал, без всплывания
             ).apply {
                 description = "Shows remaining time until next question"
                 enableVibration(false)
@@ -111,13 +139,30 @@ class TimerService : Service() {
         return "%02d:%02d".format(minutes, seconds)
     }
 
+    private suspend fun saveProgress() {
+        currentSession?.let { session ->
+            database.watchSessionDao().updateSession(
+                session.copy(durationSeconds = remainingSeconds) // durationSeconds используется как оставшееся время
+            )
+        }
+    }
+
+    private suspend fun finishSession() {
+        currentSession?.let { session ->
+            database.watchSessionDao().updateSession(
+                session.copy(
+                    endTime = System.currentTimeMillis(),
+                    durationSeconds = 0 // или можно записать totalTimeSeconds - elapsed, но сейчас обнуляем
+                )
+            )
+        }
+    }
+
     override fun onDestroy() {
         serviceScope.launch {
-            // Завершаем текущую сессию
-            currentSession?.let { session ->
-                database.watchSessionDao().updateSession(
-                    session.copy(endTime = System.currentTimeMillis(), durationSeconds = (TOTAL_TIME - remainingSeconds).toInt())
-                )
+            saveProgress() // сохраняем текущий прогресс
+            if (remainingSeconds <= 0) {
+                finishSession()
             }
         }
         timerJob?.cancel()
@@ -130,6 +175,5 @@ class TimerService : Service() {
     companion object {
         private const val NOTIFICATION_ID = 100
         private const val CHANNEL_ID = "timer_channel"
-        private const val TOTAL_TIME = 15 * 60
     }
 }
