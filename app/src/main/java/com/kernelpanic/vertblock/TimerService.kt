@@ -80,7 +80,8 @@ class TimerService : Service() {
             .setContentText("Before the question: ${formatTime(secondsLeft)}")
             .setSmallIcon(android.R.drawable.ic_dialog_info)
             .setOngoing(true)
-            .setPriority(NotificationCompat.PRIORITY_HIGH)  // ← вот эта строка
+            .setCategory(NotificationCompat.CATEGORY_SERVICE) // <-- Сомнительная строка
+            .setPriority(NotificationCompat.PRIORITY_HIGH) // <-- Сомнительная строка
             .setProgress(TOTAL_TIME, progress, false)
             .build()
     }
