@@ -8,31 +8,27 @@ import android.os.Build
 import android.os.IBinder
 import androidx.core.app.NotificationCompat
 import androidx.core.content.ContextCompat
+import androidx.room.Room
+import com.kernelpanic.vertblock.database.VertBlockDatabase
+import com.kernelpanic.vertblock.database.WatchSessionEntity
 import kotlinx.coroutines.*
 
 class TimerService : Service() {
 
     private val serviceScope = CoroutineScope(Dispatchers.Default + SupervisorJob())
     private var timerJob: Job? = null
-    private var remainingSeconds = 15 * 60 // 15 минут по умолчанию (позже заменим настройкой)
-
-    // ✅ НОВОЕ: репозиторий для сохранения прогресса
-    private lateinit var timerRepository: TimerRepository
+    private var remainingSeconds = 15 * 60
+    private var currentSession: WatchSessionEntity? = null
+    private lateinit var database: VertBlockDatabase
 
     override fun onCreate() {
         super.onCreate()
         createNotificationChannel()
-
-        // ✅ НОВОЕ: инициализируем репозиторий и читаем сохранённое время
-        timerRepository = TimerRepository(this)
-        serviceScope.launch {
-            timerRepository.remainingSeconds.collect { savedSeconds ->
-                // Если таймер ещё не запущен и есть сохранённое значение — используем его
-                if (remainingSeconds == 15 * 60 && savedSeconds > 0) {
-                    remainingSeconds = savedSeconds
-                }
-            }
-        }
+        database = Room.databaseBuilder(
+            applicationContext,
+            VertBlockDatabase::class.java,
+            "vertblock.db"
+        ).build()
     }
 
     override fun onStartCommand(intent: Intent?, flags: Int, startId: Int): Int {
@@ -50,6 +46,14 @@ class TimerService : Service() {
             notification,
             ServiceInfo.FOREGROUND_SERVICE_TYPE_DATA_SYNC
         )
+
+        // Запускаем сессию в базе данных
+        serviceScope.launch {
+            val session = WatchSessionEntity(startTime = System.currentTimeMillis())
+            val sessionId = database.watchSessionDao().insertSession(session)
+            currentSession = session.copy(id = sessionId)
+        }
+
         startTimer()
         return START_STICKY
     }
@@ -62,7 +66,6 @@ class TimerService : Service() {
                 remainingSeconds--
                 updateNotification(remainingSeconds)
             }
-            // Здесь будет логика показа вопроса
             stopSelf()
         }
     }
@@ -77,11 +80,10 @@ class TimerService : Service() {
         val progress = (secondsLeft * 100) / TOTAL_TIME
         return NotificationCompat.Builder(this, CHANNEL_ID)
             .setContentTitle("VertBlock")
-            .setContentText("Before the question: ${formatTime(secondsLeft)}")
-            .setSmallIcon(android.R.drawable.ic_dialog_info)
+            .setContentText("До вопроса: ${formatTime(secondsLeft)}")
+            .setSmallIcon(android.R.drawable.ic_dialog_info) // временная системная иконка
             .setOngoing(true)
-            .setCategory(NotificationCompat.CATEGORY_SERVICE) // <-- Сомнительная строка
-            .setPriority(NotificationCompat.PRIORITY_HIGH) // <-- Сомнительная строка
+            .setPriority(NotificationCompat.PRIORITY_HIGH)
             .setProgress(TOTAL_TIME, progress, false)
             .build()
     }
@@ -109,9 +111,13 @@ class TimerService : Service() {
     }
 
     override fun onDestroy() {
-        // ✅ НОВОЕ: сохраняем оставшееся время перед остановкой
         serviceScope.launch {
-            timerRepository.saveRemaining(remainingSeconds)
+            // Завершаем текущую сессию
+            currentSession?.let { session ->
+                database.watchSessionDao().updateSession(
+                    session.copy(endTime = System.currentTimeMillis(), durationSeconds = (TOTAL_TIME - remainingSeconds).toInt())
+                )
+            }
         }
         timerJob?.cancel()
         serviceScope.cancel()
