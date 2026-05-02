@@ -81,8 +81,9 @@ class TimerService : Service() {
         return NotificationCompat.Builder(this, CHANNEL_ID)
             .setContentTitle("VertBlock")
             .setContentText("До вопроса: ${formatTime(secondsLeft)}")
-            .setSmallIcon(android.R.drawable.ic_dialog_info) // временная системная иконка
-            .setOngoing(true)
+            .setSmallIcon(android.R.drawable.ic_dialog_info)
+            .setOngoing(false)  // <-- Теперь уведомление можно скрыть
+            .setAutoCancel(true) // <-- Оно спрячется автоматически
             .setPriority(NotificationCompat.PRIORITY_HIGH)
             .setProgress(TOTAL_TIME, progress, false)
             .build()
