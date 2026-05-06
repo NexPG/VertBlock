@@ -19,7 +19,7 @@ class TimerService : Service() {
     private val serviceScope = CoroutineScope(Dispatchers.Default + SupervisorJob())
     private var timerJob: Job? = null
 
-    private val DEFAULT_TOTAL_TIME = 15 * 60 // значение по умолчанию, позже заменим настройкой
+    private val DEFAULT_TOTAL_TIME = 1 * 60 // значение по умолчанию, позже заменим настройкой
     private var totalTimeSeconds = DEFAULT_TOTAL_TIME
     private var remainingSeconds = DEFAULT_TOTAL_TIME
 
