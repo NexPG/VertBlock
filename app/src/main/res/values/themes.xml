@@ -1,10 +1,22 @@
 <resources>
+    <!-- Твоя основная тема -->
     <style name="Theme.VertBlock" parent="android:Theme.Material.NoActionBar">
-        <!-- Вот эта строка убирает белую вспышку -->
         <item name="android:windowBackground">#FF121214</item>
-        <!-- Эти строки делают системные панели прозрачными -->
         <item name="android:statusBarColor">@android:color/transparent</item>
         <item name="android:navigationBarColor">@android:color/transparent</item>
-        <item name="android:windowSplashScreenBackground">#FF121214</item>
+    </style>
+
+    <!-- НОВАЯ ТЕМА ДЛЯ ОВЕРЛЕЯ -->
+    <style name="Theme.VertBlock.Translucent" parent="android:Theme.Material.NoActionBar">
+        <!-- Делаем фон прозрачным -->
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- Убираем затемнение фона (если хочешь сам управлять им в Compose) -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- Убираем анимации появления (опционально, чтобы не мигало) -->
+        <item name="android:windowAnimationStyle">@null</item>
+        <!-- Чтобы статус-бар не перекрывался -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
     </style>
 </resources>
