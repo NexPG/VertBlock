@@ -1,0 +1,5054 @@
+[
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "Who proved Fermat's Last Theorem?",
+    "correct_answer": "Andrew Wiles",
+    "incorrect_answers": [
+      "Leonhard Euler",
+      "Carl Friedrich Gauss",
+      "Srinivasa Ramanujan"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "How many sides does a trapezium have?",
+    "correct_answer": "4",
+    "incorrect_answers": [
+      "3",
+      "5",
+      "6"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "The decimal number 31 in hexadecimal would be what?",
+    "correct_answer": "1F",
+    "incorrect_answers": [
+      "3D",
+      "2E",
+      "1B"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "What is the name of a nine sided polygon?",
+    "correct_answer": "Nonagon",
+    "incorrect_answers": [
+      "Hexagon",
+      "Octagon",
+      "Heptagon"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "Which of the following dice is not a platonic solid?",
+    "correct_answer": "10-sided die",
+    "incorrect_answers": [
+      "12-sided die",
+      "20-sided die",
+      "8-sided die"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "What is the plane curve proposed by Descartes to challenge Fermat's extremum-finding techniques called?",
+    "correct_answer": "Folium of Descartes",
+    "incorrect_answers": [
+      "Elliptic Paraboloid of Descartes",
+      "Cartesian Coordinates",
+      "Descarte's Helicoid"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "What is the least number of sides a polygon can have?",
+    "correct_answer": "3",
+    "incorrect_answers": [
+      "1",
+      "2",
+      "7"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "What is the alphanumeric representation of the imaginary number?",
+    "correct_answer": "i",
+    "incorrect_answers": [
+      "e",
+      "n",
+      "x"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "How many zeros are there in a googol?",
+    "correct_answer": "100",
+    "incorrect_answers": [
+      "10",
+      "1,000",
+      "1,000,000"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "How many zeptometres are inside one femtometre?",
+    "correct_answer": "1,000,000",
+    "incorrect_answers": [
+      "10",
+      "1,000,000,000",
+      "1000"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "How many Millibars (mbar) to 1 Inch of Mercury (inHg)",
+    "correct_answer": "33.9",
+    "incorrect_answers": [
+      "30.0",
+      "27.4",
+      "10.6"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "Which of these probability distributions is NOT discrete?",
+    "correct_answer": "Normal",
+    "incorrect_answers": [
+      "Binomial",
+      "Poisson",
+      "Hyper-geometric"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "What is the fourth digit of &pi;?",
+    "correct_answer": "1",
+    "incorrect_answers": [
+      "2",
+      "3",
+      "4"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "How many square faces does a cube have?",
+    "correct_answer": "6",
+    "incorrect_answers": [
+      "4",
+      "8",
+      "10"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "How many sides does a heptagon have?",
+    "correct_answer": "7",
+    "incorrect_answers": [
+      "8",
+      "6",
+      "5"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "What is the Roman numeral for 500?",
+    "correct_answer": "D",
+    "incorrect_answers": [
+      "L",
+      "C",
+      "X"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "What shape does sin(x) or cos(x) make on a graph?",
+    "correct_answer": "Waves",
+    "incorrect_answers": [
+      "A Parabola",
+      "A Straight Line",
+      "Zig-Zags"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "In the hexadecimal system, what number comes after 9?",
+    "correct_answer": "The Letter A",
+    "incorrect_answers": [
+      "10",
+      "The Number 0",
+      "16"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "What is the area of a circle with a diameter of 20 inches if &pi;= 3.1415?",
+    "correct_answer": "314.15 Inches",
+    "incorrect_answers": [
+      "380.1215 Inches",
+      "3141.5 Inches",
+      "1256.6 Inches"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "In the complex plane, multiplying a given function by i rotates it anti-clockwise by how many degrees?",
+    "correct_answer": "90",
+    "incorrect_answers": [
+      "180",
+      "270",
+      "0"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "Which of the following famous mathematicians died in a duel at the age of 20?",
+    "correct_answer": "Galois",
+    "incorrect_answers": [
+      "Abel",
+      "Euler",
+      "Gauss"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "Integration is the reverse of what mathematical operation?",
+    "correct_answer": "Derivation",
+    "incorrect_answers": [
+      "Division",
+      "Standard Deviation",
+      "Multiplication"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "What is the symbol for Displacement?",
+    "correct_answer": "&Delta;r",
+    "incorrect_answers": [
+      "dr",
+      "Dp",
+      "r"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "What is the first Mersenne prime exponent over 1000?",
+    "correct_answer": "1279",
+    "incorrect_answers": [
+      "2203",
+      "1009",
+      "1069"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "What is the approximate value of mathematical constant e?",
+    "correct_answer": "2.72",
+    "incorrect_answers": [
+      "3.14",
+      "1.62",
+      "1.41"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "What is a polygon with eight sides called?",
+    "correct_answer": "Octagon",
+    "incorrect_answers": [
+      "Hexagon",
+      "Nanagon",
+      "Heptagon"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "Which of these numbers is closest to the total number of possible states for an army standard Enigma Machine?",
+    "correct_answer": "1.58 x 10^20",
+    "incorrect_answers": [
+      "1.58 x 10^22",
+      "1.58 x  10^18",
+      "1.58 x 10^24"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "What is the equation for the area of a sphere?",
+    "correct_answer": "(4/3)&pi;r^3",
+    "incorrect_answers": [
+      "4&pi;r^2",
+      "(1/3)&pi;hr^2",
+      "&pi;r^4"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "How many sides does a M&ouml;bius strip have?",
+    "correct_answer": "1",
+    "incorrect_answers": [
+      "2",
+      "3",
+      "4"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "What is the correct order of operations for solving equations?",
+    "correct_answer": "Parentheses, Exponents, Multiplication, Division, Addition, Subtraction",
+    "incorrect_answers": [
+      "Addition, Multiplication, Division, Subtraction, Addition, Parentheses",
+      "Parentheses, Exponents, Addition, Substraction, Multiplication, Division",
+      "The order in which the operations are written."
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "The French mathematician &Eacute;variste Galois is primarily known for his work in which?",
+    "correct_answer": "Galois Theory",
+    "incorrect_answers": [
+      "Galois' Continued Fractions",
+      "Galois' Method for PDE's ",
+      "Abelian Integration"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "What is the only Millennium Prize Problem that has been solved so far?",
+    "correct_answer": "Poincar&eacute; conjecture",
+    "incorrect_answers": [
+      "P vs. NP problem",
+      "Riemann Hypothesis",
+      "Fermat's conjecture"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "What Greek letter is used to signify summation?",
+    "correct_answer": "Sigma",
+    "incorrect_answers": [
+      "Delta",
+      "Alpha",
+      "Omega"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "To the nearest whole number, how many radians are in a whole circle?",
+    "correct_answer": "6",
+    "incorrect_answers": [
+      "3",
+      "4",
+      "5"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "Which of the following is not one of the seven Millennium Prize Problems?",
+    "correct_answer": "Navi&eacute;r conjecture",
+    "incorrect_answers": [
+      "Birch and Swinnerton-Dyer Conjecture",
+      "Riemann hypothesis",
+      "Poincar&eacute; conjecture"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "What numbers are in the 5th row of Pascal's Triangle?",
+    "correct_answer": "1 4 6 4 1",
+    "incorrect_answers": [
+      "1 3 3 1",
+      "1 5 10 10 5 1",
+      "1 6 15 20 15 6 1"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "What prime number comes next after 19?",
+    "correct_answer": "23",
+    "incorrect_answers": [
+      "25",
+      "21",
+      "27"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "What is the derivative of Acceleration with respect to time?",
+    "correct_answer": "Jerk",
+    "incorrect_answers": [
+      "Shift",
+      "Bump",
+      "Slide"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "How many degrees make a full circle?",
+    "correct_answer": "360",
+    "incorrect_answers": [
+      "180",
+      "90",
+      "720"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "Which two men are credited with independently discovering differential calculus? ",
+    "correct_answer": "Newton and Leibnitz",
+    "incorrect_answers": [
+      "Plato and Aristotle",
+      "Asiimov and Rutherford",
+      "Dvorak and Smith"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "How many sides does a pentagon have?",
+    "correct_answer": "5",
+    "incorrect_answers": [
+      "9",
+      "6",
+      "4"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "What type of angle is greater than 90&deg;?",
+    "correct_answer": "Obtuse",
+    "incorrect_answers": [
+      "Acute",
+      "Right",
+      "Straight"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "What type of function is x&sup2;+2x+1?",
+    "correct_answer": "Quadratic",
+    "incorrect_answers": [
+      "Rational",
+      "Linear",
+      "Exponential"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "What is the derivative of sin(x)",
+    "correct_answer": "cos(x)",
+    "incorrect_answers": [
+      "csc(x)",
+      "-cos(x)",
+      "-sin(x)"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "What's the square root of 49?",
+    "correct_answer": "7",
+    "incorrect_answers": [
+      "4",
+      "12",
+      "9"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "Folic acid is the synthetic form of which vitamin?",
+    "correct_answer": "Vitamin B",
+    "incorrect_answers": [
+      "Vitamin A",
+      "Vitamin C",
+      "Vitamin D"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "Which of these is a stop codon in DNA?",
+    "correct_answer": "TAA",
+    "incorrect_answers": [
+      "ACT",
+      "ACA",
+      "GTA"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "How many legs is it biologically impossible for a centipede to have?",
+    "correct_answer": "100",
+    "incorrect_answers": [
+      "26",
+      "50",
+      "74"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "What is the molecular formula of Ozone?",
+    "correct_answer": "O3",
+    "incorrect_answers": [
+      "C6H2O6",
+      "N2O",
+      "SO4"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "Deionized water is water with which of the following removed?",
+    "correct_answer": "Iron",
+    "incorrect_answers": [
+      "Oxygen",
+      "Hydrogen",
+      "Uncharged atoms"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "What is the scientific name of the red fox?",
+    "correct_answer": "Vulpes Vulpes",
+    "incorrect_answers": [
+      "Vulpes Redus",
+      "Red Fox",
+      "Vulpes Vulpie"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "The humerus, paired radius, and ulna come together to form what joint?",
+    "correct_answer": "Elbow",
+    "incorrect_answers": [
+      "Knee",
+      "Sholder",
+      "Ankle"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "What is the most potent toxin known?",
+    "correct_answer": "Botulinum toxin",
+    "incorrect_answers": [
+      "Ricin",
+      "Cyanide",
+      "Asbestos"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "In the Scoville scale, what is the hottest chemical?",
+    "correct_answer": "Resiniferatoxin",
+    "incorrect_answers": [
+      "Capsaicin",
+      "Dihydrocapsaicin",
+      "Tinyatoxin"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "The human heart has how many chambers?",
+    "correct_answer": "4",
+    "incorrect_answers": [
+      "2",
+      "6",
+      "3"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "Which of the following elements is typically used in the doping of the semiconductor silicon?",
+    "correct_answer": "Boron",
+    "incorrect_answers": [
+      "Oxygen",
+      "Carbon",
+      "Iron"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "About how old is Earth?",
+    "correct_answer": "4.5 Billion Years",
+    "incorrect_answers": [
+      "3.5 Billion Years",
+      "2.5 Billion Years",
+      "5.5 Billion Years"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "What causes Lyme disease?",
+    "correct_answer": "A bacteria",
+    "incorrect_answers": [
+      "A virus",
+      "A parasitic worm",
+      "An amoeba"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "In aeronautics, flaps and slats are used to control what on an aircraft?",
+    "correct_answer": "Lift",
+    "incorrect_answers": [
+      "Thrust",
+      "Drag",
+      "Weight "
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "Which of these is a semiconductor amplifying device?",
+    "correct_answer": "transistor",
+    "incorrect_answers": [
+      "tube",
+      "diode",
+      "P-N junction"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "What is the atomic number of Uranium ",
+    "correct_answer": "92",
+    "incorrect_answers": [
+      "235",
+      "17",
+      "167"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "Which of the following are cells of the adaptive immune system?",
+    "correct_answer": "Cytotoxic T cells",
+    "incorrect_answers": [
+      "Dendritic cells",
+      "Natural killer cells",
+      "White blood cells"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "The moons, Miranda, Ariel, Umbriel, Titania and Oberon orbit which planet?",
+    "correct_answer": "Uranus",
+    "incorrect_answers": [
+      "Jupiter",
+      "Venus",
+      "Neptune"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "The Western Lowland Gorilla is scientifically know as?",
+    "correct_answer": "Gorilla Gorilla Gorilla",
+    "incorrect_answers": [
+      "Gorilla Gorilla Diehli",
+      "Gorilla Beringei Graueri",
+      "Gorilla Beringei Beringei"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "Which is not a type of neuron?",
+    "correct_answer": "Perceptual Neuron",
+    "incorrect_answers": [
+      "Sensory Neuron",
+      "Motor Neuron",
+      "Interneuron"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "At what temperature does water boil?",
+    "correct_answer": "212&deg;F",
+    "incorrect_answers": [
+      "200&deg;F",
+      "181&deg;F",
+      "178&deg;F"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "An organic compound is considered an alcohol if it has what functional group?",
+    "correct_answer": "Hydroxyl",
+    "incorrect_answers": [
+      "Carbonyl",
+      "Alkyl",
+      "Aldehyde"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "What is the unit of electrical inductance?",
+    "correct_answer": "Henry",
+    "incorrect_answers": [
+      "Weber",
+      "Coulomb",
+      "Mho"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "A positron is an antiparticle of a what?",
+    "correct_answer": "Electron",
+    "incorrect_answers": [
+      "Neutron",
+      "Proton",
+      "Photon"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "What is the powerhouse of the cell?",
+    "correct_answer": "Mitochondria",
+    "incorrect_answers": [
+      "Ribosome",
+      "Redbull",
+      "Nucleus"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "Which of the following is a major muscle of the back?",
+    "correct_answer": "Trapezius",
+    "incorrect_answers": [
+      "Trapezium",
+      "Trapezoid",
+      "Triquetrum"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "Which of the following is the male pollen-producing reproductive part of a flower?",
+    "correct_answer": "Stamen",
+    "incorrect_answers": [
+      "Sepal",
+      "Pistil",
+      "Petal"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "Which of these choices is not one of the phases of mitosis?",
+    "correct_answer": "Diplophase",
+    "incorrect_answers": [
+      "Metaphase",
+      "Anaphase",
+      "Telophase"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "Which Landsat Satellite failed to reach orbit?",
+    "correct_answer": "Landsat 6",
+    "incorrect_answers": [
+      "Landsat 5",
+      "Landsat 4",
+      "Landsat 3"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "Which moon is the only satellite in our solar system to possess a dense atmosphere?",
+    "correct_answer": "Titan",
+    "incorrect_answers": [
+      "Europa",
+      "Miranda",
+      "Callisto"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "Which of these Elements is a metalloid?",
+    "correct_answer": "Antimony",
+    "incorrect_answers": [
+      "Tin",
+      "Bromine",
+      "Rubidium"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "When the Falcon Heavy was launched on it's test flight, what was the only part of the operation that failed?",
+    "correct_answer": "Center Core Landing",
+    "incorrect_answers": [
+      "Side Booster Landing",
+      "Deployment of Starman",
+      "Ignition and Liftoff"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "What is the standard SI unit for distance?",
+    "correct_answer": "Metre",
+    "incorrect_answers": [
+      "Angstrom",
+      "Foot",
+      "Fathom"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "What is the largest planet in the Solar System?",
+    "correct_answer": "Jupiter",
+    "incorrect_answers": [
+      "Saturn",
+      "Earth",
+      "Mars"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "Which of the following is NOT a real element?",
+    "correct_answer": "Vitrainium",
+    "incorrect_answers": [
+      "Praseodymium",
+      "Hassium",
+      "Lutetium"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "After which Danish city is the 72th element on the periodic table named?",
+    "correct_answer": "Copenhagen",
+    "incorrect_answers": [
+      "Odense",
+      "Herning",
+      "Skagen"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "At what depth should you make a decompression stop, or safety stop, on a typical scuba dive?",
+    "correct_answer": "15 Feet / 5 Meters",
+    "incorrect_answers": [
+      "25 Feet / 7.5 Meters",
+      "50 Feet / 15 Meters",
+      "75 Feet / 23 Meters"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "What is the chemical makeup of water?",
+    "correct_answer": "H20",
+    "incorrect_answers": [
+      "C12H6O2",
+      "CO2",
+      "H"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "How many moons does Pluto have?",
+    "correct_answer": "Five",
+    "incorrect_answers": [
+      "Two",
+      "Three",
+      "One"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "How many chromosomes are in your body cells?",
+    "correct_answer": "23",
+    "incorrect_answers": [
+      "21",
+      "22",
+      "24"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "What stage of development do the majority of eukaryotic cells remain in for most of their life?",
+    "correct_answer": "Interphase",
+    "incorrect_answers": [
+      "Prophase",
+      "Stasis",
+      "Telophase"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "What is the unit of electrical resistance?",
+    "correct_answer": "Ohm",
+    "incorrect_answers": [
+      "Mho",
+      "Tesla",
+      "Joule"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "What polymer is used to make CDs, safety goggles and riot shields?",
+    "correct_answer": "Polycarbonate",
+    "incorrect_answers": [
+      "Rubber",
+      "Nylon",
+      "Bakelite"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "What is the scientific term for 'taste'?",
+    "correct_answer": "Gustatory Perception",
+    "incorrect_answers": [
+      "Olfaction",
+      "Somatosensation",
+      "Auditory Perception"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "In Chemistry, how many isomers does Butanol (C4H9OH) have?",
+    "correct_answer": "4",
+    "incorrect_answers": [
+      "3",
+      "5",
+      "6"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "Which horizon in a soil profile consists of bedrock?",
+    "correct_answer": "R",
+    "incorrect_answers": [
+      "O",
+      "B",
+      "D"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "Which color cannot be produced in Roses, even through genetic alteration?",
+    "correct_answer": "Blue",
+    "incorrect_answers": [
+      "Black",
+      "Orange",
+      "Brown"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "What is the mathematical formula of Ohm's law?",
+    "correct_answer": "V = I*R",
+    "incorrect_answers": [
+      "I = V*R",
+      "R = V*I",
+      "V = I / R"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "What is the standard SI unit for time?",
+    "correct_answer": "Second",
+    "incorrect_answers": [
+      "Minute",
+      "Hour",
+      "Day"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "What planet is the hottest in our solar system?",
+    "correct_answer": "Venus",
+    "incorrect_answers": [
+      "Mercury",
+      "Mars",
+      "Jupiter"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "What is the center of an atom called?",
+    "correct_answer": "Nucleus",
+    "incorrect_answers": [
+      "Electron",
+      "Proton",
+      "Neutron"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "What is the main gas that humans exhale?",
+    "correct_answer": "Carbon dioxide",
+    "incorrect_answers": [
+      "Oxygen",
+      "Nitrogen",
+      "Hydrogen"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "What organ do humans use to breathe?",
+    "correct_answer": "Lungs",
+    "incorrect_answers": [
+      "Heart",
+      "Liver",
+      "Kidneys"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "How many planets are in our solar system?",
+    "correct_answer": "8",
+    "incorrect_answers": [
+      "9",
+      "7",
+      "10"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "What do you call an animal that eats only plants?",
+    "correct_answer": "Herbivore",
+    "incorrect_answers": [
+      "Carnivore",
+      "Omnivore",
+      "Insectivore"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "What part of the human body contains the most bones?",
+    "correct_answer": "Hands",
+    "incorrect_answers": [
+      "Feet",
+      "Spine",
+      "Skull"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "What is the largest land animal?",
+    "correct_answer": "African elephant",
+    "incorrect_answers": [
+      "White rhinoceros",
+      "Hippopotamus",
+      "Giraffe"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "What star is closest to Earth?",
+    "correct_answer": "The Sun",
+    "incorrect_answers": [
+      "Proxima Centauri",
+      "Sirius",
+      "Alpha Centauri"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "What is the only metal that is liquid at room temperature?",
+    "correct_answer": "Mercury",
+    "incorrect_answers": [
+      "Gallium",
+      "Cesium",
+      "Bromine"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "What is the process of water turning into vapor called?",
+    "correct_answer": "Evaporation",
+    "incorrect_answers": [
+      "Condensation",
+      "Sublimation",
+      "Precipitation"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "What is the soft tissue inside bones that produces blood cells?",
+    "correct_answer": "Bone marrow",
+    "incorrect_answers": [
+      "Cartilage",
+      "Spongy bone",
+      "Periosteum"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "What is the largest internal organ inside the human body?",
+    "correct_answer": "Liver",
+    "incorrect_answers": [
+      "Brain",
+      "Lungs",
+      "Heart"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "What is the chemical symbol for oxygen?",
+    "correct_answer": "O",
+    "incorrect_answers": [
+      "Ox",
+      "Os",
+      "Om"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "What force keeps us on the ground and stops us from floating into space?",
+    "correct_answer": "Gravity",
+    "incorrect_answers": [
+      "Magnetism",
+      "Friction",
+      "Inertia"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "What do you call a scientist who studies rocks?",
+    "correct_answer": "Geologist",
+    "incorrect_answers": [
+      "Archaeologist",
+      "Paleontologist",
+      "Seismologist"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "How many hearts does an octopus have?",
+    "correct_answer": "3",
+    "incorrect_answers": [
+      "1",
+      "2",
+      "4"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "What gas do humans need to breathe to survive?",
+    "correct_answer": "Oxygen",
+    "incorrect_answers": [
+      "Nitrogen",
+      "Carbon dioxide",
+      "Hydrogen"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "What is the smallest particle of an element called?",
+    "correct_answer": "Atom",
+    "incorrect_answers": [
+      "Molecule",
+      "Electron",
+      "Quark"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "What planet is famous for its beautiful rings?",
+    "correct_answer": "Saturn",
+    "incorrect_answers": [
+      "Jupiter",
+      "Uranus",
+      "Neptune"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "What is the second most abundant element in the Earth's crust?",
+    "correct_answer": "Silicon",
+    "incorrect_answers": [
+      "Oxygen",
+      "Aluminum",
+      "Iron"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "What is the name of the scientist who first proposed the heliocentric model of the solar system?",
+    "correct_answer": "Nicolaus Copernicus",
+    "incorrect_answers": [
+      "Galileo Galilei",
+      "Johannes Kepler",
+      "Isaac Newton"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "What is the term for the amount of energy required to remove an electron from an atom or ion?",
+    "correct_answer": "Ionization energy",
+    "incorrect_answers": [
+      "Electron affinity",
+      "Electronegativity",
+      "Binding energy"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "What is the name of the process in which two atomic nuclei combine to form a heavier nucleus, releasing energy?",
+    "correct_answer": "Nuclear fusion",
+    "incorrect_answers": [
+      "Nuclear fission",
+      "Radioactive decay",
+      "Chain reaction"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "What is the chemical formula of the compound commonly known as laughing gas?",
+    "correct_answer": "N₂O (Nitrous Oxide)",
+    "incorrect_answers": [
+      "NO (Nitric Oxide)",
+      "NO₂ (Nitrogen Dioxide)",
+      "NH₃ (Ammonia)"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "What is the name of the effect that causes light to bend around massive objects, predicted by Einstein's general relativity?",
+    "correct_answer": "Gravitational lensing",
+    "incorrect_answers": [
+      "Refraction",
+      "Diffraction",
+      "Redshift"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "What principle explains why an airplane can generate lift and stay in the air?",
+    "correct_answer": "Bernoulli's Principle",
+    "incorrect_answers": [
+      "Newton's Third Law",
+      "Archimedes' Principle",
+      "Pascal's Principle"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "What is the rarest naturally occurring element on Earth?",
+    "correct_answer": "Astatine",
+    "incorrect_answers": [
+      "Francium",
+      "Technetium",
+      "Plutonium"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "What is the name of the phase transition from a gas directly to a solid?",
+    "correct_answer": "Deposition",
+    "incorrect_answers": [
+      "Sublimation",
+      "Condensation",
+      "Solidification"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "Which type of quark is the heaviest?",
+    "correct_answer": "Top quark",
+    "incorrect_answers": [
+      "Bottom quark",
+      "Charm quark",
+      "Strange quark"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "What is the term for the process by which a cell engulfs a solid particle to form an internal compartment?",
+    "correct_answer": "Phagocytosis",
+    "incorrect_answers": [
+      "Pinocytosis",
+      "Endocytosis",
+      "Exocytosis"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "What is the name of the largest known volcano in the solar system?",
+    "correct_answer": "Olympus Mons (on Mars)",
+    "incorrect_answers": [
+      "Mauna Loa (on Earth)",
+      "Maxwell Montes (on Venus)",
+      "Io's volcanoes"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "What is the term for a protein that speeds up chemical reactions in living organisms?",
+    "correct_answer": "Enzyme",
+    "incorrect_answers": [
+      "Hormone",
+      "Antibody",
+      "Catalyst"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "Which subatomic particle is responsible for the phenomenon of electricity?",
+    "correct_answer": "Electron",
+    "incorrect_answers": [
+      "Proton",
+      "Neutron",
+      "Photon"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "What is the SI unit of luminous intensity?",
+    "correct_answer": "Candela",
+    "incorrect_answers": [
+      "Lumen",
+      "Lux",
+      "Watt"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "What is the branch of physics that deals with the motion of objects at very high speeds, close to the speed of light?",
+    "correct_answer": "Relativistic mechanics",
+    "incorrect_answers": [
+      "Quantum mechanics",
+      "Classical mechanics",
+      "Thermodynamics"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "What is the name of the bond formed when atoms share electrons?",
+    "correct_answer": "Covalent bond",
+    "incorrect_answers": [
+      "Ionic bond",
+      "Hydrogen bond",
+      "Metallic bond"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "What element is present in all organic compounds?",
+    "correct_answer": "Carbon",
+    "incorrect_answers": [
+      "Hydrogen",
+      "Oxygen",
+      "Nitrogen"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "What is the name of the hormone that regulates the sleep-wake cycle?",
+    "correct_answer": "Melatonin",
+    "incorrect_answers": [
+      "Serotonin",
+      "Dopamine",
+      "Cortisol"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "What law states that the entropy of a closed system will never decrease over time?",
+    "correct_answer": "The Second Law of Thermodynamics",
+    "incorrect_answers": [
+      "The First Law of Thermodynamics",
+      "The Third Law of Thermodynamics",
+      "The Zeroth Law of Thermodynamics"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "What is the basic unit of life?",
+    "correct_answer": "Cell",
+    "incorrect_answers": [
+      "Atom",
+      "Molecule",
+      "Organ"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "What is the process by which plants convert sunlight into energy?",
+    "correct_answer": "Photosynthesis",
+    "incorrect_answers": [
+      "Respiration",
+      "Fermentation",
+      "Transpiration"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "What organelle is known as the powerhouse of the cell?",
+    "correct_answer": "Mitochondria",
+    "incorrect_answers": [
+      "Nucleus",
+      "Ribosome",
+      "Golgi apparatus"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "What part of the human body is primarily responsible for filtering blood?",
+    "correct_answer": "Kidneys",
+    "incorrect_answers": [
+      "Liver",
+      "Heart",
+      "Lungs"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "What is the largest organ in the human body?",
+    "correct_answer": "Skin",
+    "incorrect_answers": [
+      "Liver",
+      "Brain",
+      "Lungs"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "What type of blood cells help fight infections?",
+    "correct_answer": "White blood cells",
+    "incorrect_answers": [
+      "Red blood cells",
+      "Platelets",
+      "Plasma"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "What is the name of the structure in plant cells that provides support and rigidity?",
+    "correct_answer": "Cell wall",
+    "incorrect_answers": [
+      "Cell membrane",
+      "Chloroplast",
+      "Vacuole"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "What molecule carries genetic information in most living organisms?",
+    "correct_answer": "DNA",
+    "incorrect_answers": [
+      "RNA",
+      "Protein",
+      "ATP"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "What is the process of cell division in somatic cells called?",
+    "correct_answer": "Mitosis",
+    "incorrect_answers": [
+      "Meiosis",
+      "Binary fission",
+      "Budding"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "What types of animals are warm-blooded and have hair or fur?",
+    "correct_answer": "Mammals",
+    "incorrect_answers": [
+      "Reptiles",
+      "Birds",
+      "Amphibians"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "Which organ in the human body produces insulin?",
+    "correct_answer": "Pancreas",
+    "incorrect_answers": [
+      "Liver",
+      "Kidney",
+      "Spleen"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "What is the term for a group of ecosystems with similar climates and organisms?",
+    "correct_answer": "Biome",
+    "incorrect_answers": [
+      "Biosphere",
+      "Habitat",
+      "Community"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "What is the smallest bone in the human body?",
+    "correct_answer": "Stapes (in the ear)",
+    "incorrect_answers": [
+      "Malleus",
+      "Incus",
+      "Cochlea"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "What is the scientific name for the study of animals?",
+    "correct_answer": "Zoology",
+    "incorrect_answers": [
+      "Botany",
+      "Ecology",
+      "Biology"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "Which organ in the human body is responsible for producing bile?",
+    "correct_answer": "Liver",
+    "incorrect_answers": [
+      "Gall bladder",
+      "Pancreas",
+      "Stomach"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "What is the primary pigment in plants that captures sunlight for photosynthesis?",
+    "correct_answer": "Chlorophyll",
+    "incorrect_answers": [
+      "Carotene",
+      "Xanthophyll",
+      "Anthocyanin"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "What type of symmetry do humans have?",
+    "correct_answer": "Bilateral symmetry",
+    "incorrect_answers": [
+      "Radial symmetry",
+      "Asymmetry",
+      "Spherical symmetry"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "What is the primary function of red blood cells?",
+    "correct_answer": "To transport oxygen",
+    "incorrect_answers": [
+      "To fight infection",
+      "To clot blood",
+      "To produce antibodies"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "What is the term for organisms that can make their own food?",
+    "correct_answer": "Autotrophs",
+    "incorrect_answers": [
+      "Heterotrophs",
+      "Decomposers",
+      "Consumers"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "What is the process by which an organism's traits are passed to its offspring?",
+    "correct_answer": "Heredity",
+    "incorrect_answers": [
+      "Evolution",
+      "Mutation",
+      "Adaptation"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "What is the chemical symbol for silver?",
+    "correct_answer": "Ag",
+    "incorrect_answers": [
+      "Si",
+      "Au",
+      "Sv"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "What is the most abundant gas in the Earth's atmosphere?",
+    "correct_answer": "Nitrogen",
+    "incorrect_answers": [
+      "Oxygen",
+      "Carbon dioxide",
+      "Argon"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "What is the pH of a neutral solution?",
+    "correct_answer": "7",
+    "incorrect_answers": [
+      "0",
+      "14",
+      "10"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "What is the lightest element on the periodic table?",
+    "correct_answer": "Hydrogen",
+    "incorrect_answers": [
+      "Helium",
+      "Lithium",
+      "Beryllium"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "What is the name of the chemical process by which iron rusts?",
+    "correct_answer": "Oxidation",
+    "incorrect_answers": [
+      "Reduction",
+      "Corrosion",
+      "Electrolysis"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "What is the common name for dihydrogen monoxide?",
+    "correct_answer": "Water",
+    "incorrect_answers": [
+      "Hydrogen peroxide",
+      "Methane",
+      "Ammonia"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "Which element is commonly used in balloons because it is lighter than air?",
+    "correct_answer": "Helium",
+    "incorrect_answers": [
+      "Hydrogen",
+      "Neon",
+      "Nitrogen"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "What is the chemical formula for methane?",
+    "correct_answer": "CH₄",
+    "incorrect_answers": [
+      "CO₂",
+      "NH₃",
+      "C₂H₆"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "What type of bond forms between two water molecules?",
+    "correct_answer": "Hydrogen bond",
+    "incorrect_answers": [
+      "Covalent bond",
+      "Ionic bond",
+      "Metallic bond"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "What is the atomic number of carbon?",
+    "correct_answer": "6",
+    "incorrect_answers": [
+      "12",
+      "8",
+      "4"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "Which acid is found in vinegar?",
+    "correct_answer": "Acetic acid",
+    "incorrect_answers": [
+      "Citric acid",
+      "Lactic acid",
+      "Hydrochloric acid"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "What is the element's name with the chemical symbol 'K'?",
+    "correct_answer": "Potassium",
+    "incorrect_answers": [
+      "Krypton",
+      "Calcium",
+      "Kryptonite"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "What type of reaction absorbs heat?",
+    "correct_answer": "Endothermic reaction",
+    "incorrect_answers": [
+      "Exothermic reaction",
+      "Catalytic reaction",
+      "Redox reaction"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "What is the name of the chemical compound Na₂CO₃?",
+    "correct_answer": "Sodium carbonate",
+    "incorrect_answers": [
+      "Sodium bicarbonate",
+      "Sodium chloride",
+      "Sodium hydroxide"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "What element is used in thermometers and is toxic to humans?",
+    "correct_answer": "Mercury",
+    "incorrect_answers": [
+      "Alcohol",
+      "Gallium",
+      "Lead"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "Which element is commonly associated with the smell of rotten eggs?",
+    "correct_answer": "Sulfur",
+    "incorrect_answers": [
+      "Nitrogen",
+      "Chlorine",
+      "Phosphorus"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "What are the vertical columns in the periodic table called?",
+    "correct_answer": "Groups",
+    "incorrect_answers": [
+      "Periods",
+      "Rows",
+      "Families"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "Which gas is released when an acid reacts with a carbonate?",
+    "correct_answer": "Carbon dioxide",
+    "incorrect_answers": [
+      "Oxygen",
+      "Hydrogen",
+      "Nitrogen"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "What is the process by which a solid changes directly into a gas?",
+    "correct_answer": "Sublimation",
+    "incorrect_answers": [
+      "Evaporation",
+      "Condensation",
+      "Deposition"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "What is the primary component of natural gas?",
+    "correct_answer": "Methane",
+    "incorrect_answers": [
+      "Ethane",
+      "Propane",
+      "Butane"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "What force pulls objects toward the center of the Earth?",
+    "correct_answer": "Gravity",
+    "incorrect_answers": [
+      "Magnetism",
+      "Friction",
+      "Tension"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "What is the speed of light in a vacuum?",
+    "correct_answer": "Approximately 299,792 kilometers per second",
+    "incorrect_answers": [
+      "Approximately 150,000 kilometers per second",
+      "Approximately 500,000 kilometers per second",
+      "Approximately 100,000 kilometers per second"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "What is the unit of force in the International System of Units (SI)?",
+    "correct_answer": "Newton",
+    "incorrect_answers": [
+      "Joule",
+      "Watt",
+      "Pascal"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "What law states that 'for every action, there is an equal and opposite reaction'?",
+    "correct_answer": "Newton's Third Law of Motion",
+    "incorrect_answers": [
+      "Newton's First Law of Motion",
+      "Newton's Second Law of Motion",
+      "Law of Conservation of Energy"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "What type of energy is stored in a stretched or compressed spring?",
+    "correct_answer": "Elastic potential energy",
+    "incorrect_answers": [
+      "Kinetic energy",
+      "Gravitational potential energy",
+      "Thermal energy"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "What is the SI unit of power?",
+    "correct_answer": "Watt",
+    "incorrect_answers": [
+      "Joule",
+      "Newton",
+      "Volt"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "What property of an object determines its resistance to changes in motion?",
+    "correct_answer": "Mass",
+    "incorrect_answers": [
+      "Weight",
+      "Volume",
+      "Density"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "Who developed the theory of general relativity?",
+    "correct_answer": "Albert Einstein",
+    "incorrect_answers": [
+      "Isaac Newton",
+      "Niels Bohr",
+      "Max Planck"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "What is the term for bending light as it passes from one medium to another?",
+    "correct_answer": "Refraction",
+    "incorrect_answers": [
+      "Reflection",
+      "Diffraction",
+      "Dispersion"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "What is the name of the force that opposes the motion of an object through a fluid?",
+    "correct_answer": "Drag",
+    "incorrect_answers": [
+      "Thrust",
+      "Lift",
+      "Buoyancy"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "What is the phenomenon called when light waves bend around obstacles or spread out after passing through a small opening?",
+    "correct_answer": "Diffraction",
+    "incorrect_answers": [
+      "Refraction",
+      "Reflection",
+      "Interference"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "What measures the average kinetic energy of the particles in a substance?",
+    "correct_answer": "Temperature",
+    "incorrect_answers": [
+      "Heat",
+      "Pressure",
+      "Volume"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "What type of wave requires a medium to travel through?",
+    "correct_answer": "Mechanical wave",
+    "incorrect_answers": [
+      "Electromagnetic wave",
+      "Radio wave",
+      "Light wave"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "What is the SI unit of electric current?",
+    "correct_answer": "Ampere",
+    "incorrect_answers": [
+      "Volt",
+      "Ohm",
+      "Watt"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "What is the term for materials that do not allow electricity to flow easily?",
+    "correct_answer": "Insulators",
+    "incorrect_answers": [
+      "Conductors",
+      "Semiconductors",
+      "Superconductors"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "What happens to the wavelength of light as its frequency increases?",
+    "correct_answer": "The wavelength decreases",
+    "incorrect_answers": [
+      "The wavelength increases",
+      "The wavelength stays the same",
+      "The wavelength doubles"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "What type of lens is thicker at the edges than in the center?",
+    "correct_answer": "Concave lens",
+    "incorrect_answers": [
+      "Convex lens",
+      "Biconvex lens",
+      "Plano-convex lens"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "What is the force that causes objects to move in a circular path?",
+    "correct_answer": "Centripetal force",
+    "incorrect_answers": [
+      "Centrifugal force",
+      "Gravitational force",
+      "Frictional force"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "What type of particle is found in the nucleus of an atom and has no electrical charge?",
+    "correct_answer": "Neutron",
+    "incorrect_answers": [
+      "Proton",
+      "Electron",
+      "Positron"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "What is the phenomenon where sound frequency changes due to the motion of the source or observer?",
+    "correct_answer": "Doppler Effect",
+    "incorrect_answers": [
+      "Resonance",
+      "Echo",
+      "Reverberation"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "If you are exposed to garbage, what kind of illness would you probably get?",
+    "correct_answer": "Asthma",
+    "incorrect_answers": [
+      "Heart failure",
+      "Goiter",
+      "Nose bleed"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "How should non-decaying waste be disposed?",
+    "correct_answer": "Both reusing and recycling",
+    "incorrect_answers": [
+      "By composting",
+      "Reusing only",
+      "By recycling only"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "It allows you to bend your knees.",
+    "correct_answer": "Joints",
+    "incorrect_answers": [
+      "Muscles",
+      "Femur",
+      "Tendons"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "What do you call the longest bone in the human body?",
+    "correct_answer": "Femur",
+    "incorrect_answers": [
+      "Pelvis",
+      "Cranium",
+      "Ribs"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "Which is the command center of the body?",
+    "correct_answer": "Brain",
+    "incorrect_answers": [
+      "Blood",
+      "Heart",
+      "Stomach"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "Which group of animals are found in water habitat?",
+    "correct_answer": "Fish, squid, crab",
+    "incorrect_answers": [
+      "Tadpole, grasshopper, eagle",
+      "Dolphin, carabao, eagle",
+      "Horse, goat, monkey"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "Which of the following is an example of a terrestrial plant?",
+    "correct_answer": "Talahib",
+    "incorrect_answers": [
+      "Duckweeds",
+      "Algae",
+      "Sea lettuce"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "The third stage in complete metamorphosis is called ___________.",
+    "correct_answer": "Pupa",
+    "incorrect_answers": [
+      "Egg",
+      "Adult",
+      "Larva"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "It is a natural home for many wild animals.",
+    "correct_answer": "Forest",
+    "incorrect_answers": [
+      "Desert",
+      "Grassland",
+      "Polar regions"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "It is a measuring device used to measure force.",
+    "correct_answer": "Spring balance",
+    "incorrect_answers": [
+      "Flat-form balance",
+      "Weighing scale",
+      "Anemometer"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "It makes an object move when it is applied.",
+    "correct_answer": "Force",
+    "incorrect_answers": [
+      "Heat",
+      "Wind",
+      "Motion"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "It is the degree of hotness and coldness of an object.",
+    "correct_answer": "Temperature",
+    "incorrect_answers": [
+      "Heat",
+      "Motion",
+      "Weather"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "It is a kind of soil that when wet is smooth and sticky. When dry, it is hard and rough.",
+    "correct_answer": "Clay",
+    "incorrect_answers": [
+      "Loam",
+      "Silt",
+      "Sand"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "Which of the following materials float in water?",
+    "correct_answer": "Empty plastic bottle",
+    "incorrect_answers": [
+      "Big stone",
+      "Metal spoon",
+      "Crystal glass"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "Which of the following materials have the ability to sink in water?",
+    "correct_answer": "Metal spoon",
+    "incorrect_answers": [
+      "Wood",
+      "Plastic sheet",
+      "Twigs"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "Which ailment is developed in response to prolonged exposure to tobacco smoke?",
+    "correct_answer": "Lung cancer",
+    "incorrect_answers": [
+      "Heart cancer",
+      "Bone cancer",
+      "Colon cancer"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "It is the changing of liquid water to gas.",
+    "correct_answer": "Evaporation",
+    "incorrect_answers": [
+      "Condensation",
+      "Melting",
+      "Freezing"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "70% of the Earth's surface is covered with _____________.",
+    "correct_answer": "Water",
+    "incorrect_answers": [
+      "Land",
+      "Forest",
+      "Mountains"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "What is the main cause of tides?",
+    "correct_answer": "Moon's gravity",
+    "incorrect_answers": [
+      "Earth's gravity",
+      "Sun's gravity",
+      "Earth's rotation"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "When does evaporation take place?",
+    "correct_answer": "When water is heated",
+    "incorrect_answers": [
+      "When water is cooled",
+      "When water is frozen",
+      "When water is filtered"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "How many natural satellites move around Earth?",
+    "correct_answer": "1",
+    "incorrect_answers": [
+      "2",
+      "3",
+      "0"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "How do animals and humans release or give off water particles?",
+    "correct_answer": "Perspiration",
+    "incorrect_answers": [
+      "Urination",
+      "Respiration",
+      "Defecation"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "What instrument is used to measure wind speed?",
+    "correct_answer": "Anemometer",
+    "incorrect_answers": [
+      "Thermometer",
+      "Barometer",
+      "Hygrometer"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "What is the young plant found inside the seed?",
+    "correct_answer": "Embryo",
+    "incorrect_answers": [
+      "Endosperm",
+      "Cotyledon",
+      "Seed coat"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "What causes an object to move?",
+    "correct_answer": "Force",
+    "incorrect_answers": [
+      "Heat",
+      "Energy",
+      "Pressure"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "It is a force exerted by a magnet.",
+    "correct_answer": "Magnetic force",
+    "incorrect_answers": [
+      "Gravitational force",
+      "Electric force",
+      "Frictional force"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "The measurement of the hotness and coldness of the air is called __________.",
+    "correct_answer": "Temperature",
+    "incorrect_answers": [
+      "Humidity",
+      "Pressure",
+      "Wind chill"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "What makes your palm hot when you rub them together?",
+    "correct_answer": "Friction",
+    "incorrect_answers": [
+      "Heat transfer",
+      "Combustion",
+      "Conduction"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "_________ filters the blood and absorbs harmful substances like food additives, certain drugs and toxins.",
+    "correct_answer": "Kidney",
+    "incorrect_answers": [
+      "Liver",
+      "Lungs",
+      "Spleen"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "What is moving air called?",
+    "correct_answer": "Wind",
+    "incorrect_answers": [
+      "Breeze",
+      "Gust",
+      "Draft"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "Which organ pumps blood through the body?",
+    "correct_answer": "Heart",
+    "incorrect_answers": [
+      "Brain",
+      "Lungs",
+      "Liver"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "What part of the plant makes food using sunlight?",
+    "correct_answer": "Leaf",
+    "incorrect_answers": [
+      "Root",
+      "Stem",
+      "Flower"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "What gas do plants absorb during photosynthesis?",
+    "correct_answer": "Carbon dioxide",
+    "incorrect_answers": [
+      "Oxygen",
+      "Nitrogen",
+      "Hydrogen"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "What do bees collect from flowers?",
+    "correct_answer": "Nectar",
+    "incorrect_answers": [
+      "Pollen",
+      "Honey",
+      "Wax"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "Humans have how many senses?",
+    "correct_answer": "Five",
+    "incorrect_answers": [
+      "Four",
+      "Six",
+      "Seven"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "What force pulls objects toward Earth?",
+    "correct_answer": "Gravity",
+    "incorrect_answers": [
+      "Magnetism",
+      "Friction",
+      "Tension"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "What is the hardest natural substance on Earth?",
+    "correct_answer": "Diamond",
+    "incorrect_answers": [
+      "Quartz",
+      "Corundum",
+      "Topaz"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "What do we call the SI unit for measuring pressure?",
+    "correct_answer": "Pascal",
+    "incorrect_answers": [
+      "Newton",
+      "Bar",
+      "Atmosphere"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "What is the speed of light in a vacuum, approximately?",
+    "correct_answer": "3×10⁸ m/s",
+    "incorrect_answers": [
+      "3×10⁶ m/s",
+      "3×10⁷ m/s",
+      "3×10⁹ m/s"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "What do we call the SI unit for measuring force?",
+    "correct_answer": "Newton",
+    "incorrect_answers": [
+      "Joule",
+      "Watt",
+      "Pascal"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "What is water made of?",
+    "correct_answer": "Hydrogen and oxygen",
+    "incorrect_answers": [
+      "Hydrogen and nitrogen",
+      "Oxygen and carbon",
+      "Hydrogen and carbon"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "What do we call the process where a liquid turns into a gas?",
+    "correct_answer": "Evaporation",
+    "incorrect_answers": [
+      "Condensation",
+      "Sublimation",
+      "Freezing"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "What is ice made of?",
+    "correct_answer": "Frozen water",
+    "incorrect_answers": [
+      "Frozen carbon dioxide",
+      "Frozen nitrogen",
+      "Frozen oxygen"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "What do we call the smallest particle of an element?",
+    "correct_answer": "Atom",
+    "incorrect_answers": [
+      "Molecule",
+      "Electron",
+      "Quark"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "Which is the largest planet in our solar system?",
+    "correct_answer": "Jupiter",
+    "incorrect_answers": [
+      "Saturn",
+      "Uranus",
+      "Neptune"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "What is Earth's natural satellite called?",
+    "correct_answer": "Moon",
+    "incorrect_answers": [
+      "Sun",
+      "Mars",
+      "Venus"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "Which planet is closest to the Sun?",
+    "correct_answer": "Mercury",
+    "incorrect_answers": [
+      "Venus",
+      "Earth",
+      "Mars"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "What shines in the sky at night?",
+    "correct_answer": "Stars",
+    "incorrect_answers": [
+      "Planets",
+      "Comets",
+      "Asteroids"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "What covers most of Earth's surface?",
+    "correct_answer": "Water",
+    "incorrect_answers": [
+      "Land",
+      "Forest",
+      "Mountains"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "Which layer of Earth do we live on?",
+    "correct_answer": "Crust",
+    "incorrect_answers": [
+      "Mantle",
+      "Core",
+      "Lithosphere"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "What causes rain?",
+    "correct_answer": "Water vapor cooling",
+    "incorrect_answers": [
+      "Wind blowing clouds",
+      "Sun heating water",
+      "Clouds colliding"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "What do fish use to breathe underwater?",
+    "correct_answer": "Gills",
+    "incorrect_answers": [
+      "Lungs",
+      "Skin",
+      "Fins"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "What is the largest ocean on Earth?",
+    "correct_answer": "Pacific Ocean",
+    "incorrect_answers": [
+      "Atlantic Ocean",
+      "Indian Ocean",
+      "Arctic Ocean"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "Which type of blood cells help fight infections?",
+    "correct_answer": "White blood cells",
+    "incorrect_answers": [
+      "Red blood cells",
+      "Platelets",
+      "Plasma"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "What process do plants use to make their own food?",
+    "correct_answer": "Photosynthesis",
+    "incorrect_answers": [
+      "Respiration",
+      "Fermentation",
+      "Transpiration"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "Which vitamin does the human body produce when exposed to sunlight?",
+    "correct_answer": "Vitamin D",
+    "incorrect_answers": [
+      "Vitamin A",
+      "Vitamin C",
+      "Vitamin E"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "Which organ in the body produces insulin?",
+    "correct_answer": "Pancreas",
+    "incorrect_answers": [
+      "Liver",
+      "Kidney",
+      "Spleen"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "What unit is used to measure force?",
+    "correct_answer": "Newton",
+    "incorrect_answers": [
+      "Joule",
+      "Watt",
+      "Pascal"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "What type of energy is stored in a stretched rubber band?",
+    "correct_answer": "Potential energy",
+    "incorrect_answers": [
+      "Kinetic energy",
+      "Thermal energy",
+      "Chemical energy"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "What device converts electrical energy into sound?",
+    "correct_answer": "Speaker",
+    "incorrect_answers": [
+      "Microphone",
+      "Amplifier",
+      "Generator"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "What happens to an object's speed when friction increases?",
+    "correct_answer": "It decreases",
+    "incorrect_answers": [
+      "It increases",
+      "It stays the same",
+      "It doubles"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "What is the unit of electric current?",
+    "correct_answer": "Ampere",
+    "incorrect_answers": [
+      "Volt",
+      "Ohm",
+      "Watt"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "What is the chemical symbol for gold?",
+    "correct_answer": "Au",
+    "incorrect_answers": [
+      "Ag",
+      "Go",
+      "Gd"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "What pH value is considered neutral?",
+    "correct_answer": "7",
+    "incorrect_answers": [
+      "0",
+      "14",
+      "10"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "Which gas is released during photosynthesis?",
+    "correct_answer": "Oxygen",
+    "incorrect_answers": [
+      "Carbon dioxide",
+      "Nitrogen",
+      "Hydrogen"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "How many oxygen atoms are in an ozone molecule?",
+    "correct_answer": "Three (O₃)",
+    "incorrect_answers": [
+      "Two (O₂)",
+      "Four (O₄)",
+      "One (O)"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "What type of substance has a pH below 7?",
+    "correct_answer": "Acid",
+    "incorrect_answers": [
+      "Base",
+      "Neutral",
+      "Alkaline"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "Which planet is known as the Red Planet?",
+    "correct_answer": "Mars",
+    "incorrect_answers": [
+      "Jupiter",
+      "Venus",
+      "Mercury"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "What galaxy do we live in?",
+    "correct_answer": "The Milky Way",
+    "incorrect_answers": [
+      "Andromeda",
+      "Triangulum",
+      "Sombrero"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "What force keeps planets in orbit around the Sun?",
+    "correct_answer": "Gravity",
+    "incorrect_answers": [
+      "Magnetism",
+      "Friction",
+      "Centrifugal force"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "What do we call a rock from space that reaches Earth's surface?",
+    "correct_answer": "Meteorite",
+    "incorrect_answers": [
+      "Meteor",
+      "Asteroid",
+      "Comet"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "What is the path a planet follows around the Sun called?",
+    "correct_answer": "Orbit",
+    "incorrect_answers": [
+      "Axis",
+      "Rotation",
+      "Revolution"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "What causes ocean tides on Earth?",
+    "correct_answer": "The Moon's gravity",
+    "incorrect_answers": [
+      "The Sun's gravity",
+      "Earth's rotation",
+      "Wind patterns"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "What type of rock forms from cooled lava or magma?",
+    "correct_answer": "Igneous rock",
+    "incorrect_answers": [
+      "Sedimentary rock",
+      "Metamorphic rock",
+      "Fossilized rock"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "What instrument is used to measure earthquakes?",
+    "correct_answer": "Seismograph",
+    "incorrect_answers": [
+      "Barometer",
+      "Thermometer",
+      "Anemometer"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "Which layer of Earth protects us from harmful ultraviolet rays?",
+    "correct_answer": "Ozone layer",
+    "incorrect_answers": [
+      "Troposphere",
+      "Stratosphere",
+      "Mesosphere"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "What natural process breaks rocks down into soil over time?",
+    "correct_answer": "Weathering",
+    "incorrect_answers": [
+      "Erosion",
+      "Deposition",
+      "Metamorphism"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "What is the name of the protein in red blood cells that carries oxygen?",
+    "correct_answer": "Hemoglobin",
+    "incorrect_answers": [
+      "Myoglobin",
+      "Fibrinogen",
+      "Albumin"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "Which organelle is responsible for breaking down waste materials in a cell?",
+    "correct_answer": "Lysosome",
+    "incorrect_answers": [
+      "Mitochondria",
+      "Ribosome",
+      "Golgi apparatus"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "What pigment gives plants their green color?",
+    "correct_answer": "Chlorophyll",
+    "incorrect_answers": [
+      "Carotene",
+      "Xanthophyll",
+      "Anthocyanin"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "What is the name of the protein structure that forms the basic framework of chromosomes?",
+    "correct_answer": "Histone",
+    "incorrect_answers": [
+      "Chromatin",
+      "Nucleosome",
+      "Centromere"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "Which cycle describes the process of cellular respiration in mitochondria?",
+    "correct_answer": "Krebs cycle",
+    "incorrect_answers": [
+      "Calvin cycle",
+      "Nitrogen cycle",
+      "Carbon cycle"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "What is the name of the hormone produced by the thyroid gland that regulates metabolism?",
+    "correct_answer": "Thyroxine",
+    "incorrect_answers": [
+      "Insulin",
+      "Adrenaline",
+      "Cortisol"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "Which membrane structure regulates what enters and exits the cell?",
+    "correct_answer": "Semipermeable membrane",
+    "incorrect_answers": [
+      "Cell wall",
+      "Nucleus",
+      "Cytoplasm"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "What do we call animals active at night?",
+    "correct_answer": "Nocturnal",
+    "incorrect_answers": [
+      "Diurnal",
+      "Crepuscular",
+      "Dormant"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "What is the name of the protein that carries oxygen in muscle cells?",
+    "correct_answer": "Myoglobin",
+    "incorrect_answers": [
+      "Hemoglobin",
+      "Actin",
+      "Myosin"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "Which structure in the kidney filters waste and excess water from the blood?",
+    "correct_answer": "Nephron",
+    "incorrect_answers": [
+      "Glomerulus",
+      "Bowman's capsule",
+      "Ureter"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "What is the name of the phenomenon where light bends around obstacles or through narrow openings?",
+    "correct_answer": "Diffraction",
+    "incorrect_answers": [
+      "Refraction",
+      "Reflection",
+      "Dispersion"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "What is the name of the phenomenon where particles exist in multiple states simultaneously until measured?",
+    "correct_answer": "Superposition",
+    "incorrect_answers": [
+      "Entanglement",
+      "Tunneling",
+      "Interference"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "What is the name of the radiation emitted by black holes due to quantum effects?",
+    "correct_answer": "Hawking radiation",
+    "incorrect_answers": [
+      "Cherenkov radiation",
+      "Synchrotron radiation",
+      "Bremsstrahlung radiation"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "What is the name of the phenomenon where energy is emitted in discrete packets called quanta?",
+    "correct_answer": "Quantization",
+    "incorrect_answers": [
+      "Ionization",
+      "Polarization",
+      "Magnetization"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "What is the name of the theoretical particle that carries the electromagnetic force?",
+    "correct_answer": "Photon",
+    "incorrect_answers": [
+      "Gluon",
+      "Boson",
+      "Electron"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "What is the name of the phenomenon where rotating objects experience a deflective force due to Earth's rotation?",
+    "correct_answer": "Coriolis effect",
+    "incorrect_answers": [
+      "Doppler effect",
+      "Bernoulli effect",
+      "Magnus effect"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "What is the name of the theoretical particle that mediates the strong nuclear force?",
+    "correct_answer": "Gluon",
+    "incorrect_answers": [
+      "Photon",
+      "Graviton",
+      "Boson"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "What is the name of the phenomenon where materials exhibit zero electrical resistance below a critical temperature?",
+    "correct_answer": "Superconductivity",
+    "incorrect_answers": [
+      "Superfluidity",
+      "Semiconductivity",
+      "Magnetoresistance"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "Who is known as the father of modern physics?",
+    "correct_answer": "Isaac Newton",
+    "incorrect_answers": [
+      "Albert Einstein",
+      "Galileo Galilei",
+      "Niels Bohr"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "Who developed the theory of relativity?",
+    "correct_answer": "Albert Einstein",
+    "incorrect_answers": [
+      "Isaac Newton",
+      "Max Planck",
+      "Niels Bohr"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "What is the name of the principle that describes how electrons fill orbitals in atoms?",
+    "correct_answer": "Aufbau principle",
+    "incorrect_answers": [
+      "Pauli exclusion principle",
+      "Hund's rule",
+      "Octet rule"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "What is the name of the phenomenon where molecules with the same molecular formula have different structural arrangements?",
+    "correct_answer": "Isomerism",
+    "incorrect_answers": [
+      "Allotropy",
+      "Polymorphism",
+      "Tautomerism"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "What is the name of the theoretical concept describing the stability of atoms based on electron configuration?",
+    "correct_answer": "Octet rule",
+    "incorrect_answers": [
+      "Aufbau principle",
+      "Hund's rule",
+      "VSEPR theory"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "What is the name of the principle stating that systems at equilibrium oppose changes in conditions?",
+    "correct_answer": "Le Chatelier's principle",
+    "incorrect_answers": [
+      "Henry's law",
+      "Raoult's law",
+      "Hess's law"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "What is the name of the phenomenon where molecules with mirror-image structures cannot be superimposed?",
+    "correct_answer": "Chirality",
+    "incorrect_answers": [
+      "Isomerism",
+      "Polymorphism",
+      "Allotropy"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "What is the name of the equation relating cell potential to concentration?",
+    "correct_answer": "Nernst equation",
+    "incorrect_answers": [
+      "Henderson-Hasselbalch equation",
+      "Arrhenius equation",
+      "Gibbs free energy equation"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "What is the name of the reagent used to oxidize primary alcohols to carboxylic acids?",
+    "correct_answer": "Potassium permanganate",
+    "incorrect_answers": [
+      "Sodium borohydride",
+      "Lithium aluminum hydride",
+      "Hydrogen peroxide"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "What is the name of the reagent used to distinguish between aldehydes and ketones?",
+    "correct_answer": "Fehling's solution",
+    "incorrect_answers": [
+      "Tollen's reagent",
+      "Benedict's solution",
+      "Lucas reagent"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "What is the name of the rule predicting the geometry of coordination compounds?",
+    "correct_answer": "VSEPR theory",
+    "incorrect_answers": [
+      "Crystal field theory",
+      "Ligand field theory",
+      "Molecular orbital theory"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "What gas helps ripen fruits?",
+    "correct_answer": "Ethylene",
+    "incorrect_answers": [
+      "Acetylene",
+      "Methane",
+      "Carbon dioxide"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "Who is the father of modern chemistry?",
+    "correct_answer": "Lavoisier",
+    "incorrect_answers": [
+      "Dalton",
+      "Mendeleev",
+      "Boyle"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "What is the name of the region beyond Neptune containing icy bodies and dwarf planets?",
+    "correct_answer": "Kuiper Belt",
+    "incorrect_answers": [
+      "Asteroid Belt",
+      "Oort Cloud",
+      "Scattered Disc"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "Which planet has the most moons?",
+    "correct_answer": "Jupiter",
+    "incorrect_answers": [
+      "Saturn",
+      "Uranus",
+      "Neptune"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "What is the name of the galaxy closest to the Milky Way?",
+    "correct_answer": "Andromeda",
+    "incorrect_answers": [
+      "Triangulum",
+      "Messier 87",
+      "Sombrero"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "What is the name of the first artificial satellite?",
+    "correct_answer": "Sputnik",
+    "incorrect_answers": [
+      "Explorer",
+      "Apollo",
+      "Vostok"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "What boundary surrounds a black hole?",
+    "correct_answer": "Event horizon",
+    "incorrect_answers": [
+      "Singularity",
+      "Accretion disk",
+      "Photon sphere"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "What is the name of the boundary separating our solar system from interstellar space?",
+    "correct_answer": "Heliopause",
+    "incorrect_answers": [
+      "Kuiper Belt",
+      "Oort Cloud",
+      "Magnetosphere"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "What is the name of the telescope launched in 1990 that revolutionized astronomy?",
+    "correct_answer": "Hubble",
+    "incorrect_answers": [
+      "James Webb",
+      "Spitzer",
+      "Chandra"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "What term describes a star that suddenly brightens due to an explosion?",
+    "correct_answer": "Supernova",
+    "incorrect_answers": [
+      "Nova",
+      "Pulsar",
+      "Quasar"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "What is the name of the largest volcano in the solar system located on Mars?",
+    "correct_answer": "Olympus Mons",
+    "incorrect_answers": [
+      "Mauna Loa",
+      "Maxwell Montes",
+      "Mount Everest"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "What is the name of the zone in the ocean where light cannot penetrate?",
+    "correct_answer": "Aphotic zone",
+    "incorrect_answers": [
+      "Photic zone",
+      "Benthic zone",
+      "Pelagic zone"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "What is the name of the process where nutrients accumulate in water bodies, causing excessive algae growth?",
+    "correct_answer": "Eutrophication",
+    "incorrect_answers": [
+      "Sedimentation",
+      "Acidification",
+      "Salinization"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "What is the name of the zone where freshwater and saltwater mix in estuaries?",
+    "correct_answer": "Brackish zone",
+    "incorrect_answers": [
+      "Littoral zone",
+      "Pelagic zone",
+      "Abyssal zone"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "What measures wind speed?",
+    "correct_answer": "Anemometer",
+    "incorrect_answers": [
+      "Thermometer",
+      "Barometer",
+      "Hygrometer"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "What is the name of the layer of permanently frozen soil in polar regions?",
+    "correct_answer": "Permafrost",
+    "incorrect_answers": [
+      "Tundra",
+      "Glacier",
+      "Taiga"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "What do we call underground water storage?",
+    "correct_answer": "Aquifer",
+    "incorrect_answers": [
+      "Reservoir",
+      "Well",
+      "Spring"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "What is the name of the layer where most meteorites burn up upon entering Earth's atmosphere?",
+    "correct_answer": "Mesosphere",
+    "incorrect_answers": [
+      "Troposphere",
+      "Stratosphere",
+      "Thermosphere"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "What layer of the Sun is visible to us?",
+    "correct_answer": "Photosphere",
+    "incorrect_answers": [
+      "Chromosphere",
+      "Corona",
+      "Core"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "What type of cloud brings rain?",
+    "correct_answer": "Nimbus",
+    "incorrect_answers": [
+      "Cirrus",
+      "Stratus",
+      "Cumulus"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "What is the name of the boundary separating Earth's crust from the mantle?",
+    "correct_answer": "Mohorovičić discontinuity",
+    "incorrect_answers": [
+      "Gutenberg discontinuity",
+      "Lehmann discontinuity",
+      "Conrad discontinuity"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "Red-rot and Ergot disease are associated with the production of:",
+    "correct_answer": "Sugarcane and Bajra",
+    "incorrect_answers": [
+      "Bajra and wheat",
+      "Groundnut and sugarcane",
+      "Wheat and groundnut"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "Who among the following received Nobel prize for unraveling the helical structure of Protein?",
+    "correct_answer": "Linus Pauling",
+    "incorrect_answers": [
+      "Maurice Wilkins",
+      "Sanger",
+      "Watson and Crick"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "Which one of the following kinds of organism causes malaria?",
+    "correct_answer": "Protozoan",
+    "incorrect_answers": [
+      "Bacterium",
+      "Fungus",
+      "Virus"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "Which among the following is the poorest source of Fat?",
+    "correct_answer": "Fish",
+    "incorrect_answers": [
+      "Curd",
+      "Egg",
+      "Milk"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "The release of which one of the following into ponds and wells helps in controlling mosquitoes?",
+    "correct_answer": "Gambusia Fish",
+    "incorrect_answers": [
+      "Crab",
+      "Dogfish",
+      "Snail"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "Which one of the following crop improvement techniques is based on the concept of Cellular Totipotency in plants?",
+    "correct_answer": "Tissue Culture",
+    "incorrect_answers": [
+      "Polyploid",
+      "Induced Culture",
+      "Hybridisation"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "The high milk yielding breed of cow developed in India through cross breeding is?",
+    "correct_answer": "Red Sindhi",
+    "incorrect_answers": [
+      "Haryana",
+      "Murrah",
+      "Holstein-Friesian"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "Zoological Survey of India planned to establish five DNA laboratories in India. Which city is not included?",
+    "correct_answer": "New Delhi",
+    "incorrect_answers": [
+      "Chennai",
+      "Kolkata",
+      "Pune"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "If drinking water supply is contaminated with domestic sewerage, which disease is most likely to occur?",
+    "correct_answer": "Typhoid",
+    "incorrect_answers": [
+      "Measles",
+      "Tuberculosis",
+      "Diphtheria"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "Which scientist disproved the theory of spontaneous generation and performed the experiment to show 'Life begets life'?",
+    "correct_answer": "Louis Pasteur",
+    "incorrect_answers": [
+      "Alexander Fleming",
+      "Joseph Lister",
+      "Linus Pauling"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "The scientists recently estimated the age of the moon around ----- billion years.",
+    "correct_answer": "4.36",
+    "incorrect_answers": [
+      "3.36",
+      "5.34",
+      "7.54"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "Which of the following are infected by foot and mouth disease?",
+    "correct_answer": "Cattle",
+    "incorrect_answers": [
+      "Cats",
+      "Dogs",
+      "Poultry"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "Which one of the following diseases is caused by bacteria?",
+    "correct_answer": "Tuberculosis",
+    "incorrect_answers": [
+      "Hepatitis B",
+      "Poliomyelitis",
+      "Scabies"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "Which one of the following is the vector for Kala-Azar disease?",
+    "correct_answer": "Sandfly",
+    "incorrect_answers": [
+      "Housefly",
+      "Aedes mosquito",
+      "Anopheles Mosquito"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "In terms of organic evolution, which one of the following is more advanced than the other three?",
+    "correct_answer": "Bat",
+    "incorrect_answers": [
+      "Pigeon",
+      "Ostrich",
+      "Vulture"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "Night blindness can be corrected by the intake of?",
+    "correct_answer": "Vitamin A",
+    "incorrect_answers": [
+      "Vitamin B Complex",
+      "Vitamin C",
+      "Vitamin D"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "Which one of the enzymes is found in human saliva?",
+    "correct_answer": "Ptyalin",
+    "incorrect_answers": [
+      "Trypsin",
+      "Pepsin",
+      "Rennin"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "Which one of the following elements is essential for the transmission of nerve impulses in nerve fibers of the human body?",
+    "correct_answer": "Sodium",
+    "incorrect_answers": [
+      "Calcium",
+      "Iron",
+      "Zinc"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "In the human body, red blood cells are produced in?",
+    "correct_answer": "Bone marrow",
+    "incorrect_answers": [
+      "Liver",
+      "Voluntary Muscles",
+      "Pancreas"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "The purpose of genetically modifying brinjal and cotton as Bt-Brinjal, Bt-Cotton was to make them?",
+    "correct_answer": "Pest resistant",
+    "incorrect_answers": [
+      "Drought resistant",
+      "High yielding",
+      "Short-duration crops"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "Which one of the following is a pigment?",
+    "correct_answer": "Melanin",
+    "incorrect_answers": [
+      "Albumin",
+      "Elastin",
+      "Keratin"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "Which of the following is biodegradable?",
+    "correct_answer": "Paper",
+    "incorrect_answers": [
+      "D.D.T.",
+      "Plastic",
+      "Aluminium"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "Electrostatic precipitation is used to control?",
+    "correct_answer": "Air pollution",
+    "incorrect_answers": [
+      "Water pollution",
+      "Solid waste",
+      "Noise pollution"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "X-rays were discovered by?",
+    "correct_answer": "Roentgen",
+    "incorrect_answers": [
+      "H. Davy",
+      "Lavoisier",
+      "Faraday"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "Where was India's first computer installed?",
+    "correct_answer": "Indian Statistical Institute, Calcutta",
+    "incorrect_answers": [
+      "Indian Institute of Technology, Delhi",
+      "Indian Institute of Science, Bangalore",
+      "Bharat Sanchar Nigam Ltd, Delhi"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "Centre for DNA Fingerprinting of India is located at?",
+    "correct_answer": "Hyderabad",
+    "incorrect_answers": [
+      "Pune",
+      "Mumbai",
+      "Udaipur"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "The audible range of sound is?",
+    "correct_answer": "20 Hz to 20 kHz",
+    "incorrect_answers": [
+      "20 Hz to 20 MHz",
+      "20 kHz to 20 MHz",
+      "20 Hz to 2000 Hz"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "The nephron is:",
+    "correct_answer": "The functional unit of the kidney",
+    "incorrect_answers": [
+      "The site of urine storage",
+      "The site where ADH is produced",
+      "Also called the Bowman's capsule"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "All of the following are normally found in urine except?",
+    "correct_answer": "Glucose",
+    "incorrect_answers": [
+      "Sodium ions",
+      "Uric acid",
+      "Urea"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "Which salt is used in photography?",
+    "correct_answer": "Silver Nitrate",
+    "incorrect_answers": [
+      "Phosphorus Nitrate",
+      "Sodium Nitrate",
+      "Sodium Chloride"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "In elephants, which teeth grow into huge tusks?",
+    "correct_answer": "Incisors of the upper jaw",
+    "incorrect_answers": [
+      "Incisors of the lower jaw",
+      "Canines of the upper jaw",
+      "Molars of the lower jaw"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "Tip of the match-stick contains?",
+    "correct_answer": "Red phosphorus",
+    "incorrect_answers": [
+      "Phosphorus penta oxide",
+      "White phosphorus",
+      "Phosphorus penta chloride"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "Commercial name of Sodium bicarbonate is?",
+    "correct_answer": "Baking soda",
+    "incorrect_answers": [
+      "Washing soda",
+      "Bleaching powder",
+      "Soda ash"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "Which gland in the human body produces growth hormone?",
+    "correct_answer": "Pituitary",
+    "incorrect_answers": [
+      "Adrenal",
+      "Pancreas",
+      "Thyroid"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "From an evolutionary point of view, which one of the following is more advanced?",
+    "correct_answer": "Dolphin",
+    "incorrect_answers": [
+      "Crocodile",
+      "Shark",
+      "Tortoise"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "Which one of the following minerals is required for muscle contraction?",
+    "correct_answer": "Calcium",
+    "incorrect_answers": [
+      "Iron",
+      "Sodium",
+      "Zinc"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "What is the key ingredient of vinegar that you use in diet?",
+    "correct_answer": "Acetic acid",
+    "incorrect_answers": [
+      "Ascorbic acid",
+      "Benzoic Acid",
+      "Nicotinic Acid"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "Which of the following receives messages from hypothalamus and communicates with other endocrine glands?",
+    "correct_answer": "Pituitary",
+    "incorrect_answers": [
+      "Thyroid",
+      "Pancreas",
+      "Thymus"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "The part of grain in cereals where much of the protein lies is the?",
+    "correct_answer": "Aleurone layer",
+    "incorrect_answers": [
+      "Endosperm",
+      "Pericarp",
+      "Embryo"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "In which part of the human body is the smallest bone found?",
+    "correct_answer": "Ear",
+    "incorrect_answers": [
+      "Wrist",
+      "Palm",
+      "Nose"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "Primarily which system of the body is attacked by HIV?",
+    "correct_answer": "Immune",
+    "incorrect_answers": [
+      "Cardiovascular",
+      "Respiratory",
+      "Reproductive"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "Which one of the following is a stem tissue?",
+    "correct_answer": "Cactus",
+    "incorrect_answers": [
+      "Carrot",
+      "Ginger",
+      "Flower"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "Vaccines are?",
+    "correct_answer": "Treated bacteria or virus or one of their protein",
+    "incorrect_answers": [
+      "Same as monoclonal antibodies",
+      "MHC protein",
+      "Strands of nucleic acid"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "Which one of the following is used as an antibacterial dye for skin infection?",
+    "correct_answer": "Gentian violet",
+    "incorrect_answers": [
+      "Barium",
+      "Cobalt",
+      "Nicotinamide"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "Tricuspid valve is found in?",
+    "correct_answer": "Heart",
+    "incorrect_answers": [
+      "Brain",
+      "Spleen",
+      "Veins"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "In India, the Human Organ Transplantation Act came into existence in?",
+    "correct_answer": "1995",
+    "incorrect_answers": [
+      "1994",
+      "1996",
+      "1997"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "Which one of the following algae is a wonder crop with about 70% protein, even more than Soybean?",
+    "correct_answer": "Spirulina",
+    "incorrect_answers": [
+      "Chlorella",
+      "Dunaliella",
+      "Scenedesmus"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "The science dealing with human variations and heredity leading to the improvement of human race is known as?",
+    "correct_answer": "Eugenics",
+    "incorrect_answers": [
+      "Genetics",
+      "Hybridization",
+      "Mutation"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "The part of poppy plant which yields opium is?",
+    "correct_answer": "Unripe fruits",
+    "incorrect_answers": [
+      "Dried root",
+      "Dried leaves",
+      "Dried seeds"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "Vitamin A is also known as?",
+    "correct_answer": "Retinol",
+    "incorrect_answers": [
+      "Ascorbic acid",
+      "Thiamine",
+      "Riboflavin"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "The folding of the leaf lobes of the Venus flytrap is a response to changing?",
+    "correct_answer": "Water pressure",
+    "incorrect_answers": [
+      "Light pattern",
+      "Wind speed",
+      "Wind direction"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "One of the most important foreign exchange earning herbs used in the treatment of several kinds of chronic dysentery is?",
+    "correct_answer": "Isabgol",
+    "incorrect_answers": [
+      "Tulsi",
+      "Madhuca",
+      "Rauwolfia"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "Which one of the following is the most suitable plant for reclamation of alkaline soil?",
+    "correct_answer": "Coconut",
+    "incorrect_answers": [
+      "Eucalyptus",
+      "Pipal",
+      "Kikar"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "The crop in which Bt Gene has been used for genetic transformation and which has given rise to a controversy in India is?",
+    "correct_answer": "Cotton",
+    "incorrect_answers": [
+      "Wheat",
+      "Groundnut",
+      "Tomato"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "Children confined to closed dark rooms are most likely to suffer from?",
+    "correct_answer": "Anaemia",
+    "incorrect_answers": [
+      "Goitre",
+      "Pellagra",
+      "Bone deformation"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "Fish and sea foods are very rich in?",
+    "correct_answer": "Sodium",
+    "incorrect_answers": [
+      "Magnesium",
+      "Iron",
+      "Calcium"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "WIDAL test is required for the diagnosis of?",
+    "correct_answer": "Typhoid",
+    "incorrect_answers": [
+      "Tuberculosis",
+      "Tetanus",
+      "Leprosy"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "Which one of the following is known as the first line of defence for the body?",
+    "correct_answer": "Skin",
+    "incorrect_answers": [
+      "WBC",
+      "Antibodies",
+      "Nails"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "The yellow color of yolk is due to the presence of?",
+    "correct_answer": "Riboflavin",
+    "incorrect_answers": [
+      "Livetin",
+      "Phosphate",
+      "Vitellin"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "The slurry of biogas plant is an enriched manure as it is very rich in?",
+    "correct_answer": "Sulphur and Nitrogen",
+    "incorrect_answers": [
+      "Phosphorus and Potassium",
+      "Zinc and Aluminum",
+      "Boron and Potash"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "The most economical process of increasing the nutritive value of foodgrains is?",
+    "correct_answer": "Milling",
+    "incorrect_answers": [
+      "Germination",
+      "Parboiling",
+      "Pearling"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "GOUT, a metabolic disease occurs due to the high level of?",
+    "correct_answer": "Uric acid in the blood",
+    "incorrect_answers": [
+      "Urea in the blood",
+      "Sugar in the blood",
+      "Cholesterol in the blood"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "Which one of the following is NOT correctly matched?",
+    "correct_answer": "Louis Pasteur: Blood group",
+    "incorrect_answers": [
+      "Becquerel: Radioactivity",
+      "Alexander Fleming: Penicillin",
+      "William Harvey: Blood circulation"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "PCR (Polymerase Chain Reaction) is a technique to make copies of?",
+    "correct_answer": "DNA using living cells",
+    "incorrect_answers": [
+      "DNA without using living cells",
+      "RNA using living cells",
+      "RNA without using living cells"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "The branch of science dealing with the improvement of human race is?",
+    "correct_answer": "Eugenics",
+    "incorrect_answers": [
+      "Genealogy",
+      "Cloning",
+      "Euphenics"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "The main pollination agent in the case of maize plant is?",
+    "correct_answer": "Winds",
+    "incorrect_answers": [
+      "Bird",
+      "Insects",
+      "Rodent"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "Spiders and scorpions belong to the same class of Arthropods as are?",
+    "correct_answer": "Mites and Ticks",
+    "incorrect_answers": [
+      "Beetle and locusts",
+      "Crabs and Lobsters",
+      "Centipedes and Millipedes"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "With reference to plants, mucilage are?",
+    "correct_answer": "Glycoproteins",
+    "incorrect_answers": [
+      "Polypeptide chains",
+      "Polysaccharides",
+      "Long chain fatty acids"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "Azolla used as a bio-fertilizer for rice cultivation has a symbiotic relationship with?",
+    "correct_answer": "Anabaena",
+    "incorrect_answers": [
+      "Azotobacter",
+      "Azospirillum",
+      "Aulosira"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "Diatoms are good indicators of:",
+    "correct_answer": "Sewage pollution",
+    "incorrect_answers": [
+      "Industrial pollution",
+      "Intense soil erosion",
+      "Soil Pollution"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "Which one of the following theories is most widely accepted for movement of water through plants?",
+    "correct_answer": "Root pressure",
+    "incorrect_answers": [
+      "Capillarity",
+      "Cohesion tension",
+      "Imbibition"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "Which one of the following organisms has a role in converting nitrates to free Nitrogen?",
+    "correct_answer": "Pseudomonas",
+    "incorrect_answers": [
+      "Nitrosomonas",
+      "Nitrobacter",
+      "Rhizobium"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "In the human body, Cowper's gland is associated with?",
+    "correct_answer": "Urino-genital system",
+    "incorrect_answers": [
+      "Circulatory system",
+      "Digestive system",
+      "Nervous system"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "Which type of light is effective for photosynthesis to occur?",
+    "correct_answer": "Blue and red",
+    "incorrect_answers": [
+      "Ultraviolet and blue",
+      "Green and Yellow",
+      "Blue and Green"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "Which one of the following enzymes can hydrolyze proteins in the stomach?",
+    "correct_answer": "Pepsin",
+    "incorrect_answers": [
+      "Trypsin",
+      "Lipase",
+      "Amylase"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "In the human body, blood enters the aorta of the circulatory system from the?",
+    "correct_answer": "Left Ventricle",
+    "incorrect_answers": [
+      "Left atrium",
+      "Right atrium",
+      "Right Ventricle"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "Which is an iodine-deficiency disease?",
+    "correct_answer": "Goitre",
+    "incorrect_answers": [
+      "Arthritis",
+      "Glaucoma",
+      "Pneumonia"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "Which oil is least recommended for high blood pressure persons?",
+    "correct_answer": "Mustard Oil",
+    "incorrect_answers": [
+      "Coconut oil",
+      "Groundnut oil",
+      "Sunflower Oil"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "Which nutrient plays an important role in coagulation of blood?",
+    "correct_answer": "Calcium",
+    "incorrect_answers": [
+      "Iron",
+      "Potassium",
+      "Sodium"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "Which one of the following vitamins can be synthesized by the human body?",
+    "correct_answer": "Vitamin D",
+    "incorrect_answers": [
+      "Vitamin B1",
+      "Vitamin B12",
+      "Vitamin C"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "What is the process responsible for producing photons in a diode laser?",
+    "correct_answer": "Electron-hole recombination",
+    "incorrect_answers": [
+      "Fermi level shift",
+      "Majority carrier injection",
+      "Carrier freeze out"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "Which variety of coal contains the highest percentage of carbon?",
+    "correct_answer": "Anthracite",
+    "incorrect_answers": [
+      "Peat",
+      "Bituminous",
+      "Lignite"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "What is the main component of biogas and natural gas?",
+    "correct_answer": "Methane",
+    "incorrect_answers": [
+      "Ethane",
+      "Propane",
+      "Butane"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "What is dry ice?",
+    "correct_answer": "Solid carbon dioxide",
+    "incorrect_answers": [
+      "Liquid nitrogen",
+      "Water ice",
+      "Frozen ethanol"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "Nail polish remover contains mainly?",
+    "correct_answer": "Acetone",
+    "incorrect_answers": [
+      "Methanol",
+      "Ethanol",
+      "Limonene"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "Which of the following measurements is not a unit of distance?",
+    "correct_answer": "Ammeter",
+    "incorrect_answers": [
+      "Cubit",
+      "Parsec",
+      "Angstrom"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "Who discovered X-rays?",
+    "correct_answer": "Roentgen",
+    "incorrect_answers": [
+      "Land",
+      "Eastman",
+      "Kodak"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "What is defined as the change in velocity over time?",
+    "correct_answer": "Acceleration",
+    "incorrect_answers": [
+      "Speed",
+      "Work",
+      "Force"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "Which one of the following is caused by a virus?",
+    "correct_answer": "Influenza",
+    "incorrect_answers": [
+      "Cholera",
+      "Scabies",
+      "Typhoid"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "Which one of the following elements is required by the human body for the hardening of bones and teeth?",
+    "correct_answer": "Phosphorus",
+    "incorrect_answers": [
+      "Iodine",
+      "Iron",
+      "Potassium"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "Which one of the following is not caused by nutritional deficiency?",
+    "correct_answer": "Haemophilia",
+    "incorrect_answers": [
+      "Kwashiorkor",
+      "Beriberi",
+      "Marasmus"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "Chemically, what is snake venom?",
+    "correct_answer": "Protein",
+    "incorrect_answers": [
+      "Glycolipid",
+      "Polysaccharide",
+      "Steroid"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "The root of which one of the following plants contains the bacteria that convert free Nitrogen to Nitrates used by plants?",
+    "correct_answer": "Pea",
+    "incorrect_answers": [
+      "Mustard",
+      "Sugarcane",
+      "Wheat"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "Which one among the following is rich in protein?",
+    "correct_answer": "Fried Gram",
+    "incorrect_answers": [
+      "Boiled rice",
+      "Bread of Wheat",
+      "Fried Potato Chips"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "Which part of the potato plant is used as a vegetable?",
+    "correct_answer": "Modified stem",
+    "incorrect_answers": [
+      "Modified root",
+      "Modified leaf",
+      "Modified flower"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "Mushrooms are actually?",
+    "correct_answer": "Fungi",
+    "incorrect_answers": [
+      "Algae",
+      "Lichens",
+      "Parasitic moss plant"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science",
+    "question": "All enzymes are actually?",
+    "correct_answer": "Protein",
+    "incorrect_answers": [
+      "Carbohydrates",
+      "Fatty acids",
+      "Sterols"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science",
+    "question": "Among the following fruits, which one is not a true fruit?",
+    "correct_answer": "Apple",
+    "incorrect_answers": [
+      "Tomato",
+      "Coconut",
+      "Date"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "In which organ of the human body is ammonia converted into urea?",
+    "correct_answer": "Liver",
+    "incorrect_answers": [
+      "Kidney",
+      "Pancreas",
+      "Spleen"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science",
+    "question": "Who saw cells for the first time in a thin slice of cork using his crude microscope?",
+    "correct_answer": "Robert Hooke",
+    "incorrect_answers": [
+      "August Weismann",
+      "Louis Pasteur",
+      "Robert Brown"
+    ]
+  }
+]

@@ -1,0 +1,3290 @@
+[
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Art",
+    "question": "Who painted the Mona Lisa?",
+    "correct_answer": "Leonardo da Vinci",
+    "incorrect_answers": [
+      "Pablo Picasso",
+      "Claude Monet",
+      "Vincent van Gogh"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Art",
+    "question": "Which Van Gogh painting depicts the view from his asylum in Saint-R&eacute;my-de-Provence in southern France?",
+    "correct_answer": "The Starry Night",
+    "incorrect_answers": [
+      "Wheatfields with Crows",
+      "The Sower with Setting Sun",
+      "The Church at Auvers"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "What were Marcel Duchamp's readymades?",
+    "correct_answer": "utilitarian objects elevated to the status of art",
+    "incorrect_answers": [
+      "a series focused on color and light as opposed to line and shape",
+      "paintings with a barely visible outlined square",
+      "a group of identical steel boxes jutting from the wall "
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "Which artist&rsquo;s studio was known as 'The Factory'?",
+    "correct_answer": "Andy Warhol",
+    "incorrect_answers": [
+      "Roy Lichtenstein",
+      "David Hockney",
+      "Peter Blake"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Art",
+    "question": "Which artist is famous for cutting off his ear?",
+    "correct_answer": "Vincent van Gogh",
+    "incorrect_answers": [
+      "Salvador Dali",
+      "Rembrandt",
+      "Michelangelo"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "Which time signature is commonly known as &ldquo;Cut Time?&rdquo;",
+    "correct_answer": "2/2",
+    "incorrect_answers": [
+      "4/4",
+      "6/8",
+      "3/4"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Art",
+    "question": "Albrecht D&uuml;rer's birthplace and place of death were in...",
+    "correct_answer": "N&uuml;rnberg",
+    "incorrect_answers": [
+      "Augsburg",
+      "Bamberg",
+      "Berlin"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Art",
+    "question": "What is the world's oldest known piece of fiction?",
+    "correct_answer": "Epic of Gilgamesh",
+    "incorrect_answers": [
+      "Papyrus of Ani",
+      "Code of Hammurabi",
+      "Rosetta Stone"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Art",
+    "question": "Who painted the biblical fresco The Creation of Adam?",
+    "correct_answer": "Michelangelo",
+    "incorrect_answers": [
+      "Leonardo da Vinci",
+      "Caravaggio",
+      "Rembrandt"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Art",
+    "question": "Which of these is not an additional variation of the color purple?",
+    "correct_answer": "Kobicha",
+    "incorrect_answers": [
+      "Byzantium",
+      "Pomp and Power",
+      "Palatinate"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Art",
+    "question": "Who painted the Sistine Chapel?",
+    "correct_answer": "Michelangelo",
+    "incorrect_answers": [
+      "Leonardo da Vinci",
+      "Pablo Picasso",
+      "Raphael"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Art",
+    "question": "What year was the Mona Lisa finished?",
+    "correct_answer": "1504",
+    "incorrect_answers": [
+      "1487",
+      "1523",
+      "1511"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Art",
+    "question": "What nationality was the famous artist Van Gogh?",
+    "correct_answer": "Dutch",
+    "incorrect_answers": [
+      "French",
+      "Russian",
+      "Polish"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "Which artist's style was to use small different colored dots to create a picture?",
+    "correct_answer": "Georges Seurat",
+    "incorrect_answers": [
+      "Paul C&eacute;zanne",
+      "Vincent Van Gogh",
+      "Henri Rousseau"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Art",
+    "question": "What is a fundamental element of the Gothic style of architecture?",
+    "correct_answer": "pointed arch",
+    "incorrect_answers": [
+      "coffered ceilings",
+      "fa&ccedil;ades surmounted by a pediment ",
+      "internal frescoes"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "What nationality was the surrealist painter Salvador Dali?",
+    "correct_answer": "Spanish",
+    "incorrect_answers": [
+      "Italian",
+      "French",
+      "Portuguese"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "Which Greek sculptor designed the Athena Parthenos statue inside the Parthenon?",
+    "correct_answer": "Phidias",
+    "incorrect_answers": [
+      "Scopas",
+      "Hesiod",
+      "Praxiteles"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "Which one of these paintings is not by Caspar David Friedrich?",
+    "correct_answer": "The Black Sea",
+    "incorrect_answers": [
+      "The Sea of Ice",
+      "Wanderer above the Sea of Fog",
+      "The Monk by the Sea"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Art",
+    "question": " What color is produced by mixing black and white?",
+    "correct_answer": "Grey",
+    "incorrect_answers": [
+      "Black",
+      "Brown",
+      "White"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "Who designed the Chupa Chups logo?",
+    "correct_answer": "Salvador Dali",
+    "incorrect_answers": [
+      "Pablo Picasso",
+      "Andy Warhol",
+      "Vincent van Gogh"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "Which of these are the name of a famous marker brand?",
+    "correct_answer": "Copic",
+    "incorrect_answers": [
+      "Dopix",
+      "Cofix",
+      "Marx"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "Which one of these colors are not featured in Mondrian's Broadway Boogie-Woogie?",
+    "correct_answer": "Green",
+    "incorrect_answers": [
+      "Blue",
+      "Yellow",
+      "Red"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Art",
+    "question": "What is the name of the Japanese art of folding paper into decorative shapes and figures?",
+    "correct_answer": "Origami",
+    "incorrect_answers": [
+      "Sumi-e",
+      "Ukiyo-e",
+      "Haiku"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Art",
+    "question": "What was the major distinction between the English and French Gothic styles of architecture?",
+    "correct_answer": "Fan vaulting",
+    "incorrect_answers": [
+      "Pinnacles",
+      "Gargoyles",
+      "Hemispherical Domes"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Art",
+    "question": "What is another name for La Gioconda / La Joconde?",
+    "correct_answer": "The Mona Lisa",
+    "incorrect_answers": [
+      "The Girl with a Pearl Earring",
+      "The Starry Night",
+      "Sunflowers"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Art",
+    "question": "What was the first successful and commercially viable photographic technique?",
+    "correct_answer": "The Daguerreotype",
+    "incorrect_answers": [
+      "Collodion process",
+      "The Turin Shroud",
+      "Kodachrome film"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Art",
+    "question": "Who painted The Starry Night?",
+    "correct_answer": "Vincent van Gogh",
+    "incorrect_answers": [
+      "Pablo Picasso",
+      "Leonardo da Vinci",
+      "Michelangelo"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Art",
+    "question": "Which art movement was Pablo Picasso known for co-founding?",
+    "correct_answer": "Cubism",
+    "incorrect_answers": [
+      "Futurism",
+      "Expressionism",
+      "Impressionism"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "Who painted the epic mural Guernica?",
+    "correct_answer": "Pablo Picasso",
+    "incorrect_answers": [
+      "Francisco Goya",
+      "Leonardo da Vinci",
+      "Henri Matisse"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Art",
+    "question": "Who sculpted the statue of David?",
+    "correct_answer": "Michelangelo",
+    "incorrect_answers": [
+      "Gian Lorenzo Bernini",
+      "Auguste Rodin",
+      "Donatello"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Art",
+    "question": "Painter Piet Mondrian (1872 - 1944) was a part of what movement?",
+    "correct_answer": "Neoplasticism",
+    "incorrect_answers": [
+      "Precisionism",
+      "Cubism",
+      "Impressionism"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "Which of these paintings did Johannes Vermeer not paint?",
+    "correct_answer": "Bacchus",
+    "incorrect_answers": [
+      "Girl with a Pearl Earring",
+      "The Milkmaid",
+      "The Lacemaker"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Art",
+    "question": "What nationality was the famous artist Pablo Picasso?",
+    "correct_answer": "Spanish",
+    "incorrect_answers": [
+      "French",
+      "Italian",
+      "German"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Art",
+    "question": "Which painting was not made by Vincent Van Gogh?",
+    "correct_answer": "The Ninth Wave",
+    "incorrect_answers": [
+      "Caf&eacute; Terrace at Night",
+      "Bedroom In Arles",
+      "Starry Night"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Art",
+    "question": "Which artist painted the late 15th century mural 'The Last Supper'?",
+    "correct_answer": "Leonardo da Vinci",
+    "incorrect_answers": [
+      "Piero della Francesca",
+      "Paolo Uccello",
+      "Luca Pacioli"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Art",
+    "question": "Paul Gauguin moved to which country in 1895?",
+    "correct_answer": "Tahiti",
+    "incorrect_answers": [
+      "France",
+      "Atuona",
+      "Lithuania"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Art",
+    "question": "What French sculptor designed the Statue of Liberty? ",
+    "correct_answer": "Fr&eacute;d&eacute;ric Auguste Bartholdi",
+    "incorrect_answers": [
+      "Jean-L&eacute;on G&eacute;r&ocirc;me",
+      "Auguste Rodin",
+      "Henri Matisse"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "Which artist painted 'Cafe Terrace at Night', 'The Potato Eaters' and 'Irises'?",
+    "correct_answer": "Vincent van Gogh",
+    "incorrect_answers": [
+      "Paul Gauguin",
+      "Claude Monet",
+      "Pablo Picasso"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "What is the real title of Salvador Dali's 'melting clocks' painting?",
+    "correct_answer": "The Persistence of Memory",
+    "incorrect_answers": [
+      "The Melting Time",
+      "Dreams of Time",
+      "The Soft Watches"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Art",
+    "question": "In which city is The Louvre located?",
+    "correct_answer": "Paris",
+    "incorrect_answers": [
+      "Rome",
+      "Madrid",
+      "London"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Art",
+    "question": "What is the correct historical order of the following art styles; Romanticism, Photorealism, Expressionism?",
+    "correct_answer": "Romanticism, Expressionism, Photorealism",
+    "incorrect_answers": [
+      "Expressionism, Romanticism, Photorealism",
+      "Photorealism, Expressionism, Romanticism",
+      "Romanticism, Photorealism, Expressionism"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Art",
+    "question": "John Lennon and Yoko Ono's infamous Rolling Stone cover was photographed by which artist?",
+    "correct_answer": "Annie Leibovitz",
+    "incorrect_answers": [
+      "Richard Avedon",
+      "Diane Arbus",
+      "Robert Mapplethorpe"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "What is the name of Grant Wood's famous 1930 painting which features a farmer and his daughter looking solemn?",
+    "correct_answer": "American Gothic",
+    "incorrect_answers": [
+      "The Farmer's Daughter",
+      "Rural Life",
+      "Midwest Family"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Art",
+    "question": "Who painted 'The Last Supper'?",
+    "correct_answer": "Leonardo da Vinci",
+    "incorrect_answers": [
+      "Michelangelo",
+      "Raphael",
+      "Donatello"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "Art Deco is associated with which two decades?",
+    "correct_answer": "1920s and 1930s",
+    "incorrect_answers": [
+      "1900s and 1910s",
+      "1940s and 1950s",
+      "1880s and 1890s"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "What type of photographic artwork does Cindy Sherman mainly create?",
+    "correct_answer": "Self-portraits",
+    "incorrect_answers": [
+      "Landscapes",
+      "Street photography",
+      "Abstract compositions"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "Which comic book artist created the neo-noir comic book series 'Sin City'?",
+    "correct_answer": "Frank Miller",
+    "incorrect_answers": [
+      "Alan Moore",
+      "Stan Lee",
+      "Jack Kirby"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "In what type of setting did Ansel Adams photograph?",
+    "correct_answer": "Wilderness",
+    "incorrect_answers": [
+      "Urban streets",
+      "Studio portraits",
+      "War zones"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "Which of Gustav Klimt's paintings was perceived by early 1900s society as controversial upon its release?",
+    "correct_answer": "The Kiss",
+    "incorrect_answers": [
+      "The Tree of Life",
+      "Portrait of Adele Bloch-Bauer I",
+      "Judith and the Head of Holofernes"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Art",
+    "question": "What style of painter is Frida Kahlo most often classified as by art historians, though she herself denied being one?",
+    "correct_answer": "Surrealist",
+    "incorrect_answers": [
+      "Realist",
+      "Impressionist",
+      "Cubist"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Art",
+    "question": "Which artist stopped naming his paintings?",
+    "correct_answer": "Jackson Pollock",
+    "incorrect_answers": [
+      "Mark Rothko",
+      "Wassily Kandinsky",
+      "Piet Mondrian"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Art",
+    "question": "What is the name of Edvard Munch's famous 1893 painting which features a screaming figure?",
+    "correct_answer": "The Scream",
+    "incorrect_answers": [
+      "Anxiety",
+      "Despair",
+      "The Shriek"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Art",
+    "question": "Which UK sculpture park is the oldest in Britain, and features permanent installations by local sculptors Barbara Hepworth and Henry Moore?",
+    "correct_answer": "Yorkshire Sculpture Park",
+    "incorrect_answers": [
+      "Cass Sculpture Foundation",
+      "Jupiter Artland",
+      "Grizedale Forest"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "What print technique was used to create Hokusai's 'The Great Wave off Kanagawa'?",
+    "correct_answer": "Woodblock print",
+    "incorrect_answers": [
+      "Etching",
+      "Lithograph",
+      "Screen print"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Art",
+    "question": "Whose 'Seated Ballerina' was unveiled in New York's Rockefeller Center in 2017?",
+    "correct_answer": "Jeff Koons",
+    "incorrect_answers": [
+      "Damien Hirst",
+      "Anish Kapoor",
+      "Takashi Murakami"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Art",
+    "question": "Which visual artist nicknamed his photograms 'rayographs' as a play on his name?",
+    "correct_answer": "Man Ray",
+    "incorrect_answers": [
+      "Laszlo Moholy-Nagy",
+      "Christian Schad",
+      "Gyorgy Kepes"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "Which art trend became incredibly popular in 2023, although originally first appeared in the 1960s?",
+    "correct_answer": "AI art",
+    "incorrect_answers": [
+      "NFT art",
+      "Street art",
+      "Minimalism"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Art",
+    "question": "What is the full name of New York's 'Met' museum?",
+    "correct_answer": "The Metropolitan Museum of Art",
+    "incorrect_answers": [
+      "The Metropolitan Gallery of Modern Art",
+      "The Museum of Metropolitan Arts",
+      "The Modern Art Museum"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "Who became known as the 'King' of American realism?",
+    "correct_answer": "Edward Hopper",
+    "incorrect_answers": [
+      "Andrew Wyeth",
+      "Grant Wood",
+      "Norman Rockwell"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "Which painting is older; 'Mona Lisa' or 'Girl with a Pearl Earring'?",
+    "correct_answer": "Mona Lisa (painted in 1503, 162 years before Girl with a Pearl Earring!)",
+    "incorrect_answers": [
+      "Girl with a Pearl Earring",
+      "They were painted in the same year",
+      "The dates are unknown"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Art",
+    "question": "James McNeill Whistler's famous grey and black painting of a lady in a chair is best known under the name 'Whistler's Mother'. What is the painting's actual name?",
+    "correct_answer": "Arrangement in Grey and Black, No. 1",
+    "incorrect_answers": [
+      "Portrait of the Artist's Mother",
+      "A Study in Grey and Black",
+      "Mother in Profile"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Art",
+    "question": "Which English arts movement can the roots of Art Nouveau be traced back to?",
+    "correct_answer": "The Arts and Craft Movement",
+    "incorrect_answers": [
+      "The Pre-Raphaelite Brotherhood",
+      "The Aesthetic Movement",
+      "The Romantic Movement"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Art",
+    "question": "Which of the following is NOT a painting by Salvador Dali; 'The Temptation of St. Anthony', 'The Hallucinogenic Toreador' or 'The Sleeping Gypsy'?",
+    "correct_answer": "The Sleeping Gypsy",
+    "incorrect_answers": [
+      "The Temptation of St. Anthony",
+      "The Hallucinogenic Toreador",
+      "All are by Dali"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "Can you name one of the two artists who invented Cubism?",
+    "correct_answer": "Pablo Picasso, Georges Braque",
+    "incorrect_answers": [
+      "Juan Gris, Fernand Leger",
+      "Salvador Dali, Joan Miro",
+      "Wassily Kandinsky, Piet Mondrian"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Art",
+    "question": "Elizabeth Fritsch, Magdalene Odundo and Gordon Baldwin are all what type of artist?",
+    "correct_answer": "Potters",
+    "incorrect_answers": [
+      "Sculptors",
+      "Painters",
+      "Textile artists"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Art",
+    "question": "Which comic book artist and illustrator worked on her cousin Mariko's graphic novels 'Skim' and 'This One Summer'?",
+    "correct_answer": "Jillian Tamaki",
+    "incorrect_answers": [
+      "Faith Erin Hicks",
+      "Raina Telgemeier",
+      "Noelle Stevenson"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "'If I could say it in words there would be no reason to paint' is a famous quote by which artist?",
+    "correct_answer": "Edward Hopper",
+    "incorrect_answers": [
+      "Jackson Pollock",
+      "Pablo Picasso",
+      "Frida Kahlo"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "In what year did Van Gogh paint 'The Starry Night'?",
+    "correct_answer": "1889",
+    "incorrect_answers": [
+      "1885",
+      "1891",
+      "1887"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "Which British street artist created the dystopian art project Dismaland?",
+    "correct_answer": "Banksy",
+    "incorrect_answers": [
+      "Shepard Fairey",
+      "Invader",
+      "Stik"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Art",
+    "question": "What is the title of Hieronymus Bosch's fantastical painting that depicts a divine garden containing Adam and Eve, heaven and hell?",
+    "correct_answer": "The Garden of Earthly Delights",
+    "incorrect_answers": [
+      "The Last Judgment",
+      "The Haywain Triptych",
+      "The Temptation of St. Anthony"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Art",
+    "question": "In what city would you find the Tate Modern?",
+    "correct_answer": "London",
+    "incorrect_answers": [
+      "Manchester",
+      "Liverpool",
+      "Edinburgh"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Art",
+    "question": "Jean-Antoine Watteau, Élisabeth Vigée Le Brun and Adélaïde Labille-Guiard are all artists associated with which art movement?",
+    "correct_answer": "Rococo",
+    "incorrect_answers": [
+      "Baroque",
+      "Neoclassicism",
+      "Romanticism"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "Which Japanese contemporary artist is heavily associated with polka dots, and uses them throughout her art across various mediums?",
+    "correct_answer": "Yayoi Kusama",
+    "incorrect_answers": [
+      "Takashi Murakami",
+      "Yoshitomo Nara",
+      "Chiho Aoshima"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Art",
+    "question": "A liquid version of what substance was used instead of paint by the ancient Greeks when decorating pottery?",
+    "correct_answer": "Clay",
+    "incorrect_answers": [
+      "Wax",
+      "Oil",
+      "Resin"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Art",
+    "question": "Which country did futurism originate from?",
+    "correct_answer": "Italy",
+    "incorrect_answers": [
+      "France",
+      "Russia",
+      "Germany"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Art",
+    "question": "Who painted the Sistine chapel ceiling?",
+    "correct_answer": "Michelangelo",
+    "incorrect_answers": [
+      "Leonardo da Vinci",
+      "Raphael",
+      "Caravaggio"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "'Les Voyageurs', 'The Thinker' and 'The Man at Work' are all artworks under which art form?",
+    "correct_answer": "Sculpture",
+    "incorrect_answers": [
+      "Painting",
+      "Photography",
+      "Installation"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Art",
+    "question": "In Andy Warhol's 1983 'Endangered Species' portfolio of silk-screened prints, what type of tiger was included in the set?",
+    "correct_answer": "Siberian tiger",
+    "incorrect_answers": [
+      "Bengal tiger",
+      "Sumatran tiger",
+      "White tiger"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "Which is the largest art museum in the UK?",
+    "correct_answer": "The British Museum",
+    "incorrect_answers": [
+      "The National Gallery",
+      "Tate Modern",
+      "Victoria and Albert Museum"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Art",
+    "question": "Some argue that Impressionism ended after the death of which artist in 1883?",
+    "correct_answer": "Edouard Manet",
+    "incorrect_answers": [
+      "Claude Monet",
+      "Pierre-Auguste Renoir",
+      "Edgar Degas"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "In what decade did the Pop Art art movement emerge?",
+    "correct_answer": "1950s",
+    "incorrect_answers": [
+      "1960s",
+      "1940s",
+      "1930s"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "What type of balloon animal is Jeff Koons commonly associated with?",
+    "correct_answer": "Dog",
+    "incorrect_answers": [
+      "Rabbit",
+      "Swan",
+      "Giraffe"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Art",
+    "question": "Who painted more self-portraits, at an estimated 100; Van Gogh, or Rembrandt?",
+    "correct_answer": "Rembrandt",
+    "incorrect_answers": [
+      "Van Gogh",
+      "They painted the same number",
+      "Frida Kahlo"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Art",
+    "question": "Which radical art movement took place throughout urban Italy in the 1970s?",
+    "correct_answer": "Arte Povera",
+    "incorrect_answers": [
+      "Transavanguardia",
+      "Futurism",
+      "Metaphysical art"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Art",
+    "question": "Oscar-Claude Monet is seen as having paved the way for which art style, which emerged not long after his own Impressionist style?",
+    "correct_answer": "Modernism",
+    "incorrect_answers": [
+      "Post-Impressionism",
+      "Expressionism",
+      "Abstract Expressionism"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Art",
+    "question": "The birth of which ancient Roman Goddess is depicted in Sandro Botticelli's 1486 painting?",
+    "correct_answer": "Venus",
+    "incorrect_answers": [
+      "Diana",
+      "Minerva",
+      "Juno"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "What was Renoir's first name?",
+    "correct_answer": "Pierre-Auguste",
+    "incorrect_answers": [
+      "Jean-Baptiste",
+      "Henri-Émile",
+      "Louis-François"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "What are the patterns called which are applied to the hands of Indian women using Henna?",
+    "correct_answer": "Mehndi",
+    "incorrect_answers": [
+      "Mandala",
+      "Rangoli",
+      "Kolam"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Art",
+    "question": "Which Spanish artist painted the series known as 'Fantasy and Invention' in the 18th century?",
+    "correct_answer": "Francisco Goya",
+    "incorrect_answers": [
+      "Diego Velazquez",
+      "El Greco",
+      "Pablo Picasso"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Art",
+    "question": "Which artist said 'Everything you can imagine is real'?",
+    "correct_answer": "Pablo Picasso",
+    "incorrect_answers": [
+      "Salvador Dali",
+      "Vincent van Gogh",
+      "Leonardo da Vinci"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Art",
+    "question": "The Lady Lever Art Gallery is in which English city?",
+    "correct_answer": "Liverpool",
+    "incorrect_answers": [
+      "Manchester",
+      "Birmingham",
+      "Bristol"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "Surrealist painter Rene Magritte was born in which country?",
+    "correct_answer": "Belgium",
+    "incorrect_answers": [
+      "France",
+      "Netherlands",
+      "Germany"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "Which French painter lived and worked in Tahiti?",
+    "correct_answer": "Paul Gauguin",
+    "incorrect_answers": [
+      "Henri Matisse",
+      "Paul Cezanne",
+      "Claude Monet"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Art",
+    "question": "'The Backgammon Players' is a 17th Century painting by which Dutch artist?",
+    "correct_answer": "Dirck Hals",
+    "incorrect_answers": [
+      "Frans Hals",
+      "Johannes Vermeer",
+      "Jan Steen"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Art",
+    "question": "What nationality was painter Frida Kahlo?",
+    "correct_answer": "Mexican",
+    "incorrect_answers": [
+      "Spanish",
+      "Brazilian",
+      "Colombian"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "Which US artist died in a car crash in August 1956, aged 44?",
+    "correct_answer": "Jackson Pollock",
+    "incorrect_answers": [
+      "Mark Rothko",
+      "Willem de Kooning",
+      "Andy Warhol"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "Artist Salvador Dali made a sofa inspired by the lips of which Hollywood actress?",
+    "correct_answer": "Mae West",
+    "incorrect_answers": [
+      "Marilyn Monroe",
+      "Greta Garbo",
+      "Marlene Dietrich"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "The painting 'The Anatomy Lesson of Dr Nicolaes Tulp' is the work of which Dutch artist?",
+    "correct_answer": "Rembrandt",
+    "incorrect_answers": [
+      "Johannes Vermeer",
+      "Frans Hals",
+      "Hieronymus Bosch"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Art",
+    "question": "In the art style 'Op Art', what does 'Op' stand for?",
+    "correct_answer": "Optical",
+    "incorrect_answers": [
+      "Oppositional",
+      "Optimistic",
+      "Operational"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "A Russian woman was arrested in Paris in August 2009 for throwing a cup of tea at which work of art?",
+    "correct_answer": "The Mona Lisa",
+    "incorrect_answers": [
+      "The Last Supper",
+      "Venus de Milo",
+      "Liberty Leading the People"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Art",
+    "question": "In 1961, the painting titled 'Le Bateau' by which artist hung upside down in the Museum of Modern Art in New York for 47 days without anyone noticing?",
+    "correct_answer": "Henri Matisse",
+    "incorrect_answers": [
+      "Pablo Picasso",
+      "Paul Klee",
+      "Wassily Kandinsky"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Art",
+    "question": "Which Venetian artist painted 'The Stonemason's Yard'?",
+    "correct_answer": "Giovanni Canaletto",
+    "incorrect_answers": [
+      "Titian",
+      "Tintoretto",
+      "Paolo Veronese"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "'Bowl of Fruit, Violin and Bottle' is the work of which artist?",
+    "correct_answer": "Pablo Picasso",
+    "incorrect_answers": [
+      "Georges Braque",
+      "Juan Gris",
+      "Henri Matisse"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Art",
+    "question": "'Nighthawks' is the work of which American artist?",
+    "correct_answer": "Edward Hopper",
+    "incorrect_answers": [
+      "Grant Wood",
+      "Norman Rockwell",
+      "Jackson Pollock"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Art",
+    "question": "Which English singer commissioned a painting of the cartoon character Spongebob Squarepants for his house in 2008?",
+    "correct_answer": "Liam Gallagher",
+    "incorrect_answers": [
+      "David Bowie",
+      "Elton John",
+      "Paul McCartney"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Art",
+    "question": "'The Starry' — what — is a painting by Dutch artist Vincent Van Gogh?",
+    "correct_answer": "Night",
+    "incorrect_answers": [
+      "Sky",
+      "Dream",
+      "Field"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Art",
+    "question": "Which four letter word beginning with W describes, in weaving, the crosswise threads on a loom, over and under which the warp are passed to make cloth?",
+    "correct_answer": "Weft",
+    "incorrect_answers": [
+      "Woof",
+      "Warp",
+      "Wick"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Art",
+    "question": "Which British illustrator who illustrated the gift book of Peter Pan, was known for her cute drawings of children based on her daughter Peggy?",
+    "correct_answer": "Mabel Lucie Atwell",
+    "incorrect_answers": [
+      "Beatrix Potter",
+      "Kate Greenaway",
+      "E.H. Shepard"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Art",
+    "question": "The Uffizi Gallery is a museum in which European city?",
+    "correct_answer": "Florence",
+    "incorrect_answers": [
+      "Rome",
+      "Venice",
+      "Milan"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "'The Night Watch' by which artist was slashed at the Rijksmuseum in Amsterdam in September 1975?",
+    "correct_answer": "Rembrandt",
+    "incorrect_answers": [
+      "Johannes Vermeer",
+      "Vincent van Gogh",
+      "Frans Hals"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Art",
+    "question": "Anchor, Honeycomb, Satin and Faggot are all what?",
+    "correct_answer": "Embroidery stitches",
+    "incorrect_answers": [
+      "Weaving patterns",
+      "Pottery glazes",
+      "Sculpture techniques"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Art",
+    "question": "Situated in New York, what does MoMA stand for?",
+    "correct_answer": "Museum of Modern Art",
+    "incorrect_answers": [
+      "Museum of Metropolitan Art",
+      "Monument of Modern Artists",
+      "Museum of Major Artworks"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Art",
+    "question": "What was the name of the infamous English art forger, born in 1917, who claimed to have faked more than 2,000 paintings by over 100 artists?",
+    "correct_answer": "Tom Keating",
+    "incorrect_answers": [
+      "Eric Hebborn",
+      "John Myatt",
+      "Elmyr de Hory"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Art",
+    "question": "'The Angel of the North' is the work of which British sculptor?",
+    "correct_answer": "Antony Gormley",
+    "incorrect_answers": [
+      "Henry Moore",
+      "Barbara Hepworth",
+      "Anish Kapoor"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Art",
+    "question": "Which Glasgow-based sculptor, whose works include artificial trees and a leaning litter bin, won the 2011 Turner Prize?",
+    "correct_answer": "Martin Boyce",
+    "incorrect_answers": [
+      "Douglas Gordon",
+      "Simon Starling",
+      "Richard Wright"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "Artists Gustav Klimt and Carl Moll were born in which European country?",
+    "correct_answer": "Austria",
+    "incorrect_answers": [
+      "Germany",
+      "Switzerland",
+      "Hungary"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "'The Harlot's Progress' is a series of paintings and engravings by which 18th Century English painter?",
+    "correct_answer": "William Hogarth",
+    "incorrect_answers": [
+      "Thomas Gainsborough",
+      "Joshua Reynolds",
+      "George Stubbs"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Art",
+    "question": "Which 18th Century artist painted a portrait of actress Sarah Siddons entitled 'Mrs Siddons as the Tragic Muse'?",
+    "correct_answer": "Joshua Reynolds",
+    "incorrect_answers": [
+      "Thomas Gainsborough",
+      "William Hogarth",
+      "George Romney"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Art",
+    "question": "Which English painter was the first President of The Royal Academy?",
+    "correct_answer": "Sir Joshua Reynolds",
+    "incorrect_answers": [
+      "Thomas Gainsborough",
+      "William Hogarth",
+      "J.M.W. Turner"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "In a 2009 article in The Economist, which late artist was described as the 'bellwether of the art market', referring to a painting of his which was sold in 1963 for $100 million?",
+    "correct_answer": "Andy Warhol",
+    "incorrect_answers": [
+      "Pablo Picasso",
+      "Jackson Pollock",
+      "Roy Lichtenstein"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Art",
+    "question": "What is the nickname of Thierry Guetta, the French-born street-artist?",
+    "correct_answer": "Mr Brainwash",
+    "incorrect_answers": [
+      "Banksy",
+      "Space Invader",
+      "Shepard Fairey"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Art",
+    "question": "How many paintings make up William Hogarth's 'A Rake's Progress'?",
+    "correct_answer": "Eight",
+    "incorrect_answers": [
+      "Six",
+      "Ten",
+      "Twelve"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "Which French sculptor died in November 1917?",
+    "correct_answer": "Auguste Rodin",
+    "incorrect_answers": [
+      "Edgar Degas",
+      "Camille Claudel",
+      "Aristide Maillol"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "The 'Black Paintings' is the name given to a group of paintings by which Spanish artist?",
+    "correct_answer": "Francisco Goya",
+    "incorrect_answers": [
+      "Pablo Picasso",
+      "Diego Velazquez",
+      "El Greco"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "'People in the Sun' is the work of which American artist?",
+    "correct_answer": "Edward Hopper",
+    "incorrect_answers": [
+      "Grant Wood",
+      "Norman Rockwell",
+      "Andrew Wyeth"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Art",
+    "question": "A painting by which artist was damaged in January 2010 when a student fell into it at the Metropolitan Museum of Art in New York?",
+    "correct_answer": "Picasso — 'The Actor'",
+    "incorrect_answers": [
+      "Van Gogh — 'Wheat Field with Cypresses'",
+      "Matisse — 'The Dance'",
+      "Monet — 'Water Lilies'"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Art",
+    "question": "Which 20th Century American artist was well known for his unique style of 'Drip Painting'?",
+    "correct_answer": "Jackson Pollock",
+    "incorrect_answers": [
+      "Andy Warhol",
+      "Mark Rothko",
+      "Roy Lichtenstein"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "'The Kiss' is an 1889 work by which French sculptor?",
+    "correct_answer": "Auguste Rodin",
+    "incorrect_answers": [
+      "Edgar Degas",
+      "Camille Claudel",
+      "Jean-Baptiste Carpeaux"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Art",
+    "question": "French artist, Fernande Olivier, was known primarily for being the model of which painter/artist, who painted over 60 portraits of her?",
+    "correct_answer": "Pablo Picasso",
+    "incorrect_answers": [
+      "Henri Matisse",
+      "Amedeo Modigliani",
+      "Georges Braque"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Art",
+    "question": "What was the name of Clement Freud's late artist brother?",
+    "correct_answer": "Lucian Freud",
+    "incorrect_answers": [
+      "Francis Bacon",
+      "David Hockney",
+      "Frank Auerbach"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Art",
+    "question": "What are the first names of art duo Proesch and Passmore?",
+    "correct_answer": "Gilbert and George",
+    "incorrect_answers": [
+      "Jake and Dinos",
+      "Tim and Sue",
+      "Peter and David"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Art",
+    "question": "What was painter Rubens first name?",
+    "correct_answer": "Peter",
+    "incorrect_answers": [
+      "Paul",
+      "Philip",
+      "Patrick"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Art",
+    "question": "The book entitled 'The Fake's Progress' is about which infamous English art forger?",
+    "correct_answer": "Tom Keating",
+    "incorrect_answers": [
+      "Eric Hebborn",
+      "John Myatt",
+      "Shaun Greenhalgh"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Art",
+    "question": "'The Girl With a...' what? Is a 17th Century painting by Johannes Vermeer?",
+    "correct_answer": "Pearl Earring",
+    "incorrect_answers": [
+      "Golden Necklace",
+      "Red Hat",
+      "Silver Locket"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "Hans Holbein the Younger was court painter to which English monarch?",
+    "correct_answer": "Henry VIII",
+    "incorrect_answers": [
+      "Elizabeth I",
+      "Charles I",
+      "James I"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Art",
+    "question": "What is the name of the stainless steel sculpture, by William Pye, in London's Greenland Dock?",
+    "correct_answer": "Curlicue",
+    "incorrect_answers": [
+      "Spiral",
+      "Whirlwind",
+      "Cyclone"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "Cubism was a significant art movement of the early 20th century. Which two artists pioneered this style of painting?",
+    "correct_answer": "Georges Braque and Pablo Picasso",
+    "incorrect_answers": [
+      "Marcel Duchamp and Juan Gris",
+      "Juan Gris and Pablo Picasso",
+      "Fernand Leger and Marcel Duchamp"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "The Italian precursor to what art movement was characterised by a greater awareness of the beauty of the world and of the spiritual value of nature?",
+    "correct_answer": "Renaissance",
+    "incorrect_answers": [
+      "Baroque",
+      "Romanticism",
+      "Neoclassicism"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Art",
+    "question": "Which artist, often considered to be the first of the Renaissance artists, was commissioned, in around 1305, to paint the frescos in the Scrovegni Chapel in Padua?",
+    "correct_answer": "Giotto",
+    "incorrect_answers": [
+      "Fra Angelico",
+      "Titian",
+      "Masaccio"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Art",
+    "question": "In the early 20th century, Abstract art emerged as a new way to represent things through the disassociation of matter. Known for his 'Composition' series, who is generally considered to be the pioneer of the movement?",
+    "correct_answer": "Wassily Kandinsky",
+    "incorrect_answers": [
+      "Pablo Picasso",
+      "Henri Matisse",
+      "Salvador Dali"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Art",
+    "question": "One of the best known sculptures from pre-historic times is a small figurine of a very voluptuous female. This famous lady has been given what name?",
+    "correct_answer": "Venus of Willendorf",
+    "incorrect_answers": [
+      "Venus de Milo",
+      "Athena of Parthenon",
+      "Hera of Samos"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Art",
+    "question": "Perhaps the most infamous painting of the 1913 Armory Show, what 'cubo-futurist' painting of the human figure by Marcel Duchamp was described by one critical viewer as 'an explosion in a shingle factory'?",
+    "correct_answer": "Nude Descending a Staircase",
+    "incorrect_answers": [
+      "The Large Glass",
+      "Fountain",
+      "The Passage from Virgin to Bride"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "In 1954 Graham Sutherland painted a portrait of a British statesman that the subject absolutely hated. Who was he?",
+    "correct_answer": "Winston Churchill",
+    "incorrect_answers": [
+      "Clement Attlee",
+      "Anthony Eden",
+      "Harold Macmillan"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "Who is considered the first great American landscape painter?",
+    "correct_answer": "Thomas Cole",
+    "incorrect_answers": [
+      "Frederic Edwin Church",
+      "Albert Bierstadt",
+      "Asher Durand"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "Early humans carved statues of a goddess, which shows that they practiced an early form of religion. Where do anthropologists believe the first humans originated?",
+    "correct_answer": "East Africa",
+    "incorrect_answers": [
+      "The Middle East",
+      "West Africa",
+      "South Africa"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Art",
+    "question": "Painter-monk Fra Filippo Lippi (1406-69) is said to have broken his vows in spectacular fashion. What did he do?",
+    "correct_answer": "He ran off with a nun",
+    "incorrect_answers": [
+      "He stole church funds",
+      "He destroyed a fresco",
+      "He challenged the Pope"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Art",
+    "question": "Perhaps one of the most intriguing things found in the cave paintings in La grotte Chauvet in Ardeche, France from 20,000 to 17,000 years ago was the depiction of which animal?",
+    "correct_answer": "A rhinoceros",
+    "incorrect_answers": [
+      "A monkey",
+      "A dragon",
+      "An elephant"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Art",
+    "question": "The Precolumbian culture best known for stirrup spout vessels and realistic ceramic portraiture is ____________.",
+    "correct_answer": "Moche",
+    "incorrect_answers": [
+      "Inca",
+      "Maya",
+      "Chavin"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Art",
+    "question": "During the Early Christian/Byzantine era, two styles of church construction were developed. What were they?",
+    "correct_answer": "Basilican and Domed",
+    "incorrect_answers": [
+      "Cruciform and Circular",
+      "Gothic and Romanesque",
+      "Longitudinal and Central"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Art",
+    "question": "The Temple of Aman-Re in Karnak, Egypt does/did NOT have this feature:",
+    "correct_answer": "Barrel vault",
+    "incorrect_answers": [
+      "Clerestory",
+      "Hypostyle hall",
+      "Post and lintel structure"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Art",
+    "question": "There have been many artists who have also been family members. What was the first name of the brother of Jan van Eyck?",
+    "correct_answer": "Hubert",
+    "incorrect_answers": [
+      "Robert",
+      "Pieter",
+      "Willem"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Art",
+    "question": "Which Dutch city, famous for its blue painted pottery, was home to Johannes Vermeer?",
+    "correct_answer": "Delft",
+    "incorrect_answers": [
+      "Utrecht",
+      "Rotterdam",
+      "Amsterdam"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Art",
+    "question": "Can you name this Spanish born Cubist artist whose name means grey in French?",
+    "correct_answer": "Gris",
+    "incorrect_answers": [
+      "Noir",
+      "Blanc",
+      "Brun"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Art",
+    "question": "This artist's name means bird and he was known for his fantastic frescoes and love of perspective devices. Some common themes: hunt, battles, trompe l'oeil.",
+    "correct_answer": "Uccello",
+    "incorrect_answers": [
+      "Lippi",
+      "Botticelli",
+      "Castagno"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "Who painted (or engraved, rather) the 'Fall of Man'?",
+    "correct_answer": "Durer",
+    "incorrect_answers": [
+      "Rembrandt",
+      "Bruegel",
+      "Cranach"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Art",
+    "question": "The Scrovegni Chapel, also called the Arena Chapel, in Padua, Italy, features a remarkable series of frescoes by Giotto di Bondone. Among these celebrated works is the scene 'Kiss of Judas'. What is depicted in this scene?",
+    "correct_answer": "The betrayal of Jesus in the Garden of Gethsemane",
+    "incorrect_answers": [
+      "The Last Supper",
+      "The Crucifixion",
+      "The Resurrection"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Art",
+    "question": "What artist cut off part of his ear in an irrational moment?",
+    "correct_answer": "Van Gogh",
+    "incorrect_answers": [
+      "Gauguin",
+      "Cezanne",
+      "Monet"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "The art form of Surrealism began in the early 1920s. Which famous Surrealist painter produced the artwork 'The Persistence of Memory'?",
+    "correct_answer": "Salvador Dali",
+    "incorrect_answers": [
+      "Paul Klee",
+      "Rene Magritte",
+      "Marc Chagall"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Art",
+    "question": "Donatello was commissioned by Cosimo de' Medici to create a bronze sculpture of Judith and Holofernes. In which city was the sculpture originally displayed?",
+    "correct_answer": "Florence",
+    "incorrect_answers": [
+      "Rome",
+      "Naples",
+      "Siena"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "Prehistoric cave art of Europe, usually known as cave paintings, usually depict animals. What animal would you probably not see in a cave painting?",
+    "correct_answer": "Pterodactyl",
+    "incorrect_answers": [
+      "Bison",
+      "Spotted horse",
+      "Mammoth"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Art",
+    "question": "In 1997 a portrait of Myra Hindley was put on display at the Royal Academy of Art. What was controversial about it?",
+    "correct_answer": "It was made up of the hand prints of children",
+    "incorrect_answers": [
+      "It was painted with human blood",
+      "It featured religious symbols",
+      "It was sculpted from prison materials"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "What was the name of the artist who was hired by 'Harper's Magazine' to go to battles and paint Civil War scenes?",
+    "correct_answer": "Winslow Homer",
+    "incorrect_answers": [
+      "Thomas Eakins",
+      "Frederic Remington",
+      "James McNeill Whistler"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Art",
+    "question": "What is the name of the Ancient Egyptian architect who designed and oversaw construction of the Stepped Pyramid of Djoser around 2600 B.C.?",
+    "correct_answer": "Imhotep",
+    "incorrect_answers": [
+      "Senmut",
+      "Menkaure",
+      "Khufu"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "The Sumerians are believed to have invented the first system of writing, which evolved from their decorations. What was this writing system called?",
+    "correct_answer": "Cuneiform",
+    "incorrect_answers": [
+      "Hieroglyphics",
+      "Ugaritic",
+      "Canaanite"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Art",
+    "question": "Renaissance artist Piero di Cosimo (1462-1521?) ate a limited diet. On what food did he reportedly subsist for weeks at a time?",
+    "correct_answer": "Hardboiled eggs",
+    "incorrect_answers": [
+      "Bread and water",
+      "Raw vegetables",
+      "Cheese and wine"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "Statuary depicting this animal belongs to the legend of the creation of Rome, which animal is depicted?",
+    "correct_answer": "A she-wolf",
+    "incorrect_answers": [
+      "A mother bear",
+      "A bull",
+      "A lioness"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Art",
+    "question": "The canonical form in ancient Egyptian art lasted for thousands of years. However, one XVIII Dynasty Pharaoh deviated from this form. This Pharaoh was _______.",
+    "correct_answer": "Akhenaten",
+    "incorrect_answers": [
+      "Hatshepsut",
+      "Ramesses III",
+      "Amenhotep"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Art",
+    "question": "Who was the inventor of the Gothic style of architecture, and what was the first building done in this style?",
+    "correct_answer": "Abbot Suger and St. Denis",
+    "incorrect_answers": [
+      "Bishop Maurice and Notre Dame",
+      "King Louis IX and Sainte-Chapelle",
+      "Pope Urban II and Chartres"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "Why is most surviving Classical Greek sculpture made of marble?",
+    "correct_answer": "The original bronze sculptures had intrinsic value and were melted",
+    "incorrect_answers": [
+      "Marble was the preferred material of Greek sculptors",
+      "Bronze was too expensive to use",
+      "Marble was more durable than bronze"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Art",
+    "question": "On what monumental work did both of the Van Eyck brothers work?",
+    "correct_answer": "The Ghent Altarpiece",
+    "incorrect_answers": [
+      "The Arnolfini Marriage",
+      "The Madonna of Chancellor Rolin",
+      "The Last Judgment"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Art",
+    "question": "What period do megaliths date from?",
+    "correct_answer": "Neolithic Period",
+    "incorrect_answers": [
+      "Paleolithic Period",
+      "Bronze Age",
+      "Iron Age"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Art",
+    "question": "When were the engravings in the cave near Cussac, France discovered?",
+    "correct_answer": "Sept. 20, 2000",
+    "incorrect_answers": [
+      "March 15, 1998",
+      "July 4, 1995",
+      "December 12, 2002"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Art",
+    "question": "Name the French artist who created 'The Bride Stripped Bare of Her Bachelors, Even' and displayed a urinal once, whose name means 'of the field' in French:",
+    "correct_answer": "Duchamp",
+    "incorrect_answers": [
+      "Debussy",
+      "Deschamps",
+      "Dubois"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "This artist's name comes from the old spelling of fox. He was primarily known for his paintings of people: women and children in particular. He spent his later life in Cagnes on the French Riviera.",
+    "correct_answer": "Renoir",
+    "incorrect_answers": [
+      "Picasso",
+      "Rothko",
+      "Matisse"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "Who painted 'Liberty Leading the People'?",
+    "correct_answer": "Delacroix",
+    "incorrect_answers": [
+      "Gericault",
+      "David",
+      "Ingres"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Art",
+    "question": "Which Flemish painter created the 'Portinari Altarpiece', an oil-on-wood triptych, in 1476?",
+    "correct_answer": "Hugo van der Goes",
+    "incorrect_answers": [
+      "Jan van Eyck",
+      "Rogier van der Weyden",
+      "Hans Memling"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Art",
+    "question": "What is the art of paper folding called?",
+    "correct_answer": "Origami",
+    "incorrect_answers": [
+      "Kirigami",
+      "Calligraphy",
+      "Ikebana"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Art",
+    "question": "Which museum houses the Mona Lisa?",
+    "correct_answer": "Louvre",
+    "incorrect_answers": [
+      "British Museum",
+      "Metropolitan Museum of Art",
+      "Uffizi Gallery"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Art",
+    "question": "Who sculpted David?",
+    "correct_answer": "Michelangelo",
+    "incorrect_answers": [
+      "Donatello",
+      "Bernini",
+      "Rodin"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "What is the technique of painting on wet plaster?",
+    "correct_answer": "Fresco",
+    "incorrect_answers": [
+      "Tempera",
+      "Encaustic",
+      "Gouache"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Art",
+    "question": "Who is famous for the painting 'Starry Night'?",
+    "correct_answer": "Van Gogh",
+    "incorrect_answers": [
+      "Monet",
+      "Cezanne",
+      "Gauguin"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Art",
+    "question": "What is a painting of inanimate objects called?",
+    "correct_answer": "Still-life",
+    "incorrect_answers": [
+      "Landscape",
+      "Portrait",
+      "Abstract"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Art",
+    "question": "Which style is Pablo Picasso known for?",
+    "correct_answer": "Cubism",
+    "incorrect_answers": [
+      "Impressionism",
+      "Surrealism",
+      "Expressionism"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Art",
+    "question": "Which country is known for anime art?",
+    "correct_answer": "Japan",
+    "incorrect_answers": [
+      "China",
+      "South Korea",
+      "Thailand"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Art",
+    "question": "What is a three-dimensional work of art called?",
+    "correct_answer": "Sculpture",
+    "incorrect_answers": [
+      "Painting",
+      "Drawing",
+      "Photograph"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Art",
+    "question": "What is a primary color?",
+    "correct_answer": "Red",
+    "incorrect_answers": [
+      "Green",
+      "Orange",
+      "Purple"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Art",
+    "question": "Which Indian artist was famous for horses?",
+    "correct_answer": "Hussain",
+    "incorrect_answers": [
+      "Raza",
+      "Souza",
+      "Tagore"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Art",
+    "question": "What medium uses colored wax sticks?",
+    "correct_answer": "Crayon",
+    "incorrect_answers": [
+      "Pastel",
+      "Charcoal",
+      "Graphite"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Art",
+    "question": "What do we call a person who sculpts?",
+    "correct_answer": "Sculptor",
+    "incorrect_answers": [
+      "Painter",
+      "Potter",
+      "Architect"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Art",
+    "question": "What is a quick, rough drawing called?",
+    "correct_answer": "Sketch",
+    "incorrect_answers": [
+      "Masterpiece",
+      "Mural",
+      "Fresco"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "What do we call the study of beauty in art?",
+    "correct_answer": "Aesthetics",
+    "incorrect_answers": [
+      "Anatomy",
+      "Perspective",
+      "Composition"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "What kind of paint is water-based and dries fast?",
+    "correct_answer": "Acrylic",
+    "incorrect_answers": [
+      "Oil",
+      "Watercolor",
+      "Gouache"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Art",
+    "question": "What do you call art created by assembling pieces?",
+    "correct_answer": "Collage",
+    "incorrect_answers": [
+      "Mosaic",
+      "Fresco",
+      "Etching"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "Who painted 'The Persistence of Memory'?",
+    "correct_answer": "Dali",
+    "incorrect_answers": [
+      "Picasso",
+      "Magritte",
+      "Miro"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "Which artist is famous for Blue Period?",
+    "correct_answer": "Picasso",
+    "incorrect_answers": [
+      "Matisse",
+      "Monet",
+      "Van Gogh"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Art",
+    "question": "Which color symbolizes peace?",
+    "correct_answer": "White",
+    "incorrect_answers": [
+      "Blue",
+      "Green",
+      "Yellow"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "Which element refers to lightness/darkness in art?",
+    "correct_answer": "Value",
+    "incorrect_answers": [
+      "Hue",
+      "Intensity",
+      "Saturation"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Art",
+    "question": "What is a repeating decorative design called?",
+    "correct_answer": "Pattern",
+    "incorrect_answers": [
+      "Motif",
+      "Texture",
+      "Form"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Art",
+    "question": "What tool do artists use to mix colors?",
+    "correct_answer": "Palette",
+    "incorrect_answers": [
+      "Easel",
+      "Canvas",
+      "Brush"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Art",
+    "question": "What is a large wall painting called?",
+    "correct_answer": "Mural",
+    "incorrect_answers": [
+      "Fresco",
+      "Canvas",
+      "Panel"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "What do we call the space around an object?",
+    "correct_answer": "Negative",
+    "incorrect_answers": [
+      "Positive",
+      "Empty",
+      "Void"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "What type of printmaking uses carved wood?",
+    "correct_answer": "Woodcut",
+    "incorrect_answers": [
+      "Etching",
+      "Lithography",
+      "Screenprint"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Art",
+    "question": "Which is a traditional Indian art form using dots?",
+    "correct_answer": "Madhubani",
+    "incorrect_answers": [
+      "Warli",
+      "Pattachitra",
+      "Kalighat"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "Which brush type is round and pointed?",
+    "correct_answer": "Liner",
+    "incorrect_answers": [
+      "Flat",
+      "Filbert",
+      "Fan"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "Who painted 'Guernica'?",
+    "correct_answer": "Picasso",
+    "incorrect_answers": [
+      "Dali",
+      "Miro",
+      "Goya"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Art",
+    "question": "Which color is made by mixing red and blue?",
+    "correct_answer": "Purple",
+    "incorrect_answers": [
+      "Green",
+      "Orange",
+      "Brown"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "What is visual texture?",
+    "correct_answer": "Implied",
+    "incorrect_answers": [
+      "Actual",
+      "Real",
+      "Tactile"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Art",
+    "question": "Which famous artist had only one ear?",
+    "correct_answer": "Van Gogh",
+    "incorrect_answers": [
+      "Picasso",
+      "Dali",
+      "Monet"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "Which shape has no straight lines?",
+    "correct_answer": "Organic",
+    "incorrect_answers": [
+      "Geometric",
+      "Angular",
+      "Rectilinear"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "What is art made with stone pieces?",
+    "correct_answer": "Mosaic",
+    "incorrect_answers": [
+      "Collage",
+      "Fresco",
+      "Relief"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Art",
+    "question": "What is the feel of a surface called?",
+    "correct_answer": "Texture",
+    "incorrect_answers": [
+      "Pattern",
+      "Form",
+      "Shape"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "What is the term for balance in art?",
+    "correct_answer": "Symmetry",
+    "incorrect_answers": [
+      "Asymmetry",
+      "Radial",
+      "Proportion"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "Which pencil grade is darkest?",
+    "correct_answer": "6B",
+    "incorrect_answers": [
+      "2H",
+      "HB",
+      "2B"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Art",
+    "question": "What does 'medium' mean in art?",
+    "correct_answer": "Material",
+    "incorrect_answers": [
+      "Size",
+      "Style",
+      "Subject"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Art",
+    "question": "What is a light sketch before painting?",
+    "correct_answer": "Outline",
+    "incorrect_answers": [
+      "Shading",
+      "Blending",
+      "Highlight"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "Which color scheme uses one color?",
+    "correct_answer": "Monochromatic",
+    "incorrect_answers": [
+      "Analogous",
+      "Complementary",
+      "Triadic"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Art",
+    "question": "What is an artist's workspace called?",
+    "correct_answer": "Studio",
+    "incorrect_answers": [
+      "Gallery",
+      "Museum",
+      "Atrium"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "What do we call the main focus in art?",
+    "correct_answer": "Focal",
+    "incorrect_answers": [
+      "Background",
+      "Foreground",
+      "Margin"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "What technique uses dots for shading?",
+    "correct_answer": "Stippling",
+    "incorrect_answers": [
+      "Hatching",
+      "Cross-hatching",
+      "Blending"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Art",
+    "question": "Which tool is used to erase pencil?",
+    "correct_answer": "Eraser",
+    "incorrect_answers": [
+      "Sharpener",
+      "Ruler",
+      "Compass"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Art",
+    "question": "What is a curved line called?",
+    "correct_answer": "Arc",
+    "incorrect_answers": [
+      "Diagonal",
+      "Vertical",
+      "Horizontal"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Art",
+    "question": "Which Indian dance is very expressive?",
+    "correct_answer": "Kathak",
+    "incorrect_answers": [
+      "Bharatanatyam",
+      "Odissi",
+      "Kuchipudi"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Art",
+    "question": "Which software is used for digital painting?",
+    "correct_answer": "Photoshop",
+    "incorrect_answers": [
+      "Word",
+      "Excel",
+      "PowerPoint"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "Which part of a face is drawn at halfway?",
+    "correct_answer": "Eyes",
+    "incorrect_answers": [
+      "Nose",
+      "Mouth",
+      "Ears"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Art",
+    "question": "What is the study of art history called?",
+    "correct_answer": "Artology",
+    "incorrect_answers": [
+      "Archaeology",
+      "Anthropology",
+      "Iconography"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Art",
+    "question": "What is traditional painting on cloth?",
+    "correct_answer": "Pattachitra",
+    "incorrect_answers": [
+      "Madhubani",
+      "Warli",
+      "Kalamkari"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "What type of design uses symmetry and repeat?",
+    "correct_answer": "Mandala",
+    "incorrect_answers": [
+      "Collage",
+      "Abstract",
+      "Still-life"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Art",
+    "question": "What tool helps in drawing circles?",
+    "correct_answer": "Compass",
+    "incorrect_answers": [
+      "Ruler",
+      "Protractor",
+      "T-square"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "Who painted 'Girl with a Pearl Earring'?",
+    "correct_answer": "Vermeer",
+    "incorrect_answers": [
+      "Rembrandt",
+      "Hals",
+      "Steen"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "What is a basic unit of design?",
+    "correct_answer": "Element",
+    "incorrect_answers": [
+      "Principle",
+      "Concept",
+      "Theme"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "What do we call dark to light change?",
+    "correct_answer": "Gradient",
+    "incorrect_answers": [
+      "Contrast",
+      "Shadow",
+      "Highlight"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "What is a two-point drawing technique?",
+    "correct_answer": "Perspective",
+    "incorrect_answers": [
+      "Isometric",
+      "Oblique",
+      "Orthographic"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Art",
+    "question": "Which art form involves carving stone?",
+    "correct_answer": "Sculpture",
+    "incorrect_answers": [
+      "Painting",
+      "Drawing",
+      "Printmaking"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Art",
+    "question": "Which lines show movement?",
+    "correct_answer": "Curved",
+    "incorrect_answers": [
+      "Straight",
+      "Horizontal",
+      "Vertical"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "What is a type of shading with lines?",
+    "correct_answer": "Hatching",
+    "incorrect_answers": [
+      "Stippling",
+      "Blending",
+      "Scumbling"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "What is the small image idea called?",
+    "correct_answer": "Thumbnail",
+    "incorrect_answers": [
+      "Doodle",
+      "Blueprint",
+      "Template"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Art",
+    "question": "Which painting is of rural Bengal women?",
+    "correct_answer": "Kalighat",
+    "incorrect_answers": [
+      "Madhubani",
+      "Warli",
+      "Pattachitra"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "What is a transparent watercolor effect?",
+    "correct_answer": "Wash",
+    "incorrect_answers": [
+      "Glaze",
+      "Impasto",
+      "Scumble"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Art",
+    "question": "What is contrast in art?",
+    "correct_answer": "Difference",
+    "incorrect_answers": [
+      "Similarity",
+      "Harmony",
+      "Unity"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Art",
+    "question": "What is a painting of a person called?",
+    "correct_answer": "Portrait",
+    "incorrect_answers": [
+      "Landscape",
+      "Still-life",
+      "Abstract"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Art",
+    "question": "Who painted the ceiling of Sistine Chapel?",
+    "correct_answer": "Michelangelo",
+    "incorrect_answers": [
+      "Da Vinci",
+      "Raphael",
+      "Botticelli"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Art",
+    "question": "What does blue and yellow make?",
+    "correct_answer": "Green",
+    "incorrect_answers": [
+      "Purple",
+      "Orange",
+      "Brown"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Art",
+    "question": "What is a self-painting called?",
+    "correct_answer": "Self-portrait",
+    "incorrect_answers": [
+      "Landscape",
+      "Still-life",
+      "Abstract"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Art",
+    "question": "Which colors are warm?",
+    "correct_answer": "Red",
+    "incorrect_answers": [
+      "Blue",
+      "Green",
+      "Purple"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Art",
+    "question": "Which colors are cool?",
+    "correct_answer": "Blue",
+    "incorrect_answers": [
+      "Red",
+      "Orange",
+      "Yellow"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "What does the term 'composition' mean?",
+    "correct_answer": "Arrangement",
+    "incorrect_answers": [
+      "Color",
+      "Texture",
+      "Subject"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Art",
+    "question": "What is a bold, thick drawing tool?",
+    "correct_answer": "Marker",
+    "incorrect_answers": [
+      "Pencil",
+      "Charcoal",
+      "Pen"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "What is a line with no end called?",
+    "correct_answer": "Infinite",
+    "incorrect_answers": [
+      "Finite",
+      "Broken",
+      "Dashed"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Art",
+    "question": "Which art form uses threads?",
+    "correct_answer": "Embroidery",
+    "incorrect_answers": [
+      "Painting",
+      "Sculpture",
+      "Pottery"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "Which artist is famous for water lilies?",
+    "correct_answer": "Monet",
+    "incorrect_answers": [
+      "Renoir",
+      "Degas",
+      "Manet"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Art",
+    "question": "Which traditional dance uses masks?",
+    "correct_answer": "Chhau",
+    "incorrect_answers": [
+      "Kathak",
+      "Bharatanatyam",
+      "Odissi"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "What does 'motif' mean in design?",
+    "correct_answer": "Pattern",
+    "incorrect_answers": [
+      "Color",
+      "Line",
+      "Shape"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Art",
+    "question": "What do you call Indian wall painting?",
+    "correct_answer": "Warli",
+    "incorrect_answers": [
+      "Madhubani",
+      "Fresco",
+      "Mural"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "What is overlapping in art?",
+    "correct_answer": "Layering",
+    "incorrect_answers": [
+      "Blending",
+      "Shading",
+      "Outlining"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Art",
+    "question": "What is a circle of colors called?",
+    "correct_answer": "Colorwheel",
+    "incorrect_answers": [
+      "Palette",
+      "Spectrum",
+      "Rainbow"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Art",
+    "question": "Which artist is known for surrealism?",
+    "correct_answer": "Dali",
+    "incorrect_answers": [
+      "Picasso",
+      "Monet",
+      "Van Gogh"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "Which pencil is used for shading?",
+    "correct_answer": "2B",
+    "incorrect_answers": [
+      "2H",
+      "4H",
+      "HB"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Art",
+    "question": "What is black and white art called?",
+    "correct_answer": "Monochrome",
+    "incorrect_answers": [
+      "Polychrome",
+      "Technicolor",
+      "Grayscale"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Art",
+    "question": "What is quick clay modeling called?",
+    "correct_answer": "Modeling",
+    "incorrect_answers": [
+      "Carving",
+      "Casting",
+      "Firing"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Art",
+    "question": "What is an art show called?",
+    "correct_answer": "Exhibition",
+    "incorrect_answers": [
+      "Gallery",
+      "Studio",
+      "Museum"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Art",
+    "question": "What color do you get mixing red and yellow?",
+    "correct_answer": "Orange",
+    "incorrect_answers": [
+      "Green",
+      "Purple",
+      "Brown"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "What are complementary colors?",
+    "correct_answer": "Opposites",
+    "incorrect_answers": [
+      "Similar",
+      "Adjacent",
+      "Identical"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Art",
+    "question": "What is a flat artwork called?",
+    "correct_answer": "2D",
+    "incorrect_answers": [
+      "3D",
+      "4D",
+      "1D"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Art",
+    "question": "What is a solid artwork called?",
+    "correct_answer": "3D",
+    "incorrect_answers": [
+      "2D",
+      "4D",
+      "1D"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Art",
+    "question": "What does hue mean?",
+    "correct_answer": "Color",
+    "incorrect_answers": [
+      "Value",
+      "Intensity",
+      "Tone"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "What is visual balance?",
+    "correct_answer": "Harmony",
+    "incorrect_answers": [
+      "Chaos",
+      "Contrast",
+      "Discord"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "Who painted 'The Scream'?",
+    "correct_answer": "Munch",
+    "incorrect_answers": [
+      "Van Gogh",
+      "Picasso",
+      "Dali"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Art",
+    "question": "Which tool sharpens pencils?",
+    "correct_answer": "Sharpener",
+    "incorrect_answers": [
+      "Eraser",
+      "Ruler",
+      "Scissors"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Art",
+    "question": "What is light and shadow called?",
+    "correct_answer": "Chiaroscuro",
+    "incorrect_answers": [
+      "Sfumato",
+      "Impasto",
+      "Tenebrism"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "What is movement in art?",
+    "correct_answer": "Flow",
+    "incorrect_answers": [
+      "Stillness",
+      "Static",
+      "Fixed"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Art",
+    "question": "What is traditional puppet art?",
+    "correct_answer": "Kathputli",
+    "incorrect_answers": [
+      "Chhau",
+      "Theyyam",
+      "Yakshagana"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "What is fabric painting called?",
+    "correct_answer": "Textile",
+    "incorrect_answers": [
+      "Canvas",
+      "Mural",
+      "Fresco"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Art",
+    "question": "What is a continuous line drawing?",
+    "correct_answer": "Contour",
+    "incorrect_answers": [
+      "Gesture",
+      "Blind",
+      "Sketch"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Art",
+    "question": "What is Pablo Picasso known for?",
+    "correct_answer": "Cubism",
+    "incorrect_answers": [
+      "Impressionism",
+      "Surrealism",
+      "Realism"
+    ]
+  }
+]

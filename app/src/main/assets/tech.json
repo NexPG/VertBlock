@@ -1,0 +1,2402 @@
+[
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "What does ICT stand for?",
+    "correct_answer": "Information and Communication Technology",
+    "incorrect_answers": [
+      "Information and Creative Technology",
+      "Integrated Communication Technology",
+      "International Computing Tools"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "ICT helps in academic environments by:",
+    "correct_answer": "Enhancing access to information",
+    "incorrect_answers": [
+      "Replacing teachers",
+      "Increasing paper-based documentation",
+      "Slowing down communication"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "tech",
+    "question": "One of the key roles of computer skills in nursing education is:",
+    "correct_answer": "Documenting patient records digitally",
+    "incorrect_answers": [
+      "Avoiding clinical practices",
+      "Performing surgeries",
+      "Teaching language skills"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "What is a computer?",
+    "correct_answer": "An electronic device that processes data",
+    "incorrect_answers": [
+      "A machine that cooks food",
+      "A musical instrument",
+      "A power source"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "Which of the following is NOT a related term to computers?",
+    "correct_answer": "Oxygen",
+    "incorrect_answers": [
+      "CPU",
+      "Monitor",
+      "RAM"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "What is 'data'?",
+    "correct_answer": "Raw and unorganized facts",
+    "incorrect_answers": [
+      "Processed facts",
+      "Final results",
+      "Charts only"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "Which of the following is an example of numeric data?",
+    "correct_answer": "12345",
+    "incorrect_answers": [
+      "A1B2",
+      "ABCD",
+      "&%$#"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "Alphanumeric data includes:",
+    "correct_answer": "Letters and numbers",
+    "incorrect_answers": [
+      "Only numbers",
+      "Only letters",
+      "Symbols only"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "tech",
+    "question": "CBIS stands for:",
+    "correct_answer": "Computer-Based Information System",
+    "incorrect_answers": [
+      "Computer-Based International System",
+      "Controlled Binary Integrated Software",
+      "None of the above"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "tech",
+    "question": "A CBIS contains:",
+    "correct_answer": "Human resources, hardware, software, data, and procedures",
+    "incorrect_answers": [
+      "Music players",
+      "Only computers",
+      "Servers only"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "What is information?",
+    "correct_answer": "Organized and meaningful data",
+    "incorrect_answers": [
+      "Raw facts",
+      "Sound signals",
+      "A type of hardware"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "tech",
+    "question": "Which of the following best distinguishes data from information?",
+    "correct_answer": "Data is raw; information is processed",
+    "incorrect_answers": [
+      "They are interchangeable",
+      "Data is processed; information is raw",
+      "Information is always numerical"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "What is data processing?",
+    "correct_answer": "Converting raw data into meaningful information",
+    "incorrect_answers": [
+      "Typing documents",
+      "Editing photos",
+      "Sending emails"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "What is a search engine?",
+    "correct_answer": "A web-based tool to find information",
+    "incorrect_answers": [
+      "A social media platform",
+      "An email client",
+      "A gaming software"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "Which of these is NOT a search engine?",
+    "correct_answer": "Facebook",
+    "incorrect_answers": [
+      "Google",
+      "Yahoo",
+      "Bing"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "Online resources help in:",
+    "correct_answer": "Accessing research databases",
+    "incorrect_answers": [
+      "Playing games",
+      "Shopping only",
+      "Locking computers"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "Which of the following is an online communication tool?",
+    "correct_answer": "Skype",
+    "incorrect_answers": [
+      "Paint",
+      "Calculator",
+      "Notepad"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "What type of data does 'A1B2C3' represent?",
+    "correct_answer": "Alphanumeric",
+    "incorrect_answers": [
+      "Numeric",
+      "Alphabetic",
+      "Symbolic"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "tech",
+    "question": "Which is not a type of data?",
+    "correct_answer": "Chemical",
+    "incorrect_answers": [
+      "Numeric",
+      "Alphabetic",
+      "Alphanumeric"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "A software used to process data is:",
+    "correct_answer": "MS Word",
+    "incorrect_answers": [
+      "MS Paint",
+      "Windows Media Player",
+      "VLC"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "Input devices are used to:",
+    "correct_answer": "Enter data into the computer",
+    "incorrect_answers": [
+      "Display data",
+      "Store data",
+      "Print output"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "Which of the following is an input device?",
+    "correct_answer": "Keyboard",
+    "incorrect_answers": [
+      "Monitor",
+      "Printer",
+      "Projector"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "What is an output device?",
+    "correct_answer": "Speaker",
+    "incorrect_answers": [
+      "Keyboard",
+      "Scanner",
+      "Mouse"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "Memory in a computer is used to:",
+    "correct_answer": "Store and retrieve data",
+    "incorrect_answers": [
+      "Draw images",
+      "Type documents",
+      "Print hard copies"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "tech",
+    "question": "ALU stands for:",
+    "correct_answer": "Arithmetic Logical Unit",
+    "incorrect_answers": [
+      "Automatic Line Usage",
+      "Advanced Logic Utility",
+      "Active Link Unit"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "tech",
+    "question": "The function of ALU is to:",
+    "correct_answer": "Perform arithmetic and logic operations",
+    "incorrect_answers": [
+      "Manage files",
+      "Display graphics",
+      "Download files"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "Control Unit is a part of:",
+    "correct_answer": "CPU",
+    "incorrect_answers": [
+      "Printer",
+      "Scanner",
+      "Mouse"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "tech",
+    "question": "The primary function of the control unit is to:",
+    "correct_answer": "Manage execution of instructions",
+    "incorrect_answers": [
+      "Store data",
+      "Control software",
+      "Play sound"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "tech",
+    "question": "Which of the following is a network device?",
+    "correct_answer": "Switch",
+    "incorrect_answers": [
+      "CPU",
+      "Monitor",
+      "Speaker"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "tech",
+    "question": "What is a protocol in networking?",
+    "correct_answer": "Rules for data communication",
+    "incorrect_answers": [
+      "A person who fixes networks",
+      "A network cable",
+      "A virus protection tool"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "What is software?",
+    "correct_answer": "A set of programs",
+    "incorrect_answers": [
+      "A physical component",
+      "Hardware",
+      "A monitor"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "tech",
+    "question": "Operating system is a type of:",
+    "correct_answer": "System software",
+    "incorrect_answers": [
+      "Application software",
+      "Hardware",
+      "Antivirus"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "Which of the following is NOT an operating system?",
+    "correct_answer": "MS Word",
+    "incorrect_answers": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "tech",
+    "question": "A translator software helps to:",
+    "correct_answer": "Convert programming code",
+    "incorrect_answers": [
+      "Edit videos",
+      "Browse internet",
+      "Create charts"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "Which of the following is a general-purpose software?",
+    "correct_answer": "MS Word",
+    "incorrect_answers": [
+      "Photoshop",
+      "CorelDRAW",
+      "AutoCAD"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "tech",
+    "question": "Specific purpose software is used for:",
+    "correct_answer": "Specific tasks like design or calculation",
+    "incorrect_answers": [
+      "General tasks",
+      "Playing music only",
+      "Watching movies"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "MS Excel is an example of:",
+    "correct_answer": "Application software",
+    "incorrect_answers": [
+      "Operating system",
+      "Hardware",
+      "Programming language"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "MS Word is used for:",
+    "correct_answer": "Writing documents",
+    "incorrect_answers": [
+      "Playing games",
+      "Watching videos",
+      "Sending emails"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "tech",
+    "question": "Which of the following is NOT commonly used software?",
+    "correct_answer": "IronBox",
+    "incorrect_answers": [
+      "Windows",
+      "Word",
+      "Calculator"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "tech",
+    "question": "A system software is responsible for:",
+    "correct_answer": "Managing computer hardware",
+    "incorrect_answers": [
+      "Designing banners",
+      "Drawing shapes",
+      "Editing videos"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "What is a computer virus?",
+    "correct_answer": "A piece of software that damages or interferes with computers",
+    "incorrect_answers": [
+      "A type of software that protects computers",
+      "A search engine",
+      "A firewall tool"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "tech",
+    "question": "Which of the following is NOT a type of computer virus?",
+    "correct_answer": "Bluetooth",
+    "incorrect_answers": [
+      "Worm",
+      "Trojan horse",
+      "Malware"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "What does antivirus software do?",
+    "correct_answer": "Protects the computer from viruses",
+    "incorrect_answers": [
+      "Designs logos",
+      "Deletes files",
+      "Formats the hard disk"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "To install antivirus software, you should:",
+    "correct_answer": "Follow step-by-step installation process",
+    "incorrect_answers": [
+      "Buy a keyboard",
+      "Connect to Wi-Fi only",
+      "Remove the hard drive"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "tech",
+    "question": "A computer network is:",
+    "correct_answer": "Computers connected for sharing resources",
+    "incorrect_answers": [
+      "A collection of unrelated computers",
+      "One computer with many cables",
+      "A programming language"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "LAN stands for:",
+    "correct_answer": "Local Area Network",
+    "incorrect_answers": [
+      "Large Area Network",
+      "Logical Access Network",
+      "Long Area Node"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "What is the full form of WAN?",
+    "correct_answer": "Wide Area Network",
+    "incorrect_answers": [
+      "Wireless Area Network",
+      "Wide Access Network",
+      "Wired Area Network"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "An email is used for:",
+    "correct_answer": "Sending and receiving messages",
+    "incorrect_answers": [
+      "Formatting documents",
+      "Coding software",
+      "Installing antivirus"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "Which of the following is a search engine?",
+    "correct_answer": "Google",
+    "incorrect_answers": [
+      "WordPad",
+      "Gmail",
+      "MS Word"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "Online databases help to:",
+    "correct_answer": "Store and search academic content",
+    "incorrect_answers": [
+      "Create games",
+      "Block internet",
+      "Delete files"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "The best way to keep your computer secure is to:",
+    "correct_answer": "Install and update antivirus",
+    "incorrect_answers": [
+      "Avoid turning it on",
+      "Open all email attachments",
+      "Use the same password everywhere"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "tech",
+    "question": "A firewall is used to:",
+    "correct_answer": "Control network traffic and block threats",
+    "incorrect_answers": [
+      "Heat the computer",
+      "Design wallpapers",
+      "Play music"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "Which device is essential for internet access?",
+    "correct_answer": "Router",
+    "incorrect_answers": [
+      "Mouse",
+      "Printer",
+      "Speaker"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "tech",
+    "question": "What is phishing?",
+    "correct_answer": "Illegally attempting to obtain sensitive information",
+    "incorrect_answers": [
+      "Playing games online",
+      "Sharing educational data",
+      "Searching for books"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "Internet Explorer is a type of:",
+    "correct_answer": "Web browser",
+    "incorrect_answers": [
+      "Database",
+      "Programming language",
+      "Antivirus"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "tech",
+    "question": "What does HTTP stand for?",
+    "correct_answer": "Hyper Text Transfer Protocol",
+    "incorrect_answers": [
+      "High Transfer Testing Protocol",
+      "Hyper Transfer Terminal Page",
+      "Host Transfer Technology Protocol"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "Which one is a secure version of HTTP?",
+    "correct_answer": "HTTPS",
+    "incorrect_answers": [
+      "HTTPX",
+      "HTTP2",
+      "HTM"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "Which one is NOT an online communication tool?",
+    "correct_answer": "Windows Media Player",
+    "incorrect_answers": [
+      "Zoom",
+      "Google Meet",
+      "Skype"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "Safe browsing means:",
+    "correct_answer": "Using secure and trusted websites",
+    "incorrect_answers": [
+      "Visiting any website",
+      "Using outdated browsers",
+      "Downloading any software"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "tech",
+    "question": "Cyber security protects:",
+    "correct_answer": "Systems, networks, and programs from digital attacks",
+    "incorrect_answers": [
+      "Only personal files",
+      "Mobile data",
+      "Printers"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "What is MS Word primarily used for?",
+    "correct_answer": "Word processing and document creation",
+    "incorrect_answers": [
+      "Audio editing",
+      "Video streaming",
+      "Image editing"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "tech",
+    "question": "What is the 'Ribbon' in MS Word?",
+    "correct_answer": "A toolbar with tabs and commands",
+    "incorrect_answers": [
+      "A security tool",
+      "A background color",
+      "A menu for sound settings"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "The 'Save' option in MS Word allows you to:",
+    "correct_answer": "Store changes made to the file",
+    "incorrect_answers": [
+      "Turn off the computer",
+      "Delete the document",
+      "Print the file"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "tech",
+    "question": "What does the 'Quick Access Toolbar' do?",
+    "correct_answer": "Provides access to common tools",
+    "incorrect_answers": [
+      "Closes MS Word",
+      "Saves the file to email",
+      "Displays fonts only"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "Where is the 'Bold' option found?",
+    "correct_answer": "Home tab",
+    "incorrect_answers": [
+      "Insert tab",
+      "View tab",
+      "Layout tab"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "Italics is used to:",
+    "correct_answer": "Slant the text",
+    "incorrect_answers": [
+      "Increase font size",
+      "Change the color",
+      "Save the file"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "Font type and size are adjusted in:",
+    "correct_answer": "Home tab",
+    "incorrect_answers": [
+      "Status bar",
+      "Insert tab",
+      "File tab"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "The command to 'Copy' text is:",
+    "correct_answer": "Ctrl + C",
+    "incorrect_answers": [
+      "Ctrl + V",
+      "Ctrl + X",
+      "Ctrl + P"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "The shortcut for 'Paste' is:",
+    "correct_answer": "Ctrl + V",
+    "incorrect_answers": [
+      "Ctrl + X",
+      "Ctrl + Z",
+      "Ctrl + A"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "The 'Highlight' tool changes:",
+    "correct_answer": "Background of text",
+    "incorrect_answers": [
+      "Page orientation",
+      "Text alignment",
+      "Font name"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "To change text color, use:",
+    "correct_answer": "Home tab > Font group",
+    "incorrect_answers": [
+      "Insert tab",
+      "File tab",
+      "Review tab"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "What are bullets used for?",
+    "correct_answer": "Listing items",
+    "incorrect_answers": [
+      "Page design",
+      "Adding pictures",
+      "Setting security"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "tech",
+    "question": "Where can you add shading in text?",
+    "correct_answer": "Paragraph group in Home tab",
+    "incorrect_answers": [
+      "File tab",
+      "Layout tab",
+      "Review tab"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "tech",
+    "question": "Tabs in MS Word are:",
+    "correct_answer": "Headings of ribbon sections",
+    "incorrect_answers": [
+      "Rows in a table",
+      "Internet links",
+      "Audio tools"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "tech",
+    "question": "What does the Page Layout tab do?",
+    "correct_answer": "Allows changing margins, orientation, and size",
+    "incorrect_answers": [
+      "Shows ribbon",
+      "Installs fonts",
+      "Edits headers"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "Which of the following can be inserted into a Word document?",
+    "correct_answer": "Pictures, shapes, tables, and charts",
+    "incorrect_answers": [
+      "Music only",
+      "Operating system",
+      "Antivirus"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "tech",
+    "question": "The Insert tab allows:",
+    "correct_answer": "Adding header, footer, clip art, and symbols",
+    "incorrect_answers": [
+      "Text alignment",
+      "Spell checking",
+      "Saving the document"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "How do you insert a page number?",
+    "correct_answer": "Insert tab > Page Number",
+    "incorrect_answers": [
+      "Home tab",
+      "Layout tab",
+      "File tab"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "tech",
+    "question": "Smart Art in MS Word is used to:",
+    "correct_answer": "Represent information visually",
+    "incorrect_answers": [
+      "Create drawings",
+      "Write formulas",
+      "Generate passwords"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "tech",
+    "question": "Watermark is used to:",
+    "correct_answer": "Add background image/text to pages",
+    "incorrect_answers": [
+      "Encrypt the file",
+      "Add footnotes",
+      "Insert links"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "tech",
+    "question": "The function of the 'Text Box' in MS Word is to:",
+    "correct_answer": "Add movable blocks of text",
+    "incorrect_answers": [
+      "Add password protection",
+      "Insert predefined shapes",
+      "Create animations"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "tech",
+    "question": "Word Art in MS Word is used to:",
+    "correct_answer": "Add stylistic text effects",
+    "incorrect_answers": [
+      "Draw tables",
+      "Insert background music",
+      "Compress documents"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "tech",
+    "question": "Drop Cap refers to:",
+    "correct_answer": "A large capital letter at the beginning of a paragraph",
+    "incorrect_answers": [
+      "An audio setting",
+      "A link to a website",
+      "The end of a paragraph"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "Which group contains the 'Symbols' option?",
+    "correct_answer": "Insert",
+    "incorrect_answers": [
+      "View",
+      "Layout",
+      "Design"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "tech",
+    "question": "The Page Layout tab lets you:",
+    "correct_answer": "Set page orientation and margins",
+    "incorrect_answers": [
+      "Review spelling",
+      "Change themes only",
+      "Add animations"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "Which of the following is NOT found in Page Layout?",
+    "correct_answer": "Font Color",
+    "incorrect_answers": [
+      "Margins",
+      "Orientation",
+      "Columns"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "tech",
+    "question": "Themes in MS Word change:",
+    "correct_answer": "Overall document style (colors, fonts, effects)",
+    "incorrect_answers": [
+      "Printer settings",
+      "Network configuration",
+      "Keyboard layout"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "tech",
+    "question": "To split text into multiple columns, use:",
+    "correct_answer": "Page Layout > Columns",
+    "incorrect_answers": [
+      "Insert > Break",
+      "View > Grid",
+      "File > Save As"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "A watermark is typically used to:",
+    "correct_answer": "Add a background label or message",
+    "incorrect_answers": [
+      "Block printing",
+      "Format headers",
+      "Change table styles"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "Page borders can be applied using:",
+    "correct_answer": "Design tab > Page Borders",
+    "incorrect_answers": [
+      "File tab",
+      "Insert tab",
+      "View tab"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "What is MS PowerPoint used for?",
+    "correct_answer": "Creating presentations",
+    "incorrect_answers": [
+      "Writing code",
+      "Editing images",
+      "Audio conversion"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "The default file extension for PowerPoint is:",
+    "correct_answer": ".pptx",
+    "incorrect_answers": [
+      ".docx",
+      ".xlsx",
+      ".txt"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "tech",
+    "question": "Which tab contains slide layouts and background options?",
+    "correct_answer": "Design",
+    "incorrect_answers": [
+      "Home",
+      "Insert",
+      "View"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "tech",
+    "question": "What is the purpose of the 'Home' tab in PowerPoint?",
+    "correct_answer": "To access basic formatting tools",
+    "incorrect_answers": [
+      "To insert hyperlinks",
+      "To run animations",
+      "To create music files"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "Which tab is used to insert new slides?",
+    "correct_answer": "Home",
+    "incorrect_answers": [
+      "File",
+      "Review",
+      "Design"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "tech",
+    "question": "What does the 'Reset' option do in a slide?",
+    "correct_answer": "Resets layout to default",
+    "incorrect_answers": [
+      "Deletes the slide",
+      "Rotates slide",
+      "Converts to PDF"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "How can you delete a slide?",
+    "correct_answer": "Press Delete key after selecting it",
+    "incorrect_answers": [
+      "Use the Format tab",
+      "Use Home > Font",
+      "Right-click and press Paste"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "tech",
+    "question": "Which element allows inserting tables, charts, and clip art?",
+    "correct_answer": "Insert tab",
+    "incorrect_answers": [
+      "Slide Show tab",
+      "File tab",
+      "View tab"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "tech",
+    "question": "Inserting Smart Art is done via:",
+    "correct_answer": "Insert > Smart Art",
+    "incorrect_answers": [
+      "Animations",
+      "File > Save",
+      "Review > Spelling"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "Which of the following allows you to insert movie/audio clips in slides?",
+    "correct_answer": "Insert tab",
+    "incorrect_answers": [
+      "Design tab",
+      "Review tab",
+      "Layout tab"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "tech",
+    "question": "Headers and footers in PowerPoint are found under:",
+    "correct_answer": "Insert",
+    "incorrect_answers": [
+      "Design",
+      "Home",
+      "Slide Show"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "tech",
+    "question": "What does the Slide Sorter view show?",
+    "correct_answer": "All slides as thumbnails",
+    "incorrect_answers": [
+      "One slide at a time",
+      "Only titles",
+      "Notes view"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "Transitions are used to:",
+    "correct_answer": "Create visual effects between slides",
+    "incorrect_answers": [
+      "Type text",
+      "Insert tables",
+      "Create charts"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "tech",
+    "question": "Where do you find the Transitions tab?",
+    "correct_answer": "Between Design and Animations",
+    "incorrect_answers": [
+      "Between Home and Insert",
+      "After Review tab",
+      "Inside View tab"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "Animation is applied to:",
+    "correct_answer": "Objects like text or images within a slide",
+    "incorrect_answers": [
+      "Slide transitions only",
+      "Only headers",
+      "The footer only"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "tech",
+    "question": "Custom animations are found under which tab?",
+    "correct_answer": "Animations",
+    "incorrect_answers": [
+      "Design",
+      "File",
+      "View"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "tech",
+    "question": "To adjust animation speed, you use:",
+    "correct_answer": "Animation Pane",
+    "incorrect_answers": [
+      "View tab",
+      "Slide Master",
+      "File menu"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "tech",
+    "question": "Which tab helps set the order and sound of transitions?",
+    "correct_answer": "Transitions",
+    "incorrect_answers": [
+      "Animations",
+      "Design",
+      "Insert"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "Which of the following is used to play the slide show?",
+    "correct_answer": "Slide Show tab > From Beginning",
+    "incorrect_answers": [
+      "Insert tab",
+      "File tab",
+      "View tab > Read Mode"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "tech",
+    "question": "To show slides from the current slide:",
+    "correct_answer": "Shift + F5",
+    "incorrect_answers": [
+      "Ctrl + M",
+      "Alt + Enter",
+      "Ctrl + P"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "Which shortcut starts the slideshow from the beginning?",
+    "correct_answer": "F5",
+    "incorrect_answers": [
+      "F2",
+      "F1",
+      "Alt + F4"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "tech",
+    "question": "Slide Show Setup allows you to:",
+    "correct_answer": "Hide/unhide slides and set timings",
+    "incorrect_answers": [
+      "Change printer settings",
+      "Add charts",
+      "Run animations"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "tech",
+    "question": "You can hide a slide using:",
+    "correct_answer": "Slide Sorter > Right-click > Hide Slide",
+    "incorrect_answers": [
+      "File tab",
+      "Insert tab",
+      "None of these"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "tech",
+    "question": "The Slide Master view is used to:",
+    "correct_answer": "Format all slides at once",
+    "incorrect_answers": [
+      "Create animations",
+      "Insert audio",
+      "Open a template"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "tech",
+    "question": "Background styles can be found in which tab?",
+    "correct_answer": "Design",
+    "incorrect_answers": [
+      "File",
+      "Home",
+      "Slide Show"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "tech",
+    "question": "To remove background graphics, go to:",
+    "correct_answer": "Design > Format Background",
+    "incorrect_answers": [
+      "Review > Restrict",
+      "View > Notes",
+      "File > Export"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "Slide orientation can be set to:",
+    "correct_answer": "Portrait or Landscape",
+    "incorrect_answers": [
+      "Square only",
+      "Landscape only",
+      "Horizontal only"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "tech",
+    "question": "What is the purpose of Slide Show > Custom Show?",
+    "correct_answer": "Run selective slides in presentation",
+    "incorrect_answers": [
+      "Add more fonts",
+      "Add grammar check",
+      "Split slide into 2"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "tech",
+    "question": "Which option helps add sound to transition?",
+    "correct_answer": "Transition Effects",
+    "incorrect_answers": [
+      "Animation Pane",
+      "Layout",
+      "Insert > Audio"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "tech",
+    "question": "Which of the following is used to manage how animations are triggered?",
+    "correct_answer": "Animation Pane",
+    "incorrect_answers": [
+      "File tab",
+      "Slide Master",
+      "Design tab"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "What is MS Excel used for?",
+    "correct_answer": "Spreadsheets and data analysis",
+    "incorrect_answers": [
+      "Text editing",
+      "Video creation",
+      "Image drawing"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "A cell in Excel is defined as:",
+    "correct_answer": "Intersection of a row and a column",
+    "incorrect_answers": [
+      "A button",
+      "A group of charts",
+      "The whole worksheet"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "Rows in Excel are labeled with:",
+    "correct_answer": "Numbers",
+    "incorrect_answers": [
+      "Letters",
+      "Symbols",
+      "Colors"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "Columns in Excel are labeled with:",
+    "correct_answer": "Letters",
+    "incorrect_answers": [
+      "Numbers",
+      "Colors",
+      "Icons"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "tech",
+    "question": "A worksheet is:",
+    "correct_answer": "A page within an Excel file",
+    "incorrect_answers": [
+      "A hardware part",
+      "A single Excel file",
+      "A type of formula"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "tech",
+    "question": "A workbook in Excel is:",
+    "correct_answer": "A collection of worksheets",
+    "incorrect_answers": [
+      "A group of graphs",
+      "A single worksheet",
+      "A PDF file"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "The default extension for Excel files is:",
+    "correct_answer": ".xlsx",
+    "incorrect_answers": [
+      ".docx",
+      ".pptx",
+      ".txt"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "Which function adds a range of numbers?",
+    "correct_answer": "=SUM()",
+    "incorrect_answers": [
+      "=AVERAGE()",
+      "=MIN()",
+      "=COUNT()"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "To calculate the average in Excel, use:",
+    "correct_answer": "=AVERAGE()",
+    "incorrect_answers": [
+      "=TOTAL()",
+      "=COUNT()",
+      "=SUM()"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "Which symbol is used to start a formula in Excel?",
+    "correct_answer": "=",
+    "incorrect_answers": [
+      "@",
+      "#",
+      "$"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "tech",
+    "question": "What is conditional formatting used for?",
+    "correct_answer": "Formatting based on cell values",
+    "incorrect_answers": [
+      "Drawing shapes",
+      "Formatting fonts",
+      "Changing sheets"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "Merging cells means:",
+    "correct_answer": "Combining multiple cells into one",
+    "incorrect_answers": [
+      "Copying data",
+      "Splitting cells",
+      "Deleting rows"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "tech",
+    "question": "Which of the following is used to filter data?",
+    "correct_answer": "Data > Filter",
+    "incorrect_answers": [
+      "Insert tab",
+      "Format tab",
+      "View > Zoom"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "The Find and Select tool is used to:",
+    "correct_answer": "Search for specific content in a sheet",
+    "incorrect_answers": [
+      "Filter rows",
+      "Insert charts",
+      "Edit images"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "tech",
+    "question": "Cell styles allow you to:",
+    "correct_answer": "Format cells with predefined layouts",
+    "incorrect_answers": [
+      "Add themes to PowerPoint",
+      "Create new slides",
+      "Write code"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "tech",
+    "question": "The formula bar shows:",
+    "correct_answer": "The formula or value inside the selected cell",
+    "incorrect_answers": [
+      "Cell formatting",
+      "Cell name",
+      "The file name"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "tech",
+    "question": "To format as currency, go to:",
+    "correct_answer": "Home tab > Number group",
+    "incorrect_answers": [
+      "Page Layout",
+      "Insert tab",
+      "View tab"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "To center text in a cell, use:",
+    "correct_answer": "Home > Alignment",
+    "incorrect_answers": [
+      "Insert > Chart",
+      "Page Layout",
+      "Data tab"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "Excel's auto-fill handle is used to:",
+    "correct_answer": "Drag and copy values",
+    "incorrect_answers": [
+      "Resize columns",
+      "Change fonts",
+      "Save files"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "tech",
+    "question": "The shortcut for inserting a new worksheet is:",
+    "correct_answer": "Shift + F11",
+    "incorrect_answers": [
+      "Shift + N",
+      "Ctrl + W",
+      "Alt + Enter"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "What is the use of charts in Excel?",
+    "correct_answer": "To show data graphically",
+    "incorrect_answers": [
+      "To display text",
+      "To insert symbols",
+      "To calculate values"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "Which tab is used to insert a chart?",
+    "correct_answer": "Insert",
+    "incorrect_answers": [
+      "View",
+      "File",
+      "Page Layout"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "tech",
+    "question": "A pie chart is used to represent:",
+    "correct_answer": "Proportional data",
+    "incorrect_answers": [
+      "Rows of data",
+      "Numerical operations",
+      "Text formatting"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "To sort data in ascending or descending order, use:",
+    "correct_answer": "Data tab > Sort",
+    "incorrect_answers": [
+      "View tab",
+      "File tab",
+      "Insert > Table"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "Excel allows which of the following calculations?",
+    "correct_answer": "All of the above",
+    "incorrect_answers": [
+      "Addition",
+      "Subtraction",
+      "Multiplication"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "tech",
+    "question": "Which chart is best for showing trends over time?",
+    "correct_answer": "Line chart",
+    "incorrect_answers": [
+      "Bar chart",
+      "Pie chart",
+      "Column chart"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "How do you insert a table in Excel?",
+    "correct_answer": "Insert > Table",
+    "incorrect_answers": [
+      "Page Layout > Table",
+      "View > Table",
+      "File > New Table"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "tech",
+    "question": "Which tab allows changing sheet themes and background?",
+    "correct_answer": "Page Layout",
+    "incorrect_answers": [
+      "Home",
+      "Insert",
+      "Data"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "tech",
+    "question": "To apply conditional formatting, go to:",
+    "correct_answer": "Home > Conditional Formatting",
+    "incorrect_answers": [
+      "Insert > Table",
+      "File > Options",
+      "Data > Highlight"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "tech",
+    "question": "DMCs and merit lists are created using:",
+    "correct_answer": "Excel formulas and formatting",
+    "incorrect_answers": [
+      "Word",
+      "PowerPoint",
+      "Internet browsers"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "Autofill is used to:",
+    "correct_answer": "Automatically complete sequences",
+    "incorrect_answers": [
+      "Delete rows",
+      "Create graphs",
+      "Save files"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "tech",
+    "question": "Automatic series generation is useful for:",
+    "correct_answer": "Filling number/date patterns",
+    "incorrect_answers": [
+      "Creating backup files",
+      "Saving sheets",
+      "Adding headers"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "The SUM function performs:",
+    "correct_answer": "Addition of values",
+    "incorrect_answers": [
+      "Subtraction of values",
+      "Formatting cells",
+      "Saving templates"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "tech",
+    "question": "To find the highest value in a range, use:",
+    "correct_answer": "=MAX()",
+    "incorrect_answers": [
+      "=HIGH()",
+      "=UPPER()",
+      "=LARGE()"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "tech",
+    "question": "Which function counts numeric entries only?",
+    "correct_answer": "=COUNT()",
+    "incorrect_answers": [
+      "=COUNTA()",
+      "=COUNTIF()",
+      "=NUMBER()"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "tech",
+    "question": "=IF(A1>10, \"Pass\", \"Fail\") is an example of:",
+    "correct_answer": "Logical Function",
+    "incorrect_answers": [
+      "Conditional Formatting",
+      "Chart Tool",
+      "Formatting tool"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "tech",
+    "question": "A cell reference like A1 is called:",
+    "correct_answer": "Relative reference",
+    "incorrect_answers": [
+      "Absolute reference",
+      "Mixed reference",
+      "None"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "tech",
+    "question": "To freeze the top row in Excel, go to:",
+    "correct_answer": "View > Freeze Panes > Freeze Top Row",
+    "incorrect_answers": [
+      "Insert > Freeze",
+      "File > View",
+      "Home > Format"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "What is the use of 'Wrap Text'?",
+    "correct_answer": "Fit long text inside a cell by displaying it on multiple lines",
+    "incorrect_answers": [
+      "Hide text",
+      "Delete text",
+      "Format as image"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "What will the formula =A1+A2 do?",
+    "correct_answer": "Add numbers from cells A1 and A2",
+    "incorrect_answers": [
+      "Add text from A1 and A2",
+      "Insert a chart",
+      "Filter the data"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "tech",
+    "question": "Which of the following software would you use to create a DMC (Detailed Marks Certificate)?",
+    "correct_answer": "MS Excel",
+    "incorrect_answers": [
+      "MS Paint",
+      "MS PowerPoint",
+      "Windows Media Player"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "Which tool is best for preparing a professional presentation?",
+    "correct_answer": "MS PowerPoint",
+    "incorrect_answers": [
+      "MS Word",
+      "MS Excel",
+      "Calculator"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "If you want to align text centrally in MS Word, you should use:",
+    "correct_answer": "Center align",
+    "incorrect_answers": [
+      "Right align",
+      "Justify",
+      "Left align"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "tech",
+    "question": "Which tool is best to prepare a class merit list with percentages?",
+    "correct_answer": "MS Excel",
+    "incorrect_answers": [
+      "MS PowerPoint",
+      "MS Word",
+      "Internet Explorer"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "The best tool for creating official letters is:",
+    "correct_answer": "MS Word",
+    "incorrect_answers": [
+      "MS Excel",
+      "Notepad",
+      "MS PowerPoint"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "The function of the Print Preview option is to:",
+    "correct_answer": "Show how the document will look when printed",
+    "incorrect_answers": [
+      "Print directly",
+      "Hide pages",
+      "Encrypt document"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "Ctrl + S is used to:",
+    "correct_answer": "Save a file",
+    "incorrect_answers": [
+      "Submit a form",
+      "Skip a line",
+      "Select all"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "Which key combination is used to select all text in a document?",
+    "correct_answer": "Ctrl + A",
+    "incorrect_answers": [
+      "Ctrl + C",
+      "Ctrl + V",
+      "Ctrl + X"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "The shortcut to cut selected text is:",
+    "correct_answer": "Ctrl + X",
+    "incorrect_answers": [
+      "Ctrl + C",
+      "Ctrl + V",
+      "Ctrl + A"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "Ctrl + P is the shortcut for:",
+    "correct_answer": "Print",
+    "incorrect_answers": [
+      "Paste",
+      "Preview",
+      "Page setup"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "tech",
+    "question": "What is digital literacy?",
+    "correct_answer": "Ability to use digital tools and technologies",
+    "incorrect_answers": [
+      "Reading eBooks only",
+      "Ability to read on screen",
+      "Ability to draw on computers"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "An email attachment is used to:",
+    "correct_answer": "Send extra files with the message",
+    "incorrect_answers": [
+      "Increase text size",
+      "Add emojis",
+      "Send virus"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "A strong password should:",
+    "correct_answer": "Include letters, numbers, and symbols",
+    "incorrect_answers": [
+      "Contain your name",
+      "Be easy to guess",
+      "Use repeated characters"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "Which of the following is a secure online practice?",
+    "correct_answer": "Using strong, unique passwords",
+    "incorrect_answers": [
+      "Sharing passwords",
+      "Clicking unknown links",
+      "Ignoring software updates"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "Online databases are used by:",
+    "correct_answer": "Students and researchers",
+    "incorrect_answers": [
+      "Mechanics",
+      "Painters",
+      "Chefs"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "The best way to prevent unauthorized access is:",
+    "correct_answer": "Using firewalls and antivirus",
+    "incorrect_answers": [
+      "Using no password",
+      "Sharing password with friends",
+      "Ignoring software updates"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "Which one is NOT an input device?",
+    "correct_answer": "Monitor",
+    "incorrect_answers": [
+      "Keyboard",
+      "Scanner",
+      "Mouse"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "Which is a type of computer memory?",
+    "correct_answer": "RAM",
+    "incorrect_answers": [
+      "CPU",
+      "Router",
+      "USB port"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "tech",
+    "question": "What does an operating system do?",
+    "correct_answer": "Manages hardware and software",
+    "incorrect_answers": [
+      "Stores files only",
+      "Connects to the internet only",
+      "Types documents"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "tech",
+    "question": "Which is the correct sequence in data processing?",
+    "correct_answer": "Input → Process → Output",
+    "incorrect_answers": [
+      "Process → Input → Output",
+      "Output → Process → Input",
+      "Input → Output → Process"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "Which file format is used to save PowerPoint presentations?",
+    "correct_answer": ".pptx",
+    "incorrect_answers": [
+      ".docx",
+      ".xlsx",
+      ".pdf"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "Which file format is used to save Excel documents?",
+    "correct_answer": ".xlsx",
+    "incorrect_answers": [
+      ".pptx",
+      ".exe",
+      ".html"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "Where do you add a footer in MS Word?",
+    "correct_answer": "Insert tab",
+    "incorrect_answers": [
+      "Home tab",
+      "Design tab",
+      "View tab"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "How do you insert a picture in a slide?",
+    "correct_answer": "Insert > Pictures",
+    "incorrect_answers": [
+      "Insert > Text Box",
+      "Design > Background",
+      "View > Picture Pane"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "The 'Spelling & Grammar' tool is found in which tab in MS Word?",
+    "correct_answer": "Review",
+    "incorrect_answers": [
+      "Home",
+      "Insert",
+      "View"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "tech",
+    "question": "In Excel, how do you enter a new line within the same cell?",
+    "correct_answer": "Alt + Enter",
+    "incorrect_answers": [
+      "Press Enter",
+      "Press Tab",
+      "Ctrl + Shift"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "What does the 'Autosum' button do in Excel?",
+    "correct_answer": "Sums up numbers in a selected range",
+    "incorrect_answers": [
+      "Adds a new column",
+      "Adds a row",
+      "Formats the text"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "tech",
+    "question": "Which software can be used to design a class timetable with columns and formatting?",
+    "correct_answer": "MS Excel",
+    "incorrect_answers": [
+      "MS Paint",
+      "MS PowerPoint",
+      "Windows Media Player"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "Which shortcut is used to create a new document in MS Word?",
+    "correct_answer": "Ctrl + N",
+    "incorrect_answers": [
+      "Ctrl + O",
+      "Ctrl + S",
+      "Ctrl + P"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "To save an existing document with a new name, use:",
+    "correct_answer": "Save As",
+    "incorrect_answers": [
+      "Save",
+      "Rename",
+      "Print"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "Why should antivirus software be updated regularly?",
+    "correct_answer": "To protect against latest threats",
+    "incorrect_answers": [
+      "To increase storage",
+      "To upgrade RAM",
+      "To improve speed only"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "What should you do before opening an email attachment?",
+    "correct_answer": "Scan it with antivirus",
+    "incorrect_answers": [
+      "Forward it to others",
+      "Delete it",
+      "Rename it"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "tech",
+    "question": "Which of the following is not a spreadsheet program?",
+    "correct_answer": "Adobe Reader",
+    "incorrect_answers": [
+      "MS Excel",
+      "Google Sheets",
+      "LibreOffice Calc"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "What is a hyperlink?",
+    "correct_answer": "A clickable link to another location or file",
+    "incorrect_answers": [
+      "A broken link",
+      "A tool to hide text",
+      "A text formatting option"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "One benefit of ICT in education is:",
+    "correct_answer": "Enhances access to information and learning",
+    "incorrect_answers": [
+      "Less homework",
+      "Reduces electricity usage",
+      "Eliminates exams"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "tech",
+    "question": "In Word, how can you prevent a document from being edited?",
+    "correct_answer": "Add password protection",
+    "incorrect_answers": [
+      "Change font",
+      "Insert table",
+      "Resize the page"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "tech",
+    "question": "In PowerPoint, animations are applied to:",
+    "correct_answer": "Individual slide objects",
+    "incorrect_answers": [
+      "Entire presentation",
+      "Footer only",
+      "Table of contents"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "Which Excel feature automatically calculates totals?",
+    "correct_answer": "Autosum",
+    "incorrect_answers": [
+      "Merge",
+      "Filter",
+      "View"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "What is meant by 'Cloud Storage'?",
+    "correct_answer": "Online space to store files",
+    "incorrect_answers": [
+      "Storage in your PC",
+      "External hard drive",
+      "Bluetooth storage"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "tech",
+    "question": "Which ICT skill is essential for modern job roles?",
+    "correct_answer": "Using MS Office and internet",
+    "incorrect_answers": [
+      "Typing",
+      "Operating a phone",
+      "Playing video games"
+    ]
+  }
+]

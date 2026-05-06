@@ -1,0 +1,3877 @@
+[
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Travel",
+    "question": "How many rivers are in Saudi Arabia?",
+    "correct_answer": "0",
+    "incorrect_answers": [
+      "1",
+      "2",
+      "3"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Travel",
+    "question": "What is the name of the ocean that Hawaii is located in?",
+    "correct_answer": "Pacific",
+    "incorrect_answers": [
+      "Atlantic",
+      "Indian",
+      "Arctic"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Travel",
+    "question": "What is the capital of the US state Nevada?",
+    "correct_answer": "Carson City",
+    "incorrect_answers": [
+      "Las Vegas",
+      "Henderson",
+      "Reno"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Travel",
+    "question": "The formerly East-Prussian city of K&ouml;nigsberg is known as which Russian City today?",
+    "correct_answer": "Kaliningrad",
+    "incorrect_answers": [
+      "Kazan",
+      "Kursk",
+      "Krasnodar"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Travel",
+    "question": "Which country features a maple leaf on its flag?",
+    "correct_answer": "Canada",
+    "incorrect_answers": [
+      "Mexico",
+      "Brazil",
+      "India"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Travel",
+    "question": "If soccer is called football in England, what is American football called in England?",
+    "correct_answer": "American football",
+    "incorrect_answers": [
+      "Combball",
+      "Handball",
+      "Touchdown"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Travel",
+    "question": "Which area of Eastern Europe is famous for its association with vampires?",
+    "correct_answer": "Transylvania",
+    "incorrect_answers": [
+      "Silesia",
+      "Macedonia",
+      "Slovakia"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What is the tallest mountain in Canada?",
+    "correct_answer": "Mount Logan",
+    "incorrect_answers": [
+      "Mont Tremblant",
+      "Whistler Mountain",
+      "Blue Mountain"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Travel",
+    "question": "How many countries does Mexico border?",
+    "correct_answer": "3",
+    "incorrect_answers": [
+      "2",
+      "4",
+      "1"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Which of these is NOT a city in India?",
+    "correct_answer": "Islamabad",
+    "incorrect_answers": [
+      "Hyderabad",
+      "Ahmedabad",
+      "Ghaziabad"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Travel",
+    "question": "Which of the following is not a megadiverse country - one that harbors a high number of the earth's endemic species?",
+    "correct_answer": "Thailand",
+    "incorrect_answers": [
+      "Peru",
+      "Mexico",
+      "South Africa"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Travel",
+    "question": "What is the capital of Romania?",
+    "correct_answer": "Bucharest",
+    "incorrect_answers": [
+      "Bratislava",
+      "Belgrade",
+      "Budapest"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "The Suez Canal is located in which African country?",
+    "correct_answer": "Egypt",
+    "incorrect_answers": [
+      "Libya",
+      "Ghana",
+      "Nigeria"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Travel",
+    "question": "Eritrea, which became the 182nd member of the UN in 1993, is in the continent of?",
+    "correct_answer": "Africa",
+    "incorrect_answers": [
+      "Europe",
+      "Asia",
+      "South America"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "In what part of Wales will you find the village Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch?",
+    "correct_answer": "Anglesey",
+    "incorrect_answers": [
+      "Pembrokeshire",
+      "Wrexham",
+      "Bridgend"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Travel",
+    "question": "How many countries share a land border with Luxembourg?",
+    "correct_answer": "3",
+    "incorrect_answers": [
+      "4",
+      "2",
+      "5"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Travel",
+    "question": "What continent is the country Lesotho in?",
+    "correct_answer": "Africa",
+    "incorrect_answers": [
+      "Asia",
+      "South America",
+      "Europe"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Travel",
+    "question": "How many independent countries are there within the continent of South America?",
+    "correct_answer": "12",
+    "incorrect_answers": [
+      "8",
+      "9",
+      "10"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Travel",
+    "question": "Which two modern-day countries used to be known as the region of Rhodesia between the 1890s and 1980?",
+    "correct_answer": "Zambia & Zimbabwe",
+    "incorrect_answers": [
+      "Togo & Benin",
+      "Lesotho & Swaziland",
+      "Rwanda & Burundi"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Travel",
+    "question": "What is the longest river in Europe?",
+    "correct_answer": "Volga",
+    "incorrect_answers": [
+      "Danube",
+      "Rhine",
+      "Thames"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What is the second-largest city in Lithuania?",
+    "correct_answer": "Kaunas",
+    "incorrect_answers": [
+      "Panevėžys",
+      "Vilnius",
+      "Klaipėda"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Travel",
+    "question": "How many federal states does Germany have?",
+    "correct_answer": "16",
+    "incorrect_answers": [
+      "13",
+      "32",
+      "25"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Travel",
+    "question": "What is the capital of the US State of New York?",
+    "correct_answer": "Albany",
+    "incorrect_answers": [
+      "Buffalo",
+      "New York",
+      "Rochester"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Travel",
+    "question": "What is Canada's smallest province?",
+    "correct_answer": "Prince Edward Island",
+    "incorrect_answers": [
+      "New Brunswick",
+      "Nova Scotia",
+      "Yukon"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Travel",
+    "question": "Which of the following countries banned the use of personal genetic ancestry tests?",
+    "correct_answer": "Germany",
+    "incorrect_answers": [
+      "Austria",
+      "Canada",
+      "Sweden"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Travel",
+    "question": "What is the official national language of Pakistan?",
+    "correct_answer": "Urdu",
+    "incorrect_answers": [
+      "Indian",
+      "Punjabi",
+      "Pashto"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "The prefix Sino- (As in Sino-American) is used to refer to what nationality?",
+    "correct_answer": "Chinese",
+    "incorrect_answers": [
+      "Japanese",
+      "Russian",
+      "Indian"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Which country is the Taedong River in?",
+    "correct_answer": "North Korea",
+    "incorrect_answers": [
+      "South Korea",
+      "Japan",
+      "China"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "The Hunua Ranges is located in...",
+    "correct_answer": "New Zealand",
+    "incorrect_answers": [
+      "Nepal",
+      "China",
+      "Mexico"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Travel",
+    "question": "What is Russia's second-largest city?",
+    "correct_answer": "Saint Petersburg",
+    "incorrect_answers": [
+      "Minsk",
+      "Nizhny Novgorod",
+      "Vladivostok"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What is the name of the formerly rich fishing grounds off the island of Newfoundland, Canada?",
+    "correct_answer": "Grand Banks",
+    "incorrect_answers": [
+      "Great Barrier Reef",
+      "Mariana Trench",
+      "Hudson Bay"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Travel",
+    "question": "What island in the Canary Islands was the scene of one of the worst air disasters in history with the collision of two jumbo jets?",
+    "correct_answer": "Tenerife",
+    "incorrect_answers": [
+      "Fuerteventura",
+      "Gran Canaria",
+      "Maui"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Which of these is NOT a province in China?",
+    "correct_answer": "Yangtze",
+    "incorrect_answers": [
+      "Fujian",
+      "Sichuan",
+      "Guangdong"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Travel",
+    "question": "What is the capital of the State of Washington, United States?",
+    "correct_answer": "Olympia",
+    "incorrect_answers": [
+      "Washington D.C.",
+      "Seattle",
+      "Yukon"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Travel",
+    "question": "Which is the only US state located entirely within the Appalachia region?",
+    "correct_answer": "West Virginia",
+    "incorrect_answers": [
+      "Pennsylvania",
+      "Alabama",
+      "Kentucky"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Travel",
+    "question": "Where was the ancient city of Pompeii?",
+    "correct_answer": "Italy",
+    "incorrect_answers": [
+      "East Africa",
+      "South America",
+      "Pompilanus"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Travel",
+    "question": "Which country ranks first in the number of historically active volcanoes?",
+    "correct_answer": "Indonesia",
+    "incorrect_answers": [
+      "Japan",
+      "USA",
+      "India"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Travel",
+    "question": "Which city is the capital of the United States of America?",
+    "correct_answer": "Washington D.C",
+    "incorrect_answers": [
+      "Seattle",
+      "Albany",
+      "Los Angeles"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Travel",
+    "question": "Broome is a town in which state of Australia?",
+    "correct_answer": "Western Australia",
+    "incorrect_answers": [
+      "Northern Territory",
+      "South Australia",
+      "Tasmania"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What is the largest city and commercial capital of Sri Lanka?",
+    "correct_answer": "Colombo",
+    "incorrect_answers": [
+      "Moratuwa",
+      "Negombo",
+      "Kandy"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Travel",
+    "question": "Which of the following languages does NOT use the Latin alphabet?",
+    "correct_answer": "Georgian",
+    "incorrect_answers": [
+      "Turkish",
+      "Swahili",
+      "Vietnamese"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Travel",
+    "question": "What event led to Liechenstein adding a crown to its flag?",
+    "correct_answer": "The 1936 Olympics",
+    "incorrect_answers": [
+      "Coronation of Prince Johann I Joseph in 1805",
+      "Charles VI's decree in 1719",
+      "Signing of the 1862 Constitution of Liechtenstein"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Travel",
+    "question": "The land mass of modern day Turkey is called what?",
+    "correct_answer": "Anatolia",
+    "incorrect_answers": [
+      "Ismuth of Ottoma",
+      "Ottoma",
+      "Ismuth of Anatolia"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Travel",
+    "question": "Which of these countries is the smallest by population?",
+    "correct_answer": "Norway",
+    "incorrect_answers": [
+      "Slovakia",
+      "Finland",
+      "Hong Kong"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "About what percentage of flights are delayed per day?",
+    "correct_answer": "20%",
+    "incorrect_answers": [
+      "10%",
+      "30%",
+      "40%"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "According to the legend, what did St Patrick drive out of Ireland?",
+    "correct_answer": "Snakes",
+    "incorrect_answers": [
+      "Rats",
+      "Wolves",
+      "Demons"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Antarctica is a Desert, true or false?",
+    "correct_answer": "TRUE",
+    "incorrect_answers": [
+      "FALSE"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Approximately how many airplane flights depart and land every day?",
+    "correct_answer": "100,000",
+    "incorrect_answers": [
+      "50,000",
+      "200,000",
+      "500,000"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Approximately, how much money is thrown into Rome's Trevi Fountain each day?",
+    "correct_answer": "approx. 3,000 euros",
+    "incorrect_answers": [
+      "approx. 500 euros",
+      "approx. 1,000 euros",
+      "approx. 10,000 euros"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Are There Native Snakes In New Zealand?",
+    "correct_answer": "No",
+    "incorrect_answers": [
+      "Yes"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Big Ben is located in what European city?",
+    "correct_answer": "London",
+    "incorrect_answers": [
+      "Paris",
+      "Rome",
+      "Berlin"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Bodeguita del Medio in Havana, Cuba claims to be the birthplace of what cocktail?",
+    "correct_answer": "A mojito",
+    "incorrect_answers": [
+      "Daiquiri",
+      "Cuba Libre",
+      "Piña Colada"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Easter Island is known for having 1000 of these?",
+    "correct_answer": "Statues",
+    "incorrect_answers": [
+      "Trees",
+      "Volcanoes",
+      "Caves"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Encanto is based in which South American country?",
+    "correct_answer": "Colombia",
+    "incorrect_answers": [
+      "Brazil",
+      "Peru",
+      "Venezuela"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Haggis is the national dish of which country?",
+    "correct_answer": "Scotland",
+    "incorrect_answers": [
+      "Ireland",
+      "England",
+      "Wales"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "How big is Monaco?",
+    "correct_answer": "2 km²",
+    "incorrect_answers": [
+      "1 km²",
+      "5 km²",
+      "10 km²"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "How long is the Great Wall of China?",
+    "correct_answer": "21,196 km",
+    "incorrect_answers": [
+      "10,000 km",
+      "15,000 km",
+      "25,000 km"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "How many capital cities does South Africa have?",
+    "correct_answer": "3",
+    "incorrect_answers": [
+      "1",
+      "2",
+      "4"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "How many countries still have a royal family?",
+    "correct_answer": "43",
+    "incorrect_answers": [
+      "25",
+      "35",
+      "50"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "How many Emirates does the United Arab Emirates (UAE) have?",
+    "correct_answer": "7",
+    "incorrect_answers": [
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "How many floors are in the Empire State Building?",
+    "correct_answer": "102",
+    "incorrect_answers": [
+      "85",
+      "100",
+      "110"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "How many hours is the longest commercial flight?",
+    "correct_answer": "18",
+    "incorrect_answers": [
+      "12",
+      "15",
+      "20"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "How many islands does Australia have?",
+    "correct_answer": "8,222",
+    "incorrect_answers": [
+      "53",
+      "15,644",
+      "5,000"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "How many islands does Spain have?",
+    "correct_answer": "60 islands",
+    "incorrect_answers": [
+      "30 islands",
+      "45 islands",
+      "80 islands"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "How many stars does the United States of America flag have?",
+    "correct_answer": "50",
+    "incorrect_answers": [
+      "48",
+      "51",
+      "52"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "How many states start with the word, 'new'?",
+    "correct_answer": "4",
+    "incorrect_answers": [
+      "2",
+      "3",
+      "5"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "How many Wonders of the World are there?",
+    "correct_answer": "7",
+    "incorrect_answers": [
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "How tall is the Eiffel Tower (to tip)?",
+    "correct_answer": "324 m",
+    "incorrect_answers": [
+      "280 m",
+      "300 m",
+      "350 m"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "In the movie King Kong, Kong climbs what US building?",
+    "correct_answer": "Empire State Building",
+    "incorrect_answers": [
+      "Chrysler Building",
+      "Statue of Liberty",
+      "One World Trade Center"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "In what country would you find tapas?",
+    "correct_answer": "Spain",
+    "incorrect_answers": [
+      "Portugal",
+      "Italy",
+      "Greece"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "In what US city can you find the Golden Gate bridge?",
+    "correct_answer": "San Francisco",
+    "incorrect_answers": [
+      "Los Angeles",
+      "San Diego",
+      "Oakland"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "In which capital city can you find the Parthenon?",
+    "correct_answer": "Athens",
+    "incorrect_answers": [
+      "Rome",
+      "Cairo",
+      "Istanbul"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "In which city would you find Heathrow and Gatwick airports?",
+    "correct_answer": "London",
+    "incorrect_answers": [
+      "New York",
+      "Paris",
+      "Tokyo"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "In which Country are Cows seen as sacred?",
+    "correct_answer": "India",
+    "incorrect_answers": [
+      "Nepal",
+      "Sri Lanka",
+      "Thailand"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "In which country did cheesecake originate?",
+    "correct_answer": "Ancient Greece",
+    "incorrect_answers": [
+      "Italy",
+      "France",
+      "United States"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "In Which Country Do We Say Jultomten Which Means 'The Christmas Gnome'?",
+    "correct_answer": "Sweden",
+    "incorrect_answers": [
+      "Norway",
+      "Denmark",
+      "Finland"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "In which country is Angkor Wat temple?",
+    "correct_answer": "Cambodia",
+    "incorrect_answers": [
+      "Thailand",
+      "Vietnam",
+      "Laos"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "In which country is Christmas island?",
+    "correct_answer": "Australia",
+    "incorrect_answers": [
+      "Indonesia",
+      "Malaysia",
+      "Philippines"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "In which country is pig beach?",
+    "correct_answer": "The Bahamas",
+    "incorrect_answers": [
+      "Jamaica",
+      "Cuba",
+      "Mexico"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "In Which Country is the 'Thumbs Up' Gesture considered an insult?",
+    "correct_answer": "Iran",
+    "incorrect_answers": [
+      "Greece",
+      "Turkey",
+      "Bulgaria"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "In which country is the Great Sphinx?",
+    "correct_answer": "Egypt",
+    "incorrect_answers": [
+      "Sudan",
+      "Libya",
+      "Jordan"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "In which country is the Loch Ness?",
+    "correct_answer": "Scotland",
+    "incorrect_answers": [
+      "Ireland",
+      "England",
+      "Wales"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "In Which Country Is The Plain Of Jars?",
+    "correct_answer": "Laos",
+    "incorrect_answers": [
+      "Vietnam",
+      "Cambodia",
+      "Thailand"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "In which country is the world's highest waterfall?",
+    "correct_answer": "Venezuela",
+    "incorrect_answers": [
+      "Brazil",
+      "South Africa",
+      "Norway"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "In which country is Zanzibar located?",
+    "correct_answer": "Tanzania",
+    "incorrect_answers": [
+      "Kenya",
+      "Mozambique",
+      "Somalia"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "In which country was the airline Ryanair founded?",
+    "correct_answer": "Ireland",
+    "incorrect_answers": [
+      "United Kingdom",
+      "Spain",
+      "Italy"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "In Which Country Will You Find Sigiriya, The Lion Rock Fortress?",
+    "correct_answer": "Sri Lanka",
+    "incorrect_answers": [
+      "India",
+      "Nepal",
+      "Myanmar"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "In which country would you find the currency 'baht'?",
+    "correct_answer": "Thailand",
+    "incorrect_answers": [
+      "Vietnam",
+      "Cambodia",
+      "Laos"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "In which country would you find the Zhangjiajie National Forest Park?",
+    "correct_answer": "China",
+    "incorrect_answers": [
+      "Japan",
+      "South Korea",
+      "Vietnam"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "In which famous natural landmark is Nemo born?",
+    "correct_answer": "The Great Barrier Reef",
+    "incorrect_answers": [
+      "The Amazon",
+      "The Nile",
+      "The Grand Canyon"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "In which Italian city was the pizza invented?",
+    "correct_answer": "Naples",
+    "incorrect_answers": [
+      "Rome",
+      "Milan",
+      "Florence"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "In which museum can you find the Rosetta Stone?",
+    "correct_answer": "The British museum",
+    "incorrect_answers": [
+      "Louvre",
+      "Metropolitan Museum of Art",
+      "Egyptian Museum in Cairo"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "In which Spanish city is the Sagrada Familia?",
+    "correct_answer": "Barcelona",
+    "incorrect_answers": [
+      "Madrid",
+      "Seville",
+      "Valencia"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "In which state is the Grand Canyon?",
+    "correct_answer": "Arizona",
+    "incorrect_answers": [
+      "Nevada",
+      "Utah",
+      "New Mexico"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "In which state would you find Mount Rushmore?",
+    "correct_answer": "South Dakota",
+    "incorrect_answers": [
+      "North Dakota",
+      "Wyoming",
+      "Montana"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "India trains transport how many passengers per day?",
+    "correct_answer": "23,000,000",
+    "incorrect_answers": [
+      "10,000,000",
+      "15,000,000",
+      "30,000,000"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "It's The Great Wall of _____",
+    "correct_answer": "China",
+    "incorrect_answers": [
+      "Japan",
+      "Korea",
+      "Mongolia"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "London's Winter Wonderland happens in which park?",
+    "correct_answer": "Hyde Park",
+    "incorrect_answers": [
+      "Regent's Park",
+      "Kensington Gardens",
+      "Green Park"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Machu Picchu is located in which country?",
+    "correct_answer": "Peru",
+    "incorrect_answers": [
+      "Chile",
+      "Bolivia",
+      "Ecuador"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Maté is the National Drink of which South American Country?",
+    "correct_answer": "Argentina",
+    "incorrect_answers": [
+      "Uruguay",
+      "Paraguay",
+      "Brazil"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Mount Kilimanjaro is located in which country?",
+    "correct_answer": "Tanzania",
+    "incorrect_answers": [
+      "Kenya",
+      "Uganda",
+      "Ethiopia"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Mulan is from what country?",
+    "correct_answer": "China",
+    "incorrect_answers": [
+      "Japan",
+      "Korea",
+      "Vietnam"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Name Italy's Most Popular Frozen Dessert?",
+    "correct_answer": "Gelato",
+    "incorrect_answers": [
+      "Sorbet",
+      "Semifreddo",
+      "Granita"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Name the first state to enter the union.",
+    "correct_answer": "Delaware",
+    "incorrect_answers": [
+      "Pennsylvania",
+      "New Jersey",
+      "Georgia"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Name The Four President's Heads Who Are Carved Into Mount Rushmore.",
+    "correct_answer": "George Washington, Thomas Jefferson, Theodore Roosevelt, and Abraham Lincoln",
+    "incorrect_answers": [
+      "Washington, Adams, Jefferson, Lincoln",
+      "Washington, Jefferson, Madison, Monroe",
+      "Roosevelt, Taft, Wilson, Harding"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Name The Largest Art Museum In The World?",
+    "correct_answer": "The Louvre, Paris",
+    "incorrect_answers": [
+      "British Museum, London",
+      "Metropolitan Museum of Art, New York",
+      "Hermitage Museum, St. Petersburg"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Name the largest city in the world:",
+    "correct_answer": "Tokyo",
+    "incorrect_answers": [
+      "Delhi",
+      "Shanghai",
+      "São Paulo"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Name the last state to enter the union",
+    "correct_answer": "Hawaii",
+    "incorrect_answers": [
+      "Alaska",
+      "Arizona",
+      "New Mexico"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Name the smallest country in the world:",
+    "correct_answer": "The Vatican City",
+    "incorrect_answers": [
+      "Monaco",
+      "San Marino",
+      "Liechtenstein"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "On what Caribbean Island can you swim with pigs?",
+    "correct_answer": "Bahamas",
+    "incorrect_answers": [
+      "Jamaica",
+      "Cuba",
+      "Dominican Republic"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Pizza originates from which European country?",
+    "correct_answer": "Italy",
+    "incorrect_answers": [
+      "France",
+      "Greece",
+      "Spain"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Princess and the Frog is set in what US city?",
+    "correct_answer": "New Orleans",
+    "incorrect_answers": [
+      "Atlanta",
+      "Charleston",
+      "Savannah"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Puerto Rico is a territory of what country?",
+    "correct_answer": "United States",
+    "incorrect_answers": [
+      "Spain",
+      "Mexico",
+      "Dominican Republic"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "RAK is the code of which airport?",
+    "correct_answer": "Marrakech Airport",
+    "incorrect_answers": [
+      "Riyadh Airport",
+      "Rabat Airport",
+      "Casablanca Airport"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Rome–Fiumicino International Airport is named after a famous artist. Which one?",
+    "correct_answer": "Leonardo Da Vinci",
+    "incorrect_answers": [
+      "Michelangelo",
+      "Raphael",
+      "Caravaggio"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Russia has how many time zones?",
+    "correct_answer": "11",
+    "incorrect_answers": [
+      "9",
+      "10",
+      "12"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Saigon in Vietnam changed its name to what in 1976?",
+    "correct_answer": "Ho Chi Minh City",
+    "incorrect_answers": [
+      "Hanoi",
+      "Da Nang",
+      "Hue"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Saltfish and ackee is the national dish of which country?",
+    "correct_answer": "Jamaica",
+    "incorrect_answers": [
+      "Trinidad and Tobago",
+      "Barbados",
+      "Haiti"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Since 1971 the 'Door to Hell' has been burning in which country?",
+    "correct_answer": "Turkmenistan",
+    "incorrect_answers": [
+      "Kazakhstan",
+      "Uzbekistan",
+      "Azerbaijan"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Spain has the world's largest food fight, what food is thrown?",
+    "correct_answer": "Tomatoes",
+    "incorrect_answers": [
+      "Oranges",
+      "Eggs",
+      "Flour"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Spain is the largest producer of this pitted fruit:",
+    "correct_answer": "Olives",
+    "incorrect_answers": [
+      "Cherries",
+      "Peaches",
+      "Plums"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Stinky Tofu is the National Dish of which Country?",
+    "correct_answer": "Taiwan",
+    "incorrect_answers": [
+      "China",
+      "Thailand",
+      "Malaysia"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Sydney Opera House is a famous landmark of this country:",
+    "correct_answer": "Australia",
+    "incorrect_answers": [
+      "New Zealand",
+      "Singapore",
+      "South Africa"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "The ancient Colosseum amphitheater is located in which European city:",
+    "correct_answer": "Rome",
+    "incorrect_answers": [
+      "Athens",
+      "Naples",
+      "Florence"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "The Appalachian National Scenic Trail goes through how many states?",
+    "correct_answer": "14",
+    "incorrect_answers": [
+      "11",
+      "12",
+      "13"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "The archaeological site of Petra is found in what country?",
+    "correct_answer": "Jordan",
+    "incorrect_answers": [
+      "Israel",
+      "Egypt",
+      "Saudi Arabia"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "The Aurora Borealis is also known as?",
+    "correct_answer": "The Northern Lights",
+    "incorrect_answers": [
+      "The Southern Lights",
+      "Midnight Sun",
+      "Arctic Haze"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "The Big Banana is a landmark in which country?",
+    "correct_answer": "Australia",
+    "incorrect_answers": [
+      "United States",
+      "Philippines",
+      "Ecuador"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "The Blue Lagoon is located in which country?",
+    "correct_answer": "Iceland",
+    "incorrect_answers": [
+      "Norway",
+      "Sweden",
+      "Greenland"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "The breakfast dish, Huevos rancheros is from which country?",
+    "correct_answer": "Mexico",
+    "incorrect_answers": [
+      "Spain",
+      "Guatemala",
+      "Costa Rica"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "The Canadian Flag has which icon it on?",
+    "correct_answer": "Maple Leaf",
+    "incorrect_answers": [
+      "Beaver",
+      "Moose",
+      "Goose"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "The Dish Poutine belongs to which Country?",
+    "correct_answer": "Canada",
+    "incorrect_answers": [
+      "United States",
+      "France",
+      "Belgium"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "The famous 'Panama hat' actually comes from this country",
+    "correct_answer": "Ecuador",
+    "incorrect_answers": [
+      "Panama",
+      "Colombia",
+      "Peru"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "The kebab is from which country?",
+    "correct_answer": "Turkey",
+    "incorrect_answers": [
+      "Greece",
+      "Iran",
+      "Lebanon"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "The longest boardwalk in the world exists in this city and state.",
+    "correct_answer": "Atlantic City, New Jersey",
+    "incorrect_answers": [
+      "Santa Monica, California",
+      "Coney Island, New York",
+      "Myrtle Beach, South Carolina"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "The Rome Colosseum is one of the Wonders of the World? True or False?",
+    "correct_answer": "TRUE",
+    "incorrect_answers": [
+      "FALSE"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "The rotten meat of this animal is the national dish of Iceland:",
+    "correct_answer": "Shark",
+    "incorrect_answers": [
+      "Whale",
+      "Puffin",
+      "Horse"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "The second oldest tree is 4,000 years old. Where does it live?",
+    "correct_answer": "Iran",
+    "incorrect_answers": [
+      "Japan",
+      "Chile",
+      "United States"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "There's a bench at the Taj Mahal named after someone, who is it?",
+    "correct_answer": "Princess Diana",
+    "incorrect_answers": [
+      "Queen Elizabeth II",
+      "Mother Teresa",
+      "Jacqueline Kennedy"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Travelling in what direction makes jet lag worse?",
+    "correct_answer": "West to East",
+    "incorrect_answers": [
+      "East to West",
+      "North to South",
+      "South to North"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "True or False – There is a town named Condom in France.",
+    "correct_answer": "TRUE",
+    "incorrect_answers": [
+      "FALSE"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "True Or False, The North Pole Has No Land?",
+    "correct_answer": "TRUE",
+    "incorrect_answers": [
+      "FALSE"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What American city is known as 'The Big Easy'?",
+    "correct_answer": "New Orleans",
+    "incorrect_answers": [
+      "Las Vegas",
+      "Miami",
+      "Atlanta"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What animal only resides in Borneo or Sumatra?",
+    "correct_answer": "Orangutans",
+    "incorrect_answers": [
+      "Gorillas",
+      "Chimpanzees",
+      "Bonobos"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What are the names of the 7 continents?",
+    "correct_answer": "Asia, Africa, Antarctica, Europa, North America, South America, Oceania/Australia",
+    "incorrect_answers": [
+      "Asia, Africa, Europe, North America, South America, Australia, Antarctica",
+      "Asia, Africa, Europe, North America, South America, Australia, Arctic",
+      "Asia, Africa, Europe, America, Oceania, Antarctica, Zealandia"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What Australian city do Marlin and Dory swim to in the movie Finding Nemo?",
+    "correct_answer": "Sydney",
+    "incorrect_answers": [
+      "Melbourne",
+      "Brisbane",
+      "Perth"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What city has the most bridges in the world?",
+    "correct_answer": "Hamburg",
+    "incorrect_answers": [
+      "Venice",
+      "Amsterdam",
+      "Pittsburgh"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What city in India has the largest population?",
+    "correct_answer": "Mumbai",
+    "incorrect_answers": [
+      "Delhi",
+      "Kolkata",
+      "Bangalore"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What city is the Liberty Bell located in?",
+    "correct_answer": "Philadelphia",
+    "incorrect_answers": [
+      "Boston",
+      "Washington DC",
+      "New York"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What continent is home to the newest country in the world?",
+    "correct_answer": "Africa",
+    "incorrect_answers": [
+      "Asia",
+      "Europe",
+      "South America"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What countries national airline is named 'Aer Lingus'",
+    "correct_answer": "Ireland",
+    "incorrect_answers": [
+      "Spain",
+      "Portugal",
+      "Iceland"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What countries share the world's longest international border?",
+    "correct_answer": "Canada and USA",
+    "incorrect_answers": [
+      "USA and Mexico",
+      "Russia and Kazakhstan",
+      "Argentina and Chile"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What country consumes the most cheese per person?",
+    "correct_answer": "France",
+    "incorrect_answers": [
+      "Italy",
+      "Switzerland",
+      "United States"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What country does not to have a rectangle or square flag?",
+    "correct_answer": "Nepal",
+    "incorrect_answers": [
+      "Switzerland",
+      "Vatican City",
+      "Bhutan"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What country has the largest pyramid (by volume) in the world?",
+    "correct_answer": "Mexico",
+    "incorrect_answers": [
+      "Egypt",
+      "Sudan",
+      "Guatemala"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What country has the most neighbors?",
+    "correct_answer": "China and Russia",
+    "incorrect_answers": [
+      "Germany and France",
+      "Brazil and Argentina",
+      "India and Pakistan"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What country has the most UNESCO World Heritage Sites?",
+    "correct_answer": "Italy",
+    "incorrect_answers": [
+      "China",
+      "Spain",
+      "France"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What country has the Phi Phi islands?",
+    "correct_answer": "Thailand",
+    "incorrect_answers": [
+      "Vietnam",
+      "Malaysia",
+      "Indonesia"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What country has the tallest people in the world?",
+    "correct_answer": "The Netherlands",
+    "incorrect_answers": [
+      "Denmark",
+      "Norway",
+      "Sweden"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What country is completely land-locked in South America?",
+    "correct_answer": "Bolivia or Paraguay",
+    "incorrect_answers": [
+      "Bolivia only",
+      "Paraguay only",
+      "Uruguay"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What Country Is Obsessed With Eating KFC On Christmas Day?",
+    "correct_answer": "Japan",
+    "incorrect_answers": [
+      "China",
+      "South Korea",
+      "Philippines"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What country is the island of Mykonos part of?",
+    "correct_answer": "Greece",
+    "incorrect_answers": [
+      "Turkey",
+      "Cyprus",
+      "Croatia"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What country would you find the archaeological site of Troy?",
+    "correct_answer": "Turkey",
+    "incorrect_answers": [
+      "Greece",
+      "Italy",
+      "Egypt"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What currency did Italy use before the Euro?",
+    "correct_answer": "Lira",
+    "incorrect_answers": [
+      "Franc",
+      "Peseta",
+      "Drachma"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What does DC, in Washington DC, stand for?",
+    "correct_answer": "District of Columbia",
+    "incorrect_answers": [
+      "District of Congress",
+      "District of Capital",
+      "Direct Current"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What does ESTA stand for?",
+    "correct_answer": "Electronic System for Travel Authorization",
+    "incorrect_answers": [
+      "European System for Travel Authorization",
+      "Electronic Service for Travel Authorization",
+      "Entry System for Travel Authorization"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What does UNESCO stand for?",
+    "correct_answer": "United Nations Educational, Scientific and Cultural Organization",
+    "incorrect_answers": [
+      "United Nations Economic and Social Cultural Organization",
+      "United Nations Educational, Social and Cultural Organization",
+      "Union of Nations Educational, Scientific and Cultural Organization"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What European city is known as 'The City of Lights'?",
+    "correct_answer": "Paris",
+    "incorrect_answers": [
+      "London",
+      "Rome",
+      "Vienna"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What famous sea touches Ukraine, Russia, Georgia, Turkey, Bulgaria and Romania?",
+    "correct_answer": "The Black Sea",
+    "incorrect_answers": [
+      "The Caspian Sea",
+      "The Mediterranean Sea",
+      "The Aegean Sea"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What fast food chain has the most locations in the world?",
+    "correct_answer": "McDonald's",
+    "incorrect_answers": [
+      "Subway",
+      "KFC",
+      "Burger King"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What grain was used in the construction of the Great Wall of China?",
+    "correct_answer": "Rice",
+    "incorrect_answers": [
+      "Wheat",
+      "Millet",
+      "Barley"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What is a TGV in France?",
+    "correct_answer": "High-Speed Train",
+    "incorrect_answers": [
+      "Airport Code",
+      "Motorway",
+      "Television Network"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What is Canada's national animal?",
+    "correct_answer": "Beaver",
+    "incorrect_answers": [
+      "Moose",
+      "Bear",
+      "Lynx"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What is escargot?",
+    "correct_answer": "Snails",
+    "incorrect_answers": [
+      "Frogs",
+      "Mussels",
+      "Oysters"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What is Europe's most mountainous country?",
+    "correct_answer": "Switzerland",
+    "incorrect_answers": [
+      "Austria",
+      "Italy",
+      "Norway"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What is Italy's national dish?",
+    "correct_answer": "Ragu alla Bolognese",
+    "incorrect_answers": [
+      "Pizza",
+      "Pasta Carbonara",
+      "Lasagna"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What Is Located North Of Arctic Circle Considered As Christmas HQ?",
+    "correct_answer": "Rovaniemi, Lapland",
+    "incorrect_answers": [
+      "Santa Claus Village, Alaska",
+      "North Pole, Canada",
+      "Tromsø, Norway"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What is Scotland's national dish?",
+    "correct_answer": "Haggis",
+    "incorrect_answers": [
+      "Shortbread",
+      "Cullen Skink",
+      "Porridge"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What is Scotlands National Animal?",
+    "correct_answer": "A Unicorn",
+    "incorrect_answers": [
+      "A Lion",
+      "A Dragon",
+      "A Stag"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What is the biggest city in China?",
+    "correct_answer": "Shanghai",
+    "incorrect_answers": [
+      "Beijing",
+      "Guangzhou",
+      "Shenzhen"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What is the busiest airport in the USA?",
+    "correct_answer": "Hartsfield-Jackson Atlanta International Airport",
+    "incorrect_answers": [
+      "Los Angeles International Airport",
+      "O'Hare International Airport",
+      "Dallas/Fort Worth International Airport"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What is the busiest airport in the world?",
+    "correct_answer": "Hartsfield-Jackson Atlanta International Airport",
+    "incorrect_answers": [
+      "Dubai International Airport",
+      "Beijing Capital International Airport",
+      "London Heathrow Airport"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What is the capital city of Afghanistan?",
+    "correct_answer": "Kabul",
+    "incorrect_answers": [
+      "Kandahar",
+      "Herat",
+      "Mazar-i-Sharif"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What is the capital city of Switzerland?",
+    "correct_answer": "Bern",
+    "incorrect_answers": [
+      "Zurich",
+      "Geneva",
+      "Basel"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What is the Capital City of Turkey?",
+    "correct_answer": "Ankara",
+    "incorrect_answers": [
+      "Istanbul",
+      "Izmir",
+      "Antalya"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What is the capital of Australia?",
+    "correct_answer": "Canberra",
+    "incorrect_answers": [
+      "Sydney",
+      "Melbourne",
+      "Perth"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What is the capital of Brazil?",
+    "correct_answer": "Brasilia",
+    "incorrect_answers": [
+      "Rio de Janeiro",
+      "São Paulo",
+      "Salvador"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What is the capital of Ukraine?",
+    "correct_answer": "Kyiv",
+    "incorrect_answers": [
+      "Lviv",
+      "Odessa",
+      "Kharkiv"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What is the currency of South Korea?",
+    "correct_answer": "South Korean Won",
+    "incorrect_answers": [
+      "Japanese Yen",
+      "Chinese Yuan",
+      "North Korean Won"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What is the deepest lake in the world?",
+    "correct_answer": "Lake Baikal",
+    "incorrect_answers": [
+      "Lake Tanganyika",
+      "Lake Superior",
+      "Lake Victoria"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What is the Dragon Khan?",
+    "correct_answer": "A roller coaster in PortAventura Park (Spain)",
+    "incorrect_answers": [
+      "A Japanese anime",
+      "A Thai martial art",
+      "A Chinese dynasty"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What is the driest continent?",
+    "correct_answer": "Antarctica",
+    "incorrect_answers": [
+      "Australia",
+      "Africa",
+      "Asia"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What is the highest mountain in Africa?",
+    "correct_answer": "Mount Kilimanjaro",
+    "incorrect_answers": [
+      "Mount Kenya",
+      "Mount Stanley",
+      "Ras Dashen"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What is the highest point in the world?",
+    "correct_answer": "Mount Everest, Nepal/Tibet",
+    "incorrect_answers": [
+      "K2, Pakistan/China",
+      "Kangchenjunga, Nepal/India",
+      "Makalu, Nepal/Tibet"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What is the largest Australian airline?",
+    "correct_answer": "Qantas",
+    "incorrect_answers": [
+      "Virgin Australia",
+      "Jetstar",
+      "Rex Airlines"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What is the largest city in the world by population?",
+    "correct_answer": "Tokyo",
+    "incorrect_answers": [
+      "Delhi",
+      "Shanghai",
+      "São Paulo"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What is the largest country by size?",
+    "correct_answer": "Russia",
+    "incorrect_answers": [
+      "Canada",
+      "China",
+      "United States"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What is the largest country in Africa?",
+    "correct_answer": "Algeria",
+    "incorrect_answers": [
+      "Sudan",
+      "DR Congo",
+      "Libya"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What is the largest hot desert in the world?",
+    "correct_answer": "Sahara Desert",
+    "incorrect_answers": [
+      "Arabian Desert",
+      "Gobi Desert",
+      "Kalahari Desert"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What is the largest island in the world?",
+    "correct_answer": "Greenland",
+    "incorrect_answers": [
+      "New Guinea",
+      "Borneo",
+      "Madagascar"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What is the largest sized airport in the world?",
+    "correct_answer": "King Fahd International Airport in Dammam, Saudi Arabia",
+    "incorrect_answers": [
+      "Denver International Airport, USA",
+      "Dallas/Fort Worth International Airport, USA",
+      "Beijing Daxing International Airport, China"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What is the least visited country in the world?",
+    "correct_answer": "Tuvalu",
+    "incorrect_answers": [
+      "Nauru",
+      "Kiribati",
+      "Marshall Islands"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What is the longest highway in the United States?",
+    "correct_answer": "Route 20 (Massachusetts to Oregon)",
+    "incorrect_answers": [
+      "Route 66",
+      "Route 1",
+      "Interstate 90"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What is the most Northern Capital City?",
+    "correct_answer": "Reykjavik",
+    "incorrect_answers": [
+      "Helsinki",
+      "Oslo",
+      "Stockholm"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What Is The Most Photographed Landmark In Australia?",
+    "correct_answer": "Sydney Opera House",
+    "incorrect_answers": [
+      "Uluru",
+      "Harbour Bridge",
+      "Great Barrier Reef"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What is the most popular tourist city in the United States?",
+    "correct_answer": "New York City",
+    "incorrect_answers": [
+      "Los Angeles",
+      "Las Vegas",
+      "Orlando"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What is the most southerly capital city in the world?",
+    "correct_answer": "Wellington",
+    "incorrect_answers": [
+      "Santiago",
+      "Canberra",
+      "Buenos Aires"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What is the most spoken language in the world?",
+    "correct_answer": "Mandarin Chinese",
+    "incorrect_answers": [
+      "Spanish",
+      "English",
+      "Hindi"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What is the most visited country in the world?",
+    "correct_answer": "France",
+    "incorrect_answers": [
+      "Spain",
+      "United States",
+      "China"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What Is The Most Visited Tourist Attraction In The World?",
+    "correct_answer": "Times Square",
+    "incorrect_answers": [
+      "The Louvre",
+      "Great Wall of China",
+      "Disney World"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What is the most widely eaten food in the world?",
+    "correct_answer": "Rice",
+    "incorrect_answers": [
+      "Wheat",
+      "Corn",
+      "Potatoes"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What is the national animal of Canada?",
+    "correct_answer": "The Beaver",
+    "incorrect_answers": [
+      "Moose",
+      "Canadian Horse",
+      "Common Loon"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What Is The National Dish Of Hungary?",
+    "correct_answer": "Gulyás (Goulash)",
+    "incorrect_answers": [
+      "Chicken Paprikash",
+      "Langos",
+      "Dobos Cake"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What is the National Dish of Spain?",
+    "correct_answer": "Paella",
+    "incorrect_answers": [
+      "Tortilla Española",
+      "Jamon",
+      "Gazpacho"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What Is The Nickname For The Clock At The End Of The Palace Of Westminster?",
+    "correct_answer": "Big Ben",
+    "incorrect_answers": [
+      "St. Stephen's Tower",
+      "Elizabeth Tower",
+      "Westminster Clock"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What is the nickname of New York City?",
+    "correct_answer": "The Big Apple",
+    "incorrect_answers": [
+      "The City That Never Sleeps",
+      "Gotham",
+      "Empire City"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What is the only living structure visible from space?",
+    "correct_answer": "The Great Barrier Reef",
+    "incorrect_answers": [
+      "The Amazon Rainforest",
+      "The Great Wall of China",
+      "Palm Jumeirah"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What is the population density for England?",
+    "correct_answer": "434 per km2",
+    "incorrect_answers": [
+      "300 per km2",
+      "500 per km2",
+      "600 per km2"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What is the southernmost capital city in the world?",
+    "correct_answer": "Wellington (New Zealand)",
+    "incorrect_answers": [
+      "Santiago (Chile)",
+      "Canberra (Australia)",
+      "Buenos Aires (Argentina)"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What is the tallest building in the world?",
+    "correct_answer": "Burj Khalifa",
+    "incorrect_answers": [
+      "Shanghai Tower",
+      "Abraj Al Bait",
+      "Ping An Finance Centre"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What is the White House's address?",
+    "correct_answer": "1600 Pennsylvania Avenue NW, Washington DC",
+    "incorrect_answers": [
+      "1600 Pennsylvania Avenue, New York",
+      "1600 Constitution Avenue, Washington DC",
+      "1600 Capitol Avenue, Washington DC"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What is the world's busiest international airport?",
+    "correct_answer": "Dubai International Airport",
+    "incorrect_answers": [
+      "London Heathrow Airport",
+      "Tokyo Haneda Airport",
+      "Paris Charles de Gaulle Airport"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What is the world's largest island?",
+    "correct_answer": "Greenland",
+    "incorrect_answers": [
+      "Australia",
+      "New Guinea",
+      "Borneo"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What is the world's largest salt desert?",
+    "correct_answer": "Gran Salar de Uyuni in Bolivia",
+    "incorrect_answers": [
+      "Salar de Atacama in Chile",
+      "Etosha pan in Namibia",
+      "Bonnieville Salt Flats in Utah"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What is the world's longest designated hiking trail?",
+    "correct_answer": "Pacific Crest Trail",
+    "incorrect_answers": [
+      "Appalachian Trail",
+      "Continental Divide Trail",
+      "Camino de Santiago"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What island famous island prison is located in California?",
+    "correct_answer": "Alcatraz",
+    "incorrect_answers": [
+      "Angel Island",
+      "Treasure Island",
+      "Santa Catalina Island"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What museum has The Starry Night by Vincent Van Gogh?",
+    "correct_answer": "Museum of Modern Art in New York City",
+    "incorrect_answers": [
+      "Van Gogh Museum in Amsterdam",
+      "Musée d'Orsay in Paris",
+      "Art Institute of Chicago"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What percentage of the earth is water?",
+    "correct_answer": "71%",
+    "incorrect_answers": [
+      "65%",
+      "75%",
+      "80%"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What river runs through London?",
+    "correct_answer": "River Thames",
+    "incorrect_answers": [
+      "River Severn",
+      "River Great Ouse",
+      "River Tyne"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What river runs through the Grand Canyon?",
+    "correct_answer": "Colorado River",
+    "incorrect_answers": [
+      "Rio Grande",
+      "Mississippi River",
+      "Columbia River"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What Scandinavian country is the safest country in the world?",
+    "correct_answer": "Iceland",
+    "incorrect_answers": [
+      "Norway",
+      "Denmark",
+      "Sweden"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What Sea is to the North of Turkey?",
+    "correct_answer": "The Black Sea",
+    "incorrect_answers": [
+      "The Mediterranean Sea",
+      "The Aegean Sea",
+      "The Caspian Sea"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What shape is a samosa?",
+    "correct_answer": "Triangle",
+    "incorrect_answers": [
+      "Circle",
+      "Square",
+      "Rectangle"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What Texas city is home to The Alamo?",
+    "correct_answer": "San Antonio",
+    "incorrect_answers": [
+      "Austin",
+      "Houston",
+      "Dallas"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What three colors make up Germany's flag?",
+    "correct_answer": "Black, red and yellow",
+    "incorrect_answers": [
+      "Black, red and gold",
+      "Red, white and blue",
+      "Red, yellow and blue"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What type of flowers is Holland known for?",
+    "correct_answer": "Tulips",
+    "incorrect_answers": [
+      "Roses",
+      "Daffodils",
+      "Lilies"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What type of geographical feature is the Stromboli?",
+    "correct_answer": "A volcano",
+    "incorrect_answers": [
+      "An island",
+      "A river",
+      "A mountain range"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What US city has the busiest cruise port in the world?",
+    "correct_answer": "Miami",
+    "incorrect_answers": [
+      "Port Canaveral",
+      "Los Angeles",
+      "Seattle"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What US city is the Space Needle located in?",
+    "correct_answer": "Seattle",
+    "incorrect_answers": [
+      "Portland",
+      "Vancouver",
+      "San Francisco"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What US state is the film Lilo & Stitch set in?",
+    "correct_answer": "Hawaii",
+    "incorrect_answers": [
+      "California",
+      "Florida",
+      "Alaska"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What Was Ho Chi Minh City Previously Called?",
+    "correct_answer": "Saigon",
+    "incorrect_answers": [
+      "Hanoi",
+      "Da Nang",
+      "Hue"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What's the capital of Australia?",
+    "correct_answer": "Canberra",
+    "incorrect_answers": [
+      "Sydney",
+      "Melbourne",
+      "Perth"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "What's The Name Of The Famous Mosque In Abu Dhabi?",
+    "correct_answer": "Sheikh Zayed Grand Mosque",
+    "incorrect_answers": [
+      "Al-Masjid an-Nabawi",
+      "Al-Aqsa Mosque",
+      "Great Mosque of Mecca"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Where are the Spanish Steps located?",
+    "correct_answer": "Rome, Italy",
+    "incorrect_answers": [
+      "Madrid, Spain",
+      "Barcelona, Spain",
+      "Lisbon, Portugal"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Where Can You Find The Seven Coloured Earths?",
+    "correct_answer": "Mauritus",
+    "incorrect_answers": [
+      "Seychelles",
+      "Maldives",
+      "Indonesia"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Where did the bungee jump originate?",
+    "correct_answer": "Auckland, New Zealand",
+    "incorrect_answers": [
+      "Sydney, Australia",
+      "London, England",
+      "Portland, Oregon"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Where is the best-preserved meteor crater located?",
+    "correct_answer": "Winslow, Arizona",
+    "incorrect_answers": [
+      "Roosevelt, New Mexico",
+      "Meteor Crater, Texas",
+      "Odessa, Texas"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Where is the Great Pyramid in Egypt?",
+    "correct_answer": "Cairo, Giza",
+    "incorrect_answers": [
+      "Alexandria",
+      "Luxor",
+      "Aswan"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Where Is The World's Largest Nativity Scene Located?",
+    "correct_answer": "Einsiedeln, Switzerland",
+    "incorrect_answers": [
+      "Vatican City",
+      "Bethlehem, Palestine",
+      "Cologne, Germany"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Where was the capital of Spain before Madrid?",
+    "correct_answer": "Toledo",
+    "incorrect_answers": [
+      "Seville",
+      "Barcelona",
+      "Valencia"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Where would you find the Callanish?",
+    "correct_answer": "The Isle of Harris in Scotland",
+    "incorrect_answers": [
+      "The Isle of Skye in Scotland",
+      "Cornwall, England",
+      "Wales"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Which 4 US presidents are in Mount Rushmore?",
+    "correct_answer": "George Washington, Thomas Jefferson, Theodore Roosevelt, and Abraham Lincoln",
+    "incorrect_answers": [
+      "Washington, Adams, Jefferson, Lincoln",
+      "Washington, Jefferson, Madison, Monroe",
+      "Roosevelt, Taft, Wilson, Harding"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Which actress portrayed Cheryl Strayed in Wild?",
+    "correct_answer": "Reese Witherspoon",
+    "incorrect_answers": [
+      "Jennifer Lawrence",
+      "Julia Roberts",
+      "Meryl Streep"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Which airline's logo has a red maple leaf?",
+    "correct_answer": "Air Canada",
+    "incorrect_answers": [
+      "WestJet",
+      "American Airlines",
+      "Delta Air Lines"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Which Asian country has more than 17,000 islands?",
+    "correct_answer": "Indonesia",
+    "incorrect_answers": [
+      "Philippines",
+      "Japan",
+      "Malaysia"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Which author wrote the book Eat, Pray, Love?",
+    "correct_answer": "Eat, Pray, Love",
+    "incorrect_answers": [
+      "Elizabeth Gilbert",
+      "Paulo Coelho",
+      "Cheryl Strayed"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Which capital city has a name that means 'good airs' in English?",
+    "correct_answer": "Buenos Aires in Argentina",
+    "incorrect_answers": [
+      "Montevideo in Uruguay",
+      "Santiago in Chile",
+      "Asunción in Paraguay"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Which capital city has the most Michelin stars in the world – London, Paris or Toyko?",
+    "correct_answer": "Tokyo",
+    "incorrect_answers": [
+      "London",
+      "Paris"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Which Central South American Country Is Home To The Largest Salt Flats In The World?",
+    "correct_answer": "Bolivia",
+    "incorrect_answers": [
+      "Chile",
+      "Argentina",
+      "Peru"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Which city (not in Poland) has the highest Polish population in the world?",
+    "correct_answer": "Chicago",
+    "incorrect_answers": [
+      "New York",
+      "Toronto",
+      "London"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Which city do croissants originate from?",
+    "correct_answer": "Vienna",
+    "incorrect_answers": [
+      "Paris",
+      "Budapest",
+      "Prague"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Which city has more cars than people?",
+    "correct_answer": "San Marino, Italy",
+    "incorrect_answers": [
+      "Monaco, Monaco",
+      "Vatican City",
+      "Los Angeles, USA"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Which city is known as the 'City of Seven Hills'?",
+    "correct_answer": "Lisbon, Portugal",
+    "incorrect_answers": [
+      "Rome, Italy",
+      "Istanbul, Turkey",
+      "Athens, Greece"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Which City Is Referred To As 'The Windy City'?",
+    "correct_answer": "Chicago",
+    "incorrect_answers": [
+      "Boston",
+      "New York",
+      "Kansas City"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Which city is situated on two continents?",
+    "correct_answer": "Istanbul",
+    "incorrect_answers": [
+      "Moscow",
+      "Cairo",
+      "London"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Which Cocktail Originated In The Raffles Hotel, Singapore?",
+    "correct_answer": "Singapore Sling",
+    "incorrect_answers": [
+      "Mai Tai",
+      "Pina Colada",
+      "Mojito"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Which colour is the Easyjet logo?",
+    "correct_answer": "Orange",
+    "incorrect_answers": [
+      "Yellow",
+      "Blue",
+      "Purple"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Which Continent Doesn't Have Ants?",
+    "correct_answer": "Antarctica",
+    "incorrect_answers": [
+      "Australia",
+      "South America",
+      "Europe"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Which Continent is Mexico in?",
+    "correct_answer": "North America",
+    "incorrect_answers": [
+      "South America",
+      "Central America",
+      "Latin America"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Which Countries flag has an AK47 on it?",
+    "correct_answer": "Mozambique",
+    "incorrect_answers": [
+      "Zimbabwe",
+      "Angola",
+      "Cuba"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Which country celebrated the millennium in 2007?",
+    "correct_answer": "Ethiopia",
+    "incorrect_answers": [
+      "Nepal",
+      "Iran",
+      "Myanmar"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Which country does NOT have a rectangular flag?",
+    "correct_answer": "Switzerland",
+    "incorrect_answers": [
+      "Nepal",
+      "Vatican City",
+      "Bhutan"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Which country gifted the statue of Liberty to the United States?",
+    "correct_answer": "France",
+    "incorrect_answers": [
+      "Spain",
+      "England",
+      "Germany"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Which country has the longest coastline?",
+    "correct_answer": "Canada",
+    "incorrect_answers": [
+      "Indonesia",
+      "Russia",
+      "United States"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Which country has the most lakes?",
+    "correct_answer": "Canada",
+    "incorrect_answers": [
+      "Russia",
+      "United States",
+      "Finland"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Which Country has the most Muslims in the world?",
+    "correct_answer": "Indonesia",
+    "incorrect_answers": [
+      "India",
+      "Pakistan",
+      "Saudi Arabia"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Which country has the most pyramids?",
+    "correct_answer": "Sudan",
+    "incorrect_answers": [
+      "Egypt",
+      "Mexico",
+      "Guatemala"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Which country has the most time zones?",
+    "correct_answer": "France",
+    "incorrect_answers": [
+      "Russia",
+      "United States",
+      "United Kingdom"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Which country has the world's highest waterfall?",
+    "correct_answer": "Venezuela",
+    "incorrect_answers": [
+      "South Africa",
+      "Norway",
+      "New Zealand"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Which country is bigger than Pluto?",
+    "correct_answer": "Russia",
+    "incorrect_answers": [
+      "Canada",
+      "China",
+      "United States"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Which country is called 'The Emerald Isle'?",
+    "correct_answer": "Ireland",
+    "incorrect_answers": [
+      "Iceland",
+      "Greenland",
+      "Jamaica"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Which country is called the 'Land of Fire and Ice'?",
+    "correct_answer": "Iceland",
+    "incorrect_answers": [
+      "Norway",
+      "Greenland",
+      "Finland"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Which country is called the Land of the Rising Sun?",
+    "correct_answer": "Japan",
+    "incorrect_answers": [
+      "China",
+      "South Korea",
+      "Taiwan"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Which country is Caracas the capital of?",
+    "correct_answer": "Venezuela",
+    "incorrect_answers": [
+      "Colombia",
+      "Ecuador",
+      "Peru"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Which country is considered 'happiest' in the world?",
+    "correct_answer": "Finland",
+    "incorrect_answers": [
+      "Denmark",
+      "Norway",
+      "Switzerland"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Which country is home to the most volcanoes?",
+    "correct_answer": "Indonesia",
+    "incorrect_answers": [
+      "Japan",
+      "United States",
+      "Iceland"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Which country is made up of 180,000 islands?",
+    "correct_answer": "Finland",
+    "incorrect_answers": [
+      "Sweden",
+      "Norway",
+      "Canada"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Which Country is the World's Tallest Living Man from?",
+    "correct_answer": "Turkey",
+    "incorrect_answers": [
+      "United States",
+      "Canada",
+      "Ukraine"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Which country is Timbuktu located in?",
+    "correct_answer": "Mali",
+    "incorrect_answers": [
+      "Chad",
+      "Niger",
+      "Burkina Faso"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Which country makes the most money on tourism?",
+    "correct_answer": "The United States",
+    "incorrect_answers": [
+      "France",
+      "Spain",
+      "China"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Which country was the movie 'The Beach' filmed in?",
+    "correct_answer": "Thailand",
+    "incorrect_answers": [
+      "Vietnam",
+      "Malaysia",
+      "Philippines"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Which country's Olympic bobsled team is featured in Cool Runnings?",
+    "correct_answer": "Jamaica",
+    "incorrect_answers": [
+      "Trinidad and Tobago",
+      "Barbados",
+      "Bahamas"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Which currency is in used in Bali?",
+    "correct_answer": "Indonesian rupiah",
+    "incorrect_answers": [
+      "Balinese rupee",
+      "Indonesian dollar",
+      "Balinese baht"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Which European capital was built on 14 islands?",
+    "correct_answer": "Stockholm",
+    "incorrect_answers": [
+      "Copenhagen",
+      "Helsinki",
+      "Oslo"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Which European city is the Acropolis located in?",
+    "correct_answer": "Athens (Greece)",
+    "incorrect_answers": [
+      "Rome (Italy)",
+      "Istanbul (Turkey)",
+      "Thessaloniki (Greece)"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Which fabric device opens up during a skydive?",
+    "correct_answer": "Parachute",
+    "incorrect_answers": [
+      "Parasail",
+      "Hang glider",
+      "Wingsuit"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Which famous museum has a glass pyramid at the front?",
+    "correct_answer": "Le Louvre",
+    "incorrect_answers": [
+      "British Museum",
+      "Metropolitan Museum of Art",
+      "Hermitage Museum"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Which is the friendliest city in the world?",
+    "correct_answer": "Vancouver, British Columbia, Canada",
+    "incorrect_answers": [
+      "Sydney, Australia",
+      "Dublin, Ireland",
+      "Auckland, New Zealand"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Which is the most bicycle-friendly city in the world?",
+    "correct_answer": "Copenhagen",
+    "incorrect_answers": [
+      "Amsterdam",
+      "Utrecht",
+      "Malmö"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Which island country is known as the 'Island of Spice'?",
+    "correct_answer": "Grenada",
+    "incorrect_answers": [
+      "Zanzibar",
+      "Mauritius",
+      "Sri Lanka"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Which island group includes Ibiza, Menorca, and Majorca?",
+    "correct_answer": "Balearics",
+    "incorrect_answers": [
+      "Canaries",
+      "Cyclades",
+      "Maldives"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Which Italian Landmark Dates Back To 70AD?",
+    "correct_answer": "The Colosseum in Rome",
+    "incorrect_answers": [
+      "The Leaning Tower of Pisa",
+      "The Pantheon",
+      "Pompeii"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Which lake is called the 'jewel of the Italian lakes'?",
+    "correct_answer": "Lake Como",
+    "incorrect_answers": [
+      "Lake Garda",
+      "Lake Maggiore",
+      "Lake Lugano"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Which London bridge is nicknamed 'wobbly bridge'?",
+    "correct_answer": "Millennium Bridge",
+    "incorrect_answers": [
+      "London Bridge",
+      "Tower Bridge",
+      "Westminster Bridge"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Which New York airport has the same name as a US President?",
+    "correct_answer": "JFK airport",
+    "incorrect_answers": [
+      "LaGuardia Airport",
+      "Newark Liberty Airport",
+      "Stewart International Airport"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Which North American country's name means 'Rich Coast'?",
+    "correct_answer": "Costa Rica",
+    "incorrect_answers": [
+      "Puerto Rico",
+      "Dominican Republic",
+      "Panama"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Which river flows through Paris?",
+    "correct_answer": "River Seine",
+    "incorrect_answers": [
+      "River Loire",
+      "River Rhone",
+      "River Garonne"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Which river formed the Grand Canyon in Arizona, USA?",
+    "correct_answer": "Colorado",
+    "incorrect_answers": [
+      "Rio Grande",
+      "Mississippi",
+      "Columbia"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Which sport is also referred to as sailboarding?",
+    "correct_answer": "Windsurfing",
+    "incorrect_answers": [
+      "Kitesurfing",
+      "Parasailing",
+      "Wakeboarding"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Which sport is Kelly Slater known for?",
+    "correct_answer": "Surfing",
+    "incorrect_answers": [
+      "Skateboarding",
+      "Snowboarding",
+      "Windsurfing"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Which state is known as the 'Sunshine State'?",
+    "correct_answer": "Florida",
+    "incorrect_answers": [
+      "California",
+      "Texas",
+      "Arizona"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Which two cities did the original Orient Express travel between?",
+    "correct_answer": "Paris and Istanbul",
+    "incorrect_answers": [
+      "London and Venice",
+      "Paris and Vienna",
+      "Berlin and Constantinople"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Which two countries are the Iguazu Falls part of?",
+    "correct_answer": "Argentina and Brazil",
+    "incorrect_answers": [
+      "Brazil and Paraguay",
+      "Argentina and Uruguay",
+      "Colombia and Venezuela"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Which two countries officially begin with 'The'?",
+    "correct_answer": "The Gambia and The Bahamas",
+    "incorrect_answers": [
+      "The Philippines and The Maldives",
+      "The Congo and The Sudan",
+      "The Netherlands and The Vatican"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Which two South American countries share Lake Titicaca?",
+    "correct_answer": "Bolivia & Peru",
+    "incorrect_answers": [
+      "Peru & Chile",
+      "Bolivia & Argentina",
+      "Ecuador & Colombia"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Which US state does key lime pie come from?",
+    "correct_answer": "Florida",
+    "incorrect_answers": [
+      "California",
+      "Texas",
+      "Georgia"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Which US State has a one syllable name?",
+    "correct_answer": "Maine",
+    "incorrect_answers": [
+      "Rhode Island",
+      "Iowa",
+      "Utah"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Which US state makes the most money on tourism?",
+    "correct_answer": "California",
+    "incorrect_answers": [
+      "Florida",
+      "New York",
+      "Texas"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Which US university was the sports drink Gatorade named after?",
+    "correct_answer": "The University of Florida—the Florida Gators",
+    "incorrect_answers": [
+      "University of Georgia",
+      "University of Alabama",
+      "Louisiana State University"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Which USA state has the biggest land area?",
+    "correct_answer": "Alaska",
+    "incorrect_answers": [
+      "Texas",
+      "California",
+      "Montana"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Which volcano is located near Tokyo and considered a sacred mountain?",
+    "correct_answer": "Mount Fuji",
+    "incorrect_answers": [
+      "Mount Asama",
+      "Mount Ontake",
+      "Mount Aso"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Who has more Pyramids, Egypt or Sudan?",
+    "correct_answer": "Sudan",
+    "incorrect_answers": [
+      "Egypt"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "With a population of 37 million, which is the largest city in the world?",
+    "correct_answer": "Tokyo",
+    "incorrect_answers": [
+      "Shanghai",
+      "Delhi",
+      "São Paulo"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Travel",
+    "question": "Zanzibar is an island off which African Country?",
+    "correct_answer": "Tanzania",
+    "incorrect_answers": [
+      "Kenya",
+      "Mozambique",
+      "Somalia"
+    ]
+  }
+]

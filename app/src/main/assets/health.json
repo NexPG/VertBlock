@@ -1,0 +1,6626 @@
+[
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "How many times does the average human blink a day?",
+    "correct_answer": "About 15,000 times",
+    "incorrect_answers": [
+      "About 5,000 times",
+      "About 30,000 times",
+      "About 50,000 times"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "What is the most common blood type?",
+    "correct_answer": "O+",
+    "incorrect_answers": [
+      "A+",
+      "B+",
+      "AB+"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "What blood type is a universal plasma donor?",
+    "correct_answer": "AB",
+    "incorrect_answers": [
+      "O",
+      "A",
+      "B"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "How much saliva does the human mouth produce in one day?",
+    "correct_answer": "1 liter",
+    "incorrect_answers": [
+      "0.5 liters",
+      "2 liters",
+      "3 liters"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "Humans share 60% of their DNA with which fruit?",
+    "correct_answer": "Bananas",
+    "incorrect_answers": [
+      "Apples",
+      "Oranges",
+      "Strawberries"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "How many bones are in the average human body?",
+    "correct_answer": "206",
+    "incorrect_answers": [
+      "186",
+      "226",
+      "256"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "What is the strongest bone in the human body?",
+    "correct_answer": "The femur (thighbone)",
+    "incorrect_answers": [
+      "The skull",
+      "The spine",
+      "The humerus"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "How much does the average human brain weigh?",
+    "correct_answer": "3 pounds",
+    "incorrect_answers": [
+      "2 pounds",
+      "4 pounds",
+      "5 pounds"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "What is the medical term for high blood pressure?",
+    "correct_answer": "Hypertension",
+    "incorrect_answers": [
+      "Hypotension",
+      "Tachycardia",
+      "Arrhythmia"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "What is the main function of red blood cells?",
+    "correct_answer": "To transport oxygen throughout the body",
+    "incorrect_answers": [
+      "To fight infections",
+      "To clot blood",
+      "To produce hormones"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "What is the medical term for inflammation of the joints?",
+    "correct_answer": "Arthritis",
+    "incorrect_answers": [
+      "Bursitis",
+      "Tendonitis",
+      "Osteoporosis"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "How many ribs does an average human have?",
+    "correct_answer": "12",
+    "incorrect_answers": [
+      "10",
+      "14",
+      "16"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "What virus causes AIDS?",
+    "correct_answer": "HIV",
+    "incorrect_answers": [
+      "HPV",
+      "HBV",
+      "HSV"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "What disease causes progressive loss of memory and cognitive function?",
+    "correct_answer": "Alzheimer's disease",
+    "incorrect_answers": [
+      "Parkinson's disease",
+      "Multiple sclerosis",
+      "Epilepsy"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "What does CPR stand for?",
+    "correct_answer": "Cardiopulmonary resuscitation",
+    "incorrect_answers": [
+      "Cardiac pump restoration",
+      "Critical pulse recovery",
+      "Cardiovascular pulmonary repair"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "What does an EKG measure?",
+    "correct_answer": "Electrical activity in the heart",
+    "incorrect_answers": [
+      "Brain waves",
+      "Lung capacity",
+      "Blood pressure"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "What disease is caused by a Vitamin C deficiency?",
+    "correct_answer": "Scurvy",
+    "incorrect_answers": [
+      "Rickets",
+      "Anemia",
+      "Pellagra"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "What is the medical term for a heart attack?",
+    "correct_answer": "Myocardial infarction",
+    "incorrect_answers": [
+      "Cardiac arrest",
+      "Angina",
+      "Stroke"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "What muscle is responsible for breathing?",
+    "correct_answer": "Diaphragm",
+    "incorrect_answers": [
+      "Intercostal muscles",
+      "Abdominal muscles",
+      "Pectoral muscles"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "What is the medical term for low blood sugar?",
+    "correct_answer": "Hypoglycemia",
+    "incorrect_answers": [
+      "Hyperglycemia",
+      "Hypotension",
+      "Hypoxia"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "What organ produces insulin?",
+    "correct_answer": "Pancreas",
+    "incorrect_answers": [
+      "Liver",
+      "Kidney",
+      "Spleen"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "What percentage of the body is made up of water?",
+    "correct_answer": "Around 60%",
+    "incorrect_answers": [
+      "Around 40%",
+      "Around 50%",
+      "Around 70%"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "What is the strongest muscle in the human body?",
+    "correct_answer": "The masseter (jaw muscle)",
+    "incorrect_answers": [
+      "The heart",
+      "The tongue",
+      "The quadriceps"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "What is the smallest bone in the human body?",
+    "correct_answer": "The stapes (stirrup bone in the ear)",
+    "incorrect_answers": [
+      "The patella",
+      "The phalanges",
+      "The coccyx"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "What is the largest artery in the body?",
+    "correct_answer": "Aorta",
+    "incorrect_answers": [
+      "Carotid artery",
+      "Femoral artery",
+      "Pulmonary artery"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "How many chambers does the human heart have?",
+    "correct_answer": "4",
+    "incorrect_answers": [
+      "2",
+      "3",
+      "6"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "What is the largest internal organ in the human body?",
+    "correct_answer": "Liver",
+    "incorrect_answers": [
+      "Brain",
+      "Lungs",
+      "Heart"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "How many bones are human babies born with?",
+    "correct_answer": "300",
+    "incorrect_answers": [
+      "206",
+      "250",
+      "350"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "What disease was eradicated in 1980 after a worldwide vaccination program?",
+    "correct_answer": "Smallpox",
+    "incorrect_answers": [
+      "Polio",
+      "Measles",
+      "Chickenpox"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "Who discovered the world's first antibiotic?",
+    "correct_answer": "Alexander Fleming",
+    "incorrect_answers": [
+      "Louis Pasteur",
+      "Robert Koch",
+      "Joseph Lister"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "Who is considered the founder of modern nursing?",
+    "correct_answer": "Florence Nightingale",
+    "incorrect_answers": [
+      "Clara Barton",
+      "Mary Seacole",
+      "Dorothea Dix"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "What part of the brain controls balance and coordination?",
+    "correct_answer": "Cerebellum",
+    "incorrect_answers": [
+      "Brainstem",
+      "Cerebrum",
+      "Thalamus"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "Which vitamin is primarily produced when the skin is exposed to sunlight?",
+    "correct_answer": "Vitamin D",
+    "incorrect_answers": [
+      "Vitamin A",
+      "Vitamin B12",
+      "Vitamin C"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "What part of the eye controls the amount of light entering?",
+    "correct_answer": "Iris",
+    "incorrect_answers": [
+      "Cornea",
+      "Lens",
+      "Retina"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "Which organ is responsible for filtering blood?",
+    "correct_answer": "Kidney",
+    "incorrect_answers": [
+      "Heart",
+      "Liver",
+      "Lung"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "What type of joint is the shoulder joint?",
+    "correct_answer": "Ball and socket joint",
+    "incorrect_answers": [
+      "Hinge joint",
+      "Pivot joint",
+      "Saddle joint"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "How many times does the average human's heart beat per minute?",
+    "correct_answer": "60-100 times",
+    "incorrect_answers": [
+      "40-60 times",
+      "100-140 times",
+      "140-180 times"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "How many taste buds does the average human have?",
+    "correct_answer": "About 10,000",
+    "incorrect_answers": [
+      "About 5,000",
+      "About 15,000",
+      "About 20,000"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "What internal organ stores bile?",
+    "correct_answer": "Gallbladder",
+    "incorrect_answers": [
+      "Liver",
+      "Pancreas",
+      "Stomach"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "What is the medical term for kidney stones?",
+    "correct_answer": "Nephrolithiasis",
+    "incorrect_answers": [
+      "Cholelithiasis",
+      "Urolithiasis",
+      "Pyelonephritis"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "How many miles of blood vessels are in the human body?",
+    "correct_answer": "About 60,000",
+    "incorrect_answers": [
+      "About 10,000",
+      "About 100,000",
+      "About 1,000"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "What is the name of the pigment that gives skin and hair color?",
+    "correct_answer": "Melanin",
+    "incorrect_answers": [
+      "Carotene",
+      "Collagen",
+      "Keratin"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "What percentage of the human brain is made up of fat?",
+    "correct_answer": "About 60%",
+    "incorrect_answers": [
+      "About 30%",
+      "About 40%",
+      "About 80%"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "Which human lung is 10% smaller than the other?",
+    "correct_answer": "The left lung",
+    "incorrect_answers": [
+      "The right lung",
+      "Both are equal",
+      "It varies by person"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "What is the medical term for a severe allergic reaction?",
+    "correct_answer": "Anaphylaxis",
+    "incorrect_answers": [
+      "Asthma",
+      "Eczema",
+      "Rhinitis"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "What bacteria causes tuberculosis?",
+    "correct_answer": "Mycobacterium tuberculosis",
+    "incorrect_answers": [
+      "Streptococcus pneumoniae",
+      "Escherichia coli",
+      "Staphylococcus aureus"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "What disease is caused by the Epstein-Barr virus?",
+    "correct_answer": "Mononucleosis",
+    "incorrect_answers": [
+      "Chickenpox",
+      "Measles",
+      "Mumps"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "What year did the first successful heart transplant take place?",
+    "correct_answer": "1976",
+    "incorrect_answers": [
+      "1967",
+      "1985",
+      "1954"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "How many calories does the brain burn a day?",
+    "correct_answer": "Around 300-400",
+    "incorrect_answers": [
+      "Around 100-200",
+      "Around 500-600",
+      "Around 700-800"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "The term central nervous system refers to the:",
+    "correct_answer": "Brain and spinal cord",
+    "incorrect_answers": [
+      "Brain and cranial nerves",
+      "Spinal cord and spinal nerves",
+      "Cranial and spinal nerves"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "The peripheral nervous system consists of:",
+    "correct_answer": "The spinal and cranial nerves",
+    "incorrect_answers": [
+      "The brain and spinal cord",
+      "The brain and cranial nerves",
+      "The spinal cord and spinal nerves"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "Which of these cells are not a type of neuroglia found in the CNS?",
+    "correct_answer": "Schwann cells",
+    "incorrect_answers": [
+      "Astrocytes",
+      "Oligodendrocytes",
+      "Microglia"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "The Schwann cells form a myelin sheath around the:",
+    "correct_answer": "Axon",
+    "incorrect_answers": [
+      "Dendrite",
+      "Cell body",
+      "Nucleus"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "The neuron processes that normally receives incoming stimuli are called:",
+    "correct_answer": "Dendrites",
+    "incorrect_answers": [
+      "Axons",
+      "Synapses",
+      "Myelin sheaths"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "Collections of nerve cell bodies inside the PNS are called:",
+    "correct_answer": "Ganglia",
+    "incorrect_answers": [
+      "Nuclei",
+      "Tracts",
+      "Nerves"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "Which of the following best describes the waxy-appearing material called myelin?",
+    "correct_answer": "A mass of white lipid material that insulates the axon of a neuron",
+    "incorrect_answers": [
+      "A protein layer that speeds up nerve impulses",
+      "A carbohydrate coating that protects neurons",
+      "A fluid-filled sac around the neuron"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "A neuron with a cell body located in the CNS whose primary function is connecting other neurons is called:",
+    "correct_answer": "Interneuron",
+    "incorrect_answers": [
+      "Motor neuron",
+      "Sensory neuron",
+      "Afferent neuron"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "White matter refers to myelinated fibers in the:",
+    "correct_answer": "CNS",
+    "incorrect_answers": [
+      "PNS",
+      "Autonomic nervous system",
+      "Somatic nervous system"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "Impulse conduction is fastest in neurons that are:",
+    "correct_answer": "Myelinated",
+    "incorrect_answers": [
+      "Unmyelinated",
+      "Sensory",
+      "Motor"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "An action potential:",
+    "correct_answer": "Is essential for nerve impulse propagation",
+    "incorrect_answers": [
+      "Is only found in the CNS",
+      "Slows down nerve impulses",
+      "Occurs only in sensory neurons"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "Immediately after an action potential is propagated, which ion rapidly diffuses out of the cell into the tissue fluid?",
+    "correct_answer": "Potassium",
+    "incorrect_answers": [
+      "Sodium",
+      "Calcium",
+      "Chloride"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "The ability to respond to a stimulus is termed:",
+    "correct_answer": "Irritability",
+    "incorrect_answers": [
+      "Conductivity",
+      "Contractility",
+      "Excitability"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "Which is the correct sequence of events that follows a threshold potential?",
+    "correct_answer": "Sodium channels open, membrane depolarizes, potassium channels open, membrane repolarizes",
+    "incorrect_answers": [
+      "Potassium channels open, membrane depolarizes, sodium channels open, membrane repolarizes",
+      "Membrane depolarizes, sodium channels open, potassium channels open, membrane repolarizes",
+      "Membrane repolarizes, potassium channels open, sodium channels open, membrane depolarizes"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "Which of the following describes saltatory conduction?",
+    "correct_answer": "It is faster than conduction on an unmyelinated fiber",
+    "incorrect_answers": [
+      "It is slower than conduction on an unmyelinated fiber",
+      "It occurs only in the CNS",
+      "It requires no myelin sheath"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "The substance that is released at axonal endings to propagate a nervous impulse is called:",
+    "correct_answer": "A neurotransmitter",
+    "incorrect_answers": [
+      "A hormone",
+      "An enzyme",
+      "An antibody"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "Which of the following is the correct sequence in a typical reflex arc?",
+    "correct_answer": "Receptor, afferent neuron, integration centre, efferent neuron, effector",
+    "incorrect_answers": [
+      "Effector, efferent neuron, integration centre, afferent neuron, receptor",
+      "Receptor, efferent neuron, integration centre, afferent neuron, effector",
+      "Afferent neuron, receptor, integration centre, efferent neuron, effector"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "The elevated ridges of tissue on the surface of the cerebral hemispheres are known as ______ while the shallow grooves are termed ______.",
+    "correct_answer": "Gyri; sulci",
+    "incorrect_answers": [
+      "Sulci; gyri",
+      "Fissures; gyri",
+      "Lobes; sulci"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "The olfactory area is found within the:",
+    "correct_answer": "Temporal lobe",
+    "incorrect_answers": [
+      "Frontal lobe",
+      "Parietal lobe",
+      "Occipital lobe"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "Sally has a brain injury; she knows what she wants to say but can't vocalize the words. The part of her brain that deals with the ability to speak is the:",
+    "correct_answer": "Broca's area",
+    "incorrect_answers": [
+      "Wernicke's area",
+      "Occipital lobe",
+      "Cerebellum"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "The midbrain, pons and medulla oblongata are housed in the:",
+    "correct_answer": "Brain stem",
+    "incorrect_answers": [
+      "Cerebellum",
+      "Cerebrum",
+      "Diencephalon"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "Lobe that contains the primary motor area that enables voluntary control of skeletal muscle movements:",
+    "correct_answer": "Frontal lobe",
+    "incorrect_answers": [
+      "Temporal lobe",
+      "Parietal lobe",
+      "Occipital lobe"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "Afferent nerves are called ______, and motor nerves are called ______.",
+    "correct_answer": "Sensory nerves; efferent nerves",
+    "incorrect_answers": [
+      "Motor nerves; sensory nerves",
+      "Efferent nerves; afferent nerves",
+      "Mixed nerves; sensory nerves"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "The area of the brain stem that plays a role in consciousness and the awake/sleep cycle is the:",
+    "correct_answer": "Pineal gland",
+    "incorrect_answers": [
+      "Thalamus",
+      "Hypothalamus",
+      "Pituitary gland"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "Control of temperature, endocrine activity, metabolism, and thirst are functions associated with the:",
+    "correct_answer": "Hypothalamus",
+    "incorrect_answers": [
+      "Thalamus",
+      "Cerebellum",
+      "Medulla oblongata"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "The vital centers for the control of visceral activities such as heart rate, breathing, blood pressure, swallowing, and vomiting are located in the:",
+    "correct_answer": "Medulla oblongata",
+    "incorrect_answers": [
+      "Hypothalamus",
+      "Pons",
+      "Midbrain"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "Loss of muscle coordination results from damage to the:",
+    "correct_answer": "Cerebellum",
+    "incorrect_answers": [
+      "Cerebrum",
+      "Brain stem",
+      "Thalamus"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "Which of the following is a traumatic brain injury?",
+    "correct_answer": "Cerebral edema",
+    "incorrect_answers": [
+      "Meningitis",
+      "Alzheimer's disease",
+      "Parkinson's disease"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "Which is the correct sequence of nerves that exit the spinal cord, going from superior to inferior?",
+    "correct_answer": "Cervical, thoracic, lumbar, sacral",
+    "incorrect_answers": [
+      "Thoracic, cervical, lumbar, sacral",
+      "Sacral, lumbar, thoracic, cervical",
+      "Cervical, lumbar, thoracic, sacral"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "The nerve that contains sensory fibers that are involved in hearing is:",
+    "correct_answer": "Cranial nerve VIII",
+    "incorrect_answers": [
+      "Cranial nerve V",
+      "Cranial nerve X",
+      "Cranial nerve VII"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "Preparing the body for 'fight-or-flight' response during threatening situations is the role of the:",
+    "correct_answer": "Sympathetic nervous system",
+    "incorrect_answers": [
+      "Parasympathetic nervous system",
+      "Somatic nervous system",
+      "Central nervous system"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "What are the 3 major salivary glands?",
+    "correct_answer": "Parotid, submandibular, and sublingual",
+    "incorrect_answers": [
+      "Parotid, sublingual, and submaxillary",
+      "Submandibular, submental, and parotid",
+      "Parotid, thyroid, and sublingual"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "The liver functions to:",
+    "correct_answer": "Form glucose from noncarbohydrates, store vitamin D, and destroy damaged red blood cells",
+    "incorrect_answers": [
+      "Only produce bile",
+      "Only store glycogen",
+      "Only filter toxins"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "The salivary enzyme amylase functions to digest:",
+    "correct_answer": "Carbohydrates",
+    "incorrect_answers": [
+      "Proteins",
+      "Lipids",
+      "Nucleic acids"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "Peristalsis occurs in the digestive tract:",
+    "correct_answer": "From the pharynx to the anus",
+    "incorrect_answers": [
+      "Only in the stomach",
+      "Only in the small intestine",
+      "From the mouth to the stomach"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "What kind of movements occur when the smooth muscles contract rhythmically in small sections of the tube?",
+    "correct_answer": "Mixing movement",
+    "incorrect_answers": [
+      "Peristalsis movement",
+      "Pendular movement",
+      "Segmental contraction"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "What kind of smooth muscle movement includes a wavelike motion of contraction behind a mass of food?",
+    "correct_answer": "Peristalsis movement",
+    "incorrect_answers": [
+      "Mixing movement",
+      "Segmentation movement",
+      "Pendular movement"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "Digestion of which of the following would be affected the most if the liver were severely damaged?",
+    "correct_answer": "Lipids",
+    "incorrect_answers": [
+      "Proteins",
+      "Carbohydrates",
+      "Nucleic acids"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "What constituent of bile has a digestive function?",
+    "correct_answer": "Bile salts",
+    "incorrect_answers": [
+      "Bilirubin",
+      "Cholesterol",
+      "Bile pigments"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "Heartburn is usually caused by effects of gastric juice on the:",
+    "correct_answer": "Esophagus",
+    "incorrect_answers": [
+      "Stomach",
+      "Duodenum",
+      "Pharynx"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "One of the major functions of the large intestine is to:",
+    "correct_answer": "Reabsorb water from chyme",
+    "incorrect_answers": [
+      "Digest proteins",
+      "Produce bile",
+      "Absorb vitamins"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "The correct sequence for the layers within the wall of the alimentary canal from inside to outside is:",
+    "correct_answer": "Mucous membrane, submucosa, muscular layer, serous layer",
+    "incorrect_answers": [
+      "Serous layer, muscular layer, submucosa, mucous membrane",
+      "Mucous membrane, muscular layer, submucosa, serous layer",
+      "Submucosa, mucous membrane, serous layer, muscular layer"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "What breaks food into smaller pieces to begin mechanical digestion?",
+    "correct_answer": "Teeth",
+    "incorrect_answers": [
+      "Tongue",
+      "Saliva",
+      "Esophagus"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "Which of the following is NOT a secretory cell in the alimentary canal?",
+    "correct_answer": "Kupffer cell",
+    "incorrect_answers": [
+      "Mucous cell",
+      "Parietal cell",
+      "Chief cell"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "The purpose of the intestinal villi is to:",
+    "correct_answer": "Increase surface area for nutrient absorption",
+    "incorrect_answers": [
+      "Produce digestive enzymes",
+      "Secrete mucus",
+      "Move food along the intestine"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "When the diaphragm and external intercostal muscles contract, which of the following does NOT occur?",
+    "correct_answer": "The intrapleural pressure increases",
+    "incorrect_answers": [
+      "Air moves into the lung",
+      "The diaphragm moves inferiorly",
+      "The intrapulmonary pressure decreases"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "When we inhale:",
+    "correct_answer": "Both alveolar pressure and intrapleural pressure decrease",
+    "incorrect_answers": [
+      "Alveolar pressure increases and intrapleural pressure decreases",
+      "Both alveolar pressure and intrapleural pressure increase",
+      "Alveolar pressure decreases and intrapleural pressure increases"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "Which body systems cooperate to supply O2 to cells and eliminate CO2?",
+    "correct_answer": "Cardiovascular and respiratory systems",
+    "incorrect_answers": [
+      "Digestive and urinary systems",
+      "Endocrine and cardiovascular systems",
+      "Respiratory and digestive systems"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "In the lungs:",
+    "correct_answer": "PCO2 in the alveoli is lower than that in the capillaries",
+    "incorrect_answers": [
+      "PCO2 in the alveoli is higher than that in the capillaries",
+      "PO2 in the alveoli is lower than that in the capillaries",
+      "PCO2 is equal in alveoli and capillaries"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "As blood enters the systemic capillaries:",
+    "correct_answer": "PO2 in the blood is higher than that in the tissues",
+    "incorrect_answers": [
+      "PO2 in the blood is lower than that in the tissues",
+      "PCO2 in the blood is lower than that in the tissues",
+      "PO2 is equal in blood and tissues"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "During swallowing, the glottis is covered by:",
+    "correct_answer": "Epiglottis",
+    "incorrect_answers": [
+      "Tongue",
+      "Soft palate",
+      "Uvula"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "Which describes a correct order of structures in the respiratory passageways?",
+    "correct_answer": "Pharynx, larynx, trachea, bronchi, bronchioles",
+    "incorrect_answers": [
+      "Larynx, pharynx, trachea, bronchioles, bronchi",
+      "Trachea, pharynx, larynx, bronchi, bronchioles",
+      "Pharynx, trachea, larynx, bronchioles, bronchi"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "The volume of air that can be exhaled after normal exhalation is the:",
+    "correct_answer": "Expiratory reserve volume",
+    "incorrect_answers": [
+      "Tidal volume",
+      "Inspiratory reserve volume",
+      "Residual volume"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "The primary chemical stimulus for breathing is the concentration of:",
+    "correct_answer": "Carbon dioxide in the blood",
+    "incorrect_answers": [
+      "Oxygen in the blood",
+      "Nitrogen in the blood",
+      "Hemoglobin in the blood"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "During internal and external respiration, gases move by:",
+    "correct_answer": "Diffusion",
+    "incorrect_answers": [
+      "Osmosis",
+      "Active transport",
+      "Filtration"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "Most oxygen in the blood is transported:",
+    "correct_answer": "As oxyhemoglobin",
+    "incorrect_answers": [
+      "Dissolved in plasma",
+      "As bicarbonate ions",
+      "Bound to white blood cells"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "All of the following are functions of the circulatory system EXCEPT:",
+    "correct_answer": "Hematopoiesis",
+    "incorrect_answers": [
+      "Thermoregulation",
+      "Transport of oxygen and nutrients",
+      "Transport of hormones and antibodies"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "The chamber of the heart responsible for receiving blood as it returns from the lungs after it has been reoxygenated is the:",
+    "correct_answer": "Left Atrium",
+    "incorrect_answers": [
+      "Right Atrium",
+      "Right Ventricle",
+      "Left Ventricle"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "This is the only artery that carries unoxygenated blood away from the heart:",
+    "correct_answer": "Pulmonary Trunk",
+    "incorrect_answers": [
+      "Aorta",
+      "Superior Vena Cava",
+      "Inferior Vena Cava"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "The bicuspid valve is also known as the:",
+    "correct_answer": "Mitral valve",
+    "incorrect_answers": [
+      "Right atrioventricular valve",
+      "Aortic semilunar valve",
+      "Pulmonary semilunar valve"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "The correct sequence of heart chambers a red blood cell would pass through as it travels through the heart is:",
+    "correct_answer": "Right Atrium, Right Ventricle, Left Atrium, Left Ventricle",
+    "incorrect_answers": [
+      "Right Atrium, Left Ventricle, Left Atrium, Right Ventricle",
+      "Left Atrium, Left Ventricle, Right Atrium, Right Ventricle",
+      "Left Atrium, Right Atrium, Left Ventricle, Right Ventricle"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "The vessels in the circulatory system where the exchange of gas takes place are the:",
+    "correct_answer": "Capillaries",
+    "incorrect_answers": [
+      "Veins",
+      "Arteries",
+      "Aorta"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "Which of the following is NOT a formed element of blood?",
+    "correct_answer": "Plasma",
+    "incorrect_answers": [
+      "Red Blood Cells",
+      "White Blood Cells",
+      "Platelets"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "The type of blood vessels that have one way valves preventing back flow of blood are:",
+    "correct_answer": "Veins",
+    "incorrect_answers": [
+      "Capillaries",
+      "Arteries",
+      "Arterioles"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "Which of the following is NOT a layer of the heart?",
+    "correct_answer": "Endomyosin",
+    "incorrect_answers": [
+      "Endocardium",
+      "Myocardium",
+      "Pericardium"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "Deposit of plaque on the walls of a coronary artery is called:",
+    "correct_answer": "Atherosclerosis",
+    "incorrect_answers": [
+      "Hypertension",
+      "Myocardial Infarction",
+      "Stroke"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "A myocardial infarction is a/an:",
+    "correct_answer": "Heart attack",
+    "incorrect_answers": [
+      "Blood clot",
+      "Narrow blood vessel",
+      "Incomplete valve closure"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "What is anemia?",
+    "correct_answer": "Deficiency in the production of normal hemoglobin",
+    "incorrect_answers": [
+      "A disease in newborns",
+      "An inability to clot blood",
+      "Cancer of the blood"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "What is another name for high blood pressure?",
+    "correct_answer": "Hypertension",
+    "incorrect_answers": [
+      "Myocardial infarction",
+      "Angina",
+      "Pneumonia"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "What is the substance that is capable of destroying bacteria?",
+    "correct_answer": "Antibiotic",
+    "incorrect_answers": [
+      "Antiseptic",
+      "Disinfectant",
+      "Vaccine"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "It is a system that enables human beings to reproduce another human.",
+    "correct_answer": "Reproductive system",
+    "incorrect_answers": [
+      "Endocrine system",
+      "Urinary system",
+      "Circulatory system"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "It is a process that makes possible the continuance of life on Earth.",
+    "correct_answer": "Reproduction",
+    "incorrect_answers": [
+      "Respiration",
+      "Digestion",
+      "Circulation"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "A male reproductive organ that produces sperms and the hormone testosterone.",
+    "correct_answer": "Testis",
+    "incorrect_answers": [
+      "Prostate gland",
+      "Seminal vesicle",
+      "Epididymis"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "A tube that circles the bladder and the excretory duct of testes.",
+    "correct_answer": "Vas deferens",
+    "incorrect_answers": [
+      "Urethra",
+      "Ureter",
+      "Epididymis"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "It is a sac-like pouch that supports the testes in place.",
+    "correct_answer": "Scrotum",
+    "incorrect_answers": [
+      "Bladder",
+      "Prostate",
+      "Seminal vesicle"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "It is a sac that serves as the receptacle of the urine.",
+    "correct_answer": "Bladder",
+    "incorrect_answers": [
+      "Scrotum",
+      "Gall bladder",
+      "Stomach"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "A gland that produces sperms with a fluid that enables them to move.",
+    "correct_answer": "Seminal vesicle",
+    "incorrect_answers": [
+      "Prostate gland",
+      "Bulbourethral gland",
+      "Testis"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "It is the mixture of the sperm and fluid.",
+    "correct_answer": "Semen",
+    "incorrect_answers": [
+      "Urine",
+      "Mucus",
+      "Plasma"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "The tube that carries urine out from the body and also serves as an opening of the sperm.",
+    "correct_answer": "Urethra",
+    "incorrect_answers": [
+      "Ureter",
+      "Vas deferens",
+      "Epididymis"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "The male reproductive organ.",
+    "correct_answer": "Penis",
+    "incorrect_answers": [
+      "Testis",
+      "Scrotum",
+      "Prostate"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "It is a single cell with a head and a tail.",
+    "correct_answer": "Sperm",
+    "incorrect_answers": [
+      "Ovum",
+      "Zygote",
+      "Embryo"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "It is found at the top of each testis and where the sperms are stored.",
+    "correct_answer": "Epididymis",
+    "incorrect_answers": [
+      "Seminal vesicle",
+      "Prostate gland",
+      "Vas deferens"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "It provides fluids that lubricate the duct system and nourish the sperm.",
+    "correct_answer": "Prostate gland",
+    "incorrect_answers": [
+      "Seminal vesicle",
+      "Bulbourethral gland",
+      "Epididymis"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "What human stage of development when a person becomes physically able to reproduce?",
+    "correct_answer": "Puberty",
+    "incorrect_answers": [
+      "Adolescence",
+      "Infancy",
+      "Adulthood"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "It is a sex gland located in the pelvis, they produce the ova and the sex cells of the female.",
+    "correct_answer": "Ovary",
+    "incorrect_answers": [
+      "Uterus",
+      "Fallopian tube",
+      "Cervix"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "Where does fertilization take place?",
+    "correct_answer": "Fallopian tube",
+    "incorrect_answers": [
+      "Uterus",
+      "Ovary",
+      "Vagina"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "What do you call when an egg or ovum from an ovary is released about once a month?",
+    "correct_answer": "Ovulation",
+    "incorrect_answers": [
+      "Menstruation",
+      "Fertilization",
+      "Implantation"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "It is the finger-like extension of the fallopian tube that drives the fertilized egg to the uterus.",
+    "correct_answer": "Fimbriae",
+    "incorrect_answers": [
+      "Cilia",
+      "Villi",
+      "Flagella"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "It is a hollow, avocado-shaped muscular organ with thick walls where a fertilized egg develops.",
+    "correct_answer": "Uterus",
+    "incorrect_answers": [
+      "Ovary",
+      "Fallopian tube",
+      "Vagina"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "It is called the birth canal because when a baby is to be born, it is where it passes.",
+    "correct_answer": "Vagina",
+    "incorrect_answers": [
+      "Uterus",
+      "Cervix",
+      "Fallopian tube"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "It is the neck of the uterus.",
+    "correct_answer": "Cervix",
+    "incorrect_answers": [
+      "Vagina",
+      "Fallopian tube",
+      "Ovary"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "It is the union of the sperm and egg cell.",
+    "correct_answer": "Fertilization",
+    "incorrect_answers": [
+      "Ovulation",
+      "Implantation",
+      "Menstruation"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "What do you call the fertilized egg?",
+    "correct_answer": "Zygote",
+    "incorrect_answers": [
+      "Embryo",
+      "Fetus",
+      "Blastula"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "What do you call the period of time when the zygote undergoes development for nine months in the uterus and until the birth of the baby?",
+    "correct_answer": "Pregnancy",
+    "incorrect_answers": [
+      "Gestation",
+      "Lactation",
+      "Ovulation"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "It refers to an unborn child during the first two months of pregnancy.",
+    "correct_answer": "Embryo",
+    "incorrect_answers": [
+      "Fetus",
+      "Zygote",
+      "Neonate"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "What do you call the protective membrane that surrounds the embryo?",
+    "correct_answer": "Amniotic sac",
+    "incorrect_answers": [
+      "Placenta",
+      "Chorion",
+      "Endometrium"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "It is a clear fluid filled in the amniotic sac that protects the embryo against harm and keeps the embryo moist.",
+    "correct_answer": "Amniotic fluid",
+    "incorrect_answers": [
+      "Cerebrospinal fluid",
+      "Plasma",
+      "Synovial fluid"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "What cord connects the embryo to the placenta?",
+    "correct_answer": "Umbilical cord",
+    "incorrect_answers": [
+      "Spinal cord",
+      "Amniotic cord",
+      "Nerve cord"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "Nutrients and oxygen pass from the mother to the embryo through the __________.",
+    "correct_answer": "Placenta",
+    "incorrect_answers": [
+      "Amniotic sac",
+      "Umbilical cord",
+      "Endometrium"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "In what week of pregnancy does the embryo develop tiny arms and legs with fingers and toes?",
+    "correct_answer": "6th-7th weeks",
+    "incorrect_answers": [
+      "4th-5th weeks",
+      "8th-9th weeks",
+      "10th-11th weeks"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "What do you call the embryo after the two months of pregnancy when the body organs are now present?",
+    "correct_answer": "Fetus",
+    "incorrect_answers": [
+      "Zygote",
+      "Neonate",
+      "Infant"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "It is a series of changes during which an egg matures and the uterus is prepared for possible pregnancy.",
+    "correct_answer": "Menstrual cycle",
+    "incorrect_answers": [
+      "Ovulation cycle",
+      "Estrous cycle",
+      "Reproductive cycle"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "It happens when the uterine lining begins to break down and the blood with some uterine tissue and unfertilized egg make their way out through the vagina.",
+    "correct_answer": "Menstruation flow",
+    "incorrect_answers": [
+      "Ovulation",
+      "Implantation",
+      "Fertilization"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "How many hours can a sperm survive?",
+    "correct_answer": "24-48 hours",
+    "incorrect_answers": [
+      "12-24 hours",
+      "48-72 hours",
+      "6-12 hours"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "It refers to the lining of the uterus that becomes thicker in preparation for implantation of the fertilized egg.",
+    "correct_answer": "Endometrium",
+    "incorrect_answers": [
+      "Myometrium",
+      "Perimetrium",
+      "Chorion"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "It is the female gonad where the egg is produced.",
+    "correct_answer": "Ovary",
+    "incorrect_answers": [
+      "Uterus",
+      "Fallopian tube",
+      "Cervix"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "How many chromosomes are in the nucleus of a human sperm?",
+    "correct_answer": "23 chromosomes",
+    "incorrect_answers": [
+      "46 chromosomes",
+      "22 chromosomes",
+      "44 chromosomes"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "Sex determination of a child is done by whose chromosome?",
+    "correct_answer": "Father",
+    "incorrect_answers": [
+      "Mother",
+      "Both parents equally",
+      "Grandparents"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "It is the male gamete.",
+    "correct_answer": "Sperm",
+    "incorrect_answers": [
+      "Testis",
+      "Semen",
+      "Androgen"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "A walnut-sized gland located between the bladder and the penis, it secretes fluid that nourishes and protects sperm.",
+    "correct_answer": "Prostate",
+    "incorrect_answers": [
+      "Seminal vesicle",
+      "Bulbourethral gland",
+      "Epididymis"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "The female gamete is ___.",
+    "correct_answer": "Ovum",
+    "incorrect_answers": [
+      "Ovary",
+      "Estrogen",
+      "Zygote"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "The system that helps a person breathe in oxygen and breathe out carbon dioxide.",
+    "correct_answer": "Respiratory system",
+    "incorrect_answers": [
+      "Circulatory system",
+      "Digestive system",
+      "Nervous system"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "Where does the exchange of oxygen and carbon dioxide happen in the human body?",
+    "correct_answer": "Alveoli",
+    "incorrect_answers": [
+      "Bronchi",
+      "Trachea",
+      "Pharynx"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "It is the opening in our nose where air enters.",
+    "correct_answer": "Nostrils",
+    "incorrect_answers": [
+      "Nasal cavity",
+      "Pharynx",
+      "Larynx"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "It is where the air gets moistened and warmed as it enters the nostrils.",
+    "correct_answer": "Nasal Cavity",
+    "incorrect_answers": [
+      "Pharynx",
+      "Larynx",
+      "Trachea"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "It is a tiny hair-like structure that traps the air against impurities.",
+    "correct_answer": "Cilia",
+    "incorrect_answers": [
+      "Villi",
+      "Flagella",
+      "Microvilli"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "A tube-like passage for both food and air that is found between the nasal cavity and esophagus.",
+    "correct_answer": "Pharynx",
+    "incorrect_answers": [
+      "Larynx",
+      "Trachea",
+      "Epiglottis"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "It is a flap of tissue found at the end of the pharynx that closes over the larynx when we swallow.",
+    "correct_answer": "Epiglottis",
+    "incorrect_answers": [
+      "Uvula",
+      "Tonsil",
+      "Adenoid"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "It is where the vocal chords attached that produce sounds when we speak.",
+    "correct_answer": "Larynx",
+    "incorrect_answers": [
+      "Pharynx",
+      "Trachea",
+      "Epiglottis"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "An organ below the larynx which is a 12 cm long tube made up of C-shaped rings of cartilage.",
+    "correct_answer": "Trachea",
+    "incorrect_answers": [
+      "Bronchus",
+      "Esophagus",
+      "Pharynx"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "Branch of trachea that carry air into the lungs.",
+    "correct_answer": "Bronchi",
+    "incorrect_answers": [
+      "Bronchioles",
+      "Alveoli",
+      "Capillaries"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "It is a cluster of tiny thin-walled sacs found at the end of each bronchiole.",
+    "correct_answer": "Alveoli",
+    "incorrect_answers": [
+      "Bronchi",
+      "Capillaries",
+      "Lobules"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "Substance that is produced by the lining of the nasal cavity.",
+    "correct_answer": "Mucus",
+    "incorrect_answers": [
+      "Saliva",
+      "Sebum",
+      "Cerumen"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "Tiny hair-like structures that trap bacteria in the trachea.",
+    "correct_answer": "Mucous membrane and cilia",
+    "incorrect_answers": [
+      "Alveoli and bronchi",
+      "Villi and microvilli",
+      "Tonsils and adenoids"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "The flow of air to the lungs follows which correct sequence?",
+    "correct_answer": "Nostrils - nasal cavity - pharynx - trachea - bronchus - bronchiole - alveoli",
+    "incorrect_answers": [
+      "Nostrils - pharynx - nasal cavity - trachea - bronchiole - bronchus - alveoli",
+      "Nostrils - nasal cavity - larynx - trachea - bronchiole - bronchus - alveoli",
+      "Nostrils - nasal cavity - pharynx - larynx - bronchus - bronchiole - alveoli"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "What do you call the division of the lungs?",
+    "correct_answer": "Lobes",
+    "incorrect_answers": [
+      "Segments",
+      "Lobules",
+      "Alveoli"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "It is a thin membrane that surrounds the lungs.",
+    "correct_answer": "Pleura",
+    "incorrect_answers": [
+      "Pericardium",
+      "Peritoneum",
+      "Diaphragm"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "Bones that protect the lungs.",
+    "correct_answer": "Rib cage",
+    "incorrect_answers": [
+      "Sternum",
+      "Vertebrae",
+      "Clavicle"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "How many pairs of ribs protect the lungs?",
+    "correct_answer": "12 pairs",
+    "incorrect_answers": [
+      "10 pairs",
+      "14 pairs",
+      "8 pairs"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "A dome-shaped muscle that works with the lungs to allow breathing in and breathing out.",
+    "correct_answer": "Diaphragm",
+    "incorrect_answers": [
+      "Intercostal muscle",
+      "Abdominal muscle",
+      "Pectoral muscle"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "What was the first apparatus used for breathing underwater?",
+    "correct_answer": "Diving bell",
+    "incorrect_answers": [
+      "Aqualung",
+      "Snorkel",
+      "Scuba tank"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "What is the first safe underwater breathing device?",
+    "correct_answer": "Aqualung",
+    "incorrect_answers": [
+      "Diving bell",
+      "Snorkel",
+      "Rebreather"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "A disease in which the alveoli in the lungs lose their ability to expand and contract.",
+    "correct_answer": "Emphysema",
+    "incorrect_answers": [
+      "Chronic bronchitis",
+      "Asthma",
+      "Pneumonia"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "A disease in which too much mucus is produced in the bronchial tubes.",
+    "correct_answer": "Chronic bronchitis",
+    "incorrect_answers": [
+      "Emphysema",
+      "Asthma",
+      "Pneumonia"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "It is an ailment caused by a virus in which there is swelling of the mucus membrane of the respiratory passages.",
+    "correct_answer": "Colds",
+    "incorrect_answers": [
+      "Influenza",
+      "Pneumonia",
+      "Bronchitis"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "Swelling of the lungs that is caused by a virus and bacteria.",
+    "correct_answer": "Pneumonia",
+    "incorrect_answers": [
+      "Bronchitis",
+      "Emphysema",
+      "Tuberculosis"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "A communicable disease caused by the bacteria Mycobacterium tuberculosis.",
+    "correct_answer": "Pulmonary tuberculosis",
+    "incorrect_answers": [
+      "Pneumonia",
+      "Bronchitis",
+      "Emphysema"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "How many receptors are in your nose?",
+    "correct_answer": "At least 10 million",
+    "incorrect_answers": [
+      "At least 1 million",
+      "At least 5 million",
+      "At least 20 million"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "What is behind your nose and connects with the back of the throat?",
+    "correct_answer": "Nasal Cavity",
+    "incorrect_answers": [
+      "Pharynx",
+      "Larynx",
+      "Sinuses"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "What moves back and forth to move the mucus out of the sinuses and the back of the nose?",
+    "correct_answer": "Cilia",
+    "incorrect_answers": [
+      "Flagella",
+      "Villi",
+      "Microvilli"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "This icky stuff, also known as boogers, helps capture dust, germs and small particles.",
+    "correct_answer": "Mucus",
+    "incorrect_answers": [
+      "Sebum",
+      "Cerumen",
+      "Saliva"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "These are sensitive to odor molecules and help the brain recognize smells.",
+    "correct_answer": "Receptors",
+    "incorrect_answers": [
+      "Neurons",
+      "Cilia",
+      "Enzymes"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "It is made out of thin pieces of bone that separates the nasal passages.",
+    "correct_answer": "Septum",
+    "incorrect_answers": [
+      "Turbinate",
+      "Sinus",
+      "Concha"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "What do you call the two holes in the nose?",
+    "correct_answer": "Nostrils",
+    "incorrect_answers": [
+      "Septum",
+      "Sinuses",
+      "Turbinates"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "What part of the human anatomy is known as the 'voice box'?",
+    "correct_answer": "Larynx",
+    "incorrect_answers": [
+      "Pharynx",
+      "Trachea",
+      "Epiglottis"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "Where in the human body are alveoli found?",
+    "correct_answer": "Lungs",
+    "incorrect_answers": [
+      "Kidneys",
+      "Liver",
+      "Heart"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "It is a system of excretory organs that rids blood of wastes, excess water and excess salt.",
+    "correct_answer": "Urinary System",
+    "incorrect_answers": [
+      "Digestive System",
+      "Respiratory System",
+      "Circulatory System"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "Two bean-shaped organs that filter blood to produce waste liquid called urine.",
+    "correct_answer": "Kidneys",
+    "incorrect_answers": [
+      "Lungs",
+      "Liver",
+      "Spleen"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "Where does blood enter going to the kidney?",
+    "correct_answer": "Renal artery",
+    "incorrect_answers": [
+      "Renal vein",
+      "Ureter",
+      "Urethra"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "Where does blood pass as it leaves the kidney?",
+    "correct_answer": "Renal vein",
+    "incorrect_answers": [
+      "Renal artery",
+      "Ureter",
+      "Urethra"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "It is a tiny filtering unit of the kidney that rids blood of waste liquid called urine.",
+    "correct_answer": "Nephron",
+    "incorrect_answers": [
+      "Neuron",
+      "Alveolus",
+      "Glomerulus"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "It holds the urine until it leaves the body.",
+    "correct_answer": "Bladder",
+    "incorrect_answers": [
+      "Kidney",
+      "Ureter",
+      "Urethra"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "It carries urine to the outside of the body.",
+    "correct_answer": "Urethra",
+    "incorrect_answers": [
+      "Ureter",
+      "Bladder",
+      "Kidney"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "It connects the kidney to the urinary bladder.",
+    "correct_answer": "Ureters",
+    "incorrect_answers": [
+      "Urethra",
+      "Renal artery",
+      "Renal vein"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "It helps a defective kidney filter the blood.",
+    "correct_answer": "Dialysis",
+    "incorrect_answers": [
+      "Chemotherapy",
+      "Radiation",
+      "Transfusion"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "What is the main excretory organ?",
+    "correct_answer": "Kidney",
+    "incorrect_answers": [
+      "Liver",
+      "Lungs",
+      "Skin"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "Where does the filtration of blood in the kidney take place?",
+    "correct_answer": "Bowman's capsule",
+    "incorrect_answers": [
+      "Loop of Henle",
+      "Collecting duct",
+      "Renal pelvis"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "It is a waste product excreted through the urinary system.",
+    "correct_answer": "Urine",
+    "incorrect_answers": [
+      "Feces",
+      "Sweat",
+      "Bile"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "Cystitis is the infection of ________.",
+    "correct_answer": "Urinary bladder",
+    "incorrect_answers": [
+      "Kidney",
+      "Urethra",
+      "Ureter"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "What tube connects the kidney to the bladder?",
+    "correct_answer": "Ureter",
+    "incorrect_answers": [
+      "Urethra",
+      "Renal artery",
+      "Renal vein"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "The process of breaking up and dissolving food so that it can be taken into the blood to be used by the body.",
+    "correct_answer": "Digestion",
+    "incorrect_answers": [
+      "Absorption",
+      "Metabolism",
+      "Excretion"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "Where does digestion begin?",
+    "correct_answer": "Mouth",
+    "incorrect_answers": [
+      "Stomach",
+      "Esophagus",
+      "Small intestine"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "It is a digestive juice which is secreted by the three pairs of salivary glands that empty into the mouth.",
+    "correct_answer": "Saliva",
+    "incorrect_answers": [
+      "Bile",
+      "Gastric juice",
+      "Pancreatic juice"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "These are the front teeth with sharp edges for biting and cutting food.",
+    "correct_answer": "Incisors",
+    "incorrect_answers": [
+      "Canines",
+      "Premolars",
+      "Molars"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "These are the pointed teeth which grip and tear food.",
+    "correct_answer": "Canines",
+    "incorrect_answers": [
+      "Incisors",
+      "Premolars",
+      "Molars"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "The teeth that crush and grind food.",
+    "correct_answer": "Premolars",
+    "incorrect_answers": [
+      "Incisors",
+      "Canines",
+      "Molars"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "These are the flat teeth used for chewing food.",
+    "correct_answer": "Molars",
+    "incorrect_answers": [
+      "Incisors",
+      "Canines",
+      "Premolars"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "It is a long muscular tube that connects the pharynx to the throat to the stomach.",
+    "correct_answer": "Esophagus",
+    "incorrect_answers": [
+      "Trachea",
+      "Larynx",
+      "Pharynx"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "A rhythmic movement that contracts to move food through the digestive system.",
+    "correct_answer": "Peristalsis",
+    "incorrect_answers": [
+      "Segmentation",
+      "Pendular movement",
+      "Emulsification"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "It is a large J-shaped organ at the end of the esophagus, on the left side of the body.",
+    "correct_answer": "Stomach",
+    "incorrect_answers": [
+      "Liver",
+      "Pancreas",
+      "Gall bladder"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "It is a muscle found at the end of the stomach that closes and opens to allow the flow from the esophagus to the stomach.",
+    "correct_answer": "Sphincter muscle",
+    "incorrect_answers": [
+      "Cardiac muscle",
+      "Smooth muscle",
+      "Pyloric muscle"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "It is the long coiled tube connected from the stomach.",
+    "correct_answer": "Small intestine",
+    "incorrect_answers": [
+      "Large intestine",
+      "Esophagus",
+      "Colon"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "The softened food is rolled into a ball called the ______ and is pushed by the tongue into the throat.",
+    "correct_answer": "Bolus",
+    "incorrect_answers": [
+      "Chyme",
+      "Feces",
+      "Plaque"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "How long is an adult's small intestine?",
+    "correct_answer": "22 feet",
+    "incorrect_answers": [
+      "15 feet",
+      "30 feet",
+      "10 feet"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "Where is bile produced?",
+    "correct_answer": "Liver",
+    "incorrect_answers": [
+      "Gall bladder",
+      "Pancreas",
+      "Stomach"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "Your food can spend up to this long in the small intestine.",
+    "correct_answer": "4 hours",
+    "incorrect_answers": [
+      "2 hours",
+      "8 hours",
+      "12 hours"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "The large intestine measures about ___.",
+    "correct_answer": "5 feet long",
+    "incorrect_answers": [
+      "3 feet long",
+      "10 feet long",
+      "8 feet long"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "What are the last four teeth a person will get?",
+    "correct_answer": "Wisdom teeth",
+    "incorrect_answers": [
+      "Molars",
+      "Premolars",
+      "Canines"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "What kind of teeth do babies have?",
+    "correct_answer": "Primary",
+    "incorrect_answers": [
+      "Permanent",
+      "Secondary",
+      "Deciduous only"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "What makes up the roots of your teeth and attaches to your jawbone?",
+    "correct_answer": "Cementum",
+    "incorrect_answers": [
+      "Enamel",
+      "Dentin",
+      "Pulp"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "What innermost part of the tooth does the dentin protect?",
+    "correct_answer": "Pulp",
+    "incorrect_answers": [
+      "Enamel",
+      "Cementum",
+      "Crown"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "What hard, tough and shiny substance covers the crown?",
+    "correct_answer": "Enamel",
+    "incorrect_answers": [
+      "Dentin",
+      "Cementum",
+      "Pulp"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "What is the part of the tooth you can see above the gum?",
+    "correct_answer": "Crown",
+    "incorrect_answers": [
+      "Root",
+      "Enamel",
+      "Pulp"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "What tiny hairs send messages to the brain that help identify tastes?",
+    "correct_answer": "Microvilli",
+    "incorrect_answers": [
+      "Cilia",
+      "Papillae",
+      "Neurons"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "How many taste buds does a person have when born?",
+    "correct_answer": "10 thousand",
+    "incorrect_answers": [
+      "5 thousand",
+      "20 thousand",
+      "2 thousand"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "The back section of the tongue that is part of the immune system.",
+    "correct_answer": "Lingual tonsil",
+    "incorrect_answers": [
+      "Palatine tonsil",
+      "Pharyngeal tonsil",
+      "Adenoid"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "This is the thin membrane that connects your tongue to the bottom of your mouth.",
+    "correct_answer": "Frenulum",
+    "incorrect_answers": [
+      "Septum",
+      "Papillae",
+      "Uvula"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "What substance in the mouth helps break down food?",
+    "correct_answer": "Saliva",
+    "incorrect_answers": [
+      "Mucus",
+      "Bile",
+      "Gastric acid"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "_____ contains taste buds.",
+    "correct_answer": "Papillae",
+    "incorrect_answers": [
+      "Microvilli",
+      "Cilia",
+      "Frenulum"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "It is the bumps on the top of the tongue.",
+    "correct_answer": "Papillae",
+    "incorrect_answers": [
+      "Tonsils",
+      "Microvilli",
+      "Frenulum"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "What organ in the digestive system is responsible for Vitamin B and K absorption?",
+    "correct_answer": "Large intestine",
+    "incorrect_answers": [
+      "Small intestine",
+      "Stomach",
+      "Liver"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "Where do excess fat-soluble vitamins typically accumulate?",
+    "correct_answer": "Liver",
+    "incorrect_answers": [
+      "Kidneys",
+      "Pancreas",
+      "Gall bladder"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "What enzyme in saliva acts on starches and changes them into sugar?",
+    "correct_answer": "Ptyalin",
+    "incorrect_answers": [
+      "Pepsin",
+      "Lipase",
+      "Trypsin"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "What is the strong muscle that helps the teeth in digestion?",
+    "correct_answer": "Tongue",
+    "incorrect_answers": [
+      "Jaw",
+      "Diaphragm",
+      "Esophagus"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "How many permanent teeth does an adult have?",
+    "correct_answer": "32",
+    "incorrect_answers": [
+      "28",
+      "30",
+      "34"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "It is the passageway of food from the pharynx.",
+    "correct_answer": "Esophagus",
+    "incorrect_answers": [
+      "Trachea",
+      "Larynx",
+      "Nasal cavity"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "It is the passage of air in the pharynx.",
+    "correct_answer": "Windpipe",
+    "incorrect_answers": [
+      "Esophagus",
+      "Nasal cavity",
+      "Bronchus"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "It is a squeezing movement of muscles which helps food move from the esophagus towards the stomach.",
+    "correct_answer": "Peristalsis",
+    "incorrect_answers": [
+      "Segmentation",
+      "Emulsification",
+      "Absorption"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "What lines the walls of the small intestines that separates food nutrients ready to be absorbed from foods that are not yet ready?",
+    "correct_answer": "Villi",
+    "incorrect_answers": [
+      "Cilia",
+      "Papillae",
+      "Alveoli"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "It is the undigested food that becomes a soft solid.",
+    "correct_answer": "Feces",
+    "incorrect_answers": [
+      "Chyme",
+      "Bolus",
+      "Urine"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "The lowest end of the large intestine where feces pass out of the body.",
+    "correct_answer": "Rectum",
+    "incorrect_answers": [
+      "Anus",
+      "Colon",
+      "Cecum"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "What is the largest gland in the body that produces bile?",
+    "correct_answer": "Liver",
+    "incorrect_answers": [
+      "Pancreas",
+      "Gall bladder",
+      "Spleen"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "It breaks fats into tiny droplets.",
+    "correct_answer": "Bile",
+    "incorrect_answers": [
+      "Saliva",
+      "Gastric acid",
+      "Insulin"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "Where is bile stored?",
+    "correct_answer": "Gall bladder",
+    "incorrect_answers": [
+      "Liver",
+      "Pancreas",
+      "Stomach"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "The organ that produces juice that digests sugars, starches, proteins, fats and insulin.",
+    "correct_answer": "Pancreas",
+    "incorrect_answers": [
+      "Liver",
+      "Gall bladder",
+      "Stomach"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "It is produced by the pancreas that helps control the use of sugar by the body.",
+    "correct_answer": "Insulin",
+    "incorrect_answers": [
+      "Glucagon",
+      "Bile",
+      "Ptyalin"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "What is the hardest material in the body?",
+    "correct_answer": "Enamel",
+    "incorrect_answers": [
+      "Bone",
+      "Dentin",
+      "Keratin"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "Layer of the teeth that is harder than bone but softer than enamel.",
+    "correct_answer": "Dentin",
+    "incorrect_answers": [
+      "Cementum",
+      "Pulp",
+      "Crown"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "What is the center of the tooth that contains the nerves and blood vessels?",
+    "correct_answer": "Soft pulp",
+    "incorrect_answers": [
+      "Dentin",
+      "Enamel",
+      "Cementum"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "What chemical helps to make teeth harder?",
+    "correct_answer": "Fluoride",
+    "incorrect_answers": [
+      "Calcium",
+      "Phosphorus",
+      "Iron"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "It is a yellow or brownish material formed from saliva and food that sticks below the gums and becomes hard.",
+    "correct_answer": "Tartar",
+    "incorrect_answers": [
+      "Plaque",
+      "Enamel",
+      "Cementum"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "What kind of doctor do you need to consult when your teeth are poorly aligned, badly spaced or protruding?",
+    "correct_answer": "Orthodontist",
+    "incorrect_answers": [
+      "Dentist",
+      "Periodontist",
+      "Endodontist"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "The liver secretes bile which flows through ducts and into what pear-shaped muscular sac?",
+    "correct_answer": "Gall bladder",
+    "incorrect_answers": [
+      "Stomach",
+      "Pancreas",
+      "Duodenum"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "How many incisor teeth are there in a full set of adult teeth?",
+    "correct_answer": "8",
+    "incorrect_answers": [
+      "6",
+      "10",
+      "4"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "In the normal adult human, how many bicuspids are there?",
+    "correct_answer": "8",
+    "incorrect_answers": [
+      "6",
+      "10",
+      "4"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "The organ that controls the level of glucose in our bodies.",
+    "correct_answer": "Pancreas",
+    "incorrect_answers": [
+      "Liver",
+      "Kidney",
+      "Stomach"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "What canal is travelled in digestion?",
+    "correct_answer": "Alimentary canal",
+    "incorrect_answers": [
+      "Respiratory canal",
+      "Auditory canal",
+      "Vertebral canal"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "Where does most digestion occur?",
+    "correct_answer": "Small intestine",
+    "incorrect_answers": [
+      "Stomach",
+      "Large intestine",
+      "Mouth"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "How many teeth should a human adult have, including wisdom teeth?",
+    "correct_answer": "32",
+    "incorrect_answers": [
+      "28",
+      "30",
+      "34"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "It makes insulin to help digest and use glucose.",
+    "correct_answer": "Pancreas",
+    "incorrect_answers": [
+      "Liver",
+      "Gall bladder",
+      "Stomach"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "It refers to the secretion of substances or hormones into the bloodstream.",
+    "correct_answer": "Endocrine",
+    "incorrect_answers": [
+      "Exocrine",
+      "Paracrine",
+      "Autocrine"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "It is the bone that protects the brain.",
+    "correct_answer": "Cranium/Skull",
+    "incorrect_answers": [
+      "Rib cage",
+      "Vertebrae",
+      "Pelvis"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "What is the smallest bone in the body?",
+    "correct_answer": "Stirrup",
+    "incorrect_answers": [
+      "Hammer",
+      "Anvil",
+      "Cochlea"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "It is the part where bones meet.",
+    "correct_answer": "Joints",
+    "incorrect_answers": [
+      "Tendons",
+      "Ligaments",
+      "Cartilage"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "How many bones does an adult have?",
+    "correct_answer": "206 bones",
+    "incorrect_answers": [
+      "300 bones",
+      "150 bones",
+      "250 bones"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "What do you call the bones in your spine?",
+    "correct_answer": "Vertebrae",
+    "incorrect_answers": [
+      "Sternum",
+      "Ribs",
+      "Cranium"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "Where is the patella located?",
+    "correct_answer": "Knee",
+    "incorrect_answers": [
+      "Elbow",
+      "Ankle",
+      "Wrist"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "What is in the center of the bone?",
+    "correct_answer": "Bone marrow",
+    "incorrect_answers": [
+      "Cartilage",
+      "Spongy bone",
+      "Compact bone"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "At what age do your bones stop growing?",
+    "correct_answer": "25 years old",
+    "incorrect_answers": [
+      "18 years old",
+      "21 years old",
+      "30 years old"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "How many bones are in the spine?",
+    "correct_answer": "33",
+    "incorrect_answers": [
+      "26",
+      "30",
+      "36"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "What bones protect the lungs, heart and liver?",
+    "correct_answer": "Rib cage",
+    "incorrect_answers": [
+      "Cranium",
+      "Pelvis",
+      "Vertebrae"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "Which part of the ear takes sound waves and turns them into vibration?",
+    "correct_answer": "Middle ear",
+    "incorrect_answers": [
+      "Outer ear",
+      "Inner ear",
+      "Eardrum"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "What tiny bone is attached to the eardrum?",
+    "correct_answer": "Malleus",
+    "incorrect_answers": [
+      "Incus",
+      "Stapes",
+      "Cochlea"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "What is the most delicate bones in your body called?",
+    "correct_answer": "Ossicles",
+    "incorrect_answers": [
+      "Vertebrae",
+      "Phalanges",
+      "Carpals"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "It separates the outer ear from the middle ear.",
+    "correct_answer": "Eardrum",
+    "incorrect_answers": [
+      "Cochlea",
+      "Ossicles",
+      "Eustachian tube"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "What part of the ear is responsible for the popping sensation you feel when flying in an airplane?",
+    "correct_answer": "Eustachian tube",
+    "incorrect_answers": [
+      "Eardrum",
+      "Cochlea",
+      "Semicircular canals"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "Which part of the ear do people pierce to wear earrings?",
+    "correct_answer": "Auricle or Pinna",
+    "incorrect_answers": [
+      "Eardrum",
+      "Lobe only",
+      "Cochlea"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "What name is given to the 33 bones that make up a person's spine?",
+    "correct_answer": "Vertebrae",
+    "incorrect_answers": [
+      "Sternum",
+      "Ribs",
+      "Phalanges"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "What is the longest bone in the human body?",
+    "correct_answer": "Femur",
+    "incorrect_answers": [
+      "Tibia",
+      "Humerus",
+      "Fibula"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "Where is the largest bone in the body found?",
+    "correct_answer": "In the legs",
+    "incorrect_answers": [
+      "In the arms",
+      "In the spine",
+      "In the skull"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "A bone is joined to a muscle by what structure?",
+    "correct_answer": "Tendon",
+    "incorrect_answers": [
+      "Ligament",
+      "Cartilage",
+      "Joint"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "What is the common name for the scapula?",
+    "correct_answer": "Shoulder blade",
+    "incorrect_answers": [
+      "Collarbone",
+      "Breastbone",
+      "Funny bone"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "What is protected by the cranium?",
+    "correct_answer": "Brain",
+    "incorrect_answers": [
+      "Heart",
+      "Lungs",
+      "Liver"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "An injury to a ligament caused by excessive stretching.",
+    "correct_answer": "Sprain",
+    "incorrect_answers": [
+      "Fracture",
+      "Strain",
+      "Cramp"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "It is a break in the bone.",
+    "correct_answer": "Fracture",
+    "incorrect_answers": [
+      "Sprain",
+      "Dislocation",
+      "Strain"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "It is a strong muscle contraction that is very painful.",
+    "correct_answer": "Cramp",
+    "incorrect_answers": [
+      "Spasm",
+      "Strain",
+      "Sprain"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "The system that controls everything you do.",
+    "correct_answer": "Nervous system",
+    "incorrect_answers": [
+      "Endocrine system",
+      "Circulatory system",
+      "Respiratory system"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "Which part of the body is the control center of the nervous system?",
+    "correct_answer": "Brain",
+    "incorrect_answers": [
+      "Spinal cord",
+      "Heart",
+      "Liver"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "A typical brain weighs how much?",
+    "correct_answer": "3 pounds (1.4 kg)",
+    "incorrect_answers": [
+      "2 pounds (0.9 kg)",
+      "5 pounds (2.3 kg)",
+      "1 pound (0.45 kg)"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "It is a microscopic cell that creates connections or pathways in the nervous system.",
+    "correct_answer": "Neurons",
+    "incorrect_answers": [
+      "Nephrons",
+      "Alveoli",
+      "Osteocytes"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "Your emotions are believed to come from the ______.",
+    "correct_answer": "Amygdala",
+    "incorrect_answers": [
+      "Hippocampus",
+      "Thalamus",
+      "Cerebellum"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "It is the part of the brain that acts like a switchboard allowing communication from the brain to other parts of the nervous system.",
+    "correct_answer": "Midbrain",
+    "incorrect_answers": [
+      "Cerebellum",
+      "Medulla oblongata",
+      "Thalamus"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "What makes up 80% of the human brain?",
+    "correct_answer": "Water",
+    "incorrect_answers": [
+      "Fat",
+      "Protein",
+      "Carbohydrates"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "It is the organ which receives, processes and stores information from inside and outside the body.",
+    "correct_answer": "Brain",
+    "incorrect_answers": [
+      "Spinal cord",
+      "Heart",
+      "Liver"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "It is the seat of human intelligence.",
+    "correct_answer": "Brain",
+    "incorrect_answers": [
+      "Heart",
+      "Spinal cord",
+      "Liver"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "The brain of an adult human weighs about ______.",
+    "correct_answer": "2.5 to 3 pounds",
+    "incorrect_answers": [
+      "1 to 1.5 pounds",
+      "4 to 5 pounds",
+      "5 to 6 pounds"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "It is the largest part of the brain.",
+    "correct_answer": "Cerebrum",
+    "incorrect_answers": [
+      "Cerebellum",
+      "Brain stem",
+      "Medulla oblongata"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "It receives, stores and recalls all the information the body picks up. Cognitive processes occur in the outer gray part of the cerebrum called the:",
+    "correct_answer": "Cerebral cortex",
+    "incorrect_answers": [
+      "Cerebellum",
+      "Thalamus",
+      "Hypothalamus"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "What part of the brain controls muscle coordination and balance?",
+    "correct_answer": "Cerebellum",
+    "incorrect_answers": [
+      "Cerebrum",
+      "Brain stem",
+      "Medulla oblongata"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "It orders and processes split-second actions and reactions. It is called 'little brain' because it brings all of the muscle actions together.",
+    "correct_answer": "Cerebellum",
+    "incorrect_answers": [
+      "Cerebrum",
+      "Thalamus",
+      "Pons"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "The hind part of the brain that holds the medulla oblongata and the pons.",
+    "correct_answer": "Brain stem",
+    "incorrect_answers": [
+      "Cerebellum",
+      "Cerebrum",
+      "Diencephalon"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "Found in the brain stem that transmits signals between the spinal cord and the brain.",
+    "correct_answer": "Medulla oblongata",
+    "incorrect_answers": [
+      "Pons",
+      "Midbrain",
+      "Thalamus"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "Part of the brain that controls autonomic or involuntary functions such as heartbeat and breathing.",
+    "correct_answer": "Medulla Oblongata",
+    "incorrect_answers": [
+      "Cerebellum",
+      "Hypothalamus",
+      "Thalamus"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "It is partly made up of tracts that connect the spinal cord with higher brain levels. It also contains cell groups that transfer information from the cerebrum to the cerebellum.",
+    "correct_answer": "Pons",
+    "incorrect_answers": [
+      "Medulla oblongata",
+      "Midbrain",
+      "Thalamus"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "The wrinkled folds of the brain are called _____________.",
+    "correct_answer": "Gyri or convolutions",
+    "incorrect_answers": [
+      "Sulci",
+      "Fissures",
+      "Lobes"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "Heartbeat is controlled by the ________.",
+    "correct_answer": "Medulla Oblongata",
+    "incorrect_answers": [
+      "Cerebellum",
+      "Hypothalamus",
+      "Cerebrum"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "It is the downward extension of the brain.",
+    "correct_answer": "Spinal Cord",
+    "incorrect_answers": [
+      "Brain stem",
+      "Vertebrae",
+      "Nerves"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "These are bundles of fibers (axons) from neurons which are held together by connective tissue.",
+    "correct_answer": "Nerves",
+    "incorrect_answers": [
+      "Ganglia",
+      "Tracts",
+      "Synapses"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "It is the basic unit of the nervous system.",
+    "correct_answer": "Neuron",
+    "incorrect_answers": [
+      "Nephron",
+      "Axon",
+      "Synapse"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "Fibers of nerve cells that pick up information from the receptors.",
+    "correct_answer": "Dendrites",
+    "incorrect_answers": [
+      "Axons",
+      "Synapses",
+      "Cell bodies"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "What contains the nucleus of the neuron as well as other structures that help keep the cell alive?",
+    "correct_answer": "Cell body",
+    "incorrect_answers": [
+      "Axon",
+      "Dendrite",
+      "Synapse"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "Where does information received by the dendrites go after?",
+    "correct_answer": "Cell body",
+    "incorrect_answers": [
+      "Axon",
+      "Synapse",
+      "Nucleus"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "What is the gap or space between axon and dendrites called?",
+    "correct_answer": "Synapse",
+    "incorrect_answers": [
+      "Node of Ranvier",
+      "Myelin sheath",
+      "Cell body"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "_________ is an infection of the fluid of a person's spinal cord and the fluid that surrounds the brain.",
+    "correct_answer": "Meningitis",
+    "incorrect_answers": [
+      "Encephalitis",
+      "Poliomyelitis",
+      "Hydrocephalus"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "A chronic disorder of the function of the cerebrum characterized by seizures, falling to the ground, convulsing, and losing consciousness.",
+    "correct_answer": "Epilepsy",
+    "incorrect_answers": [
+      "Alzheimer's disease",
+      "Parkinson's disease",
+      "Multiple sclerosis"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "It is a degenerative disease of nerve cells in the cerebral cortex often characterized by lapses of memory.",
+    "correct_answer": "Alzheimer's disease",
+    "incorrect_answers": [
+      "Parkinson's disease",
+      "Epilepsy",
+      "Multiple sclerosis"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "A progressive disorder in which the chemicals that facilitate electrical transmission between neurons are defective, characterized by constant trembling and slow movement.",
+    "correct_answer": "Parkinson's disease",
+    "incorrect_answers": [
+      "Alzheimer's disease",
+      "Epilepsy",
+      "Multiple sclerosis"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "What chemical substance do synapses release?",
+    "correct_answer": "Neurotransmitter",
+    "incorrect_answers": [
+      "Hormone",
+      "Enzyme",
+      "Antibody"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "Anything that the receptors of the sense organs collect from the environment is called what?",
+    "correct_answer": "Stimuli",
+    "incorrect_answers": [
+      "Impulses",
+      "Reflexes",
+      "Responses"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "What neurons gather information from the sense organs and send impulses to the spinal cord and brain for processing?",
+    "correct_answer": "Sensory neurons",
+    "incorrect_answers": [
+      "Motor neurons",
+      "Interneurons",
+      "Efferent neurons"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "What neurons carry impulses from the brain or spinal cord to the muscles?",
+    "correct_answer": "Motor neurons",
+    "incorrect_answers": [
+      "Sensory neurons",
+      "Interneurons",
+      "Afferent neurons"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "What part of the midbrain regulates body functions such as thirst, hunger, sleep patterns and emotions?",
+    "correct_answer": "Hypothalamus",
+    "incorrect_answers": [
+      "Thalamus",
+      "Pituitary gland",
+      "Pineal gland"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "What is the main endocrine gland that is located at the base of the brain?",
+    "correct_answer": "Pituitary gland",
+    "incorrect_answers": [
+      "Thyroid gland",
+      "Hypothalamus",
+      "Pineal gland"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "What part of the neuron carries messages to the cell body?",
+    "correct_answer": "Dendrites",
+    "incorrect_answers": [
+      "Axon",
+      "Synapse",
+      "Myelin sheath"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "What part of the neuron carries messages away from the cell body?",
+    "correct_answer": "Axon",
+    "incorrect_answers": [
+      "Dendrite",
+      "Synapse",
+      "Myelin sheath"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "Sensory messages are taken to the brain by _________.",
+    "correct_answer": "Nerves and hormones",
+    "incorrect_answers": [
+      "Only nerves",
+      "Only hormones",
+      "Blood vessels"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "A large ductless gland in the neck that makes hormones to regulate growth and development through the rate of metabolism.",
+    "correct_answer": "Thyroid Gland",
+    "incorrect_answers": [
+      "Parathyroid gland",
+      "Pituitary gland",
+      "Adrenal gland"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "The glands that control the calcium in our bodies.",
+    "correct_answer": "Parathyroid gland",
+    "incorrect_answers": [
+      "Thyroid gland",
+      "Adrenal gland",
+      "Pituitary gland"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "Located on top of each kidney, these produce hormones that you can't live without including sex hormones and cortisol.",
+    "correct_answer": "Adrenal",
+    "incorrect_answers": [
+      "Thyroid",
+      "Parathyroid",
+      "Pituitary"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "What do you call the natural oil in the skin?",
+    "correct_answer": "Sebum",
+    "incorrect_answers": [
+      "Mucus",
+      "Cerumen",
+      "Sweat"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "Each hair on your body grows out of a tiny tube in the skin called ____.",
+    "correct_answer": "Follicle",
+    "incorrect_answers": [
+      "Pore",
+      "Gland",
+      "Shaft"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "What gives the skin its color?",
+    "correct_answer": "Melanin",
+    "incorrect_answers": [
+      "Keratin",
+      "Sebum",
+      "Collagen"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "What is the outermost layer of the skin?",
+    "correct_answer": "Epidermis",
+    "incorrect_answers": [
+      "Dermis",
+      "Hypodermis",
+      "Subcutaneous layer"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "What is the body's largest organ?",
+    "correct_answer": "Skin",
+    "incorrect_answers": [
+      "Liver",
+      "Brain",
+      "Lungs"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "When a nail curves down into the skin as it grows, causing pain and infection, it is called ___.",
+    "correct_answer": "Ingrown nail",
+    "incorrect_answers": [
+      "Hangnail",
+      "Fungal nail",
+      "Splitting nail"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "What is it called when a loose strip of dead skin hangs from the edge of your fingernails?",
+    "correct_answer": "Hangnail",
+    "incorrect_answers": [
+      "Ingrown nail",
+      "Cuticle",
+      "Lunula"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "Where does the nail meet the skin?",
+    "correct_answer": "Cuticle",
+    "incorrect_answers": [
+      "Lunula",
+      "Nail root",
+      "Nail bed"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "Nails start growing from the ___.",
+    "correct_answer": "Nail root",
+    "incorrect_answers": [
+      "Cuticle",
+      "Lunula",
+      "Nail bed"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "On your nail, what is the pale half-circle part above the cuticle?",
+    "correct_answer": "Lunula",
+    "incorrect_answers": [
+      "Nail root",
+      "Nail bed",
+      "Cuticle"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "What are nails made out of?",
+    "correct_answer": "Keratin",
+    "incorrect_answers": [
+      "Calcium",
+      "Collagen",
+      "Melanin"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "Why do you get goosebumps when you're cold?",
+    "correct_answer": "Pilomotor reflex",
+    "incorrect_answers": [
+      "Shivering reflex",
+      "Vasodilation",
+      "Increased blood flow"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "What is the deepest layer of the skin?",
+    "correct_answer": "Subcutaneous fatty tissue",
+    "incorrect_answers": [
+      "Epidermis",
+      "Dermis",
+      "Stratum corneum"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "It refers to the moisture produced by sweat glands.",
+    "correct_answer": "Perspiration",
+    "incorrect_answers": [
+      "Sebum",
+      "Mucus",
+      "Cerumen"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "It is the inflammation of the sebaceous glands due to increased oil production in the skin.",
+    "correct_answer": "Acne",
+    "incorrect_answers": [
+      "Eczema",
+      "Psoriasis",
+      "Rosacea"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "What is the thickest layer of the skin?",
+    "correct_answer": "Dermis",
+    "incorrect_answers": [
+      "Epidermis",
+      "Hypodermis",
+      "Stratum corneum"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "What layer of the skin produces sebum, the natural oil that lubricates the skin?",
+    "correct_answer": "Dermis",
+    "incorrect_answers": [
+      "Epidermis",
+      "Hypodermis",
+      "Stratum corneum"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "What disorder occurs when a person's skin has very little melanin causing the skin to look very white and have blonde hair?",
+    "correct_answer": "Albinism",
+    "incorrect_answers": [
+      "Vitiligo",
+      "Melasma",
+      "Piebaldism"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "It is the part of the nails that connects the skin.",
+    "correct_answer": "Cuticle",
+    "incorrect_answers": [
+      "Lunula",
+      "Nail bed",
+      "Nail root"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "What is the meaning of the scientific suffix -derm?",
+    "correct_answer": "Skin",
+    "incorrect_answers": [
+      "Bone",
+      "Muscle",
+      "Nerve"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "It is the movement of blood as it distributes food and oxygen to the cells of the body and removes waste material from them.",
+    "correct_answer": "Circulation",
+    "incorrect_answers": [
+      "Respiration",
+      "Digestion",
+      "Excretion"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "It is the fluid component that circulates throughout the body, carries nutrients to the cells and delivers oxygen to the tissue.",
+    "correct_answer": "Blood",
+    "incorrect_answers": [
+      "Plasma",
+      "Lymph",
+      "Water"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "A tube-like structure where blood travels.",
+    "correct_answer": "Blood vessels",
+    "incorrect_answers": [
+      "Nerves",
+      "Lymphatic vessels",
+      "Ureters"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "What organ pumps blood to the different parts of the body?",
+    "correct_answer": "Heart",
+    "incorrect_answers": [
+      "Lungs",
+      "Brain",
+      "Liver"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "The system that is considered the main transport of the body.",
+    "correct_answer": "Circulatory system",
+    "incorrect_answers": [
+      "Respiratory system",
+      "Digestive system",
+      "Nervous system"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "How big is the human heart?",
+    "correct_answer": "Human's fist",
+    "incorrect_answers": [
+      "Human's head",
+      "Human's foot",
+      "Human's palm"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "It is a very thin but very strong sac that encloses the heart.",
+    "correct_answer": "Pericardium or pericardial sac",
+    "incorrect_answers": [
+      "Myocardium",
+      "Endocardium",
+      "Pleura"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "It is the chamber of the heart with thicker walls because it pumps blood to the different parts of the body.",
+    "correct_answer": "Ventricles",
+    "incorrect_answers": [
+      "Atria",
+      "Auricles",
+      "Septum"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "What chamber of the heart receives oxygen-rich blood from the lungs?",
+    "correct_answer": "Left auricle",
+    "incorrect_answers": [
+      "Right auricle",
+      "Left ventricle",
+      "Right ventricle"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "What is the alternating relaxation and contraction of the heart?",
+    "correct_answer": "Cardiac cycle",
+    "incorrect_answers": [
+      "Heart rate",
+      "Pulse",
+      "Blood pressure"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "What is the muscular wall that completely separates the left and right chambers of the heart?",
+    "correct_answer": "Septum",
+    "incorrect_answers": [
+      "Valve",
+      "Aorta",
+      "Pericardium"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "It is the specialized region of the heart that makes sure that the heart never skips a beat.",
+    "correct_answer": "Pacemaker",
+    "incorrect_answers": [
+      "Septum",
+      "Valve",
+      "Aorta"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "What circulatory circuit transports blood between the heart and the lungs?",
+    "correct_answer": "Pulmonary circuit",
+    "incorrect_answers": [
+      "Systemic circuit",
+      "Coronary circuit",
+      "Renal circuit"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "The circulatory circuit that carries blood between the heart and the rest of the body and back to the heart.",
+    "correct_answer": "Systemic circuit",
+    "incorrect_answers": [
+      "Pulmonary circuit",
+      "Coronary circuit",
+      "Renal circuit"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "How many liters of blood does an average healthy person have?",
+    "correct_answer": "4.5 to 6 liters",
+    "incorrect_answers": [
+      "2 to 3 liters",
+      "7 to 8 liters",
+      "1 to 2 liters"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "It is a protein-rich fluid that consists of plasma, RBC, WBC and platelets.",
+    "correct_answer": "Blood",
+    "incorrect_answers": [
+      "Lymph",
+      "Cerebrospinal fluid",
+      "Synovial fluid"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "It is 55% of the blood volume, 90% water and 10% solutes.",
+    "correct_answer": "Plasma",
+    "incorrect_answers": [
+      "Serum",
+      "Lymph",
+      "Platelets"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "The most abundant cells in the blood that contain hemoglobin.",
+    "correct_answer": "Red Blood cells",
+    "incorrect_answers": [
+      "White Blood cells",
+      "Platelets",
+      "Plasma cells"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "What is the other name of red blood cells?",
+    "correct_answer": "Erythrocytes",
+    "incorrect_answers": [
+      "Leukocytes",
+      "Thrombocytes",
+      "Lymphocytes"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "It gives the red color to blood.",
+    "correct_answer": "Hemoglobin",
+    "incorrect_answers": [
+      "Plasma",
+      "Iron",
+      "Myoglobin"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "Where is hemoglobin produced?",
+    "correct_answer": "Red marrow of flat bones",
+    "incorrect_answers": [
+      "Liver",
+      "Spleen",
+      "Yellow marrow"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "It is the component of blood also known as leukocytes.",
+    "correct_answer": "White blood cells",
+    "incorrect_answers": [
+      "Red blood cells",
+      "Platelets",
+      "Plasma"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "They are the soldiers of the body because they fight infections.",
+    "correct_answer": "White blood cells",
+    "incorrect_answers": [
+      "Red blood cells",
+      "Platelets",
+      "Antibodies"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "It is a yellowish liquid consisting of dead WBCs, bacteria and other foreign materials in the blood.",
+    "correct_answer": "Pus",
+    "incorrect_answers": [
+      "Plasma",
+      "Serum",
+      "Lymph"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "The smallest elements in the blood that play an important role in blood clotting.",
+    "correct_answer": "Platelets",
+    "incorrect_answers": [
+      "Red blood cells",
+      "White blood cells",
+      "Plasma"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "The protein that platelets release when there is a cut or damage in the blood vessels.",
+    "correct_answer": "Fibrin",
+    "incorrect_answers": [
+      "Collagen",
+      "Keratin",
+      "Elastin"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "It is a jelly-like red mass of fibrin.",
+    "correct_answer": "Clot",
+    "incorrect_answers": [
+      "Scab",
+      "Pus",
+      "Thrombus"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "Who first discovered blood circulation?",
+    "correct_answer": "Dr. William Harvey",
+    "incorrect_answers": [
+      "Galen",
+      "Andreas Vesalius",
+      "Hippocrates"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "The passageways of blood.",
+    "correct_answer": "Blood vessels",
+    "incorrect_answers": [
+      "Nerves",
+      "Lymphatic vessels",
+      "Airways"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "Blood vessels that carry blood away from the heart.",
+    "correct_answer": "Arteries",
+    "incorrect_answers": [
+      "Veins",
+      "Capillaries",
+      "Venules"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "Blood vessels that carry blood toward the heart.",
+    "correct_answer": "Veins",
+    "incorrect_answers": [
+      "Arteries",
+      "Capillaries",
+      "Arterioles"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "Blood vessels that allow the exchange of nutrients, gases and wastes in the cells of the body.",
+    "correct_answer": "Capillaries",
+    "incorrect_answers": [
+      "Arteries",
+      "Veins",
+      "Venules"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "Which vitamin is primarily responsible for blood clotting?",
+    "correct_answer": "Vitamin K",
+    "incorrect_answers": [
+      "Vitamin A",
+      "Vitamin C",
+      "Vitamin D"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "It is the exerted force as blood flows inside the walls of the blood vessels.",
+    "correct_answer": "Blood pressure",
+    "incorrect_answers": [
+      "Pulse",
+      "Heart rate",
+      "Cardiac output"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "Instrument that measures blood pressure quickly and easily.",
+    "correct_answer": "Sphygmomanometer",
+    "incorrect_answers": [
+      "Stethoscope",
+      "Thermometer",
+      "Pulse oximeter"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "In blood pressure 120/90, what does 120 represent?",
+    "correct_answer": "Systolic pressure - higher pressure during contraction of the ventricles",
+    "incorrect_answers": [
+      "Diastolic pressure - low pressure when relaxed",
+      "Mean arterial pressure",
+      "Pulse pressure"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "It is the introduction of blood of a blood donor to the blood stream of a recipient.",
+    "correct_answer": "Blood transfusion",
+    "incorrect_answers": [
+      "Blood donation",
+      "Dialysis",
+      "Plasmapheresis"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "Who performed the first human to human blood transfusion?",
+    "correct_answer": "Jean-Baptiste Denis",
+    "incorrect_answers": [
+      "William Harvey",
+      "Karl Landsteiner",
+      "Charles Drew"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "It is a specialized protein secreted by lymphocytes that helps protect the body against foreign bodies.",
+    "correct_answer": "Antibodies",
+    "incorrect_answers": [
+      "Antigens",
+      "Enzymes",
+      "Hormones"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "It is a sudden rise in blood pressure.",
+    "correct_answer": "Hypertension",
+    "incorrect_answers": [
+      "Hypotension",
+      "Tachycardia",
+      "Bradycardia"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "A disease that occurs when there is an increase in white blood cells.",
+    "correct_answer": "Leukemia",
+    "incorrect_answers": [
+      "Anemia",
+      "Leukopenia",
+      "Polycythemia"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "It occurs when a blood clot or fat gets lodged in blood vessels.",
+    "correct_answer": "Heart attack",
+    "incorrect_answers": [
+      "Stroke",
+      "Aneurysm",
+      "Embolism"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "It happens when a blood clot blocks an artery in the brain and reduces the blood supply.",
+    "correct_answer": "Stroke",
+    "incorrect_answers": [
+      "Heart attack",
+      "Aneurysm",
+      "Migraine"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "It is a condition caused by fat or cholesterol deposit in the arterial wall.",
+    "correct_answer": "Atherosclerosis",
+    "incorrect_answers": [
+      "Arteriosclerosis",
+      "Thrombosis",
+      "Aneurysm"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "It is a protein in the blood that primarily carries oxygen throughout the body.",
+    "correct_answer": "Hemoglobin",
+    "incorrect_answers": [
+      "Myoglobin",
+      "Fibrinogen",
+      "Albumin"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "What bacteria causes rheumatic fever?",
+    "correct_answer": "Streptococcus bacteria",
+    "incorrect_answers": [
+      "Staphylococcus bacteria",
+      "E. coli",
+      "Pseudomonas"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "What is the largest artery where oxygen-rich blood from the heart flows?",
+    "correct_answer": "Aorta",
+    "incorrect_answers": [
+      "Pulmonary artery",
+      "Vena cava",
+      "Carotid artery"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "A hereditary blood disorder wherein blood clots very slowly, affecting only males but transmitted in genes of females.",
+    "correct_answer": "Hemophilia",
+    "incorrect_answers": [
+      "Anemia",
+      "Leukemia",
+      "Thalassemia"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "What blood cells defend our bodies against illnesses?",
+    "correct_answer": "White blood cells",
+    "incorrect_answers": [
+      "Red blood cells",
+      "Platelets",
+      "Plasma cells"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "How many coronary arteries does a human heart have?",
+    "correct_answer": "2",
+    "incorrect_answers": [
+      "4",
+      "3",
+      "1"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "What is the name of the main artery that carries blood from the heart?",
+    "correct_answer": "Aorta",
+    "incorrect_answers": [
+      "Pulmonary artery",
+      "Vena cava",
+      "Carotid artery"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "Where are red blood cells made?",
+    "correct_answer": "Bone marrow",
+    "incorrect_answers": [
+      "Liver",
+      "Spleen",
+      "Kidneys"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "When a physician puts a stethoscope to your chest, two sounds are heard. What sounds represent the opening and closing of the valves?",
+    "correct_answer": "Lub-dub, lub-dub",
+    "incorrect_answers": [
+      "Click-clack, click-clack",
+      "Swoosh-swoosh, swoosh-swoosh",
+      "Thump-thump, thump-thump"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "Why do blood cells not shrink in blood?",
+    "correct_answer": "Because blood is isotonic",
+    "incorrect_answers": [
+      "Because blood is hypertonic",
+      "Because blood is hypotonic",
+      "Because of hemoglobin"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "Blood vessels that allow the exchange of nutrients, gases and waste in the cells of the body.",
+    "correct_answer": "Capillaries",
+    "incorrect_answers": [
+      "Arteries",
+      "Veins",
+      "Venules"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "It is the inflammation of the lungs.",
+    "correct_answer": "Pneumonia",
+    "incorrect_answers": [
+      "Bronchitis",
+      "Tuberculosis",
+      "Emphysema"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "Part of the eye which focuses light on the retina.",
+    "correct_answer": "Lens",
+    "incorrect_answers": [
+      "Cornea",
+      "Iris",
+      "Pupil"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "'Baby teeth' are also known as deciduous teeth. How many deciduous teeth does the average person develop when young?",
+    "correct_answer": "20",
+    "incorrect_answers": [
+      "32",
+      "28",
+      "24"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "What is the colored part around the pupil of the eye?",
+    "correct_answer": "Iris",
+    "incorrect_answers": [
+      "Cornea",
+      "Lens",
+      "Retina"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "What is the strongest muscle in the body?",
+    "correct_answer": "Tongue",
+    "incorrect_answers": [
+      "Heart",
+      "Quadriceps",
+      "Jaw muscle"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "It makes up most of your blood and helps carry oxygen and food to the cells in your body. It helps your body get rid of wastes through urine and sweat.",
+    "correct_answer": "Water",
+    "incorrect_answers": [
+      "Plasma",
+      "Protein",
+      "Carbohydrates"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "What food nutrient is our body's main source of energy?",
+    "correct_answer": "Carbohydrates",
+    "incorrect_answers": [
+      "Proteins",
+      "Fats",
+      "Vitamins"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "They are very important for building strong bones.",
+    "correct_answer": "Calcium",
+    "incorrect_answers": [
+      "Iron",
+      "Sodium",
+      "Potassium"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "It is a degenerative brain disorder that causes a gradual and irreversible decline in memory and eventually, the ability to care for oneself.",
+    "correct_answer": "Alzheimer's disease",
+    "incorrect_answers": [
+      "Parkinson's disease",
+      "Multiple sclerosis",
+      "Dementia with Lewy bodies"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "It is a dietary-deficiency disease resulting from inadequate intake of niacin.",
+    "correct_answer": "Pellagra",
+    "incorrect_answers": [
+      "Beriberi",
+      "Scurvy",
+      "Rickets"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "An irregularity in the rhythm of the heartbeat is referred to as what?",
+    "correct_answer": "Arrhythmia",
+    "incorrect_answers": [
+      "Tachycardia",
+      "Bradycardia",
+      "Palpitation"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "It is a water-soluble vitamin found in fruits and leafy vegetables and is also called ascorbic acid.",
+    "correct_answer": "Vitamin C",
+    "incorrect_answers": [
+      "Vitamin A",
+      "Vitamin B",
+      "Vitamin D"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "A prolonged deficiency of Vitamin C in the diet causes what disease?",
+    "correct_answer": "Scurvy",
+    "incorrect_answers": [
+      "Rickets",
+      "Beriberi",
+      "Pellagra"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "It is an ailment that can develop from low red blood cell count or deficiency in hemoglobin.",
+    "correct_answer": "Anemia",
+    "incorrect_answers": [
+      "Leukemia",
+      "Hemophilia",
+      "Polycythemia"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "What is the protein found in milk?",
+    "correct_answer": "Casein",
+    "incorrect_answers": [
+      "Whey",
+      "Lactose",
+      "Albumin"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "What is the cheapest source of Vitamin D?",
+    "correct_answer": "Sunlight/Morning Sunshine",
+    "incorrect_answers": [
+      "Fish oil",
+      "Egg yolk",
+      "Milk"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "What severe form of child malnutrition is caused by inadequate intake of protein?",
+    "correct_answer": "Kwashiorkor",
+    "incorrect_answers": [
+      "Marasmus",
+      "Pellagra",
+      "Rickets"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "It refers to the food that a person usually consumes.",
+    "correct_answer": "Diet",
+    "incorrect_answers": [
+      "Nutrition",
+      "Meal plan",
+      "Regimen"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "This vitamin is extracted from liver which is essential for red blood cell formation.",
+    "correct_answer": "Vitamin B12 / Cyanocobalamin",
+    "incorrect_answers": [
+      "Vitamin B6",
+      "Vitamin A",
+      "Vitamin D"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "It is a relapse or recurrence of an illness or disease.",
+    "correct_answer": "Palindromia",
+    "incorrect_answers": [
+      "Remission",
+      "Chronic",
+      "Acute"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "It is the scientific regulation of diet in treating disease.",
+    "correct_answer": "Dietotherapy",
+    "incorrect_answers": [
+      "Dietetics",
+      "Nutrition therapy",
+      "Nutrigenomics"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "Any substance that nourishes a person to enable him to live and grow.",
+    "correct_answer": "Food",
+    "incorrect_answers": [
+      "Medicine",
+      "Water",
+      "Vitamin"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "It is a condition characterized by sleepiness, indifference, and lack of energy.",
+    "correct_answer": "Lethargy",
+    "incorrect_answers": [
+      "Fatigue",
+      "Insomnia",
+      "Narcolepsy"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "____________ is the metabolism of fat.",
+    "correct_answer": "Lipometabolism",
+    "incorrect_answers": [
+      "Glycolysis",
+      "Proteolysis",
+      "Catabolism"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "_____________ is caused by lack of calories or inadequate amount of food.",
+    "correct_answer": "Marasmus",
+    "incorrect_answers": [
+      "Kwashiorkor",
+      "Obesity",
+      "Anorexia"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "It is a type of cancer of the blood characterized by an abnormal increase of immature white blood cells called 'blasts'.",
+    "correct_answer": "Leukemia",
+    "incorrect_answers": [
+      "Lymphoma",
+      "Anemia",
+      "Myeloma"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "The slowness of heart rate is referred to as what?",
+    "correct_answer": "Bradycardia",
+    "incorrect_answers": [
+      "Tachycardia",
+      "Arrhythmia",
+      "Cardiac arrest"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "The first secretion from the mother's breast is rich in antibodies and minerals. This is produced after giving birth and before the production of true milk.",
+    "correct_answer": "Colostrum",
+    "incorrect_answers": [
+      "Breast milk",
+      "Formula",
+      "Plasma"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "These are the 'building blocks' of protein which is an integral part of all body tissues especially muscle.",
+    "correct_answer": "Amino Acids",
+    "incorrect_answers": [
+      "Fatty Acids",
+      "Glucose",
+      "Nucleotides"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "It is the enlargement of the thyroid gland appearing as a swelling of the front of the neck.",
+    "correct_answer": "Goiter",
+    "incorrect_answers": [
+      "Mumps",
+      "Tonsillitis",
+      "Lymphoma"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "It helps prevent goiter.",
+    "correct_answer": "Iodine",
+    "incorrect_answers": [
+      "Calcium",
+      "Iron",
+      "Zinc"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "This refers to the ease with which nutrients, particularly minerals, can be absorbed from the digestive tract and utilized by the body.",
+    "correct_answer": "Bio-availability/Bioavailability",
+    "incorrect_answers": [
+      "Absorption rate",
+      "Digestibility",
+      "Solubility"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "___________ is a term to describe minerals that are attached to other molecules such as proteins or carbohydrates and used to improve the bio-availability of minerals.",
+    "correct_answer": "Chelates",
+    "incorrect_answers": [
+      "Enzymes",
+      "Coenzymes",
+      "Antioxidants"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "These are the building blocks of fats and oils.",
+    "correct_answer": "Fatty Acids",
+    "incorrect_answers": [
+      "Amino Acids",
+      "Glycerol",
+      "Glucose"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "It refers to the study of measurement of the physical characteristics of the body such as height and weight.",
+    "correct_answer": "Anthropometry",
+    "incorrect_answers": [
+      "Anatomy",
+      "Physiology",
+      "Biometrics"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "It is the pressure of the blood on the walls of the arteries.",
+    "correct_answer": "Blood Pressure",
+    "incorrect_answers": [
+      "Pulse",
+      "Heart rate",
+      "Cardiac output"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "_________ is the rate of energy used for metabolism when the body is at complete rest.",
+    "correct_answer": "Basal Metabolic Rate (BMR)",
+    "incorrect_answers": [
+      "Total Daily Energy Expenditure",
+      "Resting Heart Rate",
+      "Caloric intake"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "It is an eating disorder characterized by binge eating, sometimes followed by vomiting or purging.",
+    "correct_answer": "Bulimia",
+    "incorrect_answers": [
+      "Anorexia nervosa",
+      "Binge eating disorder",
+      "Orthorexia"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "What is the natural stimulant found in coffee, tea, and chocolate?",
+    "correct_answer": "Caffeine",
+    "incorrect_answers": [
+      "Theobromine",
+      "Nicotine",
+      "Tannin"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "It is the unit of heat and the measurement of energy.",
+    "correct_answer": "Calorie",
+    "incorrect_answers": [
+      "Joule",
+      "Watt",
+      "BTU"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "___________ is a monosaccharide, sometimes known as blood sugar.",
+    "correct_answer": "Glucose",
+    "incorrect_answers": [
+      "Fructose",
+      "Galactose",
+      "Sucrose"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "It is the main carbohydrate in milk.",
+    "correct_answer": "Lactose",
+    "incorrect_answers": [
+      "Glucose",
+      "Casein",
+      "Galactose"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "These refer to the substances obtained from food and used in the body to provide energy and structural materials and to regulate growth, maintenance and repair of the body's tissue.",
+    "correct_answer": "Nutrients",
+    "incorrect_answers": [
+      "Calories",
+      "Enzymes",
+      "Hormones"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "__________ is a chronic disease characterized by excessively high body fat in relation to lean body tissue.",
+    "correct_answer": "Obesity",
+    "incorrect_answers": [
+      "Overweight",
+      "Malnutrition",
+      "Diabetes"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "It is an excess of body weight that includes fat, bone, and muscle.",
+    "correct_answer": "Overweight",
+    "incorrect_answers": [
+      "Obesity",
+      "Malnutrition",
+      "Edema"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "What is the general term for people who exclude meat, poultry, fish, or other animal-derived foods from their diets?",
+    "correct_answer": "Vegetarians",
+    "incorrect_answers": [
+      "Vegans",
+      "Pescatarians",
+      "Flexitarians"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "These are organic, essential nutrients required only in small amounts.",
+    "correct_answer": "Vitamins",
+    "incorrect_answers": [
+      "Minerals",
+      "Proteins",
+      "Carbohydrates"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "________ is a guideline for the amount of energy and selected nutrients considered adequate to meet the nutrient needs of practically all healthy people.",
+    "correct_answer": "Recommended Dietary Allowances (RDA)",
+    "incorrect_answers": [
+      "Daily Value (DV)",
+      "Adequate Intake (AI)",
+      "Tolerable Upper Intake Level (UL)"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "It is the breaking down of foodstuffs in the body into a form that can be absorbed and used or excreted.",
+    "correct_answer": "Digestion",
+    "incorrect_answers": [
+      "Absorption",
+      "Metabolism",
+      "Excretion"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "It is the state of being healthy and fit, gaining all nutrients.",
+    "correct_answer": "Wellness",
+    "incorrect_answers": [
+      "Fitness",
+      "health",
+      "Nutrition"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "It is a lack of adequate fluids in the body.",
+    "correct_answer": "Dehydration",
+    "incorrect_answers": [
+      "Malnutrition",
+      "Starvation",
+      "Edema"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "It is a deficiency in blood where iron level intake is too low.",
+    "correct_answer": "Anemia",
+    "incorrect_answers": [
+      "Hemophilia",
+      "Leukemia",
+      "Thalassemia"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "These are foods that are supplemented with essential nutrients in quantities greater than already present.",
+    "correct_answer": "Fortified Foods",
+    "incorrect_answers": [
+      "Enriched Foods",
+      "Organic Foods",
+      "Processed Foods"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "How do you call a healthcare professional with training in nutrition and diet planning?",
+    "correct_answer": "Dietician/Dietitian",
+    "incorrect_answers": [
+      "Nutritionist",
+      "Doctor",
+      "Chef"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "_______ is the science that deals with foods and their effects on health.",
+    "correct_answer": "Nutrition",
+    "incorrect_answers": [
+      "Dietetics",
+      "Gastronomy",
+      "Culinary science"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "________ is a drug or remedy used for treating illness.",
+    "correct_answer": "Medicine",
+    "incorrect_answers": [
+      "Supplement",
+      "Vitamin",
+      "Antibiotic"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "It is a lack of healthy foods in the diet, or an excessive intake of unhealthy foods, leading to physical harm.",
+    "correct_answer": "Malnutrition",
+    "incorrect_answers": [
+      "Starvation",
+      "Dehydration",
+      "Obesity"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "What is the best way to determine the nutritional status of an individual?",
+    "correct_answer": "Weighing",
+    "incorrect_answers": [
+      "Measuring height",
+      "Blood test",
+      "Urine test"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "What substance are nails made of?",
+    "correct_answer": "Keratin",
+    "incorrect_answers": [
+      "Calcium",
+      "Collagen",
+      "Elastin"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "He is a Polish-American chemist considered as the 'Father of Vitamin Therapy' and was the first to coin the term 'vitamin' as vital factors in the diet.",
+    "correct_answer": "Casimir Funk",
+    "incorrect_answers": [
+      "Linus Pauling",
+      "Frederick Hopkins",
+      "Christiaan Eijkman"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "It is the only sugar manufactured by mammals.",
+    "correct_answer": "Lactose",
+    "incorrect_answers": [
+      "Glucose",
+      "Fructose",
+      "Sucrose"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "Axerophthol is the same as what vitamin?",
+    "correct_answer": "Vitamin A",
+    "incorrect_answers": [
+      "Vitamin D",
+      "Vitamin E",
+      "Vitamin K"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "It is a malignant growth of cells.",
+    "correct_answer": "Cancer",
+    "incorrect_answers": [
+      "Tumor",
+      "Cyst",
+      "Polyp"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "Cardiopathy is known to be what sort of disease?",
+    "correct_answer": "Heart Disease",
+    "incorrect_answers": [
+      "Lung Disease",
+      "Kidney Disease",
+      "Liver Disease"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "It is a disease caused by a deficiency of Vitamin D.",
+    "correct_answer": "Rickets",
+    "incorrect_answers": [
+      "Scurvy",
+      "Pellagra",
+      "Beriberi"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "What vitamin is viosterol?",
+    "correct_answer": "Vitamin D2",
+    "incorrect_answers": [
+      "Vitamin A",
+      "Vitamin E",
+      "Vitamin K"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "What nutrient is needed as the main structural component of the body?",
+    "correct_answer": "Protein",
+    "incorrect_answers": [
+      "Carbohydrates",
+      "Fats",
+      "Vitamins"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "What vitamin helps in blood clotting and is known as naphthoquinone?",
+    "correct_answer": "Vitamin K",
+    "incorrect_answers": [
+      "Vitamin E",
+      "Vitamin A",
+      "Vitamin C"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "What vitamin is needed for a healthy immune system and strong connective tissue?",
+    "correct_answer": "Vitamin C/Ascorbic Acid",
+    "incorrect_answers": [
+      "Vitamin A",
+      "Vitamin D",
+      "Vitamin E"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "It is also known as tocopherol and is necessary for normal reproduction.",
+    "correct_answer": "Vitamin E",
+    "incorrect_answers": [
+      "Vitamin A",
+      "Vitamin D",
+      "Vitamin K"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "What is the cheapest source of iodine in our household?",
+    "correct_answer": "Iodized salt",
+    "incorrect_answers": [
+      "Seafood",
+      "Seaweed",
+      "Dairy products"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "He is referred to as the 'Father of Medicine'.",
+    "correct_answer": "Hippocrates",
+    "incorrect_answers": [
+      "Galen",
+      "Aristotle",
+      "Avicenna"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "_______ is a thiamine-deficiency disease.",
+    "correct_answer": "Beriberi",
+    "incorrect_answers": [
+      "Pellagra",
+      "Scurvy",
+      "Rickets"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "What is the process of removing harmful pathogens from various types of food?",
+    "correct_answer": "Pasteurization",
+    "incorrect_answers": [
+      "Sterilization",
+      "Homogenization",
+      "Fermentation"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "It protects the child from measles and is given only once as early as nine months.",
+    "correct_answer": "Measles Vaccine",
+    "incorrect_answers": [
+      "BCG",
+      "Polio vaccine",
+      "DPT vaccine"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "It protects the unborn child from tetanus and is given to the mother twice.",
+    "correct_answer": "Tetanus Toxoid",
+    "incorrect_answers": [
+      "BCG",
+      "Hepatitis B vaccine",
+      "Polio vaccine"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "It is the current vaccine for tuberculosis.",
+    "correct_answer": "Bacillus Calmette Guerin (BCG)",
+    "incorrect_answers": [
+      "DPT",
+      "MMR",
+      "Hepatitis B vaccine"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "What is the substance found in colostrum that fights against infection and creates antibodies that stimulates immunity?",
+    "correct_answer": "Immunoglobulin",
+    "incorrect_answers": [
+      "Hemoglobin",
+      "Albumin",
+      "Fibrinogen"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "________ is a hidden hunger.",
+    "correct_answer": "Malnutrition",
+    "incorrect_answers": [
+      "Starvation",
+      "Dehydration",
+      "Poverty"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "It is also called 'Night Blindness' and is poor vision in relatively low light.",
+    "correct_answer": "Nyctalopia",
+    "incorrect_answers": [
+      "Presbyopia",
+      "Myopia",
+      "Hyperopia"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "Malunggay (Moringa) have different parts. For what is the use of its fruit/seed?",
+    "correct_answer": "Arthritis",
+    "incorrect_answers": [
+      "Diabetes",
+      "Hypertension",
+      "Asthma"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "_________ is slowness in eating.",
+    "correct_answer": "Bradyphagia",
+    "incorrect_answers": [
+      "Dysphagia",
+      "Tachyphagia",
+      "Aphagia"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "A person who stores too much sugar in the body may suffer from ___________.",
+    "correct_answer": "Diabetes",
+    "incorrect_answers": [
+      "Hypoglycemia",
+      "Obesity",
+      "Hypertension"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "Who discovered vitamin D and the role of the vitamin in preventing rickets?",
+    "correct_answer": "Edward Mellanby",
+    "incorrect_answers": [
+      "Casimir Funk",
+      "Frederick Hopkins",
+      "Elmer McCollum"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "What is the medical term for the inflammation of the protective membranes covering the brain and spinal cord?",
+    "correct_answer": "Meningitis",
+    "incorrect_answers": [
+      "Encephalitis",
+      "Myelitis",
+      "Neuritis"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "____________ is a great toe displacement toward other toes.",
+    "correct_answer": "Hallux varus",
+    "incorrect_answers": [
+      "Hallux valgus",
+      "Bunion",
+      "Hammer toe"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "This disease happens when the flow of oxygen-rich blood to a section of heart muscle suddenly becomes blocked and the heart can't get oxygen.",
+    "correct_answer": "Heart Attack",
+    "incorrect_answers": [
+      "Stroke",
+      "Cardiac arrest",
+      "Angina"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "It is a part of the vitamin B complex, which is vital for red blood cells, and thus used in the treatment of pernicious and macrocytic anemia and gastrointestinal disorders.",
+    "correct_answer": "Folic Acid / Folacin / Folate / vitamin M / vitamin B9 / vitamin Bc",
+    "incorrect_answers": [
+      "Vitamin B12",
+      "Vitamin B6",
+      "Vitamin B2"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "_________ means hernia of the stomach.",
+    "correct_answer": "Gastrocele",
+    "incorrect_answers": [
+      "Hiatal hernia",
+      "Gastritis",
+      "Gastroenteritis"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "_________ is any illness resulting from the consumption of contaminated food or foods which contain poisonous substances.",
+    "correct_answer": "Food Poisoning",
+    "incorrect_answers": [
+      "Indigestion",
+      "Malabsorption",
+      "Gastroenteritis"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "When protein reaches the intestines for it to be digested, in what unit is it broken?",
+    "correct_answer": "Amino Acid",
+    "incorrect_answers": [
+      "Peptide",
+      "Polypeptide",
+      "Nitrogen"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "It is a statement or information on food labels indicating the nutrient(s) and the quantity of said nutrient found or added in processed foods or food products.",
+    "correct_answer": "Nutrition Facts",
+    "incorrect_answers": [
+      "Ingredients list",
+      "Serving size",
+      "Health claim"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "________ is the addition of nutrients to processed foods or food products at levels above the natural state.",
+    "correct_answer": "Fortification / Food Fortification",
+    "incorrect_answers": [
+      "Enrichment",
+      "Supplementation",
+      "Processing"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "It is the process of introducing vaccines into the body to stimulate the formation of antibodies which fight germs that cause diseases.",
+    "correct_answer": "Immunization",
+    "incorrect_answers": [
+      "Vaccination",
+      "Inoculation",
+      "Antibiotic therapy"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "What do you call the medical condition in which a person's spine is curved from side to side?",
+    "correct_answer": "Scoliosis",
+    "incorrect_answers": [
+      "Kyphosis",
+      "Lordosis",
+      "Osteoporosis"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "This results from a disproportion among essential nutrients with or without the absolute deficiency of any nutrients.",
+    "correct_answer": "Imbalance",
+    "incorrect_answers": [
+      "Malnutrition",
+      "Deficiency",
+      "Toxicity"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "________ is a substance formed by protein in the blood that is used by the immune system to identify and neutralize foreign objects such as bacteria and viruses.",
+    "correct_answer": "Antibody",
+    "incorrect_answers": [
+      "Antigen",
+      "Enzyme",
+      "Hormone"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "It is the removal of mineral or calcium ions from the bone or other calcified tissue to make them flexible and easy for pathological investigation.",
+    "correct_answer": "Decalcification",
+    "incorrect_answers": [
+      "Ossification",
+      "Calcification",
+      "Demineralization"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "These are smaller amounts of vitamins or minerals consumed.",
+    "correct_answer": "Micronutrients",
+    "incorrect_answers": [
+      "Macronutrients",
+      "Trace elements",
+      "Supplements"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "What hormone is produced in the pancreas that regulates the metabolism of glucose? The lack of this hormone causes diabetes.",
+    "correct_answer": "Insulin",
+    "incorrect_answers": [
+      "Glucagon",
+      "Somatostatin",
+      "Cortisol"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "__________ are portions and types of foods and beverages consumed on a regular basis.",
+    "correct_answer": "Diet",
+    "incorrect_answers": [
+      "Nutrition",
+      "Meal plan",
+      "Regimen"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "It is a standardized ratio of weight to height.",
+    "correct_answer": "Body Mass Index (BMI)",
+    "incorrect_answers": [
+      "Waist-to-hip ratio",
+      "Body fat percentage",
+      "Basal metabolic rate"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "In what part of the body does digestion begin?",
+    "correct_answer": "Mouth",
+    "incorrect_answers": [
+      "Stomach",
+      "Esophagus",
+      "Small intestine"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "What group of foods builds and repairs worn-out tissues?",
+    "correct_answer": "Grow Foods",
+    "incorrect_answers": [
+      "Go Foods",
+      "Glow Foods",
+      "Energy Foods"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "What basic food group provides the body with heat and energy?",
+    "correct_answer": "Energy-Giving Foods (Go Foods)",
+    "incorrect_answers": [
+      "Grow Foods",
+      "Glow Foods",
+      "Body-building Foods"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "It is a deficiency of calcium in the elderly.",
+    "correct_answer": "Osteoporosis",
+    "incorrect_answers": [
+      "Osteoarthritis",
+      "Rickets",
+      "Osteomalacia"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "What is the 'poor man's meat'?",
+    "correct_answer": "Monggo",
+    "incorrect_answers": [
+      "Tofu",
+      "Eggs",
+      "Lentils"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "What vitamin do we get from yellow foods?",
+    "correct_answer": "Vitamin A",
+    "incorrect_answers": [
+      "Vitamin C",
+      "Vitamin D",
+      "Vitamin B"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "What mineral makes our teeth harder?",
+    "correct_answer": "Calcium",
+    "incorrect_answers": [
+      "Iron",
+      "Zinc",
+      "Magnesium"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "What are the water-soluble vitamins?",
+    "correct_answer": "Vitamin C and Vitamins B complex",
+    "incorrect_answers": [
+      "Vitamins A, D, E, and K",
+      "Only Vitamin C",
+      "Only B vitamins"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "What vitamin helps in preventing hemorrhage and is known as the bandage vitamin?",
+    "correct_answer": "Vitamin K",
+    "incorrect_answers": [
+      "Vitamin E",
+      "Vitamin C",
+      "Vitamin A"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "What do you call the thrombocytes that are tiny colorless disk-shaped cells and play an important part in the clotting process?",
+    "correct_answer": "Platelets",
+    "incorrect_answers": [
+      "Erythrocytes",
+      "Leukocytes",
+      "Lymphocytes"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "What do you call the cholesterol that comes from food?",
+    "correct_answer": "Dietary Cholesterol",
+    "incorrect_answers": [
+      "Serum Cholesterol",
+      "Blood Cholesterol",
+      "LDL Cholesterol"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "What do you call the cholesterol that circulates in your blood?",
+    "correct_answer": "Serum Cholesterol/Blood Cholesterol",
+    "incorrect_answers": [
+      "Dietary Cholesterol",
+      "Total Cholesterol",
+      "HDL Cholesterol"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "What is the body's most essential nutrient?",
+    "correct_answer": "Water",
+    "incorrect_answers": [
+      "Protein",
+      "Carbohydrates",
+      "Oxygen"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "What are the fat-soluble vitamins?",
+    "correct_answer": "Vitamins A, D, E, and K",
+    "incorrect_answers": [
+      "Vitamin C and B complex",
+      "All vitamins",
+      "Only Vitamin A and D"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "It must accompany smart eating for weight control.",
+    "correct_answer": "Regular Exercise",
+    "incorrect_answers": [
+      "Fasting",
+      "Diet pills",
+      "Surgery"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "_______ is a guideline for helping people choose a varied, balanced, and moderate diet.",
+    "correct_answer": "Daily Food Guide",
+    "incorrect_answers": [
+      "Food pyramid",
+      "MyPlate",
+      "RDA"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "It is a fatlike substance found only in animal sources of food.",
+    "correct_answer": "Cholesterol",
+    "incorrect_answers": [
+      "Triglycerides",
+      "Phospholipids",
+      "Saturated fat"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "These are substances added to food for a specific effect.",
+    "correct_answer": "Additives",
+    "incorrect_answers": [
+      "Preservatives",
+      "Colorings",
+      "Flavorings"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "___________ is an excess of body fat.",
+    "correct_answer": "Obesity",
+    "incorrect_answers": [
+      "Overweight",
+      "Malnutrition",
+      "Edema"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "How many calories are there in a pound?",
+    "correct_answer": "3,500 calories",
+    "incorrect_answers": [
+      "2,500 calories",
+      "5,000 calories",
+      "1,500 calories"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "It is an eating disorder characterized by an irrational fear of becoming obese.",
+    "correct_answer": "Anorexia nervosa",
+    "incorrect_answers": [
+      "Bulimia",
+      "Binge eating disorder",
+      "Orthorexia"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "It refers to the eating of large amounts of starches on days leading up to athletic competition.",
+    "correct_answer": "Carbohydrate Loading",
+    "incorrect_answers": [
+      "Protein loading",
+      "Glycogen supercompensation",
+      "Ketogenic diet"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "It is when the body's immune system overreacts to food substances.",
+    "correct_answer": "Food Allergy",
+    "incorrect_answers": [
+      "Food Intolerance",
+      "Food Poisoning",
+      "Celiac disease"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "___________ is using a medicine in a way that is not intended.",
+    "correct_answer": "Medicine misuse",
+    "incorrect_answers": [
+      "Medicine abuse",
+      "Overdose",
+      "Side effect"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "It is the ability to be physically active.",
+    "correct_answer": "Physical Fitness",
+    "incorrect_answers": [
+      "health",
+      "Wellness",
+      "Endurance"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "Of the existing 22 amino acids, how many are considered to be essential in the diet?",
+    "correct_answer": "9 amino acids",
+    "incorrect_answers": [
+      "8 amino acids",
+      "12 amino acids",
+      "20 amino acids"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "What are the complex carbohydrates?",
+    "correct_answer": "Starches",
+    "incorrect_answers": [
+      "Sugars",
+      "Fiber",
+      "Proteins"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "What mineral helps build red blood cells?",
+    "correct_answer": "Iron",
+    "incorrect_answers": [
+      "Calcium",
+      "Zinc",
+      "Magnesium"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "It is a fat-soluble vitamin that enhances the absorption of calcium and therefore aids in the formation and maintenance of bones and teeth.",
+    "correct_answer": "Vitamin D",
+    "incorrect_answers": [
+      "Vitamin A",
+      "Vitamin C",
+      "Vitamin K"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "What are the simple carbohydrates?",
+    "correct_answer": "Sugars",
+    "incorrect_answers": [
+      "Starches",
+      "Fiber",
+      "Proteins"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "What is the primary role of carbohydrates in the body?",
+    "correct_answer": "To provide energy",
+    "incorrect_answers": [
+      "To build muscle",
+      "To store fat",
+      "To fight infection"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "____________ is the sole source of energy used by the brain.",
+    "correct_answer": "Glucose",
+    "incorrect_answers": [
+      "Fructose",
+      "Ketones",
+      "Fatty acids"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "health",
+    "question": "It is a B vitamin that is a factor in energy metabolism and supports normal vision and skin health.",
+    "correct_answer": "Vitamin B2 or Riboflavin",
+    "incorrect_answers": [
+      "Vitamin B1",
+      "Vitamin B3",
+      "Vitamin B6"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "___________ is an excessively rapid heartbeat.",
+    "correct_answer": "Tachycardia",
+    "incorrect_answers": [
+      "Bradycardia",
+      "Arrhythmia",
+      "Palpitation"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "It is bad breath.",
+    "correct_answer": "Halitosis",
+    "incorrect_answers": [
+      "Dysgeusia",
+      "Xerostomia",
+      "Gingivitis"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "health",
+    "question": "____________ is a condition in which a person can no longer control his or her need or desire for a drug.",
+    "correct_answer": "Drug Addiction",
+    "incorrect_answers": [
+      "Drug tolerance",
+      "Drug dependence",
+      "Drug abuse"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "health",
+    "question": "It is any chemical or agent that causes cancer.",
+    "correct_answer": "Carcinogen",
+    "incorrect_answers": [
+      "Mutagen",
+      "Teratogen",
+      "Pathogen"
+    ]
+  }
+]

@@ -1,0 +1,4464 @@
+[
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "What type of function is x&sup2;+2x+1?",
+    "correct_answer": "Quadratic",
+    "incorrect_answers": [
+      "Rational",
+      "Linear",
+      "Exponential"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "What shape does sin(x) or cos(x) make on a graph?",
+    "correct_answer": "Waves",
+    "incorrect_answers": [
+      "A Parabola",
+      "A Straight Line",
+      "Zig-Zags"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "What is the area of a circle with a diameter of 20 inches if &pi;= 3.1415?",
+    "correct_answer": "314.15 Inches",
+    "incorrect_answers": [
+      "380.1215 Inches",
+      "3141.5 Inches",
+      "1256.6 Inches"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Math",
+    "question": "Integration is the reverse of what mathematical operation?",
+    "correct_answer": "Derivation",
+    "incorrect_answers": [
+      "Division",
+      "Standard Deviation",
+      "Multiplication"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "What is a polygon with eight sides called?",
+    "correct_answer": "Octagon",
+    "incorrect_answers": [
+      "Hexagon",
+      "Nanagon",
+      "Heptagon"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "What is the alphanumeric representation of the imaginary number?",
+    "correct_answer": "i",
+    "incorrect_answers": [
+      "e",
+      "n",
+      "x"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "What numbers are in the 5th row of Pascal's Triangle?",
+    "correct_answer": "1 4 6 4 1",
+    "incorrect_answers": [
+      "1 3 3 1",
+      "1 5 10 10 5 1",
+      "1 6 15 20 15 6 1"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "How many books are in Euclid's Elements of Geometry?",
+    "correct_answer": "13",
+    "incorrect_answers": [
+      "8",
+      "10",
+      "17"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Math",
+    "question": "What is the derivative of Acceleration with respect to time?",
+    "correct_answer": "Jerk",
+    "incorrect_answers": [
+      "Shift",
+      "Bump",
+      "Slide"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "At what temperature does temp in &deg;C equal temp in &deg;F?",
+    "correct_answer": "-40",
+    "incorrect_answers": [
+      "+40",
+      "0",
+      "+100"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "What is the name of a nine sided polygon?",
+    "correct_answer": "Nonagon",
+    "incorrect_answers": [
+      "Hexagon",
+      "Octagon",
+      "Heptagon"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Math",
+    "question": "Which of these numbers is closest to the total number of possible states for an army standard Enigma Machine?",
+    "correct_answer": "1.58 x 10^20",
+    "incorrect_answers": [
+      "1.58 x 10^22",
+      "1.58 x  10^18",
+      "1.58 x 10^24"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "What is the correct order of operations for solving equations?",
+    "correct_answer": "Parentheses, Exponents, Multiplication, Division, Addition, Subtraction",
+    "incorrect_answers": [
+      "Addition, Multiplication, Division, Subtraction, Addition, Parentheses",
+      "Parentheses, Exponents, Addition, Substraction, Multiplication, Division",
+      "The order in which the operations are written."
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "What is the symbol for Displacement?",
+    "correct_answer": "&Delta;r",
+    "incorrect_answers": [
+      "dr",
+      "Dp",
+      "r"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Math",
+    "question": "How many zeptometres are inside one femtometre?",
+    "correct_answer": "1,000,000",
+    "incorrect_answers": [
+      "10",
+      "1,000,000,000",
+      "1000"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "What Greek letter is used to signify summation?",
+    "correct_answer": "Sigma",
+    "incorrect_answers": [
+      "Delta",
+      "Alpha",
+      "Omega"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Math",
+    "question": "What is the approximate value of mathematical constant e?",
+    "correct_answer": "2.72",
+    "incorrect_answers": [
+      "3.14",
+      "1.62",
+      "1.41"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Math",
+    "question": "Which of these did mathematician Leonhard Euler NOT develop?",
+    "correct_answer": "An improvement to the Fast Fourier Transform",
+    "incorrect_answers": [
+      "A method of solving first-order differential equations",
+      "An identity linking the numbers e, pi and i",
+      "A formula linking vertices, edges and faces on a graph"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "What is the derivative of sin(x)",
+    "correct_answer": "cos(x)",
+    "incorrect_answers": [
+      "csc(x)",
+      "-cos(x)",
+      "-sin(x)"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "What prime number comes next after 19?",
+    "correct_answer": "23",
+    "incorrect_answers": [
+      "25",
+      "21",
+      "27"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "What type of angle is greater than 90&deg;?",
+    "correct_answer": "Obtuse",
+    "incorrect_answers": [
+      "Acute",
+      "Right",
+      "Straight"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Math",
+    "question": "How many Millibars (mbar) to 1 Inch of Mercury (inHg)",
+    "correct_answer": "33.9",
+    "incorrect_answers": [
+      "30.0",
+      "27.4",
+      "10.6"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "What is the Roman numeral for 500?",
+    "correct_answer": "D",
+    "incorrect_answers": [
+      "L",
+      "C",
+      "X"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "How many sides does a pentagon have?",
+    "correct_answer": "5",
+    "incorrect_answers": [
+      "9",
+      "6",
+      "4"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Math",
+    "question": "What is the fourth digit of &pi;?",
+    "correct_answer": "1",
+    "incorrect_answers": [
+      "2",
+      "3",
+      "4"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "How many sides does a trapezium have?",
+    "correct_answer": "4",
+    "incorrect_answers": [
+      "3",
+      "5",
+      "6"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "How many sides does a M&ouml;bius strip have?",
+    "correct_answer": "1",
+    "incorrect_answers": [
+      "2",
+      "3",
+      "4"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "How many square faces does a cube have?",
+    "correct_answer": "6",
+    "incorrect_answers": [
+      "4",
+      "8",
+      "10"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "What's the square root of 49?",
+    "correct_answer": "7",
+    "incorrect_answers": [
+      "4",
+      "12",
+      "9"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Math",
+    "question": "What is the only Millennium Prize Problem that has been solved so far?",
+    "correct_answer": "Poincar&eacute; conjecture",
+    "incorrect_answers": [
+      "P vs. NP problem",
+      "Riemann Hypothesis",
+      "Fermat's conjecture"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "How many sides does a heptagon have?",
+    "correct_answer": "7",
+    "incorrect_answers": [
+      "5",
+      "4",
+      "9"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "In the hexadecimal system, what number comes after 9?",
+    "correct_answer": "The Letter A",
+    "incorrect_answers": [
+      "10",
+      "The Number 0",
+      "16"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "To the nearest whole number, how many radians are in a whole circle?",
+    "correct_answer": "6",
+    "incorrect_answers": [
+      "3",
+      "4",
+      "5"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "How many degrees make a full circle?",
+    "correct_answer": "360",
+    "incorrect_answers": [
+      "180",
+      "90",
+      "720"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Math",
+    "question": "Which of the following mathematicians made major contributions to game theory?",
+    "correct_answer": "John Von Neumann",
+    "incorrect_answers": [
+      "Carl Friedrich Gauss",
+      "Leonhard Euler",
+      "Stefan Banach"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "What comes after a Million, a Billion, and a Trillion?",
+    "correct_answer": "Quadrillion",
+    "incorrect_answers": [
+      "Sextillion",
+      "Quintillion",
+      "Septillion"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "Which of the following dice is not a platonic solid?",
+    "correct_answer": "10-sided die",
+    "incorrect_answers": [
+      "12-sided die",
+      "20-sided die",
+      "8-sided die"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "What is the mathematician Euler's first name?",
+    "correct_answer": "Leonhard",
+    "incorrect_answers": [
+      "Lionel",
+      "Andrin",
+      "Ajan"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "What is the least number of sides a polygon can have?",
+    "correct_answer": "3",
+    "incorrect_answers": [
+      "1",
+      "2",
+      "7"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "Who proved Fermat's Last Theorem?",
+    "correct_answer": "Andrew Wiles",
+    "incorrect_answers": [
+      "Leonhard Euler",
+      "Carl Friedrich Gauss",
+      "Srinivasa Ramanujan"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "Which of these probability distributions is NOT discrete?",
+    "correct_answer": "Normal",
+    "incorrect_answers": [
+      "Binomial",
+      "Poisson",
+      "Hyper-geometric"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "What is the equation for the area of a sphere?",
+    "correct_answer": "(4/3)&pi;r^3",
+    "incorrect_answers": [
+      "4&pi;r^2",
+      "(1/3)&pi;hr^2",
+      "&pi;r^4"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "In Roman Numerals, what does XL equate to?",
+    "correct_answer": "40",
+    "incorrect_answers": [
+      "60",
+      "15",
+      "90"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Math",
+    "question": "What is the plane curve proposed by Descartes to challenge Fermat's extremum-finding techniques called?",
+    "correct_answer": "Folium of Descartes",
+    "incorrect_answers": [
+      "Elliptic Paraboloid of Descartes",
+      "Cartesian Coordinates",
+      "Descarte's Helicoid"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "Which two men are credited with independently discovering differential calculus? ",
+    "correct_answer": "Newton and Leibnitz",
+    "incorrect_answers": [
+      "Plato and Aristotle",
+      "Asiimov and Rutherford",
+      "Dvorak and Smith"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "What is the first Mersenne prime exponent over 1000?",
+    "correct_answer": "1279",
+    "incorrect_answers": [
+      "2203",
+      "1009",
+      "1069"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "What fraction represents the odds of flipping a coin four times in a row and each time it landing on heads?",
+    "correct_answer": "1/16",
+    "incorrect_answers": [
+      "1/8",
+      "1/4",
+      "1/32"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "Binary number systems, often found in computer programming, use only which two digits?",
+    "correct_answer": "0 and 1",
+    "incorrect_answers": [
+      "1 and 2",
+      "0 and 2",
+      "0 and 9"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "What number is the product of every prime number that is less than 10?",
+    "correct_answer": "210",
+    "incorrect_answers": [
+      "105",
+      "420",
+      "30"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "What do you get if you divide 30 by ½ and then add 10?",
+    "correct_answer": "70",
+    "incorrect_answers": [
+      "25",
+      "40",
+      "55"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "What is the square root of -1 called?",
+    "correct_answer": "Imaginary number",
+    "incorrect_answers": [
+      "Real number",
+      "Complex number",
+      "Negative number"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "What comes after a trillion?",
+    "correct_answer": "Quadrillion",
+    "incorrect_answers": [
+      "Quintillion",
+      "Billion",
+      "Sextillion"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "Which term refers to any non-prime whole number other than 0 and 1?",
+    "correct_answer": "Composite number",
+    "incorrect_answers": [
+      "Rational number",
+      "Irrational number",
+      "Natural number"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "This number equals the sum of any integer and its negative.",
+    "correct_answer": "0",
+    "incorrect_answers": [
+      "1",
+      "-1",
+      "Infinity"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "The length of the hypotenuse of a right triangle with legs whose lengths are 6 and 8 is what number?",
+    "correct_answer": "10",
+    "incorrect_answers": [
+      "12",
+      "14",
+      "9"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "In Einstein's famous equation, E=MC², the constant used to express the speed of light is represented by which letter?",
+    "correct_answer": "C",
+    "incorrect_answers": [
+      "E",
+      "M",
+      "L"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Math",
+    "question": "Using only addition, how do you add eight 8's and get the number 1000?",
+    "correct_answer": "888 + 88 + 8 + 8 + 8 = 1000",
+    "incorrect_answers": [
+      "888 + 88 + 88 + 8 = 1000",
+      "888 + 111 + 1 = 1000",
+      "800 + 80 + 80 + 40 = 1000"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "True or False: -40° Celsius is equal to -40° Fahrenheit.",
+    "correct_answer": "True",
+    "incorrect_answers": [
+      "False"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "What value represents the sum of the first five prime numbers?",
+    "correct_answer": "28",
+    "incorrect_answers": [
+      "18",
+      "23",
+      "33"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "What mathematical constant represents the natural logarithm of 1?",
+    "correct_answer": "0",
+    "incorrect_answers": [
+      "1",
+      "e",
+      "Infinity"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "What is the product of the first three prime numbers?",
+    "correct_answer": "30",
+    "incorrect_answers": [
+      "6",
+      "15",
+      "10"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "Solve: –15 + (-5x) = 0.",
+    "correct_answer": "x = -3",
+    "incorrect_answers": [
+      "x = 3",
+      "x = -5",
+      "x = 5"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "Roll three 6-sided dice to generate three place value digits. What's the biggest number you can make out of these digits?",
+    "correct_answer": "666",
+    "incorrect_answers": [
+      "999",
+      "111",
+      "600"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "Is 51 a prime number?",
+    "correct_answer": "No",
+    "incorrect_answers": [
+      "Yes"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "5 people give each other a present. How many presents are given altogether?",
+    "correct_answer": "20",
+    "incorrect_answers": [
+      "10",
+      "25",
+      "15"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "What number is equal to the number of square inches in a square foot?",
+    "correct_answer": "144",
+    "incorrect_answers": [
+      "12",
+      "100",
+      "48"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "What statistical measure of central tendency represents the middle value in a data set when the numbers are arranged from smallest to largest?",
+    "correct_answer": "Median",
+    "incorrect_answers": [
+      "Mean",
+      "Mode",
+      "Range"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "When I was 12 my brother was half my age. I'm 40 now, so how old is he?",
+    "correct_answer": "34",
+    "incorrect_answers": [
+      "20",
+      "28",
+      "40"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Math",
+    "question": "I have 20 candies. If I share them equally with my friends, there are 2 left over. If one more person joins us, there are 6 candies left. How many friends am I with?",
+    "correct_answer": "5 friends",
+    "incorrect_answers": [
+      "4 friends",
+      "6 friends",
+      "3 friends"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "What is 1.92 ÷ 3?",
+    "correct_answer": "0.64",
+    "incorrect_answers": [
+      "0.96",
+      "0.32",
+      "6.4"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "This number equals the sum of the first three perfect cubes.",
+    "correct_answer": "36",
+    "incorrect_answers": [
+      "27",
+      "64",
+      "100"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "Is zero an even number?",
+    "correct_answer": "Yes",
+    "incorrect_answers": [
+      "No"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "What is the smallest prime number?",
+    "correct_answer": "2",
+    "incorrect_answers": [
+      "1",
+      "0",
+      "3"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "What is 50% of 14?",
+    "correct_answer": "7",
+    "incorrect_answers": [
+      "28",
+      "14",
+      "3.5"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "A farmer has 17 sheep. All but 9 run away. How many does he have left?",
+    "correct_answer": "9",
+    "incorrect_answers": [
+      "8",
+      "17",
+      "0"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "First celebrated in San Francisco in 1988, what mathematical holiday is celebrated annually on March 14th?",
+    "correct_answer": "Pi Day",
+    "incorrect_answers": [
+      "Euler Day",
+      "Math Day",
+      "Algebra Day"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "Which word describes an angle greater than 90 degrees?",
+    "correct_answer": "Obtuse",
+    "incorrect_answers": [
+      "Acute",
+      "Right",
+      "Reflex"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "Which value is the only whole number that cannot be represented using Roman Numerals?",
+    "correct_answer": "0",
+    "incorrect_answers": [
+      "1",
+      "100",
+      "500"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "Which number looks the same upside down as it does right side up?",
+    "correct_answer": "8",
+    "incorrect_answers": [
+      "6",
+      "0",
+      "9"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "A movie theater screening starts at 2:35 pm. The movie lasts for 2 hours, 32 minutes, after 23 minutes of previews. It takes 20 minutes to get home. What time should you tell your family that you'll be home?",
+    "correct_answer": "5:50 pm",
+    "incorrect_answers": [
+      "5:30 pm",
+      "6:00 pm",
+      "5:10 pm"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "How many feet are in a mile?",
+    "correct_answer": "5280",
+    "incorrect_answers": [
+      "1000",
+      "3280",
+      "6200"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "5 people meet; each shakes everyone else's hand once. How many handshakes take place?",
+    "correct_answer": "10",
+    "incorrect_answers": [
+      "5",
+      "20",
+      "25"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "A fraction is known as improper if it is greater than what number?",
+    "correct_answer": "1",
+    "incorrect_answers": [
+      "0",
+      "2",
+      "10"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "If you have 30 red socks, 20 white socks, and 10 blue socks, how many will you pick to get at least 1 matching pair without looking?",
+    "correct_answer": "4",
+    "incorrect_answers": [
+      "2",
+      "3",
+      "5"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "3 monkeys share a bunch of bananas. The first monkey takes 3 bananas. The second monkey then takes half of the remaining bananas. The third monkey takes the last banana. How many bananas were in the original bunch?",
+    "correct_answer": "5",
+    "incorrect_answers": [
+      "6",
+      "7",
+      "10"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "Which type of symmetry can be found in Starfish, whose limbs radiate from one central point?",
+    "correct_answer": "Radial symmetry",
+    "incorrect_answers": [
+      "Bilateral symmetry",
+      "Rotational symmetry",
+      "Reflection symmetry"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Math",
+    "question": "Eight of my pets aren't dogs, five aren't rabbits, and seven aren't cats. How many pets do I have?",
+    "correct_answer": "10",
+    "incorrect_answers": [
+      "8",
+      "12",
+      "15"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Math",
+    "question": "I add six to 11 and get five. How is this correct? (Hint: What time is it?)",
+    "correct_answer": "Adding 6 to 11 on a clock gives 5 o'clock",
+    "incorrect_answers": [
+      "It's a subtraction trick",
+      "Using negative numbers",
+      "In base 12 arithmetic"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "I am a number, but when you add 'G' to me, I go away. What number am I?",
+    "correct_answer": "One",
+    "incorrect_answers": [
+      "Two",
+      "Three",
+      "Zero"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "How do you make 7 even?",
+    "correct_answer": "Remove the 's'",
+    "incorrect_answers": [
+      "Add 1",
+      "Multiply by 2",
+      "Divide by 2"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Math",
+    "question": "A group of people collects $529. If each person contributes an amount in dollars equal to the total number of people in the group, how many people are in the group?",
+    "correct_answer": "23",
+    "incorrect_answers": [
+      "21",
+      "25",
+      "33"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "When is '8 + 10 = 6' true?",
+    "correct_answer": "When you're telling time (8am + 10 hours = 6pm)",
+    "incorrect_answers": [
+      "In base 12",
+      "With negative numbers",
+      "When subtracting"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "Which type of symmetry can be found in butterflies, whose wing patterns form a vertical mirror image?",
+    "correct_answer": "Bilateral symmetry",
+    "incorrect_answers": [
+      "Radial symmetry",
+      "Rotational symmetry",
+      "Asymmetry"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "A mouse costs $10, a bee costs $15, and a spider costs $20. Based on this, how much does a duck cost?",
+    "correct_answer": "$5",
+    "incorrect_answers": [
+      "$10",
+      "$15",
+      "$25"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "What unimaginably large number can be represented by 10 raised to the power of 100?",
+    "correct_answer": "A Googol",
+    "incorrect_answers": [
+      "A Googolplex",
+      "Infinity",
+      "A Quadrillion"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Math",
+    "question": "Which famous French physicist and mathematician is best known for formulating Pascal's Triangle?",
+    "correct_answer": "Blaise Pascal",
+    "incorrect_answers": [
+      "René Descartes",
+      "Pierre de Fermat",
+      "Henri Poincaré"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "Which famous British computer scientist and mathematician is known for leading the team of cryptographers who broke the German Enigma Code during World War II?",
+    "correct_answer": "Alan Turing",
+    "incorrect_answers": [
+      "Charles Babbage",
+      "John von Neumann",
+      "Claude Shannon"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "In which 2014 film does Benedict Cumberbatch play Alan Turing?",
+    "correct_answer": "The Imitation Game",
+    "incorrect_answers": [
+      "A Beautiful Mind",
+      "The Theory of Everything",
+      "Hidden Figures"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "In the famous Netflix show Stranger Things, the young characters frequently refer to which branch of mathematics as it relates to an alternate dimension?",
+    "correct_answer": "Quantum mechanics",
+    "incorrect_answers": [
+      "Chaos theory",
+      "Topology",
+      "Number theory"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "Which famous Greek mathematician and author of The Elements is known as the 'Father of Geometry'?",
+    "correct_answer": "Euclid",
+    "incorrect_answers": [
+      "Pythagoras",
+      "Archimedes",
+      "Aristotle"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "In the 2016 film Hidden Figures, three African-American women mathematicians contributed to the launch of which NASA space mission?",
+    "correct_answer": "The Mercury-Atlas 6 Mission",
+    "incorrect_answers": [
+      "Apollo 11",
+      "Gemini 4",
+      "Apollo 13"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "Also known as Leonardo of Pisa, which famous Italian mathematician is best known for discovering a sequence where each number is the sum of the two previous numbers?",
+    "correct_answer": "Fibonacci",
+    "incorrect_answers": [
+      "Galileo",
+      "Da Vinci",
+      "Machiavelli"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "In the 1993 film Jurassic Park, actor Jeff Goldblum played Dr. Ian Malcom, a mathematician who specialized in what mathematical principle?",
+    "correct_answer": "Chaos theory",
+    "incorrect_answers": [
+      "Game theory",
+      "Quantum mechanics",
+      "Probability theory"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "Which famous English mathematician, credited as the inventor of calculus, also had a deep interest in alchemy and spent many years searching for the Philosopher's Stone?",
+    "correct_answer": "Sir Isaac Newton",
+    "incorrect_answers": [
+      "John Locke",
+      "Francis Bacon",
+      "Robert Hooke"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Math",
+    "question": "Which famous German mathematician has a rival claim to Sir Isaac Newton as the inventor of calculus?",
+    "correct_answer": "Gottfried Wilhelm Leibniz",
+    "incorrect_answers": [
+      "Carl Friedrich Gauss",
+      "Leonhard Euler",
+      "Bernhard Riemann"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "In which famous fiction novel by author Dan Brown does the main character solve puzzles using the Fibonacci sequence and other math-related clues?",
+    "correct_answer": "The Da Vinci Code",
+    "incorrect_answers": [
+      "Angels & Demons",
+      "Inferno",
+      "Digital Fortress"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "Which famous mathematician and philosopher developed the Cartesian coordinate system in the 17th-century?",
+    "correct_answer": "René Descartes",
+    "incorrect_answers": [
+      "Blaise Pascal",
+      "Pierre de Fermat",
+      "Gottfried Leibniz"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "In this 2001 film, Russell Crowe plays real-life mathematician John Nash, who is best known for his contributions in the field of game theory. What film is this?",
+    "correct_answer": "A Beautiful Mind",
+    "incorrect_answers": [
+      "Good Will Hunting",
+      "The Imitation Game",
+      "Hidden Figures"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Math",
+    "question": "Which mathematician developed continental drift, a mathematical model that explains the movements related to plate tectonics?",
+    "correct_answer": "Alfred Wegener",
+    "incorrect_answers": [
+      "Charles Lyell",
+      "James Hutton",
+      "Harry Hess"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Math",
+    "question": "Which famous architect is known for using complex geometric concepts in his works, including the Guggenheim Museum in Bilbao?",
+    "correct_answer": "Frank Gehry",
+    "incorrect_answers": [
+      "Zaha Hadid",
+      "Santiago Calatrava",
+      "I.M. Pei"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Math",
+    "question": "Which famous German mathematician is best known for his contributions in the field of statistics and the Gaussian distribution?",
+    "correct_answer": "Carl Friedrich Gauss",
+    "incorrect_answers": [
+      "Leonhard Euler",
+      "Bernhard Riemann",
+      "David Hilbert"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "Who said, 'I never failed in mathematics… before I was 15, I had mastered differential integral calculus'?",
+    "correct_answer": "Albert Einstein",
+    "incorrect_answers": [
+      "Isaac Newton",
+      "Stephen Hawking",
+      "Richard Feynman"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "Which famous Greek mathematician is known for having accurately calculated the circumference of the planet Earth using only shadows and simple geometry?",
+    "correct_answer": "Eratosthenes",
+    "incorrect_answers": [
+      "Pythagoras",
+      "Euclid",
+      "Archimedes"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Math",
+    "question": "Who is considered to be the 'first true mathematician'?",
+    "correct_answer": "Thales",
+    "incorrect_answers": [
+      "Pythagoras",
+      "Euclid",
+      "Archimedes"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "Which mathematician provided the exact numerical value of pi, developed a system for large numbers to be expressed and the method of exhaustion?",
+    "correct_answer": "Archimedes",
+    "incorrect_answers": [
+      "Euclid",
+      "Pythagoras",
+      "Aristotle"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "In which 1997 film does Matt Damon's character play a Harvard janitor who is also a natural genius in mathematics?",
+    "correct_answer": "Good Will Hunting",
+    "incorrect_answers": [
+      "A Beautiful Mind",
+      "The Social Network",
+      "Dead Poets Society"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "Which mathematician is recognized as the world's first computer programmer?",
+    "correct_answer": "Ada Lovelace",
+    "incorrect_answers": [
+      "Grace Hopper",
+      "Alan Turing",
+      "Charles Babbage"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Math",
+    "question": "Which famous Iranian mathematician became the very first woman to win the Fields Medal for mathematics in 2014?",
+    "correct_answer": "Maryam Mirzakhani",
+    "incorrect_answers": [
+      "Emmy Noether",
+      "Sofia Kovalevskaya",
+      "Hypatia"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Math",
+    "question": "Which mathematician worked on abstract algebra and the theory of equations, and set forth a solution to the polynomial equation?",
+    "correct_answer": "Évariste Galois",
+    "incorrect_answers": [
+      "Niels Henrik Abel",
+      "Carl Friedrich Gauss",
+      "Augustin-Louis Cauchy"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "Often found in tile patterns and in the artwork of M.C. Escher, what concept refers to the repeated arrangement of interlocking figures and shapes?",
+    "correct_answer": "Tessellations",
+    "incorrect_answers": [
+      "Fractals",
+      "Symmetry",
+      "Mosaics"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "What's the value of π rounded to two decimal places?",
+    "correct_answer": "3.14",
+    "incorrect_answers": [
+      "3.16",
+      "3.12",
+      "3.18"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "If 5x = 20, what is x?",
+    "correct_answer": "4",
+    "incorrect_answers": [
+      "5",
+      "10",
+      "100"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "Found naturally in pinecones and sunflowers, the spiral arrangement of structures and seeds follows which geometric sequence?",
+    "correct_answer": "The Fibonacci Sequence",
+    "incorrect_answers": [
+      "The Lucas Sequence",
+      "The Geometric Sequence",
+      "The Arithmetic Sequence"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "In gambling and investing, what is the set called where order does NOT matter?",
+    "correct_answer": "Combinations",
+    "incorrect_answers": [
+      "Permutations",
+      "Derivatives",
+      "Integrals"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "The ≥ symbol represents what phrase?",
+    "correct_answer": "Greater than or equal to",
+    "incorrect_answers": [
+      "Less than or equal to",
+      "Approximately equal to",
+      "Not equal to"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "In math, the '!' symbol is used to indicate a _____, which represents the product of the sequence of every positive integer leading up to the given number.",
+    "correct_answer": "Factorial",
+    "incorrect_answers": [
+      "Exponent",
+      "Logarithm",
+      "Root"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "This mathematical constant represents the ratio between a circle's circumference and its diameter.",
+    "correct_answer": "π (Pi)",
+    "incorrect_answers": [
+      "e (Euler's Number)",
+      "φ (Phi)",
+      "τ (Tau)"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "In math, ∠EFG can be used to describe an angle with a vertex at which point?",
+    "correct_answer": "F",
+    "incorrect_answers": [
+      "E",
+      "G",
+      "EF"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Math",
+    "question": "The cornerstone of Newton's Law of Gravity, which mathematical constant is equal to approximately 6.674 × 10⁻¹¹ N(m/kg)²?",
+    "correct_answer": "G (The Gravitational Constant)",
+    "incorrect_answers": [
+      "c (Speed of Light)",
+      "h (Planck's Constant)",
+      "k (Boltzmann Constant)"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "Dedicated to the goddess Athena, which famous Greek temple is believed to feature the Golden Ratio in its architectural design?",
+    "correct_answer": "The Parthenon",
+    "incorrect_answers": [
+      "The Colosseum",
+      "The Pantheon",
+      "The Temple of Zeus"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Math",
+    "question": "This mathematical constant represents the ratio between a circle's circumference and its radius.",
+    "correct_answer": "τ (Tau)",
+    "incorrect_answers": [
+      "π (Pi)",
+      "φ (Phi)",
+      "e (Euler's Number)"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "What does the ∞ symbol represent the concept of?",
+    "correct_answer": "Infinity",
+    "incorrect_answers": [
+      "Zero",
+      "Undefined",
+      "All numbers"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "What's 0! (zero factorial)?",
+    "correct_answer": "1",
+    "incorrect_answers": [
+      "0",
+      "Undefined",
+      "Infinity"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "In set theory, the ∅ symbol represents which set?",
+    "correct_answer": "Empty",
+    "incorrect_answers": [
+      "Universal",
+      "Infinite",
+      "Real"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "Rounded off after two decimal places, the Golden Ratio (φ) is often approximated as what number?",
+    "correct_answer": "1.62",
+    "incorrect_answers": [
+      "1.41",
+      "3.14",
+      "2.72"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "The fraction (8x⁴)/(2x) reduces to what?",
+    "correct_answer": "4x³",
+    "incorrect_answers": [
+      "4x⁴",
+      "6x³",
+      "16x⁵"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "The ∑ symbol, known as sigma, is used to represent what?",
+    "correct_answer": "Summation",
+    "incorrect_answers": [
+      "Subtraction",
+      "Integration",
+      "Multiplication"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "What mathematical constant represents the square root of negative one?",
+    "correct_answer": "i",
+    "incorrect_answers": [
+      "e",
+      "π",
+      "φ"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "In calculus, the ∫ symbol represents what?",
+    "correct_answer": "Integral",
+    "incorrect_answers": [
+      "Differential",
+      "Limit",
+      "Sum"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "In set theory, the ∪ symbol represents the what of two sets?",
+    "correct_answer": "Union",
+    "incorrect_answers": [
+      "Intersection",
+      "Difference",
+      "Complement"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "In exponential mathematics, e⁰ is equal to this integer.",
+    "correct_answer": "1",
+    "incorrect_answers": [
+      "0",
+      "e",
+      "Undefined"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "The √ symbol is used to denote the what of a number?",
+    "correct_answer": "Square root",
+    "incorrect_answers": [
+      "Cube root",
+      "Exponent",
+      "Absolute value"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "In math, the ≈ symbol, which resembles a wavy equals sign, is used to represent what?",
+    "correct_answer": "Approximation",
+    "incorrect_answers": [
+      "Inequality",
+      "Congruence",
+      "Similarity"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "Due to their unique molecular structure of ice crystals, snowflakes always form what type of prism?",
+    "correct_answer": "Hexagonal prism",
+    "incorrect_answers": [
+      "Triangular prism",
+      "Square prism",
+      "Octagonal prism"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "An icosahedron is a polyhedron with 20 faces, each of which is what shape?",
+    "correct_answer": "A triangle",
+    "incorrect_answers": [
+      "A square",
+      "A pentagon",
+      "A hexagon"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "What is the sum of all the angles in an octagon?",
+    "correct_answer": "1080°",
+    "incorrect_answers": [
+      "720°",
+      "900°",
+      "1260°"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "What number should come next in this series? 36, 34, 30, 28, 24",
+    "correct_answer": "22",
+    "incorrect_answers": [
+      "20",
+      "26",
+      "18"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Math",
+    "question": "Linda is 54 years old and her mother is 80. How many years ago was Linda's mother three times her age?",
+    "correct_answer": "41 years ago",
+    "incorrect_answers": [
+      "13 years ago",
+      "26 years ago",
+      "39 years ago"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "A dad is 42 years old, and his son is 6. So, in how many years will the father's age be four times his son's age?",
+    "correct_answer": "6 years",
+    "incorrect_answers": [
+      "4 years",
+      "8 years",
+      "10 years"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "Is 64 both a perfect square and a perfect cube?",
+    "correct_answer": "Yes",
+    "incorrect_answers": [
+      "No"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "What number should come next in this series? 22, 21, 23, 22, 24, 23",
+    "correct_answer": "25",
+    "incorrect_answers": [
+      "24",
+      "22",
+      "26"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Math",
+    "question": "If 1=3, 2=3, 3=5, 4=4 and 5=4, then 6=?",
+    "correct_answer": "3",
+    "incorrect_answers": [
+      "5",
+      "6",
+      "4"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "Which mathematical constant is used as the base value of the natural logarithm and can be approximated to 2.72?",
+    "correct_answer": "e (Euler's Number)",
+    "incorrect_answers": [
+      "π (Pi)",
+      "φ (Phi)",
+      "γ (Gamma)"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "A prism has the same relationship to a pyramid as a cylinder does to a what?",
+    "correct_answer": "Cone",
+    "incorrect_answers": [
+      "Sphere",
+      "Cube",
+      "Torus"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Math",
+    "question": "There is a three-digit number. The second digit is four times as big as the third digit, while the first digit is three less than the second digit. What is the number?",
+    "correct_answer": "141",
+    "incorrect_answers": [
+      "282",
+      "584",
+      "393"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "Which mathematical property of numbers states that the order of the terms when performing addition or multiplication does not affect the end result?",
+    "correct_answer": "The Commutative Property",
+    "incorrect_answers": [
+      "The Associative Property",
+      "The Distributive Property",
+      "The Identity Property"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "On a farm, there are ducks and cows. There are 18 legs and 7 heads in total. How many ducks are there?",
+    "correct_answer": "5 ducks",
+    "incorrect_answers": [
+      "3 ducks",
+      "7 ducks",
+      "4 ducks"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Math",
+    "question": "A school has 120 students. 75 of them play baseball, 60 play soccer, and 30 play both. How many students play neither sport?",
+    "correct_answer": "15",
+    "incorrect_answers": [
+      "30",
+      "45",
+      "0"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "The sum of the interior angles in a triangle will always equal what number?",
+    "correct_answer": "180",
+    "incorrect_answers": [
+      "360",
+      "90",
+      "270"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Math",
+    "question": "The day before yesterday, I was 25. The next year I will be 28. This is true only one day in a year. What day is my Birthday?",
+    "correct_answer": "December 31",
+    "incorrect_answers": [
+      "January 1",
+      "February 29",
+      "December 30"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Math",
+    "question": "If 13 x 12 = 651 & 41 x 23 = 448, then 24 x 22 = ?",
+    "correct_answer": "924",
+    "incorrect_answers": [
+      "528",
+      "846",
+      "462"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "What classification refers to any number that cannot be expressed as a fraction with an integer in the numerator and an integer in the denominator?",
+    "correct_answer": "Irrational number",
+    "incorrect_answers": [
+      "Rational number",
+      "Complex number",
+      "Imaginary number"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Math",
+    "question": "One friend jumps every 1/3 of a minute. Another jumps every 31 seconds. When will they jump together?",
+    "correct_answer": "After 620 seconds",
+    "incorrect_answers": [
+      "After 310 seconds",
+      "After 60 seconds",
+      "After 93 seconds"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "What number comes next in this series? 53, 53, 40, 40, 27, 27",
+    "correct_answer": "14",
+    "incorrect_answers": [
+      "13",
+      "27",
+      "20"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "Which field of mathematics is concerned with the sines, cosines, and tangents of angles?",
+    "correct_answer": "Trigonometry",
+    "incorrect_answers": [
+      "Algebra",
+      "Geometry",
+      "Calculus"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Math",
+    "question": "How do you get an answer of the number 100 by using four sevens (7's) and a one (1)?",
+    "correct_answer": "177 - 77 = 100 or (7+7) * (7 + (1/7)) = 100",
+    "incorrect_answers": [
+      "77 + 77 - 54 = 100",
+      "111 - 11 = 100",
+      "7 * 7 + 7 * 7 + 1 = 100"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "What number is the smallest positive integer that is divisible by both 6 and 8?",
+    "correct_answer": "24",
+    "incorrect_answers": [
+      "12",
+      "48",
+      "36"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "In 1975, John Playfair simplified Euclid's famous axiom about what—claiming they will never meet?",
+    "correct_answer": "Parallel lines",
+    "incorrect_answers": [
+      "Perpendicular lines",
+      "Intersecting lines",
+      "Curved lines"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Math",
+    "question": "If 72 x 96 = 6927, 58 x 87 = 7885, then 79 x 86 = ?",
+    "correct_answer": "6897",
+    "incorrect_answers": [
+      "9786",
+      "8679",
+      "7968"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "What is 44.87 x 100?",
+    "correct_answer": "4487",
+    "incorrect_answers": [
+      "448.7",
+      "44.87",
+      "44870"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "What is 75% of £467?",
+    "correct_answer": "£350.25",
+    "incorrect_answers": [
+      "£350",
+      "£467",
+      "£233.50"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "What is the remainder of 628 divided by 9?",
+    "correct_answer": "7",
+    "incorrect_answers": [
+      "4",
+      "6",
+      "8"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "What percentage of 68 is 10.2?",
+    "correct_answer": "15",
+    "incorrect_answers": [
+      "10",
+      "20",
+      "25"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "A fuel tank holds 45 litres. Approximately how many pints will it hold?",
+    "correct_answer": "80 pints",
+    "incorrect_answers": [
+      "45 pints",
+      "90 pints",
+      "100 pints"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "If a tube of toothpaste costs £1.57, how much do three tubes cost?",
+    "correct_answer": "£4.71",
+    "incorrect_answers": [
+      "£4.57",
+      "£3.14",
+      "£5.00"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "What is 7.75 x 100?",
+    "correct_answer": "775",
+    "incorrect_answers": [
+      "77.5",
+      "7750",
+      "7.75"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "A 24 hour digital clock shows 11:30, what time is it on a 12 hour clock?",
+    "correct_answer": "11:30 a.m.",
+    "incorrect_answers": [
+      "11:30 p.m.",
+      "12:30 a.m.",
+      "10:30 a.m."
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "A two-dimensional shape with straight sides is called a what?",
+    "correct_answer": "Polygon",
+    "incorrect_answers": [
+      "Circle",
+      "Sphere",
+      "Cylinder"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "£6.00 equals one-eighth of what?",
+    "correct_answer": "£48",
+    "incorrect_answers": [
+      "£24",
+      "£42",
+      "£54"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "How would you write 0.9 as a fraction?",
+    "correct_answer": "Nine-tenths",
+    "incorrect_answers": [
+      "Nine-hundredths",
+      "Nine-twentieths",
+      "One-ninth"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "Is 66 a multiple of 3 and 11?",
+    "correct_answer": "Yes",
+    "incorrect_answers": [
+      "No"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "What is three-fifths written as a percentage?",
+    "correct_answer": "60%",
+    "incorrect_answers": [
+      "35%",
+      "65%",
+      "40%"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "How many sides of a trapezium MUST be parallel?",
+    "correct_answer": "2",
+    "incorrect_answers": [
+      "1",
+      "3",
+      "4"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "Why would you never talk about the capacity of a square?",
+    "correct_answer": "Because squares are 2-dimensional objects",
+    "incorrect_answers": [
+      "It's too small",
+      "Squares don't exist",
+      "It's a mathematical impossibility"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "To get 250, what must 50 be multiplied by?",
+    "correct_answer": "5",
+    "incorrect_answers": [
+      "2",
+      "10",
+      "25"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "What is -20 divided by 4?",
+    "correct_answer": "-5",
+    "incorrect_answers": [
+      "5",
+      "-4",
+      "-80"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "What is 450 rounded to the nearest 100?",
+    "correct_answer": "500",
+    "incorrect_answers": [
+      "400",
+      "450",
+      "0"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "How many 11's are there in 143?",
+    "correct_answer": "13",
+    "incorrect_answers": [
+      "11",
+      "12",
+      "14"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "What is the value of c in the following equation: 4c = 2c + 75?",
+    "correct_answer": "37.5",
+    "incorrect_answers": [
+      "75",
+      "150",
+      "25"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "What is the square root of 81?",
+    "correct_answer": "9 or -9",
+    "incorrect_answers": [
+      "9 only",
+      "-9 only",
+      "81"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "You are given the two numbers '9 squared' and '81'. How do they relate to each other?",
+    "correct_answer": "They are both the same",
+    "incorrect_answers": [
+      "9 squared is bigger",
+      "81 is bigger",
+      "They are opposites"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "What is the name given to 1,000 kilograms?",
+    "correct_answer": "Tonne",
+    "incorrect_answers": [
+      "Gram",
+      "Pound",
+      "Stone"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "Which is further: 10 miles or 10 kilometres?",
+    "correct_answer": "10 miles",
+    "incorrect_answers": [
+      "10 kilometres",
+      "They are the same",
+      "It depends"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "Each 'slice' of a pie chart is what part of a circle?",
+    "correct_answer": "Sector",
+    "incorrect_answers": [
+      "Segment",
+      "Radius",
+      "Circumference"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "What is -66 plus -33 minus -22?",
+    "correct_answer": "-77",
+    "incorrect_answers": [
+      "-121",
+      "77",
+      "-33"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "The flat surface of a solid is referred to as what?",
+    "correct_answer": "Face",
+    "incorrect_answers": [
+      "Edge",
+      "Vertex",
+      "Side"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "To the nearest square metre, what is the area of a circular pool with a radius of 10 m?",
+    "correct_answer": "314 m²",
+    "incorrect_answers": [
+      "100 m²",
+      "628 m²",
+      "200 m²"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "What is 0.08 x 10?",
+    "correct_answer": "0.8",
+    "incorrect_answers": [
+      "0.08",
+      "8",
+      "80"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "15 pints of milk cost £7.80. What is the cost of 22 pints of milk?",
+    "correct_answer": "£11.44",
+    "incorrect_answers": [
+      "£15.60",
+      "£10.40",
+      "£13.20"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "How would you write twelve-eighteenths in its simplest form?",
+    "correct_answer": "Two-thirds",
+    "incorrect_answers": [
+      "Four-sixths",
+      "Three-quarters",
+      "One-half"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "At 01:30 p.m. what will be the time shown by a 24 hour digital clock?",
+    "correct_answer": "13:30",
+    "incorrect_answers": [
+      "01:30",
+      "14:30",
+      "12:30"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "What is 783.76 - 2.13?",
+    "correct_answer": "781.63",
+    "incorrect_answers": [
+      "781.53",
+      "780.63",
+      "785.89"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "On a distance-time graph what does a line segment that is horizontal tell you?",
+    "correct_answer": "There was no movement during the period",
+    "incorrect_answers": [
+      "Constant speed",
+      "Acceleration",
+      "Deceleration"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Math",
+    "question": "How many faces has the regular polyhedron made with pentagons?",
+    "correct_answer": "12",
+    "incorrect_answers": [
+      "20",
+      "8",
+      "6"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "Divide 240 litres in the ratio 3 : 5.",
+    "correct_answer": "90 : 150",
+    "incorrect_answers": [
+      "80 : 160",
+      "72 : 168",
+      "100 : 140"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "Where can the 'numerator' in a fraction be found?",
+    "correct_answer": "Above the line",
+    "incorrect_answers": [
+      "Below the line",
+      "To the left",
+      "To the right"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "Two lines that cross each other are said to what?",
+    "correct_answer": "Intersect",
+    "incorrect_answers": [
+      "Parallel",
+      "Perpendicular",
+      "Collide"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "How many edges has a pyramid with a hexagonal base?",
+    "correct_answer": "12",
+    "incorrect_answers": [
+      "6",
+      "8",
+      "18"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "A graph in the form of x = a is what?",
+    "correct_answer": "A straight vertical line",
+    "incorrect_answers": [
+      "A straight horizontal line",
+      "A parabola",
+      "A circle"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "What is 277 rounded to 1 significant figure?",
+    "correct_answer": "300",
+    "incorrect_answers": [
+      "200",
+      "280",
+      "277"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "Is 4 a factor of 21?",
+    "correct_answer": "No",
+    "incorrect_answers": [
+      "Yes"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "Bearings are always measured in which direction?",
+    "correct_answer": "Clockwise",
+    "incorrect_answers": [
+      "Counter-clockwise",
+      "Upwards",
+      "Downwards"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "What is the remainder when 550 is divided by 9?",
+    "correct_answer": "1",
+    "incorrect_answers": [
+      "0",
+      "5",
+      "9"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "Angles on a straight line add up to what?",
+    "correct_answer": "180 degrees",
+    "incorrect_answers": [
+      "360 degrees",
+      "90 degrees",
+      "270 degrees"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "Three-dimensional solids have something that two-dimensional shapes do not. What is it?",
+    "correct_answer": "Volume",
+    "incorrect_answers": [
+      "Area",
+      "Perimeter",
+      "Length"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "What is 86% of 200?",
+    "correct_answer": "172",
+    "incorrect_answers": [
+      "86",
+      "186",
+      "200"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "If a tap drips once every 30 seconds, how many times will it drip in an hour?",
+    "correct_answer": "120",
+    "incorrect_answers": [
+      "60",
+      "30",
+      "180"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "The interior angles of a quadrilateral add up to how many degrees?",
+    "correct_answer": "360",
+    "incorrect_answers": [
+      "180",
+      "540",
+      "270"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "What is the meaning of the word 'Gradient'?",
+    "correct_answer": "The steepness of a slope",
+    "incorrect_answers": [
+      "The length of a line",
+      "The area under a curve",
+      "The intersection of two lines"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "A farmer plants carrots in rows. If each row contains 5 carrots and there are 6 rows, how many carrots has the farmer planted in total?",
+    "correct_answer": "30",
+    "incorrect_answers": [
+      "25",
+      "36",
+      "11"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "Lila collects seashells on the beach. She finds 8 shells in the morning and 12 more in the afternoon. How many shells does she have at the end of the day?",
+    "correct_answer": "20",
+    "incorrect_answers": [
+      "16",
+      "24",
+      "18"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "A school bus has 4 rows of seats, with 3 students sitting in each row. How many students are on the bus?",
+    "correct_answer": "12",
+    "incorrect_answers": [
+      "7",
+      "16",
+      "10"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "A puppy has 4 legs, and a bird has 2 legs. If there are 3 puppies and 2 birds, how many legs are there in total?",
+    "correct_answer": "16",
+    "incorrect_answers": [
+      "14",
+      "18",
+      "12"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "A jar contains 15 candies. If 6 candies are eaten, how many candies remain?",
+    "correct_answer": "9",
+    "incorrect_answers": [
+      "8",
+      "21",
+      "10"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "A box holds 8 crayons. If you have 3 boxes, how many crayons do you have in total?",
+    "correct_answer": "24",
+    "incorrect_answers": [
+      "16",
+      "32",
+      "11"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "A farmer collects 10 eggs from chickens and 5 eggs from ducks. How many eggs does the farmer collect altogether?",
+    "correct_answer": "15",
+    "incorrect_answers": [
+      "12",
+      "18",
+      "10"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "A child builds a tower using 9 blocks. If 4 blocks fall off, how many blocks are left in the tower?",
+    "correct_answer": "5",
+    "incorrect_answers": [
+      "4",
+      "13",
+      "6"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "A garden has 6 rows of flowers, with 7 flowers in each row. How many flowers are in the garden?",
+    "correct_answer": "42",
+    "incorrect_answers": [
+      "36",
+      "48",
+      "13"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "A teacher gives 3 stickers to each of her 5 students. How many stickers does she give out in total?",
+    "correct_answer": "15",
+    "incorrect_answers": [
+      "8",
+      "18",
+      "12"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "A pencil is 15 centimeters long, and a ruler is 30 centimeters long. How much longer is the ruler than the pencil?",
+    "correct_answer": "15 centimeters",
+    "incorrect_answers": [
+      "10 centimeters",
+      "20 centimeters",
+      "45 centimeters"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "A movie starts at 2:15 PM and ends at 3:45 PM. How long is the movie?",
+    "correct_answer": "1 hour and 30 minutes",
+    "incorrect_answers": [
+      "1 hour",
+      "2 hours",
+      "1 hour and 45 minutes"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "A jug can hold 2 liters of water. If you fill it halfway, how much water is in the jug?",
+    "correct_answer": "1 liter",
+    "incorrect_answers": [
+      "0.5 liters",
+      "2 liters",
+      "4 liters"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "A recipe calls for 2 cups of flour and 1 cup of sugar. If you double the recipe, how many cups of ingredients will you need in total?",
+    "correct_answer": "6",
+    "incorrect_answers": [
+      "4",
+      "8",
+      "3"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "A train leaves the station at 8:00 AM and arrives at 11:30 AM. How long is the journey?",
+    "correct_answer": "3 hours and 30 minutes",
+    "incorrect_answers": [
+      "2 hours and 30 minutes",
+      "4 hours",
+      "3 hours"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "A ribbon is 12 meters long. If you cut it into 4 equal pieces, how long is each piece?",
+    "correct_answer": "3 meters",
+    "incorrect_answers": [
+      "4 meters",
+      "2 meters",
+      "6 meters"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "A clock shows 4:45 PM. What time will it be 30 minutes later?",
+    "correct_answer": "5:15 PM",
+    "incorrect_answers": [
+      "5:00 PM",
+      "4:15 PM",
+      "5:45 PM"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "A bag of rice weighs 5 kilograms. If you use 2 kilograms to cook dinner, how much rice is left?",
+    "correct_answer": "3 kilograms",
+    "incorrect_answers": [
+      "2 kilograms",
+      "7 kilograms",
+      "1 kilogram"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "A pool is filled with 500 liters of water. If 200 liters evaporate, how much water remains?",
+    "correct_answer": "300 liters",
+    "incorrect_answers": [
+      "200 liters",
+      "700 liters",
+      "250 liters"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "A race track is 400 meters long. If a runner completes 3 laps, how far does the runner go in total?",
+    "correct_answer": "1200 meters",
+    "incorrect_answers": [
+      "800 meters",
+      "1600 meters",
+      "400 meters"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "A sequence begins with 2, 4, 6, 8. What is the next number in the sequence?",
+    "correct_answer": "10",
+    "incorrect_answers": [
+      "9",
+      "12",
+      "14"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "If all cats are animals and Fluffy is a cat, is Fluffy an animal?",
+    "correct_answer": "Yes",
+    "incorrect_answers": [
+      "No"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "A pattern alternates between stars and circles: ★ ○ ★ ○ ★. What comes next in the pattern?",
+    "correct_answer": "○",
+    "incorrect_answers": [
+      "★",
+      "●",
+      "▲"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "A group of friends stands in a line. If Anna is 3rd in line and Ben is 7th, how many people are between Anna and Ben?",
+    "correct_answer": "3",
+    "incorrect_answers": [
+      "4",
+      "5",
+      "2"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "A number is greater than 10 but less than 12. What is the number?",
+    "correct_answer": "11",
+    "incorrect_answers": [
+      "10",
+      "12",
+      "9"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "A farmer plants trees in rows. If the first row has 1 tree, the second row has 3 trees, and the third row has 5 trees, how many trees are in the fourth row?",
+    "correct_answer": "7",
+    "incorrect_answers": [
+      "6",
+      "9",
+      "5"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "If Monday is the first day of the week, what is the third day?",
+    "correct_answer": "Wednesday",
+    "incorrect_answers": [
+      "Tuesday",
+      "Thursday",
+      "Monday"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "A puzzle has 5 pieces. If 2 pieces are missing, how many pieces are still in the box?",
+    "correct_answer": "3",
+    "incorrect_answers": [
+      "2",
+      "7",
+      "5"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "A staircase has steps numbered 1, 2, 3, …, up to 10. If you skip every other step starting from 1, which steps do you land on?",
+    "correct_answer": "1, 3, 5, 7, 9",
+    "incorrect_answers": [
+      "2, 4, 6, 8, 10",
+      "1, 4, 7, 10",
+      "1, 2, 3, 4, 5"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "A sequence of shapes repeats as follows: ▲ ■ ● ▲ ■ ●. What shape comes after ●?",
+    "correct_answer": "▲",
+    "incorrect_answers": [
+      "■",
+      "●",
+      "▼"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "A pizza is cut into 8 equal slices. If you eat 3 slices, what fraction of the pizza have you eaten?",
+    "correct_answer": "3/8",
+    "incorrect_answers": [
+      "1/2",
+      "1/4",
+      "3/4"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "A water tank is filled to 3/4 of its capacity. If the tank can hold 20 liters when full, how many liters of water are in the tank now?",
+    "correct_answer": "15",
+    "incorrect_answers": [
+      "10",
+      "5",
+      "20"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "A recipe calls for 0.75 cups of sugar. If you double the recipe, how much sugar will you need?",
+    "correct_answer": "1.5 cups",
+    "incorrect_answers": [
+      "1 cup",
+      "0.75 cups",
+      "2 cups"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "A ribbon is 12 meters long. If you cut off 1/3 of the ribbon, how long is the piece you cut off?",
+    "correct_answer": "4 meters",
+    "incorrect_answers": [
+      "3 meters",
+      "6 meters",
+      "8 meters"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "A store sells apples for $0.45 each. How much will 8 apples cost?",
+    "correct_answer": "$3.60",
+    "incorrect_answers": [
+      "$3.20",
+      "$4.00",
+      "$2.80"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "A group of friends shares a cake equally. If there are 5 friends, what fraction of the cake does each person get?",
+    "correct_answer": "1/5",
+    "incorrect_answers": [
+      "1/4",
+      "1/6",
+      "1/3"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "A book has 120 pages. If you read 1/4 of the book, how many pages have you read?",
+    "correct_answer": "30",
+    "incorrect_answers": [
+      "40",
+      "25",
+      "60"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "A runner completes 0.6 of a 10-kilometer race. How far has the runner gone?",
+    "correct_answer": "6 kilometers",
+    "incorrect_answers": [
+      "4 kilometers",
+      "8 kilometers",
+      "5 kilometers"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "A bag contains 2/5 kilograms of flour. If you add 3/5 kilograms more, how much flour is in the bag now?",
+    "correct_answer": "1 kilogram",
+    "incorrect_answers": [
+      "5/5 kilograms",
+      "1/5 kilogram",
+      "2 kilograms"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "A toy costs $12.50. If you pay with a $20 bill, how much change will you receive?",
+    "correct_answer": "$7.50",
+    "incorrect_answers": [
+      "$8.50",
+      "$6.50",
+      "$7.00"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "A rectangular garden is 10 meters long and 5 meters wide. What is the area of the garden?",
+    "correct_answer": "50 square meters",
+    "incorrect_answers": [
+      "30 square meters",
+      "15 square meters",
+      "25 square meters"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "A triangle has a base of 6 centimeters and a height of 4 centimeters. What is the area of the triangle?",
+    "correct_answer": "12 square centimeters",
+    "incorrect_answers": [
+      "24 square centimeters",
+      "10 square centimeters",
+      "20 square centimeters"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "A square has sides that are 7 centimeters long. What is the perimeter of the square?",
+    "correct_answer": "28 centimeters",
+    "incorrect_answers": [
+      "14 centimeters",
+      "49 centimeters",
+      "21 centimeters"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "A circle has a radius of 5 meters. What is the diameter of the circle?",
+    "correct_answer": "10 meters",
+    "incorrect_answers": [
+      "5 meters",
+      "15 meters",
+      "25 meters"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "A rectangular room measures 8 meters by 6 meters. If you want to put a carpet that covers the entire floor, how much carpet do you need?",
+    "correct_answer": "48 square meters",
+    "incorrect_answers": [
+      "28 square meters",
+      "14 square meters",
+      "24 square meters"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "A cube has edges that are 3 centimeters long. What is the volume of the cube?",
+    "correct_answer": "27 cubic centimeters",
+    "incorrect_answers": [
+      "9 cubic centimeters",
+      "18 cubic centimeters",
+      "36 cubic centimeters"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Math",
+    "question": "A trapezoid has bases of 8 meters and 12 meters, and a height of 5 meters. What is the area of the trapezoid?",
+    "correct_answer": "50 square meters",
+    "incorrect_answers": [
+      "100 square meters",
+      "40 square meters",
+      "30 square meters"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "A hexagon has 6 sides of equal length. If each side is 4 centimeters long, what is the perimeter of the hexagon?",
+    "correct_answer": "24 centimeters",
+    "incorrect_answers": [
+      "16 centimeters",
+      "20 centimeters",
+      "28 centimeters"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "A rectangle has an area of 36 square meters. If the length is 9 meters, what is the width?",
+    "correct_answer": "4 meters",
+    "incorrect_answers": [
+      "6 meters",
+      "3 meters",
+      "5 meters"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "A right triangle has one angle measuring 30 degrees. What is the measure of the third angle?",
+    "correct_answer": "60 degrees",
+    "incorrect_answers": [
+      "30 degrees",
+      "90 degrees",
+      "45 degrees"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "The ratio of boys to girls in a class is 3:2. If there are 15 boys, how many girls are there?",
+    "correct_answer": "10",
+    "incorrect_answers": [
+      "12",
+      "6",
+      "8"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "A shirt costs $20, and there is a 25% discount on the shirt. What is the final price of the shirt after applying the discount?",
+    "correct_answer": "$15",
+    "incorrect_answers": [
+      "$10",
+      "$18",
+      "$16"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Math",
+    "question": "A recipe calls for 4 cups of flour to make 16 cookies. How many cups of flour are needed to make 48 cookies?",
+    "correct_answer": "12",
+    "incorrect_answers": [
+      "8",
+      "16",
+      "24"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "A car travels 60 miles in 2 hours. At the same speed, how far will it travel in 5 hours?",
+    "correct_answer": "150 miles",
+    "incorrect_answers": [
+      "120 miles",
+      "100 miles",
+      "300 miles"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Math",
+    "question": "A bag contains red and blue marbles in a ratio of 5:3. If there are 40 marbles in total, how many are red?",
+    "correct_answer": "25",
+    "incorrect_answers": [
+      "15",
+      "20",
+      "30"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "A school has 480 students. If 60% of the students are girls, how many girls are there?",
+    "correct_answer": "288",
+    "incorrect_answers": [
+      "240",
+      "300",
+      "192"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "A map uses a scale of 1 inch = 10 miles. If two cities are 3 inches apart on the map, how far are they in reality?",
+    "correct_answer": "30 miles",
+    "incorrect_answers": [
+      "10 miles",
+      "20 miles",
+      "13 miles"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "A mixture contains water and juice in a ratio of 2:3. If there are 10 liters of water, how many liters of juice are there?",
+    "correct_answer": "15 liters",
+    "incorrect_answers": [
+      "20 liters",
+      "6 liters",
+      "12 liters"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "A store marks up the price of a product by 20%. If the cost price is $50, what is the selling price?",
+    "correct_answer": "$60",
+    "incorrect_answers": [
+      "$70",
+      "$55",
+      "$40"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "A survey shows that 3 out of every 5 people prefer tea over coffee. If 100 people were surveyed, how many preferred tea?",
+    "correct_answer": "60",
+    "incorrect_answers": [
+      "40",
+      "50",
+      "30"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "Solve for x: 3x + 5 = 14",
+    "correct_answer": "x = 3",
+    "incorrect_answers": [
+      "x = 2",
+      "x = 4",
+      "x = 5"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "A number is tripled and then increased by 7 to give 25. What is the number?",
+    "correct_answer": "6",
+    "incorrect_answers": [
+      "5",
+      "8",
+      "7"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "If y = 2x + 3, what is y when x = 4?",
+    "correct_answer": "11",
+    "incorrect_answers": [
+      "8",
+      "10",
+      "14"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Math",
+    "question": "Two numbers add up to 20, and their difference is 4. What are the two numbers?",
+    "correct_answer": "12 and 8",
+    "incorrect_answers": [
+      "10 and 10",
+      "14 and 6",
+      "15 and 5"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "Solve for x: x/2 − 3 = 7",
+    "correct_answer": "x = 20",
+    "incorrect_answers": [
+      "x = 10",
+      "x = 5",
+      "x = 14"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Math",
+    "question": "A rectangle's length is twice its width. If the perimeter is 30 cm, what are the dimensions of the rectangle?",
+    "correct_answer": "Width 5 cm, Length 10 cm",
+    "incorrect_answers": [
+      "Width 6 cm, Length 12 cm",
+      "Width 7 cm, Length 14 cm",
+      "Width 4 cm, Length 8 cm"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "Solve for x: 2(x − 4) = 10",
+    "correct_answer": "x = 9",
+    "incorrect_answers": [
+      "x = 7",
+      "x = 8",
+      "x = 6"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "If 3x − 7 = 2x + 5, what is x?",
+    "correct_answer": "x = 12",
+    "incorrect_answers": [
+      "x = 10",
+      "x = 14",
+      "x = 8"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "A car travels at a constant speed. If it covers 60 miles in 2 hours, how far will it travel in t hours?",
+    "correct_answer": "d = 30t",
+    "incorrect_answers": [
+      "d = 60t",
+      "d = 120t",
+      "d = 20t"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "Solve for x: 4x + 3 = 2x + 11",
+    "correct_answer": "x = 4",
+    "incorrect_answers": [
+      "x = 3",
+      "x = 5",
+      "x = 6"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "The scores on a test are: 85, 90, 78, 92, and 88. What is the mean score?",
+    "correct_answer": "86.6",
+    "incorrect_answers": [
+      "85",
+      "90",
+      "88"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "A spinner has 4 equal sections labeled 1, 2, 3, and 4. What is the probability of landing on an even number?",
+    "correct_answer": "1/2",
+    "incorrect_answers": [
+      "1/4",
+      "3/4",
+      "1/3"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "A survey shows that 12 out of 30 students prefer chocolate ice cream. What percentage of students prefer chocolate?",
+    "correct_answer": "40%",
+    "incorrect_answers": [
+      "30%",
+      "50%",
+      "25%"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "A set of numbers is: 5, 7, 7, 9, 10. What is the mode of the set?",
+    "correct_answer": "7",
+    "incorrect_answers": [
+      "5",
+      "9",
+      "10"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "A jar contains 5 red marbles, 3 blue marbles, and 2 green marbles. If you pick one marble at random, what is the probability of picking a blue marble?",
+    "correct_answer": "3/10",
+    "incorrect_answers": [
+      "1/2",
+      "1/3",
+      "2/10"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "A basketball player makes 7 out of 10 free throws. What is the experimental probability of making a free throw?",
+    "correct_answer": "0.7 or 70%",
+    "incorrect_answers": [
+      "0.5 or 50%",
+      "0.3 or 30%",
+      "1.0 or 100%"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "The heights of 5 students are: 150 cm, 155 cm, 160 cm, 155 cm, and 165 cm. What is the median height?",
+    "correct_answer": "155 cm",
+    "incorrect_answers": [
+      "150 cm",
+      "160 cm",
+      "165 cm"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "A bag contains 8 candies: 3 chocolates, 2 mints, and 3 gummies. If you pick one candy at random, what is the probability of not picking a mint?",
+    "correct_answer": "3/4",
+    "incorrect_answers": [
+      "1/2",
+      "1/4",
+      "2/3"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "A die is rolled. What is the probability of rolling a number greater than 4?",
+    "correct_answer": "1/3",
+    "incorrect_answers": [
+      "1/2",
+      "1/6",
+      "2/3"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "A bar graph shows the number of books read by students: 5, 7, 3, 8, and 6. What is the range of the data?",
+    "correct_answer": "5",
+    "incorrect_answers": [
+      "3",
+      "8",
+      "6"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "A train travels 300 miles in 5 hours. If it continues at the same speed, how long will it take to travel 450 miles?",
+    "correct_answer": "7.5 hours",
+    "incorrect_answers": [
+      "6 hours",
+      "8 hours",
+      "9 hours"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Math",
+    "question": "A rectangular field has an area of 200 square meters. If the length is 5 meters more than the width, what are the dimensions of the field?",
+    "correct_answer": "10 m × 15 m",
+    "incorrect_answers": [
+      "20 m × 25 m",
+      "5 m × 10 m",
+      "8 m × 13 m"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "A population of bacteria doubles every hour. If there are 100 bacteria initially, how many will there be after 5 hours?",
+    "correct_answer": "3200",
+    "incorrect_answers": [
+      "500",
+      "1600",
+      "1000"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "A store sells shirts for $20 each and pants for $30 each. If you buy 3 shirts and 2 pairs of pants, how much do you spend?",
+    "correct_answer": "$120",
+    "incorrect_answers": [
+      "$100",
+      "$150",
+      "$90"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "A right triangle has legs measuring 6 cm and 8 cm. What is the length of the hypotenuse?",
+    "correct_answer": "10 cm",
+    "incorrect_answers": [
+      "12 cm",
+      "14 cm",
+      "9 cm"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Math",
+    "question": "A car rental company charges $50 per day plus $0.20 per mile. If you rent the car for 3 days and drive 150 miles, how much will you pay?",
+    "correct_answer": "$180",
+    "incorrect_answers": [
+      "$200",
+      "$150",
+      "$160"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Math",
+    "question": "A recipe calls for 2 cups of flour to make 12 cookies. How many cups of flour are needed to make 108 cookies?",
+    "correct_answer": "18",
+    "incorrect_answers": [
+      "12",
+      "24",
+      "36"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Math",
+    "question": "A cylindrical tank has a radius of 3 meters and a height of 10 meters. What is the volume of the tank?",
+    "correct_answer": "90π cubic meters",
+    "incorrect_answers": [
+      "30π cubic meters",
+      "60π cubic meters",
+      "45π cubic meters"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "A school needs to transport 120 students using buses that hold 40 students each. How many buses are needed?",
+    "correct_answer": "3",
+    "incorrect_answers": [
+      "2",
+      "4",
+      "5"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "A farmer wants to fence a rectangular field with an area of 100 square meters. If the length is 10 meters, what is the perimeter of the field?",
+    "correct_answer": "40 meters",
+    "incorrect_answers": [
+      "20 meters",
+      "50 meters",
+      "30 meters"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "A population of rabbits doubles every year. If there are 50 rabbits initially, how many will there be after 4 years?",
+    "correct_answer": "800",
+    "incorrect_answers": [
+      "200",
+      "400",
+      "1600"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "A company sells widgets for $15 each. The cost to produce each widget is $8. How many widgets must they sell to make a profit of $700?",
+    "correct_answer": "100",
+    "incorrect_answers": [
+      "50",
+      "200",
+      "150"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "A cylindrical tank has a radius of 4 meters and a height of 10 meters. How much water can it hold? (Use π ≈ 3.14)",
+    "correct_answer": "502.4 cubic meters",
+    "incorrect_answers": [
+      "251.2 cubic meters",
+      "125.6 cubic meters",
+      "1000 cubic meters"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Math",
+    "question": "A car depreciates by 15% each year. If the car is worth $20,000 initially, what will its value be after 3 years?",
+    "correct_answer": "$12,280",
+    "incorrect_answers": [
+      "$15,000",
+      "$17,000",
+      "$10,000"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Math",
+    "question": "A rectangular field has an area of 300 square meters. If the length is twice the width, what are the dimensions of the field?",
+    "correct_answer": "Width ≈ 12.25 m, Length ≈ 24.5 m",
+    "incorrect_answers": [
+      "10 m × 20 m",
+      "15 m × 30 m",
+      "12 m × 24 m"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "A bank account earns 5% interest compounded annually. If you deposit $1,000, how much will the account be worth after 2 years?",
+    "correct_answer": "$1,102.50",
+    "incorrect_answers": [
+      "$1,100",
+      "$1,050",
+      "$1,200"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Math",
+    "question": "A factory produces 200 units per hour. If production increases by 10% each hour, how many units will be produced in 3 hours?",
+    "correct_answer": "662",
+    "incorrect_answers": [
+      "600",
+      "700",
+      "660"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Math",
+    "question": "A rocket launches vertically at 50 meters per second. If gravity slows it at 10 meters per second squared, how high will it go before stopping?",
+    "correct_answer": "125 meters",
+    "incorrect_answers": [
+      "250 meters",
+      "100 meters",
+      "500 meters"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "A group of 6 friends shares a meal costing $120. If they split the bill equally and leave a 20% tip, how much does each person pay?",
+    "correct_answer": "$24",
+    "incorrect_answers": [
+      "$20",
+      "$28",
+      "$30"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "A box contains 100 chocolates. If 20% are caramel-filled and 30% are nut-filled, how many are plain chocolates?",
+    "correct_answer": "50",
+    "incorrect_answers": [
+      "30",
+      "40",
+      "60"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Math",
+    "question": "A man has a wolf, a goat, and a cabbage. He needs to cross a river with a boat that can carry only him and one item at a time. If left alone, the wolf will eat the goat, and the goat will eat the cabbage. How can he get everything across safely?",
+    "correct_answer": "Take goat first, return alone, take wolf, bring goat back, take cabbage, return for goat",
+    "incorrect_answers": [
+      "Take wolf first",
+      "Take cabbage first",
+      "Take goat and wolf together"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Math",
+    "question": "You have two jugs: one holds 5 gallons, and the other holds 3 gallons. How can you measure exactly 4 gallons of water?",
+    "correct_answer": "Fill 5-gal, pour to 3-gal (leaves 2), empty 3-gal, pour 2 into 3-gal, fill 5-gal, pour to 3-gal until full (leaves 4)",
+    "incorrect_answers": [
+      "Fill both jugs halfway",
+      "Fill 3-gal twice",
+      "Fill 5-gal and remove 1 gallon"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Math",
+    "question": "Three friends check into a hotel room that costs $30. They each pay $10. Later, the clerk realizes the room was only $25 and gives $5 to the bellboy to return. The bellboy keeps $2 as a tip and gives $1 back to each friend. Now, each friend paid $9 (totaling $27) and the bellboy kept $2. Where did the extra dollar go?",
+    "correct_answer": "There is no missing dollar. The $27 includes the $25 room and $2 tip",
+    "incorrect_answers": [
+      "The clerk has it",
+      "The bellboy stole it",
+      "It was lost in calculation"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "A clock chimes once at 1:00, twice at 2:00, and so on. How many total chimes will it make in 12 hours?",
+    "correct_answer": "78",
+    "incorrect_answers": [
+      "66",
+      "72",
+      "84"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "A snail climbs up a 10-meter wall during the day but slides down 3 meters at night. How many days will it take to reach the top?",
+    "correct_answer": "7 days",
+    "incorrect_answers": [
+      "5 days",
+      "10 days",
+      "3 days"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Math",
+    "question": "Five people are sitting at a round table. How many different ways can they arrange themselves?",
+    "correct_answer": "24",
+    "incorrect_answers": [
+      "120",
+      "60",
+      "12"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "A frog jumps 3 feet forward but slides back 1 foot each time. How many jumps does it take to reach a pond 10 feet away?",
+    "correct_answer": "5 jumps",
+    "incorrect_answers": [
+      "7 jumps",
+      "10 jumps",
+      "4 jumps"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "A farmer has chickens and cows. If there are 20 heads and 56 legs, how many chickens and cows are there?",
+    "correct_answer": "12 chickens and 8 cows",
+    "incorrect_answers": [
+      "10 chickens and 10 cows",
+      "8 chickens and 12 cows",
+      "14 chickens and 6 cows"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Math",
+    "question": "A ladder has 15 rungs. If you start on the first rung and climb up 3 rungs, then down 2 rungs repeatedly, how many steps will it take to reach the top?",
+    "correct_answer": "13 steps",
+    "incorrect_answers": [
+      "15 steps",
+      "10 steps",
+      "20 steps"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Math",
+    "question": "A father is 30 years older than his son. In 5 years, the father will be twice as old as the son. How old are they now?",
+    "correct_answer": "Son is 25, Father is 55",
+    "incorrect_answers": [
+      "Son is 20, Father is 50",
+      "Son is 30, Father is 60",
+      "Son is 15, Father is 45"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Math",
+    "question": "You have 12 toothpicks arranged to form 4 squares. How can you move 3 toothpicks to create 3 squares instead?",
+    "correct_answer": "Rearrange to form a large square with 3 smaller squares inside",
+    "incorrect_answers": [
+      "Remove 3 toothpicks",
+      "Add 3 toothpicks",
+      "Move all toothpicks randomly"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Math",
+    "question": "Create a 3×3 magic square using the numbers 1 through 9. What is the arrangement?",
+    "correct_answer": "8 1 6 / 3 5 7 / 4 9 2",
+    "incorrect_answers": [
+      "1 2 3 / 4 5 6 / 7 8 9",
+      "9 8 7 / 6 5 4 / 3 2 1",
+      "2 4 6 / 8 1 3 / 5 7 9"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "A baker has 3 loaves of bread. How can she divide them among 4 customers so each gets an equal share without wasting any bread?",
+    "correct_answer": "Cut each loaf into 4 equal parts, each customer gets 3 parts (3/4 of a loaf)",
+    "incorrect_answers": [
+      "Give 3 customers whole loaves and skip one",
+      "Cut 2 loaves in half",
+      "Break into random pieces"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "A frog lays eggs in a pond. If the number of frogs doubles every month, how many frogs will there be after 6 months if there is 1 frog initially?",
+    "correct_answer": "64",
+    "incorrect_answers": [
+      "32",
+      "128",
+      "12"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "A jar contains 10 red marbles and 5 blue marbles. If you randomly pick one marble, what is the probability of picking a red marble?",
+    "correct_answer": "2/3",
+    "incorrect_answers": [
+      "1/2",
+      "1/3",
+      "3/4"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "A farmer wants to plant trees in rows. If each row must have 5 trees and the farmer has 23 trees, how many rows can he plant, and how many trees will be left over?",
+    "correct_answer": "4 rows with 3 trees left over",
+    "incorrect_answers": [
+      "5 rows with 2 trees left over",
+      "3 rows with 8 trees left over",
+      "4 rows with no trees left over"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Math",
+    "question": "A clock shows 3:15. What is the angle between the hour and minute hands?",
+    "correct_answer": "7.5°",
+    "incorrect_answers": [
+      "0°",
+      "15°",
+      "30°"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Math",
+    "question": "A treasure chest contains gold coins. If you divide the coins equally among 5 pirates, 3 coins are left over. If divided among 6 pirates, 4 coins are left over. What is the smallest number of coins in the chest?",
+    "correct_answer": "28",
+    "incorrect_answers": [
+      "18",
+      "38",
+      "23"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Math",
+    "question": "A teacher writes numbers on the board: 1, 2, 3, …, 100. How many times does the digit 7 appear?",
+    "correct_answer": "20",
+    "incorrect_answers": [
+      "10",
+      "19",
+      "21"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "A pizza is cut into 8 slices. If you eat half of the pizza and give away 2 slices, how many slices are left?",
+    "correct_answer": "2",
+    "incorrect_answers": [
+      "4",
+      "0",
+      "6"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "What is the sum of 130 + 125 + 191?",
+    "correct_answer": "446",
+    "incorrect_answers": [
+      "335",
+      "456",
+      "426"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "If we minus 712 from 1500, how much do we get?",
+    "correct_answer": "788",
+    "incorrect_answers": [
+      "778",
+      "768",
+      "758"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "50 times of 8 is equal to:",
+    "correct_answer": "400",
+    "incorrect_answers": [
+      "80",
+      "800",
+      "4000"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "110 divided by 10 is:",
+    "correct_answer": "11",
+    "incorrect_answers": [
+      "10",
+      "5",
+      "None of these"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "20 + (90 ÷ 2) is equal to:",
+    "correct_answer": "65",
+    "incorrect_answers": [
+      "50",
+      "55",
+      "60"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "The product of 82 and 5 is:",
+    "correct_answer": "410",
+    "incorrect_answers": [
+      "400",
+      "420",
+      "None of these"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "Find the missing term in multiple of 3: 3, 6, 9, __, 15",
+    "correct_answer": "12",
+    "incorrect_answers": [
+      "10",
+      "11",
+      "13"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "Solve 24 ÷ 8 + 2.",
+    "correct_answer": "5",
+    "incorrect_answers": [
+      "6",
+      "8",
+      "12"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "Solve: 300 – (150 × 2)",
+    "correct_answer": "0",
+    "incorrect_answers": [
+      "150",
+      "100",
+      "50"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "The product of 121 × 0 × 200 × 25 is:",
+    "correct_answer": "0",
+    "incorrect_answers": [
+      "1500",
+      "4000",
+      "None of these"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "What is the next prime number after 5?",
+    "correct_answer": "7",
+    "incorrect_answers": [
+      "6",
+      "9",
+      "11"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "The circumference of the circle is also sometimes called:",
+    "correct_answer": "Perimeter of a circle",
+    "incorrect_answers": [
+      "Area of a circle",
+      "Radius of a circle",
+      "Diameter of a circle"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "90 – 35 is equal to:",
+    "correct_answer": "55",
+    "incorrect_answers": [
+      "45",
+      "65",
+      "50"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "72 divided by 8 is equal to:",
+    "correct_answer": "9",
+    "incorrect_answers": [
+      "8",
+      "10",
+      "7"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "How many sides does a decagon have?",
+    "correct_answer": "Ten",
+    "incorrect_answers": [
+      "Eight",
+      "Nine",
+      "Twelve"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "Is -5 an integer? Yes or No.",
+    "correct_answer": "Yes",
+    "incorrect_answers": [
+      "No"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "The value of pi is equal to:",
+    "correct_answer": "22/7 or 3.14",
+    "incorrect_answers": [
+      "3.16",
+      "22/8",
+      "3.12"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "9 × 7 is equal to:",
+    "correct_answer": "63",
+    "incorrect_answers": [
+      "54",
+      "72",
+      "56"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "Is a triangle a two-dimensional or three-dimensional shape?",
+    "correct_answer": "A two-dimensional shape",
+    "incorrect_answers": [
+      "A three-dimensional shape",
+      "Both",
+      "Neither"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "An equilateral triangle has two of its sides equal. True or false?",
+    "correct_answer": "False",
+    "incorrect_answers": [
+      "True"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "10 is a natural number. True or false?",
+    "correct_answer": "True",
+    "incorrect_answers": [
+      "False"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "-10 is a whole number. True or false?",
+    "correct_answer": "False",
+    "incorrect_answers": [
+      "True"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "8 raised to the power 0 is equal to:",
+    "correct_answer": "1",
+    "incorrect_answers": [
+      "0",
+      "8",
+      "Undefined"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "The largest 4-digit number is:",
+    "correct_answer": "9999",
+    "incorrect_answers": [
+      "1000",
+      "999",
+      "10000"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "The smallest 4-digit number is:",
+    "correct_answer": "1000",
+    "incorrect_answers": [
+      "999",
+      "1001",
+      "0"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "The square of 8 is equal to:",
+    "correct_answer": "64",
+    "incorrect_answers": [
+      "16",
+      "32",
+      "56"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "The square root of 5 is:",
+    "correct_answer": "2.23",
+    "incorrect_answers": [
+      "2.5",
+      "25",
+      "2.0"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "3 is a perfect square. True or False?",
+    "correct_answer": "False",
+    "incorrect_answers": [
+      "True"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "Cube of 5 is equal to:",
+    "correct_answer": "125",
+    "incorrect_answers": [
+      "25",
+      "75",
+      "15"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Math",
+    "question": "Cube root of 1331 is:",
+    "correct_answer": "11",
+    "incorrect_answers": [
+      "9",
+      "13",
+      "12"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "27 is a perfect cube. True or False?",
+    "correct_answer": "True",
+    "incorrect_answers": [
+      "False"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "A square has all its angles equal to:",
+    "correct_answer": "90 degrees",
+    "incorrect_answers": [
+      "60 degrees",
+      "120 degrees",
+      "180 degrees"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "The area of a rectangle is equal to:",
+    "correct_answer": "Length × Breadth",
+    "incorrect_answers": [
+      "Length + Breadth",
+      "2 × (Length + Breadth)",
+      "Length ÷ Breadth"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "If a is the side of a cube, then the volume of the cube is:",
+    "correct_answer": "a³",
+    "incorrect_answers": [
+      "3a",
+      "a²",
+      "6a²"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Math",
+    "question": "A regular polygon has all its sides:",
+    "correct_answer": "Equal",
+    "incorrect_answers": [
+      "Different",
+      "Parallel",
+      "Perpendicular"
+    ]
+  }
+]
