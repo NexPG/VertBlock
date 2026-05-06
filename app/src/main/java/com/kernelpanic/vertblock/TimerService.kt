@@ -33,7 +33,9 @@ class TimerService : Service() {
             applicationContext,
             VertBlockDatabase::class.java,
             "vertblock.db"
-        ).build()
+        )
+            .fallbackToDestructiveMigration() // разрешает пересоздание БД при обновлении версии
+            .build()
     }
 
     override fun onStartCommand(intent: Intent?, flags: Int, startId: Int): Int {
