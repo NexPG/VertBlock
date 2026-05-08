@@ -1,8 +1,6 @@
 package com.kernelpanic.vertblock
 
-import androidx.compose.animation.animateColorAsState
-import androidx.compose.animation.core.FastOutSlowInEasing
-import androidx.compose.animation.core.tween
+import android.content.Context
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
@@ -23,19 +21,19 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.text.style.TextAlign
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
-// Используем палитру из Focus Hub
-// val BackgroundColor = Color(0xFF121214)
-// val SurfaceColor = Color(0xFF1E1E22)
-// val PrimaryPurple = Color(0xFF8A5BFF)
-// val TextGray = Color(0xFFA0A0A0)
-// val DividerColor = Color(0xFF2A2A2E)
+// Палитра из Focus Hub
+//val BackgroundColor = Color(0xFF121214)
+//val SurfaceColor = Color(0xFF1E1E22)
+//val PrimaryPurple = Color(0xFF8A5BFF)
+//val TextGray = Color(0xFFA0A0A0)
+//val DividerColor = Color(0xFF2A2A2E)
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -43,26 +41,29 @@ fun ProfileSettingsScreen(
     onNavigateBack: () -> Unit = {},
     onNavigateToInterest: () -> Unit = {}
 ) {
-    // === ИМИТАЦИЯ СОХРАНЕННЫХ ДАННЫХ (в будущем заменишь на DataStore) ===
-    var savedName by remember { mutableStateOf("") }
-    var savedFrequency by remember { mutableIntStateOf(15) }
+    val context = LocalContext.current
+    val prefs = remember { context.getSharedPreferences("profile_prefs", Context.MODE_PRIVATE) }
 
-    // === ЛОКАЛЬНЫЕ СОСТОЯНИЯ ЭКРАНА (то, что мы редактируем) ===
+    // Загружаем сохранённые данные
+    var savedName by remember { mutableStateOf(prefs.getString("user_name", "") ?: "") }
+    var savedFrequency by remember { mutableIntStateOf(prefs.getInt("question_frequency", 15)) }
+
+    // Локальные состояния для редактирования
     var nameInput by remember { mutableStateOf(savedName) }
     var selectedPresetTime by remember { mutableStateOf<Int?>(savedFrequency) }
     var customTimeInput by remember { mutableStateOf("") }
 
-    // Логика: есть ли несохраненные изменения?
     val currentSelectedTime = selectedPresetTime ?: customTimeInput.toIntOrNull() ?: savedFrequency
-    val hasChanges = (nameInput != savedName && nameInput.isNotBlank()) || (currentSelectedTime != savedFrequency)
+    val hasChanges =
+        (nameInput != savedName && nameInput.isNotBlank()) || (currentSelectedTime != savedFrequency)
 
     Column(
         modifier = Modifier
             .fillMaxSize()
             .background(BackgroundColor)
-            .statusBarsPadding() // Отступ для статус-бара, как ты просил
+            .statusBarsPadding()
     ) {
-        // 1. Верхняя панель (Top Bar)
+        // Верхняя панель (такая же, как была)
         Row(
             modifier = Modifier
                 .fillMaxWidth()
@@ -70,9 +71,12 @@ fun ProfileSettingsScreen(
             verticalAlignment = Alignment.CenterVertically
         ) {
             IconButton(onClick = onNavigateBack) {
-                Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Back", tint = Color.White)
+                Icon(
+                    Icons.AutoMirrored.Filled.ArrowBack,
+                    contentDescription = "Back",
+                    tint = Color.White
+                )
             }
-
             Column(
                 modifier = Modifier.weight(1f),
                 horizontalAlignment = Alignment.CenterHorizontally
@@ -91,8 +95,6 @@ fun ProfileSettingsScreen(
                     fontWeight = FontWeight.Medium
                 )
             }
-
-            // Пустая коробка для баланса центрирования
             Spacer(modifier = Modifier.width(48.dp))
         }
 
@@ -105,30 +107,23 @@ fun ProfileSettingsScreen(
         ) {
             Spacer(modifier = Modifier.height(32.dp))
 
-            // 2. Аватарка
-            Box(
-                modifier = Modifier.fillMaxWidth(),
-                contentAlignment = Alignment.Center
-            ) {
+            // Аватарка (оставим как есть, без сохранения выбора)
+            Box(modifier = Modifier.fillMaxWidth(), contentAlignment = Alignment.Center) {
                 Box(
                     modifier = Modifier
                         .size(120.dp)
                         .clip(CircleShape)
                         .background(SurfaceColor)
-                        .clickable {
-                            // TODO: Открыть галерею для выбора фото
-                        },
+                        .clickable { /* TODO: выбор фото */ },
                     contentAlignment = Alignment.Center
                 ) {
                     Icon(
-                        imageVector = Icons.Default.Person,
+                        Icons.Default.Person,
                         contentDescription = "Avatar",
                         tint = TextGray,
                         modifier = Modifier.size(60.dp)
                     )
                 }
-
-                // Иконка редактирования (карандаш)
                 Box(
                     modifier = Modifier
                         .size(36.dp)
@@ -137,16 +132,21 @@ fun ProfileSettingsScreen(
                         .clip(CircleShape)
                         .background(PrimaryPurple)
                         .border(2.dp, BackgroundColor, CircleShape)
-                        .clickable { /* TODO: Тоже открыть галерею */ },
+                        .clickable { /* TODO */ },
                     contentAlignment = Alignment.Center
                 ) {
-                    Icon(Icons.Default.Edit, contentDescription = "Edit", tint = Color.White, modifier = Modifier.size(18.dp))
+                    Icon(
+                        Icons.Default.Edit,
+                        contentDescription = "Edit",
+                        tint = Color.White,
+                        modifier = Modifier.size(18.dp)
+                    )
                 }
             }
 
             Spacer(modifier = Modifier.height(40.dp))
 
-            // 3. Поле Name
+            // Имя
             SectionTitle("NAME")
             OutlinedTextField(
                 value = nameInput,
@@ -154,25 +154,28 @@ fun ProfileSettingsScreen(
                 placeholder = { Text("enter your name", color = Color.Gray) },
                 modifier = Modifier.fillMaxWidth(),
                 shape = RoundedCornerShape(12.dp),
-                colors = TextFieldDefaults.colors(
-                    focusedContainerColor = Color.White,
-                    unfocusedContainerColor = Color.White,
+                colors = OutlinedTextFieldDefaults.colors(
+                    focusedBorderColor = PrimaryPurple,
+                    unfocusedBorderColor = TextGray,
+                    cursorColor = PrimaryPurple,
                     focusedTextColor = Color.Black,
                     unfocusedTextColor = Color.Black,
-                    focusedIndicatorColor = Color.Transparent,
-                    unfocusedIndicatorColor = Color.Transparent
+                    focusedContainerColor = Color.White,
+                    unfocusedContainerColor = Color.White,
                 ),
                 singleLine = true,
                 trailingIcon = {
-                    if (nameInput.isNotBlank()) {
-                        Icon(Icons.Default.Check, contentDescription = "Valid", tint = PrimaryPurple)
-                    }
+                    if (nameInput.isNotBlank()) Icon(
+                        Icons.Default.Check,
+                        contentDescription = null,
+                        tint = PrimaryPurple
+                    )
                 }
             )
 
             Spacer(modifier = Modifier.height(24.dp))
 
-            // 4. Поле Preferences (Interest Settings)
+            // Preferences (переход в Interest Settings)
             SectionTitle("PREFERENCES")
             Row(
                 modifier = Modifier
@@ -186,16 +189,23 @@ fun ProfileSettingsScreen(
             ) {
                 Icon(Icons.Outlined.Psychology, contentDescription = null, tint = PrimaryPurple)
                 Spacer(modifier = Modifier.width(12.dp))
-                Text("Interest Settings", color = Color.White, fontSize = 16.sp, modifier = Modifier.weight(1f))
-                Icon(Icons.AutoMirrored.Filled.KeyboardArrowRight, contentDescription = null, tint = TextGray)
+                Text(
+                    "Interest Settings",
+                    color = Color.White,
+                    fontSize = 16.sp,
+                    modifier = Modifier.weight(1f)
+                )
+                Icon(
+                    Icons.AutoMirrored.Filled.KeyboardArrowRight,
+                    contentDescription = null,
+                    tint = TextGray
+                )
             }
 
             Spacer(modifier = Modifier.height(24.dp))
 
-            // 5. Поле Question Frequency
+            // Частота вопросов
             SectionTitle("QUESTION FREQUENCY")
-
-            // Кастомный Segmented Control
             Row(
                 modifier = Modifier
                     .fillMaxWidth()
@@ -206,11 +216,7 @@ fun ProfileSettingsScreen(
             ) {
                 listOf(15, 30, 45).forEach { time ->
                     val isSelected = selectedPresetTime == time
-                    val bgColor by animateColorAsState(
-                        targetValue = if (isSelected) PrimaryPurple else Color.Transparent,
-                        animationSpec = tween(durationMillis = 300, easing = FastOutSlowInEasing)
-                    )
-
+                    val bgColor = if (isSelected) PrimaryPurple else Color.Transparent
                     Box(
                         modifier = Modifier
                             .weight(1f)
@@ -218,7 +224,7 @@ fun ProfileSettingsScreen(
                             .background(bgColor)
                             .clickable {
                                 selectedPresetTime = time
-                                customTimeInput = "" // Сбрасываем кастомное время
+                                customTimeInput = ""
                             }
                             .padding(vertical = 12.dp),
                         contentAlignment = Alignment.Center
@@ -234,52 +240,56 @@ fun ProfileSettingsScreen(
 
             Spacer(modifier = Modifier.height(16.dp))
 
-            // Кастомный ввод времени
-            val isCustomActive = selectedPresetTime == null && customTimeInput.isNotBlank()
             OutlinedTextField(
                 value = customTimeInput,
                 onValueChange = {
                     customTimeInput = it
-                    if (it.isNotBlank()) selectedPresetTime = null // Сбрасываем "плитку"
+                    if (it.isNotBlank()) selectedPresetTime = null
                 },
                 placeholder = {
-                    Text("Custom (mins)", color = Color.Gray, modifier = Modifier.fillMaxWidth(), textAlign = TextAlign.Center)
+                    Text(
+                        "Custom (mins)",
+                        color = Color.Gray,
+                        textAlign = TextAlign.Center
+                    )
                 },
                 modifier = Modifier.fillMaxWidth(),
                 shape = RoundedCornerShape(12.dp),
                 keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Number),
-                colors = TextFieldDefaults.colors(
-                    focusedContainerColor = Color.White,
-                    unfocusedContainerColor = Color.White,
+                colors = OutlinedTextFieldDefaults.colors(
+                    focusedBorderColor = PrimaryPurple,
+                    unfocusedBorderColor = TextGray,
+                    cursorColor = PrimaryPurple,
                     focusedTextColor = Color.Black,
                     unfocusedTextColor = Color.Black,
-                    focusedIndicatorColor = Color.Transparent,
-                    unfocusedIndicatorColor = Color.Transparent
+                    focusedContainerColor = Color.White,
+                    unfocusedContainerColor = Color.White,
                 ),
                 singleLine = true,
                 textStyle = LocalTextStyle.current.copy(textAlign = TextAlign.Center),
                 trailingIcon = {
-                    if (isCustomActive) {
-                        Icon(Icons.Default.Check, contentDescription = "Valid custom time", tint = PrimaryPurple)
-                    }
+                    if (selectedPresetTime == null && customTimeInput.isNotBlank())
+                        Icon(Icons.Default.Check, contentDescription = null, tint = PrimaryPurple)
                 }
             )
 
-            // Отступ, который выталкивает кнопку "Save Changes" в самый низ
             Spacer(modifier = Modifier.weight(1f))
 
-            // 6. Кнопка сохранения
+            // Кнопка Save
             Button(
                 onClick = {
                     if (hasChanges) {
-                        // Имитация сохранения данных
+                        prefs.edit()
+                            .putString("user_name", nameInput)
+                            .putInt("question_frequency", currentSelectedTime)
+                            .apply()
                         savedName = nameInput
                         savedFrequency = currentSelectedTime
                     }
                 },
                 modifier = Modifier
                     .fillMaxWidth()
-                    .height(115.dp)
+                    .height(56.dp)
                     .padding(bottom = 36.dp),
                 shape = RoundedCornerShape(16.dp),
                 colors = ButtonDefaults.buttonColors(
@@ -289,7 +299,8 @@ fun ProfileSettingsScreen(
                 elevation = ButtonDefaults.buttonElevation(0.dp)
             ) {
                 Text(
-                    text = "Save Changes",
+                    "Save Changes",
+                    color = Color.White,   // ← явно задаём белый цвет
                     fontSize = 16.sp,
                     fontWeight = FontWeight.Medium
                 )
@@ -298,7 +309,6 @@ fun ProfileSettingsScreen(
     }
 }
 
-// Вспомогательный компонент для заголовков секций
 @Composable
 fun SectionTitle(title: String) {
     Text(
@@ -309,10 +319,4 @@ fun SectionTitle(title: String) {
         letterSpacing = 1.sp,
         modifier = Modifier.padding(bottom = 8.dp)
     )
-}
-
-@Preview(showBackground = true)
-@Composable
-fun PreviewProfileSettingsScreen() {
-    ProfileSettingsScreen()
 }

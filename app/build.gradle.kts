@@ -69,4 +69,5 @@ dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2")
     implementation("androidx.room:room-runtime:2.8.4")
     ksp("androidx.room:room-compiler:2.8.4")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.8.0")
 }
