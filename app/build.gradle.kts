@@ -15,7 +15,7 @@ android {
 
     defaultConfig {
         applicationId = "com.kernelpanic.vertblock"
-        minSdk = 31
+        minSdk = 33
         targetSdk = 36
         versionCode = 5
         versionName = "0.0.5-alpha"
@@ -69,5 +69,9 @@ dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2")
     implementation("androidx.room:room-runtime:2.8.4")
     ksp("androidx.room:room-compiler:2.8.4")
+    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.11.0")
+    implementation("com.google.code.gson:gson:2.14.0")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-savedstate:2.10.0")
+    implementation("androidx.activity:activity-compose:1.13.0")
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.8.0")
 }

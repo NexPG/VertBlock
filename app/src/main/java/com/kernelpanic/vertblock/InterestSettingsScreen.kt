@@ -40,7 +40,7 @@ val topicsList = listOf(
     InterestTopic("science", "SCIENCE", Icons.Default.Science),
     InterestTopic("history", "HISTORY", Icons.Default.History),
     InterestTopic("travel", "TRAVEL", Icons.Default.Flight),
-    InterestTopic("music", "MUSIC", Icons.Default.MusicNote),
+    InterestTopic("math", "MATH", Icons.Default.Functions),
     InterestTopic("nature", "NATURE", Icons.Default.Park)
 )
 

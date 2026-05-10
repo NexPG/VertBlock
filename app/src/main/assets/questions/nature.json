@@ -1,0 +1,4592 @@
+[
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "Which one of these scientists conducted the Gold Foil Experiment which concluded that atoms are mostly made of empty space?",
+    "correct_answer": "Ernest Rutherford",
+    "incorrect_answers": [
+      "Joseph John Thomson",
+      "Archimedes",
+      "Niels Henrik David Bohr"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Nature",
+    "question": "71% of the Earth's surface is made up of",
+    "correct_answer": "Water",
+    "incorrect_answers": [
+      "Deserts",
+      "Continents",
+      "Forests"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "Which of these choices is not one of the phases of mitosis?",
+    "correct_answer": "Diplophase",
+    "incorrect_answers": [
+      "Metaphase",
+      "Anaphase",
+      "Telophase"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "Which Landsat Satellite currently has had the longest operational life?",
+    "correct_answer": "Landsat 5",
+    "incorrect_answers": [
+      "Landsat 8",
+      "Landsat 7",
+      "Landsat 6"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Nature",
+    "question": "The human heart has how many chambers?",
+    "correct_answer": "4",
+    "incorrect_answers": [
+      "2",
+      "6",
+      "3"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Nature",
+    "question": "What organelle aids in synthesis of DNA in cells?",
+    "correct_answer": "Ribosomes",
+    "incorrect_answers": [
+      "Nuclei",
+      "Lysosomes",
+      "Mitochondria"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "Which of the following is considered classical conditioning?",
+    "correct_answer": "Pavlov's dog experiments",
+    "incorrect_answers": [
+      "Skinner box experiment",
+      "Schr&ouml;dinger's cat experiment",
+      "Harlow&rsquo;s monkey experiments"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Nature",
+    "question": "Human cells typically have how many copies of each gene?",
+    "correct_answer": "2",
+    "incorrect_answers": [
+      "1",
+      "4",
+      "3"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "What causes the sound of a heartbeat?",
+    "correct_answer": "Closure of the heart valves",
+    "incorrect_answers": [
+      "Contraction of the heart chambers",
+      "Blood exiting the heart",
+      "Relaxation of the heart chambers"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "What part of the brain takes its name from the Greek for seahorse?",
+    "correct_answer": "Hippocampus",
+    "incorrect_answers": [
+      "Cerebellum",
+      "Thalamus",
+      "Amygdala"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Nature",
+    "question": "Which is the most abundant element in the universe?",
+    "correct_answer": "Hydrogen",
+    "incorrect_answers": [
+      "Helium",
+      "Lithium",
+      "Oxygen"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "In physics, conservation of energy and conservation of momentum are both consequences of which of the following?",
+    "correct_answer": "Noether's Theorem",
+    "incorrect_answers": [
+      "Bell's Theorem",
+      "Wick's Theorem",
+      "Carnot's Theorem"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "Which of these is a stop codon in DNA?",
+    "correct_answer": "TAA",
+    "incorrect_answers": [
+      "ACT",
+      "ACA",
+      "GTA"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Nature",
+    "question": "How many planets make up our Solar System?",
+    "correct_answer": "8",
+    "incorrect_answers": [
+      "7",
+      "9",
+      "6"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "How many objects are equivalent to one mole?",
+    "correct_answer": "6.022 x 10^23",
+    "incorrect_answers": [
+      "6.002 x 10^22",
+      "6.022 x 10^22",
+      "6.002 x 10^23"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "Which of the following spacecraft never touched the moon?",
+    "correct_answer": "Mariner 4",
+    "incorrect_answers": [
+      "Apollo 11",
+      "Luna 2",
+      "SMART-1"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "What medication was once commonly used as rat poison?",
+    "correct_answer": "Coumadin",
+    "incorrect_answers": [
+      "Aspirin",
+      "Eliquis",
+      "Tylenol"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "Which of the following men does not have a chemical element named after him?",
+    "correct_answer": "Sir Isaac Newton",
+    "incorrect_answers": [
+      "Albert Einstein",
+      "Niels Bohr",
+      "Enrico Fermi"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Nature",
+    "question": "What is the standard SI unit for mass?",
+    "correct_answer": "Kilogram",
+    "incorrect_answers": [
+      "Tonne",
+      "Pound",
+      "Gram"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Nature",
+    "question": " What is the chemical symbol for Helium?",
+    "correct_answer": "He",
+    "incorrect_answers": [
+      "H",
+      "Hg",
+      "Hs"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "Myopia is the scientific term for which condition?",
+    "correct_answer": "Shortsightedness",
+    "incorrect_answers": [
+      "Farsightedness",
+      "Double Vision",
+      "Clouded Vision"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "Which is not a type of neuron?",
+    "correct_answer": "Perceptual Neuron",
+    "incorrect_answers": [
+      "Sensory Neuron",
+      "Motor Neuron",
+      "Interneuron"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Nature",
+    "question": "What is the speed of light in a vacuum?",
+    "correct_answer": "299,792,458 m/s",
+    "incorrect_answers": [
+      "50,461 m/s",
+      "308,215,043 m/s",
+      "751,665,014,151 m/s"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Nature",
+    "question": "How many planets are in our Solar System?",
+    "correct_answer": "Eight",
+    "incorrect_answers": [
+      "Nine",
+      "Seven",
+      "Ten"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "Down Syndrome is usually caused by an extra copy of which chromosome?",
+    "correct_answer": "21",
+    "incorrect_answers": [
+      "23",
+      "15",
+      "24"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Nature",
+    "question": "Naturally occuring uranium primarily consists of which isotope?",
+    "correct_answer": "238",
+    "incorrect_answers": [
+      "235",
+      "239",
+      "233"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Nature",
+    "question": "What is the standard SI unit for temperature?",
+    "correct_answer": "Kelvin",
+    "incorrect_answers": [
+      "Fahrenheit",
+      "Celsius",
+      "Rankine"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "How many protons are in an oxygen atom?",
+    "correct_answer": "Eight",
+    "incorrect_answers": [
+      "Four",
+      "Two",
+      "Six"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "How many teeth does the average adult mouth have (except for wisdom teeth)?",
+    "correct_answer": "32",
+    "incorrect_answers": [
+      "36",
+      "20",
+      "28"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "What is considered the rarest form of color blindness?",
+    "correct_answer": "Blue",
+    "incorrect_answers": [
+      "Red",
+      "Green",
+      "Purple"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "What genetic disease is caused by having an extra Y chromosome (XYY)?",
+    "correct_answer": "Jacob's Syndrome",
+    "incorrect_answers": [
+      "Klinefelter's Syndrome",
+      "Turner's Syndrome",
+      "Down Syndrome"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "Which of these chemical compounds is NOT found in gastric acid?",
+    "correct_answer": "Sulfuric acid",
+    "incorrect_answers": [
+      "Hydrochloric acid",
+      "Potassium chloride",
+      "Sodium chloride"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "What part of the body produces insulin?",
+    "correct_answer": "Pancreas",
+    "incorrect_answers": [
+      "Kidney",
+      "Liver",
+      "Stomach"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Nature",
+    "question": "How many moons does the Earth have?",
+    "correct_answer": "1",
+    "incorrect_answers": [
+      "0",
+      "2",
+      "3"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "How many legs is it biologically impossible for a centipede to have?",
+    "correct_answer": "100",
+    "incorrect_answers": [
+      "26",
+      "50",
+      "74"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "When the Falcon Heavy was launched on it's test flight, what was the only part of the operation that failed?",
+    "correct_answer": "Center Core Landing",
+    "incorrect_answers": [
+      "Side Booster Landing",
+      "Deployment of Starman",
+      "Ignition and Liftoff"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "What is the atomic number of Uranium ",
+    "correct_answer": "92",
+    "incorrect_answers": [
+      "235",
+      "17",
+      "167"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "What is the colour of unoxidized blood?",
+    "correct_answer": "Red",
+    "incorrect_answers": [
+      "Blue",
+      "Purple",
+      "Green"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Nature",
+    "question": "What does the letter 'S' stand for in 'NASA'?",
+    "correct_answer": "Space",
+    "incorrect_answers": [
+      "Science",
+      "Society",
+      "Star"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "Which part of the body does glaucoma affect?",
+    "correct_answer": "Eyes",
+    "incorrect_answers": [
+      "Throat",
+      "Stomach",
+      "Blood"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "Au on the Periodic Table refers to which element?",
+    "correct_answer": "Gold",
+    "incorrect_answers": [
+      "Silver",
+      "Oxygen",
+      "Nickel"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Nature",
+    "question": "How many bones are in the human body?",
+    "correct_answer": "206",
+    "incorrect_answers": [
+      "203",
+      "209",
+      "200"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "What is Hypernatremia?",
+    "correct_answer": "Increase in blood sodium",
+    "incorrect_answers": [
+      "Decrease in blood potassium",
+      "Increase in blood glucose",
+      "Decrease in blood iron"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "Which of the following are cells of the adaptive immune system?",
+    "correct_answer": "Cytotoxic T cells",
+    "incorrect_answers": [
+      "Dendritic cells",
+      "Natural killer cells",
+      "White blood cells"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "What does the yellow diamond on the NFPA 704 fire diamond represent?",
+    "correct_answer": "Reactivity",
+    "incorrect_answers": [
+      "Health",
+      "Flammability",
+      "Radioactivity"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "All the following metal elements are liquids at or near room temperature EXCEPT:",
+    "correct_answer": "Beryllium",
+    "incorrect_answers": [
+      "Gallium",
+      "Caesium",
+      "Mercury"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "A caracal is what type of animal?",
+    "correct_answer": "Cat",
+    "incorrect_answers": [
+      "Dog",
+      "Rodent",
+      "Weasel"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "What type of animal is a Herdwick?",
+    "correct_answer": "Sheep",
+    "incorrect_answers": [
+      "Cow",
+      "Goat",
+      "Pig"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "The Grand Canyon in Arizona was carved by which river?",
+    "correct_answer": "Colorado River",
+    "incorrect_answers": [
+      "Mississippi River",
+      "Rio Grande",
+      "Missouri River"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "Which breed of bird was used in mines to detect dangerous gases?",
+    "correct_answer": "Canary",
+    "incorrect_answers": [
+      "Parrot",
+      "Pigeon",
+      "Sparrow"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "Which S is a deadly sin, and a tree dwelling animal?",
+    "correct_answer": "Sloth",
+    "incorrect_answers": [
+      "Squirrel",
+      "Snake",
+      "Spider"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "Which is the only bird that can swim but can't fly?",
+    "correct_answer": "Penguin",
+    "incorrect_answers": [
+      "Ostrich",
+      "Kiwi",
+      "Duck"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "Shiraz is a variety of which fruit?",
+    "correct_answer": "Grape",
+    "incorrect_answers": [
+      "Apple",
+      "Pear",
+      "Plum"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "Fragrant essential oil Attar is typically made from the petals of which flower?",
+    "correct_answer": "Rose",
+    "incorrect_answers": [
+      "Jasmine",
+      "Lavender",
+      "Lily"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "Which reptiles camouflage themselves by changing colour?",
+    "correct_answer": "Chameleons",
+    "incorrect_answers": [
+      "Lizards",
+      "Geckos",
+      "Iguanas"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "Rhodesian Ridgeback is which breed of animal?",
+    "correct_answer": "Dog",
+    "incorrect_answers": [
+      "Cat",
+      "Horse",
+      "Cattle"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "Viscus album is the Latin name for which parasitic plant?",
+    "correct_answer": "Mistletoe",
+    "incorrect_answers": [
+      "Ivy",
+      "Dodder",
+      "Witchweed"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "What is a group of lions called?",
+    "correct_answer": "A pride",
+    "incorrect_answers": [
+      "A pack",
+      "A herd",
+      "A coalition"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "In the human body, what is the name of the large muscle which covers the shoulder?",
+    "correct_answer": "Deltoid",
+    "incorrect_answers": [
+      "Trapezius",
+      "Pectoral",
+      "Latissimus dorsi"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "The spice saffron is derived from which flower?",
+    "correct_answer": "Crocus",
+    "incorrect_answers": [
+      "Rose",
+      "Safflower",
+      "Marigold"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "A Rockhopper is what type of bird?",
+    "correct_answer": "Penguin",
+    "incorrect_answers": [
+      "Puffin",
+      "Albatross",
+      "Seagull"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "If a person is ambidextrous they can use which part of the body equally well?",
+    "correct_answer": "Hands",
+    "incorrect_answers": [
+      "Feet",
+      "Eyes",
+      "Ears"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "What is the young of a koala called?",
+    "correct_answer": "Joey",
+    "incorrect_answers": [
+      "Cub",
+      "Pup",
+      "Calf"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "Which planet is nearest to the Sun?",
+    "correct_answer": "Mercury",
+    "incorrect_answers": [
+      "Venus",
+      "Earth",
+      "Mars"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "Astrakhan is the curly hair of which young animal?",
+    "correct_answer": "Lamb",
+    "incorrect_answers": [
+      "Goat",
+      "Calf",
+      "Foal"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "Seal Point and Blue Point are types of which cat?",
+    "correct_answer": "Siamese",
+    "incorrect_answers": [
+      "Persian",
+      "Burmese",
+      "Ragdoll"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "What type of leaves does a koala feed on?",
+    "correct_answer": "Eucalyptus",
+    "incorrect_answers": [
+      "Bamboo",
+      "Acacia",
+      "Pine"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "Which bird is traditionally depicted delivering newborn babies?",
+    "correct_answer": "Stork",
+    "incorrect_answers": [
+      "Eagle",
+      "Crane",
+      "Pelican"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "Loggerhead, Kemp's Ridley and Hawksbill are all type of which creature?",
+    "correct_answer": "Sea turtle",
+    "incorrect_answers": [
+      "Crab",
+      "Shark",
+      "Dolphin"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "How many colours are in the rainbow?",
+    "correct_answer": "7",
+    "incorrect_answers": [
+      "6",
+      "8",
+      "5"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "What type of creature is a flying fox?",
+    "correct_answer": "Bat",
+    "incorrect_answers": [
+      "Fox",
+      "Squirrel",
+      "Bird"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "Scottish Blackface is a breed of which animal?",
+    "correct_answer": "Sheep",
+    "incorrect_answers": [
+      "Cattle",
+      "Horse",
+      "Goat"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "The Painted Desert is in which US state?",
+    "correct_answer": "Arizona",
+    "incorrect_answers": [
+      "New Mexico",
+      "Utah",
+      "Nevada"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "What is the name of the place where a community of ants live?",
+    "correct_answer": "Colony",
+    "incorrect_answers": [
+      "Hive",
+      "Nest",
+      "Mound"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "Hermit, Spider and Blue are all types of which creature?",
+    "correct_answer": "Crab",
+    "incorrect_answers": [
+      "Lobster",
+      "Shrimp",
+      "Frog"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "Mount of Venus, Plain of Mars and Mount of Jupiter are all found on which part of the body?",
+    "correct_answer": "Hand",
+    "incorrect_answers": [
+      "Foot",
+      "Face",
+      "Head"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "Comma, Peacock and Swallowtail are all types of which insect?",
+    "correct_answer": "Butterfly",
+    "incorrect_answers": [
+      "Moth",
+      "Beetle",
+      "Dragonfly"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "Gloucester Old Spot is a breed of which animal?",
+    "correct_answer": "Pig",
+    "incorrect_answers": [
+      "Cow",
+      "Sheep",
+      "Goat"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "Which are the only mammals to have wings?",
+    "correct_answer": "Bats",
+    "incorrect_answers": [
+      "Birds",
+      "Flying squirrels",
+      "Sugar gliders"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "Which land animal is known as an urchin?",
+    "correct_answer": "Hedgehog",
+    "incorrect_answers": [
+      "Porcupine",
+      "Rat",
+      "Mole"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "Douglas, Fraser and Noble are all which type of tree?",
+    "correct_answer": "Fir",
+    "incorrect_answers": [
+      "Pine",
+      "Spruce",
+      "Cedar"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "Myxomatosis is a viral disease affecting which creatures?",
+    "correct_answer": "Rabbits",
+    "incorrect_answers": [
+      "Rodents",
+      "Birds",
+      "Bats"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "What type of animal is a kob?",
+    "correct_answer": "Antelope",
+    "incorrect_answers": [
+      "Deer",
+      "Gazelle",
+      "Buffalo"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "What colour is a polar bear's skin?",
+    "correct_answer": "Black",
+    "incorrect_answers": [
+      "White",
+      "Pink",
+      "Grey"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "What is a female skunk called?",
+    "correct_answer": "Sow",
+    "incorrect_answers": [
+      "Doe",
+      "Hen",
+      "Vixen"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "A 'pod' is a group of which mammals?",
+    "correct_answer": "Whales",
+    "incorrect_answers": [
+      "Dolphins",
+      "Seals",
+      "Walruses"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "Which R means stood up from a seated position, and a type of flower?",
+    "correct_answer": "Rose",
+    "incorrect_answers": [
+      "Rise",
+      "Ranunculus",
+      "Rhododendron"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "What is a young pilchard called?",
+    "correct_answer": "Sardine",
+    "incorrect_answers": [
+      "Anchovy",
+      "Sprat",
+      "Herring"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "A formicary is the nest or dwelling of which insect?",
+    "correct_answer": "Ant",
+    "incorrect_answers": [
+      "Bee",
+      "Wasp",
+      "Termite"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "The largest individual tree in the world, a Giant Redwood, is known by what name?",
+    "correct_answer": "General Sherman",
+    "incorrect_answers": [
+      "Hyperion",
+      "Methuselah",
+      "Sequoia"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "A mustang is what type of creature?",
+    "correct_answer": "Horse",
+    "incorrect_answers": [
+      "Donkey",
+      "Mule",
+      "Pony"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "Which animal is known as 'The Ship of the Desert'?",
+    "correct_answer": "Camel",
+    "incorrect_answers": [
+      "Horse",
+      "Donkey",
+      "Ox"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "In which part of the human body is the metacarpus?",
+    "correct_answer": "Hand",
+    "incorrect_answers": [
+      "Foot",
+      "Leg",
+      "Arm"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "What type of root does a dandelion have?",
+    "correct_answer": "Taproot",
+    "incorrect_answers": [
+      "Fibrous",
+      "Tuberous",
+      "Aerial"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "Which animal is measured in hands?",
+    "correct_answer": "Horse",
+    "incorrect_answers": [
+      "Dog",
+      "Cow",
+      "Giraffe"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "What is the collective name for a group of crows?",
+    "correct_answer": "A murder",
+    "incorrect_answers": [
+      "A flock",
+      "A herd",
+      "A pack"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "What type of creature is a barracuda?",
+    "correct_answer": "Fish",
+    "incorrect_answers": [
+      "Reptile",
+      "Mammal",
+      "Amphibian"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "Delphinus delphis is the Latin name for which creature?",
+    "correct_answer": "Dolphin",
+    "incorrect_answers": [
+      "Whale",
+      "Shark",
+      "Seal"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "What breed of dog used to be sacred in China, and could only be owned by members of the Chinese Imperial Palace?",
+    "correct_answer": "Pekingese",
+    "incorrect_answers": [
+      "Shih Tzu",
+      "Chow Chow",
+      "Pug"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "How many wings does a bee have?",
+    "correct_answer": "Four",
+    "incorrect_answers": [
+      "Two",
+      "Six",
+      "Eight"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "In 1971, what happened in the Atacama Desert for the first time in 400 years?",
+    "correct_answer": "Rain",
+    "incorrect_answers": [
+      "Snow",
+      "Earthquake",
+      "Volcanic eruption"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "What is the scientific name for a turkey's wishbone?",
+    "correct_answer": "Furcula",
+    "incorrect_answers": [
+      "Clavicle",
+      "Scapula",
+      "Sternum"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "In which continent would you find Ayer's Rock?",
+    "correct_answer": "Australia",
+    "incorrect_answers": [
+      "Africa",
+      "South America",
+      "Asia"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "Lemurs are only native to which country?",
+    "correct_answer": "Madagascar",
+    "incorrect_answers": [
+      "Indonesia",
+      "Brazil",
+      "India"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Nature",
+    "question": "True or false: a donkey can see all four of its feet?",
+    "correct_answer": "True",
+    "incorrect_answers": [
+      "False"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "Which gender of mosquitoes bite people?",
+    "correct_answer": "Female",
+    "incorrect_answers": [
+      "Male",
+      "Both",
+      "Neither"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "How tall is a baby giraffe at birth?",
+    "correct_answer": "6 feet",
+    "incorrect_answers": [
+      "3 feet",
+      "10 feet",
+      "15 feet"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "What is the heaviest insect?",
+    "correct_answer": "Beetle",
+    "incorrect_answers": [
+      "Butterfly",
+      "Ant",
+      "Grasshopper"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Nature",
+    "question": "What does an anemometer measure?",
+    "correct_answer": "Wind Speed",
+    "incorrect_answers": [
+      "Temperature",
+      "Humidity",
+      "Air Pressure"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "Which layer protects the Earth from the Sun's harmful ultraviolet radiation?",
+    "correct_answer": "Ozone Layer",
+    "incorrect_answers": [
+      "Troposphere",
+      "Stratosphere",
+      "Ionosphere"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "What does a nidologist study?",
+    "correct_answer": "Birds' nests",
+    "incorrect_answers": [
+      "Fossils",
+      "Insects",
+      "Rocks"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "A cloche can help protect plants from what?",
+    "correct_answer": "Frost",
+    "incorrect_answers": [
+      "Pests",
+      "Drought",
+      "Weeds"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "Which reddish-brown colour gets its name from a pigment extracted from cuttlefish?",
+    "correct_answer": "Sepia",
+    "incorrect_answers": [
+      "Sienna",
+      "Umber",
+      "Ochre"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "What type of creature is a Pacific Sea Wasp?",
+    "correct_answer": "Jellyfish",
+    "incorrect_answers": [
+      "Fish",
+      "Crustacean",
+      "Mollusk"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "The kakapo is the only flightless species of which type of bird?",
+    "correct_answer": "Parrot",
+    "incorrect_answers": [
+      "Penguin",
+      "Owl",
+      "Eagle"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Nature",
+    "question": "If you stumble over a Hydnellum peckii in the woods, you might worry you've come across a murder scene. Which bodily fluid does the mushroom's bright-red sap resemble?",
+    "correct_answer": "Blood",
+    "incorrect_answers": [
+      "Sweat",
+      "Saliva",
+      "Tears"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Nature",
+    "question": "Iguazú Falls, one of the world's most spectacular waterfall systems, is located on the Iguazú River that forms a border between Argentina and what Portuguese-speaking country?",
+    "correct_answer": "Brazil",
+    "incorrect_answers": [
+      "Portugal",
+      "Angola",
+      "Mozambique"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Nature",
+    "question": "Walter Isaacson is known for his biographies of thinkers such as Albert Einstein, Leonardo da Vinci, and what tech mogul who appears on the cover of his biography in his signature black turtleneck?",
+    "correct_answer": "Steve Jobs",
+    "incorrect_answers": [
+      "Bill Gates",
+      "Mark Zuckerberg",
+      "Elon Musk"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Nature",
+    "question": "Brackish describes water that is a mix of salty sea water and which other kind of water (like from a stream)?",
+    "correct_answer": "Fresh",
+    "incorrect_answers": [
+      "Distilled",
+      "Mineral",
+      "Spring"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Nature",
+    "question": "Formally adopted by the state government in 1911, what animal is prominently featured on the state flag of California?",
+    "correct_answer": "Bear",
+    "incorrect_answers": [
+      "Eagle",
+      "Cougar",
+      "Wolf"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Nature",
+    "question": "Mucorales is a fungus better known by colorful name, and can cause a serious fungal infection in humans, especially those with repressed immune systems? It thrives in unsanitary conditions, such as on moldy bread.",
+    "correct_answer": "Black fungus",
+    "incorrect_answers": [
+      "White fungus",
+      "Green fungus",
+      "Red fungus"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Nature",
+    "question": "Despite its reputation as a manual on intercourse positions, it is in fact an ancient Indian Sanskrit text on the 'art-of-living' including the nature of love, finding a partner, and more. What is the name of this old tome?",
+    "correct_answer": "Kama Sutra",
+    "incorrect_answers": [
+      "Bhagavad Gita",
+      "Rigveda",
+      "Upanishads"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Nature",
+    "question": "Many animals estivate for portions of the year. What is the more common American English term for this behavior?",
+    "correct_answer": "Hibernation",
+    "incorrect_answers": [
+      "Migration",
+      "Metamorphosis",
+      "Gestation"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Nature",
+    "question": "Generally defined as drought-resistant plants because of parts with thickened flesh for retaining water, what class of plants has had huge growth driven by Millennial purchasers?",
+    "correct_answer": "Succulents",
+    "incorrect_answers": [
+      "Ferns",
+      "Orchids",
+      "Bonsai"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Nature",
+    "question": "In contrast to waning, what term is used for an apparent increase in the size of the moon? This term is also the name of a method of hair removal.",
+    "correct_answer": "Waxing",
+    "incorrect_answers": [
+      "Full",
+      "Gibbous",
+      "Crescent"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Nature",
+    "question": "Taken straight from Wikipedia, 'naturally occurring electrostatic discharge during which two electrically charged regions in the atmosphere or ground temporarily equalize themselves, causing the instantaneous release of as much as one billion joules of energy' is the definition of what natural phenomenon?",
+    "correct_answer": "Lightning",
+    "incorrect_answers": [
+      "Thunder",
+      "Earthquake",
+      "Tornado"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Nature",
+    "question": "Strangely enough, the Guinness Book of World Records has an entry for the 'fastest wing beat of a bird' and the record holder has an astonishing 200 beats/flaps per SECOND. This record-holder is the ruby-throated variety of what type of bird?",
+    "correct_answer": "Hummingbird",
+    "incorrect_answers": [
+      "Sparrow",
+      "Finch",
+      "Swallow"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Nature",
+    "question": "What creature with an equine name has no teeth or stomach, mates for life, and is the only species on Earth where the male carries the unborn offspring?",
+    "correct_answer": "Seahorse",
+    "incorrect_answers": [
+      "Sea dragon",
+      "Pipefish",
+      "Cuttlefish"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Nature",
+    "question": "Rhinoceros horns are made of keratin, the same type of protein that makes up hair and what other oft-trimmed mammalian body part?",
+    "correct_answer": "Fingernails and toenails",
+    "incorrect_answers": [
+      "Whiskers",
+      "Hooves",
+      "Claws"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Nature",
+    "question": "Despite its name, the world's largest living lizard can't fly or breathe fire, however it does have a venomous bite. What is it?",
+    "correct_answer": "Komodo Dragon",
+    "incorrect_answers": [
+      "Fire Salamander",
+      "Gila Monster",
+      "Bearded Dragon"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Nature",
+    "question": "What 'T' word is technically a wave generated by an undersea earthquake?",
+    "correct_answer": "Tsunami",
+    "incorrect_answers": [
+      "Typhoon",
+      "Tremor",
+      "Tidal"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Nature",
+    "question": "What bird, extinct by 1681, was named for the Portuguese word for 'stupid'?",
+    "correct_answer": "Dodo",
+    "incorrect_answers": [
+      "Moa",
+      "Great Auk",
+      "Passenger Pigeon"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Nature",
+    "question": "Which type of snake, most commonly found in tropical South America, is known as the largest snake in the world by weight? Its stocky, muscular build allows them to constrict prey.",
+    "correct_answer": "Anaconda",
+    "incorrect_answers": [
+      "Python",
+      "Boa Constrictor",
+      "King Cobra"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Nature",
+    "question": "The largest species in the Felidae family has many varieties, most of which are named after their native lands such as Sumatran, Javan, Siberian, and Bengal. By what name do you and I know this species?",
+    "correct_answer": "Tiger",
+    "incorrect_answers": [
+      "Lion",
+      "Leopard",
+      "Jaguar"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Nature",
+    "question": "What larger variant of the 'sweet' banana is frequently used for cooking?",
+    "correct_answer": "Plantains",
+    "incorrect_answers": [
+      "Cavendish",
+      "Red banana",
+      "Lady Finger"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Nature",
+    "question": "Name the species of bird that has a tongue so long it wraps around the back of their skull when not in use, protecting their brains while they tap into trees.",
+    "correct_answer": "Woodpecker",
+    "incorrect_answers": [
+      "Kingfisher",
+      "Nuthatch",
+      "Treecreeper"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Nature",
+    "question": "The kangaroo is the physically largest animal in what order known for its young-carrying pouches?",
+    "correct_answer": "Marsupials",
+    "incorrect_answers": [
+      "Monotremes",
+      "Rodents",
+      "Primates"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Nature",
+    "question": "What four-letter word is often used as the common name for several kinds of bivalve mollusks? Typically, this word is only used when the mollusk is edible.",
+    "correct_answer": "Clam",
+    "incorrect_answers": [
+      "Snail",
+      "Oyster",
+      "Mussel"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Nature",
+    "question": "What is the name for the non-mutual relationship between species, where one species benefits at the expense of the other?",
+    "correct_answer": "Parasitism",
+    "incorrect_answers": [
+      "Mutualism",
+      "Commensalism",
+      "Symbiosis"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Nature",
+    "question": "The largest species of shark is named after another large sea-dweller, and the species can reach lengths as large as 60 feet. What is this species?",
+    "correct_answer": "Whale shark",
+    "incorrect_answers": [
+      "Tiger shark",
+      "Great white shark",
+      "Hammerhead shark"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Nature",
+    "question": "What plant is frequently associated with the Asian continent, can grow up to 12 inches in a single day, and is technically a 'giant grass' rather than a tree?",
+    "correct_answer": "Bamboo",
+    "incorrect_answers": [
+      "Sugar cane",
+      "Papyrus",
+      "Rattan"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Nature",
+    "question": "Sometimes called 'rainforests of the sea,' what is the name for the type of underwater ecosystem that occupies less than 0.1% of the world's ocean area but provides a home for more than 25% of marine species?",
+    "correct_answer": "Coral reefs",
+    "incorrect_answers": [
+      "Kelp forests",
+      "Seagrass meadows",
+      "Mangrove swamps"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Nature",
+    "question": "What biome shares its name with a Toyota truck and appears in the moniker for a famous Wisconsin football stadium?",
+    "correct_answer": "Tundra",
+    "incorrect_answers": [
+      "Taiga",
+      "Desert",
+      "Savannah"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Nature",
+    "question": "What is the common term for the nut from the oak tree?",
+    "correct_answer": "Acorn",
+    "incorrect_answers": [
+      "Walnut",
+      "Chestnut",
+      "Hazelnut"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Nature",
+    "question": "Diatoms, protozoans, and tiny crustaceans make up the collection of sea life on which many fish and whales feed, known as what P-word?",
+    "correct_answer": "Plankton",
+    "incorrect_answers": [
+      "Protozoa",
+      "Prawns",
+      "Polyps"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Nature",
+    "question": "What flightless Australian bird, a relative of the ostrich, is notable for the striking dark emerald-green color of its eggs?",
+    "correct_answer": "Emu",
+    "incorrect_answers": [
+      "Cassowary",
+      "Kiwi",
+      "Rhea"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Nature",
+    "question": "Due to its underdeveloped sense of smell, the Great Horned Owl is one of the few birds of prey known to attack what North American mammal within the Mephitidae family?",
+    "correct_answer": "Skunk",
+    "incorrect_answers": [
+      "Raccoon",
+      "Porcupine",
+      "Opossum"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Nature",
+    "question": "In which mountain chain would you find Mount Everest?",
+    "correct_answer": "Himalayas",
+    "incorrect_answers": [
+      "Andes",
+      "Alps",
+      "Rockies"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Nature",
+    "question": "Australian crocodile hunter Steve Irwin was famously killed by what type of animal?",
+    "correct_answer": "Stingray",
+    "incorrect_answers": [
+      "Crocodile",
+      "Shark",
+      "Box jellyfish"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "Big hairy and greater fairy are larger species of what mammals whose name means 'little armored ones'?",
+    "correct_answer": "Armadillos",
+    "incorrect_answers": [
+      "Pangolins",
+      "Hedgehogs",
+      "Porcupines"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "Turtles, toads, and tarantulas are all ectothermic animals, which is typically referred to by what more common term?",
+    "correct_answer": "Cold blooded",
+    "incorrect_answers": [
+      "Warm blooded",
+      "Invertebrate",
+      "Amphibious"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "Speleology is the scientific study of which type of natural feature, the world's largest system of which, by total length, is located in Kentucky?",
+    "correct_answer": "Caves",
+    "incorrect_answers": [
+      "Mountains",
+      "Glaciers",
+      "Canyons"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "In taxonomic hierarchy, what level, whose name might also be used to describe your parents and siblings, comes between order and genus in specificity?",
+    "correct_answer": "Family",
+    "incorrect_answers": [
+      "Class",
+      "Phylum",
+      "Species"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "Some scientists believe that the spiral tusk on which type of Arctic whale helps it attract mates?",
+    "correct_answer": "Narwhal",
+    "incorrect_answers": [
+      "Beluga",
+      "Bowhead",
+      "Orca"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "What is the order of insects with over 2,400 species that is most closely related to termites and cockroaches? These insects have elongated bodies and large forelegs adapted for catching and gripping prey. Their signature, upright posture with folded forearms has led to their common nickname.",
+    "correct_answer": "Mantis",
+    "incorrect_answers": [
+      "Phasmatodea",
+      "Orthoptera",
+      "Blattodea"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "What mountain located in South Africa's Cape Town shares its name with a piece of household furniture and is home to at least as many species of plant as the entirety of the United Kingdom?",
+    "correct_answer": "Table Mountain",
+    "incorrect_answers": [
+      "Chair Mountain",
+      "Bed Mountain",
+      "Desk Mountain"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "What's an example of a mammal that lays eggs?",
+    "correct_answer": "Duck-billed platypus",
+    "incorrect_answers": [
+      "Kangaroo",
+      "Dolphin",
+      "Bat"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "Which mammal has the longest gestation period?",
+    "correct_answer": "Elephant",
+    "incorrect_answers": [
+      "Whale",
+      "Giraffe",
+      "Rhinoceros"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "A person who studies dendrology is very interested in which woody plants that make up a forest? (For example, oak, poplar, pine, and willow)",
+    "correct_answer": "Trees",
+    "incorrect_answers": [
+      "Shrubs",
+      "Flowers",
+      "Grasses"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "During the fall, leaves typically turn red (or, at least, stop being green) because they start to run out of what pigment which requires ample sunlight for production?",
+    "correct_answer": "Chlorophyll",
+    "incorrect_answers": [
+      "Carotene",
+      "Xanthophyll",
+      "Anthocyanin"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "To lead others to a food source, an ant will lay down a scent trail of what type of chemicals?",
+    "correct_answer": "Pheromones",
+    "incorrect_answers": [
+      "Hormones",
+      "Enzymes",
+      "Alkaloids"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "Lemurs are native to only one country on earth. Name it.",
+    "correct_answer": "Madagascar",
+    "incorrect_answers": [
+      "Indonesia",
+      "Brazil",
+      "India"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "What fish shares its name with a striped land animal and is studied for the amazing properties of its heart, which is regenerative and can mend itself quickly?",
+    "correct_answer": "Zebrafish",
+    "incorrect_answers": [
+      "Tigerfish",
+      "Lionfish",
+      "Catfish"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "Sharing their name with a common cleaning tool, what is the more common name of the world's simplest animals from the phylum Porifera?",
+    "correct_answer": "Sponges",
+    "incorrect_answers": [
+      "Brooms",
+      "Mops",
+      "Brushes"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "Officially recognized as its state berry in 1991, Maine is one of the world's top producers of the wild variety of what fruit that is actually deep purple due to its anthocyanin antioxidants?",
+    "correct_answer": "Blueberry",
+    "incorrect_answers": [
+      "Cranberry",
+      "Raspberry",
+      "Blackberry"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "Flamingos, which are born white or light gray, get their color from what reddish-orange nutrient in their diet, which humans can obtain from carrots and sweet potatoes?",
+    "correct_answer": "Beta-carotene",
+    "incorrect_answers": [
+      "Lycopene",
+      "Chlorophyll",
+      "Anthocyanin"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "Contrary to what its name might suggest, this animal is not actually a swine but is rather a rodent. This animal may be a pet, a lab research subject, or food. What is this animal?",
+    "correct_answer": "Guinea Pig",
+    "incorrect_answers": [
+      "Hamster",
+      "Gerbil",
+      "Chinchilla"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "What fruit sometimes known as the alligator pear is likely to have originated in South Central Mexico? Botanically speaking, this fruit is a large berry with a single seed and it is now grown in dozens of countries in both hemispheres.",
+    "correct_answer": "Avocado",
+    "incorrect_answers": [
+      "Mango",
+      "Papaya",
+      "Guava"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "In taxonomic classification, what 'P' word means a group that is smaller than a kingdom but larger than a class, such as arthropods and chordates?",
+    "correct_answer": "Phylum",
+    "incorrect_answers": [
+      "Order",
+      "Genus",
+      "Domain"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "In Herman Melville's famous 'Moby-Dick,' what species of whale is the 'white whale?' The name comes from the semi-liquid, waxy substance found within the whale's head.",
+    "correct_answer": "Sperm whale",
+    "incorrect_answers": [
+      "Blue whale",
+      "Humpback whale",
+      "Killer whale"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "Although the color differs drastically from its animalian namesake, the whitespot giant arum plant is nicknamed as the foot of what large animal?",
+    "correct_answer": "Elephant",
+    "incorrect_answers": [
+      "Rhinoceros",
+      "Hippopotamus",
+      "Giraffe"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "Forget Earth and Fire, if a plant gets pollinated via anemophily, what is doing the pollination?",
+    "correct_answer": "Wind",
+    "incorrect_answers": [
+      "Water",
+      "Insects",
+      "Birds"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "Ask Nicki Minaj: The green species of a certain water boa is found in South America's rivers. What type of water boa would this be?",
+    "correct_answer": "Anaconda",
+    "incorrect_answers": [
+      "Python",
+      "Boa constrictor",
+      "Viper"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "The conservation-focused National Audubon Society (Audubon) is a non-profit environmental organization with a primary focus on what type of animal?",
+    "correct_answer": "Birds",
+    "incorrect_answers": [
+      "Fish",
+      "Mammals",
+      "Reptiles"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "The koa tree is endemic to what U.S. state? The very sturdy wood from this tree is resistant to saltwater and has been used for boat building and surfboards.",
+    "correct_answer": "Hawaii",
+    "incorrect_answers": [
+      "California",
+      "Florida",
+      "Oregon"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "The Sumatran species of what famously horned mammal officially went extinct in Malaysia in November 2019? The animal is not yet extinct globally as a few dozen live in Indonesia.",
+    "correct_answer": "Rhino",
+    "incorrect_answers": [
+      "Elephant",
+      "Tiger",
+      "Orangutan"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "What 'A' marine animal is a predator of order Actinaria, who gets its name from the Earth flower it resembles with its brightly colored sticky exterior? It sits on the sea floor and captures unassuming prey.",
+    "correct_answer": "Anemone",
+    "incorrect_answers": [
+      "Abalone",
+      "Angelfish",
+      "Anchovy"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "Which single-word term is used for ground that continuously remains below zero degrees Celsius for two or more years?",
+    "correct_answer": "Permafrost",
+    "incorrect_answers": [
+      "Tundra",
+      "Glacier",
+      "Ice sheet"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "Symbiosis describes any type of long-term biological interaction between two different organisms. Mutualism is the term for when the relationship benefits both organisms. What is the term for when one organism benefits and the other is harmed?",
+    "correct_answer": "Parasitism",
+    "incorrect_answers": [
+      "Commensalism",
+      "Competition",
+      "Predation"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "What isolated African nation has the highest rate of endemism (species found nowhere else) in the world? Tomato frogs and Giraffe weevils are two examples of animals endemic to the nation.",
+    "correct_answer": "Madagascar",
+    "incorrect_answers": [
+      "South Africa",
+      "Kenya",
+      "Tanzania"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "The Culicidae family within the order Diptera is widely regarded as one of (if not) the most dangerous animals on earth, directly causing at least one million human deaths per year. By what common name is this family known?",
+    "correct_answer": "Mosquitoes",
+    "incorrect_answers": [
+      "Tsetse flies",
+      "Kissing bugs",
+      "Sand flies"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "Often confused with a similar-sounding but gravity-inverted relation, what is the term for icicle-shaped protrusions dangling from subterranean passages that are formed by dripping groundwater?",
+    "correct_answer": "Stalactites",
+    "incorrect_answers": [
+      "Stalagmites",
+      "Columns",
+      "Flowstones"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "The most abundant sulfide mineral is pyrite. But this mineral's lustrous appearance is more commonly known by what two-word phrase?",
+    "correct_answer": "Fool's gold",
+    "incorrect_answers": [
+      "Cat's eye",
+      "Tiger's eye",
+      "Dragon's blood"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "Tree nut allergies and peanut allergies are largely separate because peanuts fall into what group of plants that belong to the family Fabaceae and includes mesquite, alfalfa and lentils?",
+    "correct_answer": "Legumes",
+    "incorrect_answers": [
+      "Grains",
+      "Seeds",
+      "Tubers"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "In ecology, what 'u' is the vegetative layer between the forest canopy and the forest floor through which only a small percentage of light penetrates?",
+    "correct_answer": "Understory",
+    "incorrect_answers": [
+      "Overstory",
+      "Emergent",
+      "Subfloor"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "How many fingers does a raccoon have on each front paw? The raccoon's scavenging nature might get them this type of discount on your trash.",
+    "correct_answer": "5",
+    "incorrect_answers": [
+      "3",
+      "4",
+      "6"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "Which P-word refers to the mindful creation of stable, sustainable ecosystems—for example, trying to 'work with nature' rather than go against it when you're designing buildings? (Hint: Think rooftop gardens)",
+    "correct_answer": "Permaculture",
+    "incorrect_answers": [
+      "Polyculture",
+      "Preservation",
+      "Propagation"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "Moraine Lake is a lake in Alberta fed by glaciers and located more than a mile above sea level. Famous for its bright blue shade, in what national park will you find Moraine Lake?",
+    "correct_answer": "Banff",
+    "incorrect_answers": [
+      "Jasper",
+      "Yoho",
+      "Glacier"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "Australia built a 3,000-mile-long fence during the 1880s just to block the movement of what baby-snatching species?",
+    "correct_answer": "Dingo",
+    "incorrect_answers": [
+      "Fox",
+      "Rabbit",
+      "Cane toad"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "Found mostly in Asia, the macaque is a type of what animal?",
+    "correct_answer": "Monkey",
+    "incorrect_answers": [
+      "Bear",
+      "Deer",
+      "Cat"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "A December 2019 volcanic eruption on White Island left at least 5 people dead, with others still missing at time of writing. White Island is part of what archipelago nation?",
+    "correct_answer": "New Zealand",
+    "incorrect_answers": [
+      "Indonesia",
+      "Philippines",
+      "Papua New Guinea"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "What is the more common name for the Castor genus of mammals? It includes two species of a large, primarily nocturnal, semiaquatic rodent with enamel that contains iron and is more resistant to acid than the teeth of other mammals.",
+    "correct_answer": "Beavers",
+    "incorrect_answers": [
+      "Otters",
+      "Muskrats",
+      "Nutria"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "What is the name for the carnivorous mammals in the subfamily Lutrinae that have slim bodies, relatively short limbs, powerful webbed feet, and seal-like abilities to hold breath underwater?",
+    "correct_answer": "Otters",
+    "incorrect_answers": [
+      "Seals",
+      "Beavers",
+      "Minks"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "Veld or veldt is a type of open, uncultivated country or grassland in the southern subregion of which continent?",
+    "correct_answer": "Africa",
+    "incorrect_answers": [
+      "Asia",
+      "South America",
+      "Australia"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "What animal appears on the national coat of arms of the West African nation Cote D'Ivoire (Ivory Coast)?",
+    "correct_answer": "Elephant",
+    "incorrect_answers": [
+      "Lion",
+      "Eagle",
+      "Zebra"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "Biology is the field of science concerned with life and living organisms, but what is the name for the scientific field focused the relationships between organisms and their environments?",
+    "correct_answer": "Ecology",
+    "incorrect_answers": [
+      "Botany",
+      "Zoology",
+      "Genetics"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "What is the branch of zoology dedicated to the study of birds? This branch attracted public attention following the 2018 Netflix true-crime docu-series 'The Staircase' in which a suspected murderer could have been exonerated for the death of his wife through a speculated 'Owl Theory.'",
+    "correct_answer": "Ornithology",
+    "incorrect_answers": [
+      "Herpetology",
+      "Ichthyology",
+      "Entomology"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "There is a certain biome with trees sufficiently widely spaced so that the canopy does not close. This biome shares its name with the fifth-most populous city in the state of Georgia. What is this biome?",
+    "correct_answer": "Savannah",
+    "incorrect_answers": [
+      "Tundra",
+      "Taiga",
+      "Prairie"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "What do epiphytic and parasitic plants grow on?",
+    "correct_answer": "Plants",
+    "incorrect_answers": [
+      "Rocks",
+      "Soil",
+      "Water"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "Which E-term refers to the place where a body of freshwater (like a stream) meets the ocean?",
+    "correct_answer": "Estuary",
+    "incorrect_answers": [
+      "Eddy",
+      "Estuary",
+      "Embayment"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "Imagine a squid. Add together the number of arms and tentacles. What is the sum? Hint: squids are cephalopods in the superorder Decapodiformes.",
+    "correct_answer": "10",
+    "incorrect_answers": [
+      "8",
+      "12",
+      "6"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "According to a popular theory, dinosaurs got wiped out by the Chicxulub crater impact in what back-half-of-the-alphabet Mexican peninsula?",
+    "correct_answer": "Yucatán",
+    "incorrect_answers": [
+      "Baja California",
+      "Yucatán Peninsula",
+      "Baja"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "What snack, made with the Thompsons seedless variety of a natural organism, has been associated with the tagline 'Nature's Candy'?",
+    "correct_answer": "Raisins",
+    "incorrect_answers": [
+      "Dates",
+      "Figs",
+      "Prunes"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "About the same size as a domestic cat, the red panda goes by what other name? Hint: this compound word could also help you surf the web.",
+    "correct_answer": "Firefox",
+    "incorrect_answers": [
+      "Thunderbird",
+      "Seamonkey",
+      "Netscape"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "A Canadian province is the namesake for a breed of dog that was once commonly used as a rescue animal for saving drowning sailors. What is this breed?",
+    "correct_answer": "Newfoundland",
+    "incorrect_answers": [
+      "Labrador",
+      "Husky",
+      "Malamute"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "What is required in aerobic respiration that is not required in anaerobic respiration?",
+    "correct_answer": "Oxygen",
+    "incorrect_answers": [
+      "Sugar",
+      "Water",
+      "Carbon dioxide"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "Mycologists often spend a lot of time digging through dirt as they study what type of natural organism?",
+    "correct_answer": "Fungi",
+    "incorrect_answers": [
+      "Bacteria",
+      "Viruses",
+      "Protozoa"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "What small, energetic animal native to India can kill snakes as large as a cobra? Rikki-Tikki-Tavi is a famous fictional instance of this animal.",
+    "correct_answer": "Mongoose",
+    "incorrect_answers": [
+      "Weasel",
+      "Ferret",
+      "Stoat"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "In a specific genus of large cats, one of the four species is the Canadian variety, and the animal's name references a Latin word for light because of the creature's bright, luminescent eyes. What is this wild cat that feeds almost exclusively on snowshoe hares?",
+    "correct_answer": "Lynx",
+    "incorrect_answers": [
+      "Cougar",
+      "Bobcat",
+      "Ocelot"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "What huge, endangered vulture is the national bird of Bolivia, Chile, Columbia, and Ecuador?",
+    "correct_answer": "Andean Condor",
+    "incorrect_answers": [
+      "California Condor",
+      "King Vulture",
+      "Turkey Vulture"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "The species Ramphastos sulfuratus is also known as the keel-billed, sulfur-breasted, or rainbow-billed species of what colorful Latin American bird?",
+    "correct_answer": "Toucan",
+    "incorrect_answers": [
+      "Parrot",
+      "Macaw",
+      "Motmot"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "Buzzard, John crow, and carrion crow are all alternate names for what bird with a two-word name? Each of the two words is a bird in its own right, one of which is popularly associated with an autumnal holiday.",
+    "correct_answer": "Turkey vulture",
+    "incorrect_answers": [
+      "Chicken hawk",
+      "Duck hawk",
+      "Goose hawk"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "By some measurements, the oldest and largest organism in the world is a colony of trees in Utah's Fishlake Forest nicknamed 'Pando.' The trees of Pando, which are clones of each other and share a single massive root system, are the 'quaking' species of what type of tree?",
+    "correct_answer": "Aspen",
+    "incorrect_answers": [
+      "Birch",
+      "Cottonwood",
+      "Willow"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "Although they are often described as jellyfish, these poisonous creatures named after an 18th century armed sailing ship from Spain's neighbor are in fact a 'colonial organism' which is made up of specialized individual animals (of the same species). What is this creature?",
+    "correct_answer": "Portuguese man-of-war",
+    "incorrect_answers": [
+      "Spanish galleon",
+      "Dutch frigate",
+      "French corvette"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "Owls are split into two families: The 'true' owls and a group named for what man-made structure?",
+    "correct_answer": "Barn",
+    "incorrect_answers": [
+      "Tower",
+      "Castle",
+      "Chimney"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "What 'S' owl species lives in western North America, inside tree hollows? Scientific name Strix occidentalis, it looks like its covered in little dots of color.",
+    "correct_answer": "Spotted Owl",
+    "incorrect_answers": [
+      "Screech Owl",
+      "Saw-whet Owl",
+      "Snowy Owl"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "As of 2019, over half of the wild tigers on Earth are believed to reside in what country's borders?",
+    "correct_answer": "India",
+    "incorrect_answers": [
+      "China",
+      "Russia",
+      "Indonesia"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "Cucurbita pepo is the scientific name for a specific fruit that is popularly associated with two different American holidays which occur ~4 weeks apart each year. What is this fruit?",
+    "correct_answer": "Pumpkin",
+    "incorrect_answers": [
+      "Squash",
+      "Gourd",
+      "Melon"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "Butter bean, sieva bean, or Madagascar bean are all alternative names for what green legume that is often mixed with sweet corn to create a dish named 'succotash?'",
+    "correct_answer": "Lima beans",
+    "incorrect_answers": [
+      "Green beans",
+      "Fava beans",
+      "Kidney beans"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "What is the name of this dark igneous rock, nicknamed 'nature's glass,' that forms when molten lava cools at a rapid speed?",
+    "correct_answer": "Obsidian",
+    "incorrect_answers": [
+      "Granite",
+      "Basalt",
+      "Pumice"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Nature",
+    "question": "President Ulysses S. Grant signed the first National Park Protection Act into law and created what national park?",
+    "correct_answer": "Yellowstone National Park",
+    "incorrect_answers": [
+      "Yosemite",
+      "Sequoia",
+      "Grand Canyon"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "There is a horseshoe-shaped cantilever bridge with a glass walkway in the U.S. that opened to the general public in 2007. It is popularly deemed a 'Skywalk.' Where will you find this engineering marvel? We're looking for a specific place, not just a state.",
+    "correct_answer": "Grand Canyon",
+    "incorrect_answers": [
+      "Niagara Falls",
+      "Yosemite Valley",
+      "Zion Canyon"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "What reptillian suborder of animals, often associated with the Australian outback, has no species living in New Zealand?",
+    "correct_answer": "Crocodile",
+    "incorrect_answers": [
+      "Snake",
+      "Lizard",
+      "Turtle"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "There are almost 200 species of which coniferous evergreen that's the state tree of Maine and makes a great Christmas tree?",
+    "correct_answer": "Pine",
+    "incorrect_answers": [
+      "Spruce",
+      "Fir",
+      "Cedar"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "Ungulates are a group of diverse large mammals that share what common characteristic? The Latin translation of this characteristic is also the root of the term 'ungulate.'",
+    "correct_answer": "Hooves",
+    "incorrect_answers": [
+      "Antlers",
+      "Horns",
+      "Tusks"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "Within one foot, about how tall is a baby giraffe upon birth?",
+    "correct_answer": "6 feet",
+    "incorrect_answers": [
+      "4 feet",
+      "8 feet",
+      "3 feet"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "What word, which is shared with a part of the human body, is the name for the edible fruit produced by rose plants?",
+    "correct_answer": "Hips",
+    "incorrect_answers": [
+      "Knees",
+      "Elbows",
+      "Thumbs"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "There are three conventional groups of mammals. The monotremes (including the platypus and echidna) are the oldest and the placentals (including humans) are the most recent to evolve. What third group evolved in between these two other groups?",
+    "correct_answer": "Marsupials",
+    "incorrect_answers": [
+      "Reptiles",
+      "Amphibians",
+      "Birds"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "A Mormon cricket is a long-horned type of what kind of insect? These insects would be able to jump up to 120 ft if they were human-sized and their proportional leaping ability increased with their size.",
+    "correct_answer": "Grasshopper",
+    "incorrect_answers": [
+      "Katydid",
+      "Cricket",
+      "Locust"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "What was the name of the first known intentional live capture of a healthy orca? Although she was the fourth live capture overall, the previous three (Wanda, Moby Doll and Namu) had been deemed 'opportunistic' captures.",
+    "correct_answer": "Shamu",
+    "incorrect_answers": [
+      "Keiko",
+      "Tilikum",
+      "Willy"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "Only female deer of which species have antlers? The name by which this deer species is commonly known in North America comes from Canadian French for 'snow-shoveler.'",
+    "correct_answer": "Caribou",
+    "incorrect_answers": [
+      "Moose",
+      "Elk",
+      "White-tailed deer"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "Also found in Central and South America, what is the name of the only marsupial in North America?",
+    "correct_answer": "Possum",
+    "incorrect_answers": [
+      "Raccoon",
+      "Armadillo",
+      "Kangaroo rat"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "Vermicast is the end result of processes including vermifiltration and vermicomposting, which are used in the breakdown of vegetation, foods, wastewater, and even sewage sludge. European nightcrawlers are a species of what type of animal used in these processes?",
+    "correct_answer": "Worm",
+    "incorrect_answers": [
+      "Beetle",
+      "Snail",
+      "Slug"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "What is the five-letter 'T' animal with a name similar to the final training period before a long running race? These creatures are large, herbivorous mammals with a short, prehensile nose trunk.",
+    "correct_answer": "Tapir",
+    "incorrect_answers": [
+      "Tiger",
+      "Toad",
+      "Trout"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "What term is used for the reproductive part of a plant that produces pollen?",
+    "correct_answer": "Stamen",
+    "incorrect_answers": [
+      "Pistil",
+      "Sepal",
+      "Petal"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "A leveret is a small type of what animal? Buster Baxter from the children's TV show 'Arthur' is also this type of animal.",
+    "correct_answer": "Rabbit",
+    "incorrect_answers": [
+      "Hare",
+      "Squirrel",
+      "Mouse"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "Technically speaking, the term 'peacock' only refers to a male peafowl. What is the proper term for a female?",
+    "correct_answer": "Peahen",
+    "incorrect_answers": [
+      "Peachick",
+      "Peahen",
+      "Peafemme"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "Which of the five tastes that humans are accustomed to can cats not taste?",
+    "correct_answer": "Sweetness",
+    "incorrect_answers": [
+      "Saltiness",
+      "Sourness",
+      "Bitterness"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "Related to the lemur, what rare mammal of Madagascar has a hyphenated name that sounds like it could be enthusiastic agreement given to a ship captain?",
+    "correct_answer": "Aye-Aye",
+    "incorrect_answers": [
+      "Yes-Yes",
+      "Aye-Aye",
+      "Yo-Ho"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "It's not a spring snowstorm! The fluffy white seeds of which tree can stay 'in flight' for a long time and travel for miles if they catch a strong wind?",
+    "correct_answer": "Cottonwood",
+    "incorrect_answers": [
+      "Dandelion",
+      "Milkweed",
+      "Willow"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "What winged insect has the longest migration trajectory of any insect, eventually settling in Mexico to hibernate?",
+    "correct_answer": "Butterfly",
+    "incorrect_answers": [
+      "Dragonfly",
+      "Moth",
+      "Beetle"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "What is the common name for the group of flatfish species well-known for their camouflage abilities and for the peculiar positioning of both eyes on one side of the body?",
+    "correct_answer": "Flounder",
+    "incorrect_answers": [
+      "Halibut",
+      "Sole",
+      "Plaice"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "The three most common tree varieties from which maple syrup is made? Acer saccharum, Acer rubrum, and Acer nigrum. Give the English name for at least one of these tree varieties.",
+    "correct_answer": "Sugar maple",
+    "incorrect_answers": [
+      "Birch",
+      "Oak",
+      "Elm"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "The common daisy-like garden flower Rudbeckia hirta, with its dark center and yellow petals, is commonly known by what name that includes a woman's first name?",
+    "correct_answer": "Black-Eyed Susan",
+    "incorrect_answers": [
+      "Brown-Eyed Daisy",
+      "Yellow-Eyed Betty",
+      "Dark-Eyed Lily"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "What is the name of the British narrator of the original Planet Earth?",
+    "correct_answer": "David Attenborough",
+    "incorrect_answers": [
+      "Richard Attenborough",
+      "John Attenborough",
+      "Michael Attenborough"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "The 'electric organ,' unsurprisingly, creates an electric field that is used for navigation, communication, defense, mating and more. In what type of animal will you find this organ? We're looking for a common four-letter word.",
+    "correct_answer": "Fish",
+    "incorrect_answers": [
+      "Bird",
+      "Frog",
+      "Moth"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "What 'M' term describes a grassy area, typically found near a river?",
+    "correct_answer": "Meadow",
+    "incorrect_answers": [
+      "Marsh",
+      "Moor",
+      "Mesa"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "What iconic black-and-orange species, an important North American pollinator, was added to the IUCN's 'red list' of endangered species in July 2022?",
+    "correct_answer": "Monarch butterfly",
+    "incorrect_answers": [
+      "Honey bee",
+      "Hummingbird",
+      "Painted lady"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "The California what is the official state bird of the country's most populous state?",
+    "correct_answer": "Quail",
+    "incorrect_answers": [
+      "Condor",
+      "Seagull",
+      "Sparrow"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "What type of chemical will an ant will lay down to lead others to a food source?",
+    "correct_answer": "Pheromones",
+    "incorrect_answers": [
+      "Hormones",
+      "Enzymes",
+      "Alkaloids"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "What 'l' is a complex life form, which is sometimes moss-like in appearance, consisting of a fungus and an alga?",
+    "correct_answer": "Lichen",
+    "incorrect_answers": [
+      "Liverwort",
+      "Legume",
+      "Liana"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "What is the common name for the species 'Drosophila melanogaster?' For over a century, the species has been used as a model organism for biological research in genetics, physiology, microbial pathogenesis, and life history evolution.",
+    "correct_answer": "Fruit fly",
+    "incorrect_answers": [
+      "House fly",
+      "Horse fly",
+      "Blow fly"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "At 75 miles long, Hubbard is the largest of what moraine-producing things in the United States?",
+    "correct_answer": "Glaciers",
+    "incorrect_answers": [
+      "Rivers",
+      "Canyons",
+      "Lakes"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "Lake Hillier in Australia and Dusty Rose Lake in Canada are notable examples of lakes that have what color water?",
+    "correct_answer": "Pink",
+    "incorrect_answers": [
+      "Blue",
+      "Green",
+      "Red"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "The smallest known owl is only 5-6 inches tall and weighs less than two ounces. It has a name reminiscent of Middle Earth or Will Ferrell. What is this owl?",
+    "correct_answer": "Elf Owl",
+    "incorrect_answers": [
+      "Fairy Owl",
+      "Pixie Owl",
+      "Gnome Owl"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "In finding Nemo, what kind of fish is Dory?",
+    "correct_answer": "Surgeonfish",
+    "incorrect_answers": [
+      "Clownfish",
+      "Angelfish",
+      "Butterflyfish"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "Aside from marine mammals, what is the only kind of mammal native to New Zealand?",
+    "correct_answer": "Bats",
+    "incorrect_answers": [
+      "Rodents",
+      "Marsupials",
+      "Canines"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "With its signature Prussian blue color that represents hopefulness for the future, what purple-blue flower is the national flower of Germany as of the 19th century?",
+    "correct_answer": "Cornflower",
+    "incorrect_answers": [
+      "Lavender",
+      "Bluebell",
+      "Forget-me-not"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "Complete the name of the 250-acre nature park in Singapore that is home to the Flower Dome, the world's largest glass greenhouse: Gardens By The what?",
+    "correct_answer": "Bay",
+    "incorrect_answers": [
+      "Sea",
+      "River",
+      "Lake"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "What 'L' parasitic worms are in the phylum annelida? These blood suckers are related to an English word meaning someone who parasitically takes away from others.",
+    "correct_answer": "Leeches",
+    "incorrect_answers": [
+      "Lice",
+      "Larvae",
+      "Lampreys"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "The beans you use for your morning brew are various shades of brown depending on the roast—but that's not what they look like in nature. What color are raw coffee beans?",
+    "correct_answer": "Green",
+    "incorrect_answers": [
+      "Red",
+      "Yellow",
+      "White"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "Which adjective that starts with C refers to fish that live in freshwater except when it's time to breed, at which point they'll migrate to saltwater?",
+    "correct_answer": "Catadromous",
+    "incorrect_answers": [
+      "Anadromous",
+      "Diadromous",
+      "Amphidromous"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "Which body of water along the Albemarle-Pamlico Peninsula in Hyde County is the largest natural freshwater lake in NC?",
+    "correct_answer": "Lake Mattamuskeet",
+    "incorrect_answers": [
+      "Lake Norman",
+      "Lake Waccamaw",
+      "Lake Phelps"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "Known for their pale skin, buck teeth, and near hairlessness, what strange-looking rodents can live for up to 18 minutes without oxygen?",
+    "correct_answer": "Naked mole rats",
+    "incorrect_answers": [
+      "Hamsters",
+      "Guinea pigs",
+      "Chinchillas"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "A 'drove' is the collective noun for what class of long-eared mammals?",
+    "correct_answer": "Hares",
+    "incorrect_answers": [
+      "Rabbits",
+      "Donkeys",
+      "Deer"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "The natural light display named Aurora Australis is also known by what more common name?",
+    "correct_answer": "Southern Lights",
+    "incorrect_answers": [
+      "Northern Lights",
+      "Eastern Lights",
+      "Western Lights"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "When speaking in English, the name of this animal shares its name with a country. In French and Russian, the animal has a name meaning 'from India' or 'bird of India.' What is this confusingly named animal?",
+    "correct_answer": "Turkey",
+    "incorrect_answers": [
+      "Guinea fowl",
+      "Peacock",
+      "Pheasant"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "Lepidopterology is the branch of biology dedicated to the study of what winged creatures?",
+    "correct_answer": "Moths and butterflies",
+    "incorrect_answers": [
+      "Birds",
+      "Bats",
+      "Dragonflies"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "There are four species of monkey native to Costa Rica: the Central American squirrel monkey, the Panamanian white-faced capuchin, the mantled howler and Geoffroy's what monkey?",
+    "correct_answer": "Spider",
+    "incorrect_answers": [
+      "Howler",
+      "Capuchin",
+      "Squirrel"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "As of 2020, the United States has 62 protected areas known as national parks. California is the state with the most (nine), but what state has the second-most (eight), including Katmai and Lake Clark?",
+    "correct_answer": "Alaska",
+    "incorrect_answers": [
+      "Utah",
+      "Colorado",
+      "Arizona"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "Queen Alexandra's birdwing of Papua New Guinea is, somewhat surprisingly, not a bird. Instead, this creature is the world's largest variety of what colorful winged animal?",
+    "correct_answer": "Butterfly",
+    "incorrect_answers": [
+      "Moth",
+      "Dragonfly",
+      "Bird"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "Erta Ale in the Afar Region of northeastern Ethiopia was featured in the second episode of Planet Earth. Erta Ale is what type of geologic structure?",
+    "correct_answer": "Volcano",
+    "incorrect_answers": [
+      "Mountain",
+      "Glacier",
+      "Canyon"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "The largest eyes of any animal on Earth are nearly 11 inches across, with lenses the size of oranges. These eyes give 'binocular-like' vision to the 'colossal' variety of what sea-dweller?",
+    "correct_answer": "Squid",
+    "incorrect_answers": [
+      "Octopus",
+      "Whale",
+      "Shark"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "What fruit do the Portuguese call abacaxi? The English term for this fruit was first used to describe the reproductive organs of conifer trees.",
+    "correct_answer": "Pineapple",
+    "incorrect_answers": [
+      "Mango",
+      "Papaya",
+      "Coconut"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "What 'A' medium-sized nocturnal burrowing mammal from Africa, of the order Tubulidentata, is probably best known for its pronounced snout?",
+    "correct_answer": "Aardvark",
+    "incorrect_answers": [
+      "Anteater",
+      "Armadillo",
+      "Aardwolf"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "Contrary to its consolatory name, what species of lethargic shark is responsible for the fourth most human bites on record?",
+    "correct_answer": "Nurse Shark",
+    "incorrect_answers": [
+      "Doctor Shark",
+      "Teacher Shark",
+      "Lawyer Shark"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "Native to the American Midwest, the tree species Aesculus glabra is more commonly known by what name which inspired the mascot of a large state school?",
+    "correct_answer": "Ohio Buckeye",
+    "incorrect_answers": [
+      "Michigan Chestnut",
+      "Indiana Walnut",
+      "Illinois Oak"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "What is the seven-letter compound word which is considered the dominant root for a plant from which other roots typically grow horizontally?",
+    "correct_answer": "Taproot",
+    "incorrect_answers": "Fibrous root, Aerial root, Lateral root"
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "The United Fruit Company was an American corporation that flourished in the early and mid-20th century. What fruit did United Fruit Company primarily cultivate and sell?",
+    "correct_answer": "Bananas",
+    "incorrect_answers": [
+      "Apples",
+      "Oranges",
+      "Pineapples"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "Which landlocked South American country features many natural wonders including the world's largest salt flat (Salar de Uyuni) and part of the Andean Mountains?",
+    "correct_answer": "Bolivia",
+    "incorrect_answers": [
+      "Paraguay",
+      "Ecuador",
+      "Peru"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "What 'K' word is a nature reserve in Australia's Northern territory, containing aboriginal sites such as Nourlangie and Ubirr?",
+    "correct_answer": "Kakadu",
+    "incorrect_answers": [
+      "Kimberley",
+      "Kosciuszko",
+      "Karijini"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "The US has hundreds of species of cactus, but the physically largest of these species is arguably the best known. What is the name of this largest species?",
+    "correct_answer": "Saguaro",
+    "incorrect_answers": [
+      "Prickly Pear",
+      "Barrel Cactus",
+      "Organ Pipe"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "Secretary birds are a type of bird with long legs that kickbox reptiles and small rodents to stun and kill prey before eating them. On what continent will you find these birds naturally?",
+    "correct_answer": "Africa",
+    "incorrect_answers": [
+      "Asia",
+      "South America",
+      "Australia"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "Although it looks like an innocent flower, it's incredibly dangerous. What's the name of the toxic herb that killed Socrates?",
+    "correct_answer": "Hemlock",
+    "incorrect_answers": [
+      "Nightshade",
+      "Foxglove",
+      "Wolf's bane"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "According to the Farmer's Almanac, which flower may 'vary in shape from...cups, bowls & goblets to more complex forms?'",
+    "correct_answer": "Tulips",
+    "incorrect_answers": [
+      "Roses",
+      "Daisies",
+      "Orchids"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "Native to Turkey and Iran, the mouflon is a wild form of which domesticated animal?",
+    "correct_answer": "Sheep",
+    "incorrect_answers": [
+      "Goat",
+      "Cow",
+      "Pig"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "Roquefort is a French blue cheese made from the milk of what animal?",
+    "correct_answer": "Sheep",
+    "incorrect_answers": [
+      "Cow",
+      "Goat",
+      "Buffalo"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "What is the loudest animal on earth? Talking about the loudest noise it can generate, not its proportion of time spend making noise.",
+    "correct_answer": "Sperm Whale",
+    "incorrect_answers": [
+      "Blue Whale",
+      "Howler Monkey",
+      "Lion"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "What 'G' National Park in Victoria, Australia is a nature preserve home to sandstone mountains, as well as echidnas and wallabies?",
+    "correct_answer": "Grampians National Park",
+    "incorrect_answers": [
+      "Gawler Ranges",
+      "Gregory",
+      "Great Sandy"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "In a feat of inter-species biotechnology, researchers at the University of Wyoming were able to insert the silk-producing gene from spiders into what mammal which enabled them to harvest long strands of spider silk from the animal's milk?",
+    "correct_answer": "Goats",
+    "incorrect_answers": [
+      "Cows",
+      "Sheep",
+      "Rabbits"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "Cashmere is made from the hair of what animal?",
+    "correct_answer": "Goat",
+    "incorrect_answers": [
+      "Sheep",
+      "Alpaca",
+      "Rabbit"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "Digitaria is a genus of grass plants most often known by what animal-sounding name?",
+    "correct_answer": "Crabgrass",
+    "incorrect_answers": [
+      "Horsetail",
+      "Dogweed",
+      "Catgrass"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "The peer-reviewed journal 'Nature Ecology & Evolution' has reported that the earliest use of cacao was likely approximately 5,300 years ago based on archaeological findings in Santa Ana in what South American nation?",
+    "correct_answer": "Ecuador",
+    "incorrect_answers": [
+      "Peru",
+      "Colombia",
+      "Bolivia"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "A commonly-sought fish in Minnesota is the 'Muskellunge' which is often deemed the 'ugly' variety of what family of fish?",
+    "correct_answer": "Pike",
+    "incorrect_answers": [
+      "Bass",
+      "Trout",
+      "Salmon"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "What 'P' bird had populations severely diminished in the 20th century due to DDT in their food supply before they made a surprising comeback in dense urban areas?",
+    "correct_answer": "Peregrine Falcon",
+    "incorrect_answers": [
+      "Pelican",
+      "Puffin",
+      "Parakeet"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "Commonly found on live oaks and bald-cypresses, what is the name of the flowering plant with a doubly-inaccurate name that is referred to as 'grandpas beard' in French Polynesia?",
+    "correct_answer": "Spanish moss",
+    "incorrect_answers": [
+      "Irish moss",
+      "English ivy",
+      "Dutch clover"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "What is the English name of the animals in the order Anura?",
+    "correct_answer": "Frog",
+    "incorrect_answers": [
+      "Toad",
+      "Salamander",
+      "Newt"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "Not to be confused with a quaint fictional town, what type of tree produces a berry that is often made into wine, fruit juice, tea, or jam? The tree's leaves are the food of choice for silkworms.",
+    "correct_answer": "Mulberry",
+    "incorrect_answers": [
+      "Elderberry",
+      "Blackberry",
+      "Gooseberry"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "The word 'loggerhead' is applied due to the animal's prominent, large head. What type of animal is this?",
+    "correct_answer": "Turtle",
+    "incorrect_answers": [
+      "Lizard",
+      "Crocodile",
+      "Frog"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "Functioning extremely differently than mammalian eyesight, two different groups of snakes developed 'pits' that function as eyes by allowing them to see objects nearby based on what wavelength-based phenomenon?",
+    "correct_answer": "Infrared thermal radiation",
+    "incorrect_answers": [
+      "Ultraviolet radiation",
+      "Sonar",
+      "Magnetic fields"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "In a popular example of Batesian mimicry, the black, red, and yellow coloring of the harmless milk snake look strikingly similar to what 'underwater' type of snake?",
+    "correct_answer": "Coral snake",
+    "incorrect_answers": [
+      "Sea snake",
+      "Eel",
+      "Water moccasin"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "What family of some of the largest flying birds includes 'mute' and 'trumpeter' species and weirdly has 'teeth' which are actually jagged parts of their bill used for catching and eating fish?",
+    "correct_answer": "Swans",
+    "incorrect_answers": [
+      "Geese",
+      "Pelicans",
+      "Albatrosses"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "Often considered the world's largest living thing, a 2,200 acre creature living in eastern Oregon is in what kingdom, taxonomically speaking?",
+    "correct_answer": "Fungi",
+    "incorrect_answers": [
+      "Plantae",
+      "Animalia",
+      "Protista"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "There is a Panthera tigris tigris population in the Russian Far East and Northeast China that had a total wild population of ~560 as of 2014. By what name is this specific type of large cat better known?",
+    "correct_answer": "Siberian tiger",
+    "incorrect_answers": [
+      "Bengal tiger",
+      "Sumatran tiger",
+      "Indochinese tiger"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "What is the name of the tubular sucking organ that butterflies use to extract nectar from flowers and elephants have in the form of a trunk?",
+    "correct_answer": "Proboscis",
+    "incorrect_answers": [
+      "Mandible",
+      "Antenna",
+      "Tentacle"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "What marine invertebrate typically lives in a compact colony composed of many identical, individual polyps?",
+    "correct_answer": "Coral",
+    "incorrect_answers": [
+      "Sponge",
+      "Anemone",
+      "Jellyfish"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "Drosophila is a genus of what type of winged animal which lives in rural and urban environments all around the world?",
+    "correct_answer": "Fly",
+    "incorrect_answers": [
+      "Bee",
+      "Wasp",
+      "Ant"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "In horticulture, what is the name for a plant that requires two years to complete its biological life cycle, such as Brussels sprouts and hollyhocks?",
+    "correct_answer": "Biennial",
+    "incorrect_answers": [
+      "Annual",
+      "Perennial",
+      "Ephemeral"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "The name of what animal is placed in front of the word 'Chestnut' when referring to the toxic variant of this tree nut that you definitely don't want to be roasting on an open fire?",
+    "correct_answer": "Horse",
+    "incorrect_answers": [
+      "Cow",
+      "Pig",
+      "Dog"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "Cavendish, Pisang Raja, Red, Lady Finger, and Blue Java are five of the most common types of what fruit?",
+    "correct_answer": "Banana",
+    "incorrect_answers": [
+      "Apple",
+      "Mango",
+      "Orange"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "There are over 30,000 of what subspecies of bear in Alaska, over half of the population in North America?",
+    "correct_answer": "Grizzly Bear",
+    "incorrect_answers": [
+      "Black Bear",
+      "Polar Bear",
+      "Kodiak Bear"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "Extinct in the wild since the late 19th century, what pigeon, whose scientific name is Ectopistes migratorius, has a name that comes from the French 'passager,' or 'to pass by?'",
+    "correct_answer": "Passenger pigeon",
+    "incorrect_answers": [
+      "Carrier pigeon",
+      "Rock pigeon",
+      "Wood pigeon"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "When is an organism really two organisms? When it's a composite organism. What name is given to the moss-like organism formed by algae or cyanobacteria living within the filaments of a fungus?",
+    "correct_answer": "Lichen",
+    "incorrect_answers": [
+      "Mushroom",
+      "Mold",
+      "Moss"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "Types of which natural phenomenon include: intracloud, sheet and cloud-to-ground?",
+    "correct_answer": "Lightning",
+    "incorrect_answers": [
+      "Thunder",
+      "Rain",
+      "Wind"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "A halophyte is a plant that is able to tolerate conditions in which there is a relatively high concentration of which substance?",
+    "correct_answer": "Salt",
+    "incorrect_answers": [
+      "Water",
+      "Acid",
+      "Sugar"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "In horticulture, the word 'ananthous' is used to describe plants with no...WHAT?",
+    "correct_answer": "Flowers",
+    "incorrect_answers": [
+      "Leaves",
+      "Roots",
+      "Stems"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "At only one-half of one millimeter long, tardigrades are considered a microanimal found in marine environments that also happen to be one of the most resilient animals known. What is the more common two-word name for these animals?",
+    "correct_answer": "Water bear",
+    "incorrect_answers": [
+      "Moss piglet",
+      "Sea monkey",
+      "Dust mite"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "Silver iodide is a favorite 'seeding agent' that is used in meteorological professions. What are the everyday objects that silver iodide is used to 'seed'?",
+    "correct_answer": "Clouds",
+    "incorrect_answers": [
+      "Oceans",
+      "Forests",
+      "Deserts"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "Adansonia digitata is the scientific name for what 'B' tree, which is native to Africa and notable for the extreme thickness of its trunk relative to the spread of its branches?",
+    "correct_answer": "Baobab",
+    "incorrect_answers": [
+      "Baobab",
+      "Birch",
+      "Banyan"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "In what show's second season was there an episode titled 'Jungles' which traveled from Costa Rica to Brazil while documenting 'the most competitive place on earth'?",
+    "correct_answer": "Planet Earth",
+    "incorrect_answers": [
+      "Blue Planet",
+      "Our Planet",
+      "Life"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "What distinct feature do Dromedary camels have that is not shared by Bactrian camels?",
+    "correct_answer": "One hump",
+    "incorrect_answers": [
+      "Two humps",
+      "Longer legs",
+      "Thicker fur"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "What 'U' word is the more-famous name for Ayers Rock in Australia?",
+    "correct_answer": "Uluru",
+    "incorrect_answers": [
+      "Umpire",
+      "Ursula",
+      "Utopia"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "What fruit is a vine species native to southern Brazil through Paraguay and northern Argentina, known for its sweet, seedy fruit? The juice is often added to other fruit juices to enhance aroma.",
+    "correct_answer": "Passion fruit",
+    "incorrect_answers": [
+      "Dragon fruit",
+      "Star fruit",
+      "Kiwi"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "If bovine describes a cow and equine describes a horse, what adjective describes a pig?",
+    "correct_answer": "Porcine",
+    "incorrect_answers": [
+      "Porcine",
+      "Piscine",
+      "Canine"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "What two two-syllable rhyming words summarize the following phrase? The out-of-control laughter of a hyena-like canine.",
+    "correct_answer": "Jackal Cackle",
+    "incorrect_answers": [
+      "Doggy Goggle",
+      "Puppy Guppy",
+      "Canine Chime"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "Mexican flame flower is an old-school name for what red-and-green flowering plant named for the first U.S. Minister to Mexico?",
+    "correct_answer": "Poinsettia",
+    "incorrect_answers": [
+      "Bougainvillea",
+      "Hibiscus",
+      "Dahlia"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "The smallest bird native to North America is the what hummingbird? The 'C' word is also the Greek Muse and an organ-like musical instrument.",
+    "correct_answer": "Calliope",
+    "incorrect_answers": [
+      "Calliope",
+      "Clio",
+      "Calypso"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "Macrophyte is a fancy word for what type of water creature?",
+    "correct_answer": "Plants",
+    "incorrect_answers": [
+      "Fish",
+      "Mammals",
+      "Insects"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "Rotational symmetry is the property in which a shape looks the same after a partial rotation or turn. When applied to biology such as in sea anemones, what other 'R' term is used to describe this characteristic?",
+    "correct_answer": "Radial symmetry",
+    "incorrect_answers": [
+      "Bilateral symmetry",
+      "Spherical symmetry",
+      "Asymmetry"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "The dwarf version of a certain tropical evergreen tree produces both a fruit and seed that are edible. The seed is much more popular than the fruit, especially as a dairy milk alternative. What is this tree?",
+    "correct_answer": "Cashew",
+    "incorrect_answers": [
+      "Almond",
+      "Coconut",
+      "Macadamia"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "What continent is home to the largest non-polar ice cap in the world?",
+    "correct_answer": "North America",
+    "incorrect_answers": [
+      "Asia",
+      "Europe",
+      "South America"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Nature",
+    "question": "Group names for animals are a common trivia fact. What is the legislative name for a group of owls?",
+    "correct_answer": "Parliament",
+    "incorrect_answers": [
+      "Congress",
+      "Senate",
+      "Assembly"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "very hard",
+    "category": "Nature",
+    "question": "As of February 3, 2020 there has been one earthquake of at least 7.0 on the Richter scale in the 2020s decade. This earthquake struck on January 28th on the north side of the Cayman Trough, which was just north of what Caribbean nation?",
+    "correct_answer": "Jamaica",
+    "incorrect_answers": [
+      "Cuba",
+      "Haiti",
+      "Dominican Republic"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "very hard",
+    "category": "Nature",
+    "question": "The two main species of the coffee tree are Arabica and which other one that is more resistant to disease and yields more coffee?",
+    "correct_answer": "Robusta",
+    "incorrect_answers": [
+      "Liberica",
+      "Excelsa",
+      "Maragogype"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "very hard",
+    "category": "Nature",
+    "question": "What Star Wars actor, known for his environmental conservation work, has both a spider species and an ant species named after him?",
+    "correct_answer": "Harrison Ford",
+    "incorrect_answers": [
+      "Mark Hamill",
+      "Ewan McGregor",
+      "Samuel L. Jackson"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "very hard",
+    "category": "Nature",
+    "question": "Established in 1980, the largest National Park in the U.S. is Wrangell-St. Elias in Alaska. What is number five on this list, established in 1994, containing over three million acres, and spanning California and Nevada?",
+    "correct_answer": "Death Valley",
+    "incorrect_answers": [
+      "Joshua Tree",
+      "Sequoia",
+      "Kings Canyon"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "very hard",
+    "category": "Nature",
+    "question": "Also known as the spiny anteater, what animal native to Australia and New Guinea is highly unusual in that it is a mammal that lays eggs?",
+    "correct_answer": "Echidna",
+    "incorrect_answers": [
+      "Platypus",
+      "Tasmanian devil",
+      "Quoll"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "very hard",
+    "category": "Nature",
+    "question": "What anatomical term features in a name used to describe the Namib coast in Southern Africa? This name derives from bones that once prevalent on the shore resulting from the whaling industry.",
+    "correct_answer": "Skeleton",
+    "incorrect_answers": [
+      "Skull",
+      "Spine",
+      "Rib"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "very hard",
+    "category": "Nature",
+    "question": "What single-word term of Greek origin is used to refer to the combined mass of water found on, under and above the surface of a planet?",
+    "correct_answer": "Hydrosphere",
+    "incorrect_answers": [
+      "Atmosphere",
+      "Lithosphere",
+      "Biosphere"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "very hard",
+    "category": "Nature",
+    "question": "What is the 'catch-all' term for ocean life that includes photosynthetic, single-celled eukaryotes like diatoms but also multicellular organisms like nori seaweed and kelp?",
+    "correct_answer": "Algae",
+    "incorrect_answers": [
+      "Plankton",
+      "Coral",
+      "Fungi"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "very hard",
+    "category": "Nature",
+    "question": "Despite the name, poison dart frogs never develop toxicity when raised in captivation. What is the presumed reason for this non-toxic development process?",
+    "correct_answer": "Changed diet",
+    "incorrect_answers": [
+      "Lack of predators",
+      "Different climate",
+      "Reduced stress"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "very hard",
+    "category": "Nature",
+    "question": "What type of meteorological phenomenon are the Mistral and Khamsin, which respectively occur in the Mediterranean and North Africa?",
+    "correct_answer": "Wind",
+    "incorrect_answers": [
+      "Rain",
+      "Sandstorm",
+      "Tornado"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "very hard",
+    "category": "Nature",
+    "question": "Straddling two southeastern states and the first national park to be paid for in part with Federal funds, what is the name of the most visited National Park that was the most-visited in 2016?",
+    "correct_answer": "Great Smoky Mountains",
+    "incorrect_answers": [
+      "Shenandoah",
+      "Everglades",
+      "Acadia"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "very hard",
+    "category": "Nature",
+    "question": "Units called ommatidia are the individual pieces that combine to create the type of eye often found in insects, crustaceans, and millipedes. What is this scientific-sounding name for an eye?",
+    "correct_answer": "Compound eye",
+    "incorrect_answers": [
+      "Simple eye",
+      "Complex eye",
+      "Faceted eye"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "very hard",
+    "category": "Nature",
+    "question": "Aside from the giraffe, what odd-looking 'O' creature is the only living member of the giraffe family, or 'Giraffids'?",
+    "correct_answer": "Okapi",
+    "incorrect_answers": [
+      "Oryx",
+      "Okapi",
+      "Ocelot"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "very hard",
+    "category": "Nature",
+    "question": "The Delaware Bay is home to more of these 'living fossils' than anywhere else in the world and they are currently used in biomedical research to study the human eye. What are these animals?",
+    "correct_answer": "Horseshoe Crabs",
+    "incorrect_answers": [
+      "Nautiluses",
+      "Coelacanths",
+      "Sturgeons"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "very hard",
+    "category": "Nature",
+    "question": "What slender-bodied shark is harmless to humans and named for the striking pattern of black saddle-like markings and large spots over its back?",
+    "correct_answer": "Leopard shark",
+    "incorrect_answers": [
+      "Tiger shark",
+      "Zebra shark",
+      "Cheetah shark"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "very hard",
+    "category": "Nature",
+    "question": "What slow-growing tree with reddish bark and three letter name, commonly used to make longbows, is also often found in church graveyards as a symbol of sadness?",
+    "correct_answer": "Yew",
+    "incorrect_answers": [
+      "Oak",
+      "Elm",
+      "Ash"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "very hard",
+    "category": "Nature",
+    "question": "What biome is also known as the boreal forest or snow forest? The biome is identifiable through its coniferous forests consisting mostly of pines, spruces, and larches.",
+    "correct_answer": "Taiga",
+    "incorrect_answers": [
+      "Tundra",
+      "Savanna",
+      "Chaparral"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "very hard",
+    "category": "Nature",
+    "question": "What is the name for any of the three bird species in the genus Fratercula? These birds all feature black and white plumage and have beaks that turn a colorful bright orange in preparation for breeding season.",
+    "correct_answer": "Puffin",
+    "incorrect_answers": [
+      "Penguin",
+      "Auk",
+      "Guillemot"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "very hard",
+    "category": "Nature",
+    "question": "What is the 'T' name given to fossils that consist not of animal body parts but rather their footprints, nests, poop, and other associated objects?",
+    "correct_answer": "Trace fossils",
+    "incorrect_answers": [
+      "Trace fossils",
+      "Track fossils",
+      "Trail fossils"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "very hard",
+    "category": "Nature",
+    "question": "A 'pandemonium' is the name for a group of what noisy bird?",
+    "correct_answer": "Parrots",
+    "incorrect_answers": [
+      "Crows",
+      "Seagulls",
+      "Magpies"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "very hard",
+    "category": "Nature",
+    "question": "Digitalis is a genus of herbaceous perennial plants. The flowers are tube-shaped, produced on a tall spike. What's the more common term for this group of plants?",
+    "correct_answer": "Foxgloves",
+    "incorrect_answers": [
+      "Snapdragons",
+      "Lupines",
+      "Hollyhocks"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "very hard",
+    "category": "Nature",
+    "question": "The world's tallest uninterrupted waterfall, Angel Falls, is located in which country that has coastlines on the Atlantic Ocean and the Caribbean Sea?",
+    "correct_answer": "Venezuela",
+    "incorrect_answers": [
+      "Brazil",
+      "Colombia",
+      "Guyana"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "very hard",
+    "category": "Nature",
+    "question": "What 'E' word describes the highest layer of a rainforest's growth, rising above the canopy and including trees that grow up to 50 meters in height?",
+    "correct_answer": "Emergent",
+    "incorrect_answers": [
+      "Elevated",
+      "Eminent",
+      "Exalted"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "very hard",
+    "category": "Nature",
+    "question": "What round, green food is one of Brazil's most common pizza toppings? Though considered a vegetable nutritionally, this plant is botanically a fruit.",
+    "correct_answer": "Green Peas",
+    "incorrect_answers": [
+      "Olives",
+      "Green peppers",
+      "Zucchini"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "very hard",
+    "category": "Nature",
+    "question": "Beginning nearly 12,000 years ago (after the last glacial period), what is the name of the current geological epoch?",
+    "correct_answer": "Holocene",
+    "incorrect_answers": [
+      "Pleistocene",
+      "Anthropocene",
+      "Pliocene"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "very hard",
+    "category": "Nature",
+    "question": "The Guarianthe skinneri variety of what family of diverse flowering plants is the official national flower of Costa Rica?",
+    "correct_answer": "Orchid",
+    "incorrect_answers": [
+      "Bromeliad",
+      "Heliconia",
+      "Hibiscus"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "very hard",
+    "category": "Nature",
+    "question": "With a name resembling a funeral-attending jacket, what butterfly is the state insect of Montana?",
+    "correct_answer": "Mourning cloak",
+    "incorrect_answers": [
+      "Funeral shroud",
+      "Black veil",
+      "Somber cape"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "very hard",
+    "category": "Nature",
+    "question": "Also known as the Hawaiian goose, what repetitively named creature is the state bird of Hawaii?",
+    "correct_answer": "Nene",
+    "incorrect_answers": [
+      "Lolo",
+      "Kiki",
+      "Mumu"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "very hard",
+    "category": "Nature",
+    "question": "The kakapo is a species of large, ground-dwelling birds endemic to New Zealand. These birds are also commonly referred to by what two-word name which includes another bird's name?",
+    "correct_answer": "Owl parrot",
+    "incorrect_answers": [
+      "Hawk parrot",
+      "Eagle parrot",
+      "Falcon parrot"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "very hard",
+    "category": "Nature",
+    "question": "There's a 'spooky' sea creature found only in extreme deep sea conditions that, despite its name, is more closely related to octopi than squids. What is the name of this creature?",
+    "correct_answer": "Vampire squid",
+    "incorrect_answers": [
+      "Ghost octopus",
+      "Zombie squid",
+      "Werewolf fish"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "very hard",
+    "category": "Nature",
+    "question": "Neovison and Mustela are the two genuses of what territorial mammal lives near water and is rarely found more than 200 meters from a riverbank, lake, or marsh?",
+    "correct_answer": "Minks",
+    "incorrect_answers": [
+      "Otters",
+      "Weasels",
+      "Ferrets"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "very hard",
+    "category": "Nature",
+    "question": "What 'P' type of glacier occurs when a fan-shaped section of ice forms in front a mountain range?",
+    "correct_answer": "Piedmont Glacier",
+    "incorrect_answers": [
+      "Polar Glacier",
+      "Plateau Glacier",
+      "Peninsula Glacier"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "very hard",
+    "category": "Nature",
+    "question": "Which species of bear, sometimes called the honey bear, that is found in Southeast Asia is the smallest of the eight extant species of bear?",
+    "correct_answer": "Sun bear",
+    "incorrect_answers": [
+      "Moon bear",
+      "Star bear",
+      "Cloud bear"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "very hard",
+    "category": "Nature",
+    "question": "The American red, the Eastern gray, the Fox, and the Western gray are all specific species of what common family of mammals?",
+    "correct_answer": "Squirrel",
+    "incorrect_answers": [
+      "Rabbit",
+      "Mouse",
+      "Chipmunk"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "very hard",
+    "category": "Nature",
+    "question": "Spring Grove Cemetery in Cincinnati is also home to what kind of natural landmark, a botanical garden with a particular devotion to trees?",
+    "correct_answer": "Arboretum",
+    "incorrect_answers": [
+      "Greenhouse",
+      "Conservatory",
+      "Nursery"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "very hard",
+    "category": "Nature",
+    "question": "Olericulture is one of the major areas of horticulture and focuses on the production and marketing of what type of plants?",
+    "correct_answer": "Vegetables",
+    "incorrect_answers": [
+      "Fruits",
+      "Flowers",
+      "Herbs"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "very hard",
+    "category": "Nature",
+    "question": "Trepanging is the harvesting of what elongated, leathery Pacific creature you probably don't want in your gyro?",
+    "correct_answer": "Sea cucumber",
+    "incorrect_answers": [
+      "Sea urchin",
+      "Sea squirt",
+      "Sea lettuce"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "very hard",
+    "category": "Nature",
+    "question": "What mineral, which is most concentrated in keratin, is known as 'nature's beauty mineral' and helps the body produce collagen to keep skin looking young and fresh?",
+    "correct_answer": "Sulphur",
+    "incorrect_answers": [
+      "Zinc",
+      "Magnesium",
+      "Iron"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "very hard",
+    "category": "Nature",
+    "question": "What type of tree was widely planted in Australia as an erosion-control measure but is now regarded as an invasive weed across extensive areas of the country?",
+    "correct_answer": "Willow",
+    "incorrect_answers": [
+      "Eucalyptus",
+      "Pine",
+      "Acacia"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "very hard",
+    "category": "Nature",
+    "question": "What frequently-misnomered mammal has fingerprints so indistinguishable from humans that they have occasionally been wrongfully collected as evidence at crime scenes?",
+    "correct_answer": "Koalas",
+    "incorrect_answers": [
+      "Raccoons",
+      "Lemurs",
+      "Sloths"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "very hard",
+    "category": "Nature",
+    "question": "The blue whale is the largest animal on the planet. What species of whale, named after a part of its body, is the second largest?",
+    "correct_answer": "Fin Whale",
+    "incorrect_answers": [
+      "Tail Whale",
+      "Head Whale",
+      "Back Whale"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "very hard",
+    "category": "Nature",
+    "question": "What 'A' type of penguin is one of the most prominent penguin species on the Antarctic continent? It comes from a French word meaning 'noble in nature.'",
+    "correct_answer": "Adelie",
+    "incorrect_answers": [
+      "Aristocrat",
+      "Ambassador",
+      "Aristo"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "very hard",
+    "category": "Nature",
+    "question": "Although plentiful when European settlers first arrived, the white-faced owl or whekau that was native to New Zealand was largely extinct by 1914. Because of its 'mischievous-sounding' calls, the owl had what a common, comic name?",
+    "correct_answer": "Laughing owl",
+    "incorrect_answers": [
+      "Giggling owl",
+      "Chuckling owl",
+      "Smiling owl"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "very hard",
+    "category": "Nature",
+    "question": "What is the collective name for any eukaryotic organism that is not a plant, animal, or fungus? These are found both on land and in marine environments.",
+    "correct_answer": "Protist",
+    "incorrect_answers": [
+      "Monera",
+      "Protista",
+      "Chromista"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "very hard",
+    "category": "Nature",
+    "question": "What ecoregion of Brazil is considered to be the biologically richest savanna in the world, and has seen a recent agricultural boom?",
+    "correct_answer": "Cerrado",
+    "incorrect_answers": [
+      "Pantanal",
+      "Pampas",
+      "Caatinga"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "very hard",
+    "category": "Nature",
+    "question": "What is the common name for the perennial herbaceous plant native to eastern North America with the scientific name Dicentra cucullaria? The plant's name comes from the appearance resembling a person's pants from Holland.",
+    "correct_answer": "Dutchman's breeches",
+    "incorrect_answers": [
+      "Frenchman's trousers",
+      "Englishman's slacks",
+      "Irishman's shorts"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "very hard",
+    "category": "Nature",
+    "question": "Although the study of animal sex is still being actively researched, there's currently only one known demonstration of nasal sex in the animal kingdom, found in what type of Amazonian animal?",
+    "correct_answer": "Dolphin",
+    "incorrect_answers": [
+      "Manatee",
+      "Anaconda",
+      "Caiman"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "very hard",
+    "category": "Nature",
+    "question": "A 60-foot-long marine invertebrate made up of thousands of individual clones that together form a long, free-floating cylinder has what name that comes from the Greek words for fire and body?",
+    "correct_answer": "Giant Pyrosome",
+    "incorrect_answers": [
+      "Mega Thermobody",
+      "Huge Ignisoma",
+      "Colossal Flamcorpus"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "very hard",
+    "category": "Nature",
+    "question": "What type of tree has name derived from the Greek word for 'fig' and is often identified by its peeling, flaky white bark?",
+    "correct_answer": "Sycamore",
+    "incorrect_answers": [
+      "Birch",
+      "Plane",
+      "Sycamore"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "very hard",
+    "category": "Nature",
+    "question": "Sunbursts are a popular candy. They're also a variety of what small-ish bright fruit?",
+    "correct_answer": "Tangerine",
+    "incorrect_answers": [
+      "Lemon",
+      "Grapefruit",
+      "Kumquat"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "very hard",
+    "category": "Nature",
+    "question": "The clown frogfish that lives in the warm waters of the Pacific Ocean is also known by what other name related to the small dermal spinules that cover the critter's skin?",
+    "correct_answer": "Warty frogfish",
+    "incorrect_answers": [
+      "Spiky frogfish",
+      "Bumpy frogfish",
+      "Prickly frogfish"
+    ]
+  }
+]
