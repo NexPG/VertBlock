@@ -18,31 +18,25 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
-// Палитра из предыдущих экранов
 private val OverlaySurface = Color(0xFF1E1E22)
-//private val PrimaryPurple = Color(0xFF8A5BFF)
-//private val TextGray = Color(0xFFA0A0A0)
-//private val DividerColor = Color(0xFF2A2A2E)
 
 @Composable
 fun QuestionOverlay(
     question: String = "Place for the question",
     options: List<String> = listOf("answer 1", "answer 2", "answer 3", "answer 4"),
-    onAnswerSelected: (String) -> Unit = {}
+    onAnswerSelected: (String, Int) -> Unit = { _, _ -> }   // второй параметр – номер попытки
 ) {
-    var selectedOption by remember { mutableStateOf<String?>(null) }
+    var attemptedAnswers by remember { mutableStateOf<List<String>>(emptyList()) }
 
-    // Контейнер на весь экран, но с прозрачным фоном
     Box(
         modifier = Modifier
             .fillMaxSize()
-            .background(Color.Transparent), // YouTube будет виден сзади
+            .background(Color.Transparent),
         contentAlignment = Alignment.Center
     ) {
-        // Само окошко вопроса
         Surface(
             modifier = Modifier
-                .fillMaxWidth(0.9f) // Занимает 90% ширины экрана
+                .fillMaxWidth(0.9f)
                 .wrapContentHeight()
                 .border(1.dp, DividerColor, RoundedCornerShape(24.dp)),
             shape = RoundedCornerShape(24.dp),
@@ -53,7 +47,6 @@ fun QuestionOverlay(
                 modifier = Modifier.padding(24.dp),
                 horizontalAlignment = Alignment.CenterHorizontally
             ) {
-                // Заголовок
                 Text(
                     text = "VERTBLOCK",
                     color = TextGray,
@@ -73,7 +66,6 @@ fun QuestionOverlay(
 
                 Spacer(modifier = Modifier.height(12.dp))
 
-                // Фиолетовая разделительная черта
                 Box(
                     modifier = Modifier
                         .width(40.dp)
@@ -83,7 +75,6 @@ fun QuestionOverlay(
 
                 Spacer(modifier = Modifier.height(24.dp))
 
-                // Текст вопроса
                 Text(
                     text = question,
                     color = PrimaryPurple,
@@ -95,14 +86,17 @@ fun QuestionOverlay(
 
                 Spacer(modifier = Modifier.height(32.dp))
 
-                // Варианты ответов
                 options.forEach { option ->
+                    val isAttempted = attemptedAnswers.contains(option)
                     AnswerOption(
                         text = option,
-                        isSelected = selectedOption == option,
+                        isSelected = isAttempted,
                         onClick = {
-                            selectedOption = option
-                            onAnswerSelected(option)
+                            if (!isAttempted) {
+                                val attemptNumber = attemptedAnswers.size + 1
+                                attemptedAnswers = attemptedAnswers + option
+                                onAnswerSelected(option, attemptNumber)
+                            }
                         }
                     )
                     Spacer(modifier = Modifier.height(12.dp))
@@ -150,8 +144,6 @@ fun AnswerOption(
 @Preview(showBackground = false)
 @Composable
 fun PreviewQuestionOverlay() {
-    // В превью ставим темный фон, чтобы видеть границы,
-    // но в приложении он будет прозрачным
     Box(modifier = Modifier.fillMaxSize().background(Color.Black.copy(alpha = 0.5f))) {
         QuestionOverlay()
     }
