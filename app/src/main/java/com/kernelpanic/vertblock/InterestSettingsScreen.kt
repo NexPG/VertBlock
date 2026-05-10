@@ -1,5 +1,6 @@
 package com.kernelpanic.vertblock
 
+import android.content.Context
 import androidx.compose.animation.animateColorAsState
 import androidx.compose.animation.core.tween
 import androidx.compose.foundation.background
@@ -16,29 +17,22 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.compose.ui.graphics.Color
 
-// Палитра приложения
-//private val BackgroundColor = Color(0xFF121214)
-//private val SurfaceColor = Color(0xFF1E1E22)
-//private val PrimaryPurple = Color(0xFF8A5BFF)
-//private val TextGray = Color(0xFFA0A0A0)
-//private val DividerColor = Color(0xFF2A2A2E)
+// Палитра берётся из FocusHubScreen.kt (BackgroundColor, SurfaceColor и т.д.)
 
-// Модель данных для темы
 data class InterestTopic(
     val id: String,
     val title: String,
     val icon: ImageVector
 )
 
-// Список всех доступных тем
 val topicsList = listOf(
     InterestTopic("tech", "TECH", Icons.Default.Code),
     InterestTopic("art", "ART", Icons.Default.Palette),
@@ -54,14 +48,29 @@ val topicsList = listOf(
 fun InterestSettingsScreen(
     onNavigateBack: () -> Unit = {}
 ) {
-    // Хранилище выбранных тем. Используем Set, чтобы элементы не повторялись
-    var selectedTopics by remember { mutableStateOf(setOf<String>()) }
+    val context = LocalContext.current
+    val prefs = remember { context.getSharedPreferences("profile_prefs", Context.MODE_PRIVATE) }
+
+    // Загружаем сохранённый набор тем (строка с разделителем)
+    val savedTopicsStr = prefs.getString("selected_topics", "") ?: ""
+    val savedTopics = savedTopicsStr.split(",").filter { it.isNotBlank() }.toSet()
+
+    var selectedTopics by remember { mutableStateOf(savedTopics) }
+
+    // При выходе сохраняем выбор
+    DisposableEffect(Unit) {
+        onDispose {
+            prefs.edit()
+                .putString("selected_topics", selectedTopics.joinToString(","))
+                .apply()
+        }
+    }
 
     Column(
         modifier = Modifier
             .fillMaxSize()
             .background(BackgroundColor)
-            .statusBarsPadding() // Отступ для статус-бара
+            .statusBarsPadding()
     ) {
         // 1. Верхняя панель (Top Bar)
         Row(
@@ -120,7 +129,7 @@ fun InterestSettingsScreen(
             modifier = Modifier
                 .fillMaxSize()
                 .padding(start = 16.dp, end = 16.dp, top = 1.dp, bottom = 38.dp),
-            verticalArrangement = Arrangement.spacedBy(12.dp) // отступ между рядами
+            verticalArrangement = Arrangement.spacedBy(12.dp)
         ) {
             // Разбиваем список тем на строки по 2 элемента
             val rows = topicsList.chunked(2)
@@ -129,12 +138,12 @@ fun InterestSettingsScreen(
                     modifier = Modifier
                         .fillMaxWidth()
                         .weight(1f), // каждая строка забирает равную долю доступной высоты
-                    horizontalArrangement = Arrangement.spacedBy(12.dp) // отступ между плитками в ряду
+                    horizontalArrangement = Arrangement.spacedBy(12.dp)
                 ) {
                     for (topic in row) {
                         val isSelected = selectedTopics.contains(topic.id)
                         InterestTile(
-                            modifier = Modifier.weight(1f), // плитка занимает всю ширину и высоту строки
+                            modifier = Modifier.weight(1f),
                             topic = topic,
                             isSelected = isSelected,
                             onClick = {
@@ -223,10 +232,4 @@ fun InterestTile(
             }
         }
     }
-}
-
-@Preview(showBackground = true)
-@Composable
-fun PreviewInterestSettingsScreen() {
-    InterestSettingsScreen()
 }

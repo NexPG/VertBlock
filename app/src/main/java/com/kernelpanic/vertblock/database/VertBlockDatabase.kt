@@ -34,6 +34,8 @@ abstract class VertBlockDatabase : RoomDatabase() {
                     // Добавим это, чтобы не было крашей при обновлении версии БД
                     .fallbackToDestructiveMigration()
                     .build()
+                    "vertblock_database"
+                ).build()
                 INSTANCE = instance
                 instance
             }

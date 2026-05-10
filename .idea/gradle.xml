@@ -8,18 +8,8 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="modules">
           <set>
-            <option value="/var/home/nexpg/AndroidStudioProjects/VertBlock" />
-            <option value="/var/home/nexpg/AndroidStudioProjects/VertBlock/app" />
-          </set>
-        </option>
-      </GradleProjectSettings>
-      <GradleProjectSettings>
-        <option name="testRunner" value="CHOOSE_PER_TEST" />
-        <option name="externalProjectPath" value="/var/home/nexpg/AndroidStudioProjects/VertBlock" />
-        <option name="modules">
-          <set>
-            <option value="/var/home/nexpg/AndroidStudioProjects/VertBlock" />
-            <option value="/var/home/nexpg/AndroidStudioProjects/VertBlock/app" />
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
           </set>
         </option>
       </GradleProjectSettings>
