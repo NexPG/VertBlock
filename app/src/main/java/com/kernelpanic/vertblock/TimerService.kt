@@ -72,6 +72,13 @@ class TimerService : Service() {
         }
 
         serviceScope.launch {
+
+            // Читаем сохранённую частоту (в минутах) из профиля
+            val prefs = getSharedPreferences("profile_prefs", Context.MODE_PRIVATE)
+            val freqMinutes = prefs.getFloat("question_frequency_minutes", 15f)
+            totalTimeSeconds = (freqMinutes * 60).toInt()
+            remainingSeconds = totalTimeSeconds   // сбрасываем на полное время при каждом запуске
+
             val activeSession = database.watchSessionDao().getActiveSession()
             if (activeSession != null) {
                 remainingSeconds = activeSession.durationSeconds
