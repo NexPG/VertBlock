@@ -3,13 +3,14 @@ package com.kernelpanic.vertblock
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.*
 import androidx.compose.material3.*
-import androidx.compose.runtime.Composable
+import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
@@ -17,12 +18,10 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import androidx.compose.foundation.clickable
 
-// Цветовая палитра на основе макета
+// Цветовая палитра
 val BackgroundColor = Color(0xFF121214)
 val SurfaceColor = Color(0xFF1E1E22)
 val PrimaryPurple = Color(0xFF8A5BFF)
@@ -30,16 +29,18 @@ val TextGray = Color(0xFFA0A0A0)
 val DividerColor = Color(0xFF2A2A2E)
 
 @Composable
-fun FocusHubScreen(onAvatarClick: () -> Unit = {},
-                   onSettingsClick: () -> Unit = {},
-                   onWatchTimeClick: () -> Unit = {},
-                   onQuestionStatsClick: () -> Unit = {}
-                   ) {
+fun FocusHubScreen(
+    focusHubState: FocusHubState,
+    onAvatarClick: () -> Unit = {},
+    onSettingsClick: () -> Unit = {},
+    onWatchTimeClick: () -> Unit = {},
+    onQuestionStatsClick: () -> Unit = {}
+) {
     Column(
         modifier = Modifier
             .fillMaxSize()
             .background(BackgroundColor)
-            .statusBarsPadding()      // Отступ системного статус бара
+            .statusBarsPadding()
     ) {
         TopBar(onAvatarClick = onAvatarClick, onSettingsClick = onSettingsClick)
         HorizontalDivider(color = DividerColor, thickness = 1.dp)
@@ -52,7 +53,6 @@ fun FocusHubScreen(onAvatarClick: () -> Unit = {},
         ) {
             Spacer(modifier = Modifier.height(32.dp))
 
-            // Заголовок
             Text(
                 text = "VertBlock",
                 color = PrimaryPurple,
@@ -63,12 +63,10 @@ fun FocusHubScreen(onAvatarClick: () -> Unit = {},
 
             Spacer(modifier = Modifier.height(32.dp))
 
-            // Главная карточка
-            MainScoreCard()
+            MainScoreCard(score = focusHubState.attentionScore, streakDays = focusHubState.streakDays)
 
             Spacer(modifier = Modifier.height(24.dp))
 
-            // Средний ряд кнопок
             Row(
                 modifier = Modifier.fillMaxWidth(),
                 horizontalArrangement = Arrangement.spacedBy(16.dp)
@@ -81,7 +79,7 @@ fun FocusHubScreen(onAvatarClick: () -> Unit = {},
                 )
                 ActionCard(
                     modifier = Modifier.weight(1f),
-                    icon = Icons.Default.SsidChart, // Замените на нужную иконку графика
+                    icon = Icons.Default.SsidChart,
                     title = "Question\nStats",
                     onClick = onQuestionStatsClick
                 )
@@ -89,38 +87,67 @@ fun FocusHubScreen(onAvatarClick: () -> Unit = {},
 
             Spacer(modifier = Modifier.height(24.dp))
 
-            // Нижний ряд статистики
+            // Нижние три метрики
             Row(
                 modifier = Modifier.fillMaxWidth(),
                 horizontalArrangement = Arrangement.spacedBy(16.dp)
             ) {
                 StatCard(
                     modifier = Modifier.weight(1f),
-                    title = "FOCUS\nDEPTH",
-                    value = "0",
-                    unit = "%"
+                    title = "TIME\nWELL SPENT",
+                    value = focusHubState.timeWellSpent,
+                    unit = ""
                 )
                 StatCard(
                     modifier = Modifier.weight(1f),
-                    title = "RECALL\nRATE",
-                    value = "0",
-                    unit = "%"
+                    title = "STREAK",
+                    value = focusHubState.streakDays.toString(),
+                    unit = "d"
                 )
                 StatCard(
                     modifier = Modifier.weight(1f),
-                    title = "ACTIVE\nHOURS",
-                    value = "0",
-                    unit = "h"
+                    title = "BRAIN\nFOOD",
+                    value = focusHubState.brainFoodTopics.toString(),
+                    unit = "topics"
                 )
             }
+
+            Spacer(modifier = Modifier.height(24.dp))
+
+            // Переключатель периодов и мини-график
+            var selectedPeriod by remember { mutableStateOf("daily") }
+            Row(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.SpaceEvenly
+            ) {
+                for (period in listOf("daily", "weekly", "monthly")) {
+                    TextButton(onClick = {
+                        selectedPeriod = period
+                        // если захотим обновлять данные для периода, вызовем loadData
+                    }) {
+                        Text(
+                            text = period.uppercase(),
+                            color = if (selectedPeriod == period) PrimaryPurple else TextGray,
+                            fontWeight = if (selectedPeriod == period) FontWeight.Bold else FontWeight.Normal
+                        )
+                    }
+                }
+            }
+
+            Spacer(modifier = Modifier.height(8.dp))
+
+            // Мини-график активности (столбики)
+            ActivityChart(data = focusHubState.activityData)
+
+            Spacer(modifier = Modifier.height(16.dp))
         }
     }
 }
 
+// ------------------- Вспомогательные composable -------------------
+
 @Composable
-fun TopBar(onAvatarClick: () -> Unit = {},
-           onSettingsClick: () -> Unit = {}
-           ) {
+fun TopBar(onAvatarClick: () -> Unit, onSettingsClick: () -> Unit) {
     Row(
         modifier = Modifier
             .fillMaxWidth()
@@ -128,7 +155,6 @@ fun TopBar(onAvatarClick: () -> Unit = {},
         horizontalArrangement = Arrangement.SpaceBetween,
         verticalAlignment = Alignment.CenterVertically
     ) {
-        // Заглушка для аватара
         Box(
             modifier = Modifier
                 .size(36.dp)
@@ -141,25 +167,16 @@ fun TopBar(onAvatarClick: () -> Unit = {},
             Icon(Icons.Default.Person, contentDescription = "Profile", tint = Color.LightGray, modifier = Modifier.size(24.dp))
         }
 
-        Text(
-            text = "Focus Hub",
-            color = Color.White,
-            fontSize = 18.sp,
-            fontWeight = FontWeight.Medium
-        )
+        Text(text = "Focus Hub", color = Color.White, fontSize = 18.sp, fontWeight = FontWeight.Medium)
 
         IconButton(onClick = onSettingsClick) {
-            Icon(
-                imageVector = Icons.Default.Settings,
-                contentDescription = "Settings",
-                tint = TextGray
-            )
+            Icon(imageVector = Icons.Default.Settings, contentDescription = "Settings", tint = TextGray)
         }
     }
 }
 
 @Composable
-fun MainScoreCard() {
+fun MainScoreCard(score: Int, streakDays: Int) {
     Surface(
         modifier = Modifier.fillMaxWidth(),
         shape = RoundedCornerShape(24.dp),
@@ -176,20 +193,15 @@ fun MainScoreCard() {
                 letterSpacing = 2.sp,
                 fontWeight = FontWeight.SemiBold
             )
-
             Spacer(modifier = Modifier.height(8.dp))
-
             Text(
-                text = "0",
+                text = score.toString(),
                 color = Color.White,
                 fontSize = 120.sp,
                 fontWeight = FontWeight.Bold,
                 lineHeight = 120.sp
             )
-
             Spacer(modifier = Modifier.height(16.dp))
-
-            // Бейдж стрика (серии)
             Row(
                 modifier = Modifier
                     .clip(RoundedCornerShape(percent = 50))
@@ -206,7 +218,7 @@ fun MainScoreCard() {
                 )
                 Spacer(modifier = Modifier.width(8.dp))
                 Text(
-                    text = "0 Days Current Streak",
+                    text = "$streakDays Days Current Streak",
                     color = Color.White,
                     fontSize = 14.sp,
                     fontWeight = FontWeight.Medium
@@ -217,15 +229,9 @@ fun MainScoreCard() {
 }
 
 @Composable
-fun ActionCard(
-    modifier: Modifier = Modifier,
-    icon: ImageVector,
-    title: String,
-    onClick: () -> Unit = {}
-) {
+fun ActionCard(modifier: Modifier = Modifier, icon: ImageVector, title: String, onClick: () -> Unit) {
     Surface(
-        modifier = modifier
-            .clickable { onClick() },
+        modifier = modifier.clickable { onClick() },
         shape = RoundedCornerShape(16.dp),
         color = SurfaceColor,
         border = BorderStroke(1.dp, DividerColor)
@@ -235,30 +241,16 @@ fun ActionCard(
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.Center
         ) {
-            Icon(
-                imageVector = icon,
-                contentDescription = null,
-                tint = Color.White,
-                modifier = Modifier.size(24.dp)
-            )
+            Icon(icon, contentDescription = null, tint = Color.White, modifier = Modifier.size(24.dp))
             Spacer(modifier = Modifier.width(12.dp))
-            Text(
-                text = title,
-                color = Color.White,
-                fontSize = 16.sp,
-                lineHeight = 22.sp
-            )
+            Text(text = title, color = Color.White, fontSize = 16.sp, lineHeight = 22.sp)
         }
     }
 }
 
 @Composable
 fun StatCard(modifier: Modifier = Modifier, title: String, value: String, unit: String) {
-    Surface(
-        modifier = modifier,
-        shape = RoundedCornerShape(16.dp),
-        color = SurfaceColor
-    ) {
+    Surface(modifier = modifier, shape = RoundedCornerShape(16.dp), color = SurfaceColor) {
         Column(
             modifier = Modifier.padding(vertical = 20.dp, horizontal = 12.dp),
             horizontalAlignment = Alignment.CenterHorizontally
@@ -271,29 +263,38 @@ fun StatCard(modifier: Modifier = Modifier, title: String, value: String, unit: 
                 textAlign = TextAlign.Center,
                 lineHeight = 16.sp
             )
-
             Spacer(modifier = Modifier.height(12.dp))
-
             Row(verticalAlignment = Alignment.Bottom) {
-                Text(
-                    text = value,
-                    color = Color.White,
-                    fontSize = 32.sp,
-                    fontWeight = FontWeight.Bold
-                )
-                Text(
-                    text = " $unit",
-                    color = TextGray,
-                    fontSize = 16.sp,
-                    modifier = Modifier.padding(bottom = 4.dp)
-                )
+                Text(text = value, color = Color.White, fontSize = 32.sp, fontWeight = FontWeight.Bold)
+                if (unit.isNotEmpty()) {
+                    Text(text = " $unit", color = TextGray, fontSize = 16.sp, modifier = Modifier.padding(bottom = 4.dp))
+                }
             }
         }
     }
 }
 
-@Preview(showBackground = true)
 @Composable
-fun PreviewFocusHubScreen() {
-    FocusHubScreen()
+fun ActivityChart(data: List<Float>) {
+    val colors = listOf(PrimaryPurple, Color(0xFFBB86FC), Color(0xFF6200EE), Color(0xFF3700B3))
+    Row(
+        modifier = Modifier
+            .fillMaxWidth()
+            .height(80.dp),
+        horizontalArrangement = Arrangement.SpaceEvenly,
+        verticalAlignment = Alignment.Bottom
+    ) {
+        data.forEachIndexed { index, value ->
+            val maxVal = data.maxOrNull() ?: 1f
+            val heightFraction = if (maxVal > 0) value / maxVal else 0f
+            Box(
+                modifier = Modifier
+                    .weight(1f)
+                    .padding(horizontal = 4.dp)
+                    .height((heightFraction * 80).dp)
+                    .clip(RoundedCornerShape(topStart = 4.dp, topEnd = 4.dp))
+                    .background(colors[index % colors.size])
+            )
+        }
+    }
 }

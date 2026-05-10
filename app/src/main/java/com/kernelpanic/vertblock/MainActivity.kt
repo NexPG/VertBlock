@@ -5,6 +5,7 @@ import android.content.Intent
 import android.content.pm.PackageManager
 import android.os.Build
 import android.os.Bundle
+import androidx.compose.runtime.getValue
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
@@ -22,6 +23,10 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.kernelpanic.vertblock.ui.theme.VertBlockTheme
+import android.app.Application
+import androidx.lifecycle.viewmodel.compose.viewModel
+import androidx.compose.runtime.collectAsState
+import androidx.compose.ui.platform.LocalContext
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -71,6 +76,11 @@ fun RequestNotificationPermission() {
 fun AppNavigation() {
     val navController = rememberNavController()
 
+    // Получаем Application и создаём ViewModel
+    val application = LocalContext.current.applicationContext as Application
+    val viewModel: FocusHubViewModel = viewModel()
+    val focusHubState by viewModel.state.collectAsState()
+
     NavHost(
         navController = navController,
         startDestination = "focus",
@@ -86,6 +96,7 @@ fun AppNavigation() {
     ) {
         composable("focus") {
             FocusHubScreen(
+                focusHubState = focusHubState,          // ← теперь передаём живые данные
                 onAvatarClick = dropUnlessResumed { navController.navigate("profile") },
                 onSettingsClick = dropUnlessResumed { navController.navigate("settings") },
                 onWatchTimeClick = dropUnlessResumed { navController.navigate("watchtime") },
@@ -111,7 +122,7 @@ fun AppNavigation() {
         composable("watchtime") {
             WatchTimeScreen(onNavigateBack = dropUnlessResumed { navController.popBackStack() })
         }
-        composable("questionstats") {   // исправлено: две 's'
+        composable("questionstats") {
             QuestionStatsScreen(onNavigateBack = dropUnlessResumed { navController.popBackStack() })
         }
     }
