@@ -1,6 +1,13 @@
 package com.kernelpanic.vertblock
 
 import android.content.Context
+import android.content.Intent
+import android.net.Uri
+import androidx.activity.compose.rememberLauncherForActivityResult
+import androidx.activity.result.contract.ActivityResultContracts
+import androidx.compose.animation.animateColorAsState
+import androidx.compose.animation.core.FastOutSlowInEasing
+import androidx.compose.animation.core.tween
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
@@ -21,19 +28,14 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-
-// Палитра из Focus Hub
-//val BackgroundColor = Color(0xFF121214)
-//val SurfaceColor = Color(0xFF1E1E22)
-//val PrimaryPurple = Color(0xFF8A5BFF)
-//val TextGray = Color(0xFFA0A0A0)
-//val DividerColor = Color(0xFF2A2A2E)
+import coil.compose.AsyncImage
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -46,16 +48,40 @@ fun ProfileSettingsScreen(
 
     // Загружаем сохранённые данные
     var savedName by remember { mutableStateOf(prefs.getString("user_name", "") ?: "") }
-    var savedFrequency by remember { mutableIntStateOf(prefs.getInt("question_frequency", 15)) }
+    var savedFrequencyMin by remember { mutableStateOf(prefs.getFloat("question_frequency_minutes", 15f)) }
+    var savedAvatarUri by remember { mutableStateOf(prefs.getString("avatar_uri", null)) }
 
     // Локальные состояния для редактирования
     var nameInput by remember { mutableStateOf(savedName) }
-    var selectedPresetTime by remember { mutableStateOf<Int?>(savedFrequency) }
+    var selectedPresetTime by remember { mutableStateOf<Int?>(null) }
     var customTimeInput by remember { mutableStateOf("") }
+    var avatarUri by remember { mutableStateOf(savedAvatarUri?.let { Uri.parse(it) }) }
 
-    val currentSelectedTime = selectedPresetTime ?: customTimeInput.toIntOrNull() ?: savedFrequency
-    val hasChanges =
-        (nameInput != savedName && nameInput.isNotBlank()) || (currentSelectedTime != savedFrequency)
+    // Инициализация пресета/кастомного времени
+    LaunchedEffect(savedFrequencyMin) {
+        if (listOf(15f, 30f, 45f).contains(savedFrequencyMin)) {
+            selectedPresetTime = savedFrequencyMin.toInt()
+            customTimeInput = ""
+        } else if (savedFrequencyMin > 0f) {
+            selectedPresetTime = null
+            customTimeInput = savedFrequencyMin.toString() // 0.5 -> "0.5"
+        }
+    }
+
+    val currentSelectedMinutes = selectedPresetTime?.toFloat() ?: customTimeInput.toFloatOrNull() ?: 0f
+    val hasChanges = (nameInput != savedName && nameInput.isNotBlank()) ||
+            (currentSelectedMinutes != savedFrequencyMin) ||
+            (avatarUri?.toString() != savedAvatarUri)
+
+    // Лаунчер для выбора нового аватара
+    val imagePickerLauncher = rememberLauncherForActivityResult(
+        contract = ActivityResultContracts.GetContent()
+    ) { uri: Uri? ->
+        if (uri != null) {
+            avatarUri = uri
+            // Меняем только локально, сохранение будет по кнопке Save
+        }
+    }
 
     Column(
         modifier = Modifier
@@ -63,7 +89,7 @@ fun ProfileSettingsScreen(
             .background(BackgroundColor)
             .statusBarsPadding()
     ) {
-        // Верхняя панель (такая же, как была)
+        // Верхняя панель
         Row(
             modifier = Modifier
                 .fillMaxWidth()
@@ -107,23 +133,46 @@ fun ProfileSettingsScreen(
         ) {
             Spacer(modifier = Modifier.height(32.dp))
 
-            // Аватарка (оставим как есть, без сохранения выбора)
-            Box(modifier = Modifier.fillMaxWidth(), contentAlignment = Alignment.Center) {
+            // Аватар
+            Box(
+                modifier = Modifier.fillMaxWidth(),
+                contentAlignment = Alignment.Center
+            ) {
+                // Большой круг: клик открывает просмотр
                 Box(
                     modifier = Modifier
                         .size(120.dp)
                         .clip(CircleShape)
                         .background(SurfaceColor)
-                        .clickable { /* TODO: выбор фото */ },
+                        .clickable {
+                            avatarUri?.let { uri ->
+                                val intent = Intent(Intent.ACTION_VIEW).apply {
+                                    setDataAndType(uri, "image/*")
+                                    addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
+                                }
+                                context.startActivity(intent)
+                            }
+                        },
                     contentAlignment = Alignment.Center
                 ) {
-                    Icon(
-                        Icons.Default.Person,
-                        contentDescription = "Avatar",
-                        tint = TextGray,
-                        modifier = Modifier.size(60.dp)
-                    )
+                    if (avatarUri != null) {
+                        AsyncImage(
+                            model = avatarUri,
+                            contentDescription = "Avatar",
+                            modifier = Modifier.fillMaxSize().clip(CircleShape),
+                            contentScale = ContentScale.Crop
+                        )
+                    } else {
+                        Icon(
+                            Icons.Default.Person,
+                            contentDescription = "Avatar",
+                            tint = TextGray,
+                            modifier = Modifier.size(60.dp)
+                        )
+                    }
                 }
+
+                // Кнопка редактирования (карандаш)
                 Box(
                     modifier = Modifier
                         .size(36.dp)
@@ -132,7 +181,7 @@ fun ProfileSettingsScreen(
                         .clip(CircleShape)
                         .background(PrimaryPurple)
                         .border(2.dp, BackgroundColor, CircleShape)
-                        .clickable { /* TODO */ },
+                        .clickable { imagePickerLauncher.launch("image/*") },
                     contentAlignment = Alignment.Center
                 ) {
                     Icon(
@@ -146,7 +195,7 @@ fun ProfileSettingsScreen(
 
             Spacer(modifier = Modifier.height(40.dp))
 
-            // Имя
+            // Имя (текст по центру)
             SectionTitle("NAME")
             OutlinedTextField(
                 value = nameInput,
@@ -154,28 +203,19 @@ fun ProfileSettingsScreen(
                 placeholder = { Text("enter your name", color = Color.Gray) },
                 modifier = Modifier.fillMaxWidth(),
                 shape = RoundedCornerShape(12.dp),
-                colors = OutlinedTextFieldDefaults.colors(
-                    focusedBorderColor = PrimaryPurple,
-                    unfocusedBorderColor = TextGray,
-                    cursorColor = PrimaryPurple,
-                    focusedTextColor = Color.Black,
-                    unfocusedTextColor = Color.Black,
-                    focusedContainerColor = Color.White,
-                    unfocusedContainerColor = Color.White,
-                ),
+                colors = textFieldColors(),
                 singleLine = true,
+                textStyle = LocalTextStyle.current.copy(textAlign = TextAlign.Center),
                 trailingIcon = {
-                    if (nameInput.isNotBlank()) Icon(
-                        Icons.Default.Check,
-                        contentDescription = null,
-                        tint = PrimaryPurple
-                    )
+                    if (nameInput.isNotBlank()) {
+                        Icon(Icons.Default.Check, contentDescription = null, tint = PrimaryPurple)
+                    }
                 }
             )
 
             Spacer(modifier = Modifier.height(24.dp))
 
-            // Preferences (переход в Interest Settings)
+            // Preferences
             SectionTitle("PREFERENCES")
             Row(
                 modifier = Modifier
@@ -204,7 +244,7 @@ fun ProfileSettingsScreen(
 
             Spacer(modifier = Modifier.height(24.dp))
 
-            // Частота вопросов
+            // Частота вопросов — пресеты с анимацией
             SectionTitle("QUESTION FREQUENCY")
             Row(
                 modifier = Modifier
@@ -216,7 +256,10 @@ fun ProfileSettingsScreen(
             ) {
                 listOf(15, 30, 45).forEach { time ->
                     val isSelected = selectedPresetTime == time
-                    val bgColor = if (isSelected) PrimaryPurple else Color.Transparent
+                    val bgColor by animateColorAsState(
+                        targetValue = if (isSelected) PrimaryPurple else Color.Transparent,
+                        animationSpec = tween(durationMillis = 300, easing = FastOutSlowInEasing)
+                    )
                     Box(
                         modifier = Modifier
                             .weight(1f)
@@ -240,56 +283,61 @@ fun ProfileSettingsScreen(
 
             Spacer(modifier = Modifier.height(16.dp))
 
-            OutlinedTextField(
-                value = customTimeInput,
-                onValueChange = {
-                    customTimeInput = it
-                    if (it.isNotBlank()) selectedPresetTime = null
-                },
-                placeholder = {
-                    Text(
-                        "Custom (mins)",
-                        color = Color.Gray,
-                        textAlign = TextAlign.Center
-                    )
-                },
-                modifier = Modifier.fillMaxWidth(),
-                shape = RoundedCornerShape(12.dp),
-                keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Number),
-                colors = OutlinedTextFieldDefaults.colors(
-                    focusedBorderColor = PrimaryPurple,
-                    unfocusedBorderColor = TextGray,
-                    cursorColor = PrimaryPurple,
-                    focusedTextColor = Color.Black,
-                    unfocusedTextColor = Color.Black,
-                    focusedContainerColor = Color.White,
-                    unfocusedContainerColor = Color.White,
-                ),
-                singleLine = true,
-                textStyle = LocalTextStyle.current.copy(textAlign = TextAlign.Center),
-                trailingIcon = {
-                    if (selectedPresetTime == null && customTimeInput.isNotBlank())
-                        Icon(Icons.Default.Check, contentDescription = null, tint = PrimaryPurple)
-                }
-            )
+            // Кастомное время + подпись "min"
+            Column(modifier = Modifier.fillMaxWidth()) {
+                val isCustomActive = selectedPresetTime == null && customTimeInput.isNotBlank()
+                OutlinedTextField(
+                    value = customTimeInput,
+                    onValueChange = {
+                        if (it.matches(Regex("^\\d*\\.?\\d{0,1}$"))) {
+                            customTimeInput = it
+                            if (it.isNotBlank()) selectedPresetTime = null
+                        }
+                    },
+                    placeholder = {
+                        Text("Custom (mins)", color = Color.Gray, textAlign = TextAlign.Center)
+                    },
+                    modifier = Modifier.fillMaxWidth(),
+                    shape = RoundedCornerShape(12.dp),
+                    keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Decimal),
+                    colors = textFieldColors(),
+                    singleLine = true,
+                    textStyle = LocalTextStyle.current.copy(textAlign = TextAlign.Center),
+                    trailingIcon = {
+                        if (isCustomActive)
+                            Icon(Icons.Default.Check, contentDescription = null, tint = PrimaryPurple)
+                    }
+                )
+                Text(
+                    text = "min",
+                    color = TextGray,
+                    fontSize = 12.sp,
+                    modifier = Modifier.padding(start = 8.dp, top = 4.dp)
+                )
+            }
 
+            // Отступ, выталкивающий кнопку вниз
             Spacer(modifier = Modifier.weight(1f))
 
-            // Кнопка Save
+            // Кнопка сохранения (как раньше)
             Button(
                 onClick = {
                     if (hasChanges) {
+                        // Сохраняем всё в SharedPreferences
                         prefs.edit()
                             .putString("user_name", nameInput)
-                            .putInt("question_frequency", currentSelectedTime)
+                            .putFloat("question_frequency_minutes", currentSelectedMinutes)
+                            .putString("avatar_uri", avatarUri?.toString())
                             .apply()
+                        // Обновляем локальные «сохранённые» значения, чтобы кнопка стала серой
                         savedName = nameInput
-                        savedFrequency = currentSelectedTime
+                        savedFrequencyMin = currentSelectedMinutes
+                        savedAvatarUri = avatarUri?.toString()
                     }
                 },
                 modifier = Modifier
                     .fillMaxWidth()
-                    .height(56.dp)
+                    .height(115.dp)          // как раньше
                     .padding(bottom = 36.dp),
                 shape = RoundedCornerShape(16.dp),
                 colors = ButtonDefaults.buttonColors(
@@ -299,10 +347,10 @@ fun ProfileSettingsScreen(
                 elevation = ButtonDefaults.buttonElevation(0.dp)
             ) {
                 Text(
-                    "Save Changes",
-                    color = Color.White,   // ← явно задаём белый цвет
+                    text = "Save Changes",
                     fontSize = 16.sp,
                     fontWeight = FontWeight.Medium
+                    // цвет наследуется от contentColor кнопки – больше не перебиваем его вручную
                 )
             }
         }
@@ -320,3 +368,14 @@ fun SectionTitle(title: String) {
         modifier = Modifier.padding(bottom = 8.dp)
     )
 }
+
+@Composable
+fun textFieldColors() = OutlinedTextFieldDefaults.colors(
+    focusedBorderColor = PrimaryPurple,
+    unfocusedBorderColor = TextGray,
+    cursorColor = PrimaryPurple,
+    focusedTextColor = Color.Black,
+    unfocusedTextColor = Color.Black,
+    focusedContainerColor = Color.White,
+    unfocusedContainerColor = Color.White,
+)
