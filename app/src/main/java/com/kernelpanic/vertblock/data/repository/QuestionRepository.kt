@@ -20,10 +20,12 @@ class QuestionRepository(private val context: Context) {
 
     private val gson = Gson()
 
-    // Пока захардкодим две темы (потом заменим на реальный выбор пользователя)
-    private val selectedCategories = listOf("health", "science")
-
     suspend fun getRandomQuestion(): Question? {
+        // Читаем выбранные темы из SharedPreferences
+        val prefs = context.getSharedPreferences("profile_prefs", Context.MODE_PRIVATE)
+        val selectedTopicsStr = prefs.getString("selected_topics", "health,science") ?: "health,science"
+        val selectedCategories = selectedTopicsStr.split(",").filter { it.isNotBlank() }
+
         return withContext(Dispatchers.IO) {
             try {
                 val allQuestions = mutableListOf<Question>()
