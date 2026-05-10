@@ -40,20 +40,18 @@ class QuestionActivity : ComponentActivity() {
                 QuestionOverlay(
                     question = question.question,
                     options = repository.getShuffledOptions(question),
-                    onAnswerSelected = { answer ->
+                    onAnswerSelected = { answer, attemptNumber ->
                         if (answer == question.correct_answer) {
                             CoroutineScope(Dispatchers.IO).launch {
-                                // Сохраняем результат перед закрытием
                                 database.quizResultDao().insertResult(
                                     QuizResultEntity(
                                         question = question.question,
                                         correctAnswer = question.correct_answer,
                                         userAnswer = answer,
-                                        attempts = 1, // Или твоя логика подсчета
+                                        attempts = attemptNumber,   // реальное число кликов
                                         category = question.category
                                     )
                                 )
-                                // после успешного ответа
                                 val restartIntent = Intent("com.kernelpanic.vertblock.RESTART_TIMER")
                                 sendBroadcast(restartIntent)
                                 finish()
