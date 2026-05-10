@@ -20,6 +20,11 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import android.content.Context
+import androidx.compose.ui.platform.LocalContext
+import coil.compose.AsyncImage
+import androidx.compose.ui.layout.ContentScale
+import androidx.core.net.toUri
 
 // Цветовая палитра
 val BackgroundColor = Color(0xFF121214)
@@ -148,6 +153,11 @@ fun FocusHubScreen(
 
 @Composable
 fun TopBar(onAvatarClick: () -> Unit, onSettingsClick: () -> Unit) {
+    val context = LocalContext.current
+    val prefs = remember { context.getSharedPreferences("profile_prefs", Context.MODE_PRIVATE) }
+    val avatarUriStr = prefs.getString("avatar_uri", null)
+    val avatarUri = avatarUriStr?.let { it.toUri() }
+
     Row(
         modifier = Modifier
             .fillMaxWidth()
@@ -164,7 +174,17 @@ fun TopBar(onAvatarClick: () -> Unit, onSettingsClick: () -> Unit) {
                 .clickable { onAvatarClick() },
             contentAlignment = Alignment.Center
         ) {
-            Icon(Icons.Default.Person, contentDescription = "Profile", tint = Color.LightGray, modifier = Modifier.size(24.dp))
+            if (avatarUri != null) {
+                AsyncImage(
+                    model = avatarUri,
+                    contentDescription = "Profile",
+                    modifier = Modifier.fillMaxSize().clip(CircleShape),
+                    contentScale = ContentScale.Crop
+                )
+            } else {
+                Icon(Icons.Default.Person, contentDescription = "Profile",
+                    tint = Color.LightGray, modifier = Modifier.size(24.dp))
+            }
         }
 
         Text(text = "Focus Hub", color = Color.White, fontSize = 18.sp, fontWeight = FontWeight.Medium)
