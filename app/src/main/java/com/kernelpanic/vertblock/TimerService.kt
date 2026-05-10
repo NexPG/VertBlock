@@ -1,40 +1,22 @@
 package com.kernelpanic.vertblock
 
 import android.app.*
+import android.content.BroadcastReceiver
+import android.content.Context
 import android.content.Intent
+import android.content.IntentFilter
 import android.content.pm.PackageManager
 import android.content.pm.ServiceInfo
-import android.graphics.PixelFormat
 import android.os.IBinder
-import android.provider.Settings
-import android.view.Gravity
-import android.view.WindowManager
-import androidx.compose.ui.platform.ComposeView
 import androidx.core.app.NotificationCompat
 import androidx.core.content.ContextCompat
-import androidx.lifecycle.Lifecycle
-import androidx.lifecycle.LifecycleOwner
-import androidx.lifecycle.LifecycleRegistry
-import androidx.lifecycle.ViewModelStore
-import androidx.lifecycle.ViewModelStoreOwner
-import androidx.lifecycle.setViewTreeLifecycleOwner
-import androidx.lifecycle.setViewTreeViewModelStoreOwner
-import androidx.savedstate.SavedStateRegistry
-import androidx.savedstate.SavedStateRegistryController
-import androidx.savedstate.SavedStateRegistryOwner
-import androidx.savedstate.setViewTreeSavedStateRegistryOwner
 import androidx.room.Room
 import com.kernelpanic.vertblock.data.QuestionRepository
-import com.kernelpanic.vertblock.database.QuizResultEntity
 import com.kernelpanic.vertblock.database.VertBlockDatabase
 import com.kernelpanic.vertblock.database.WatchSessionEntity
 import kotlinx.coroutines.*
-import android.view.View
-import androidx.compose.ui.platform.ViewCompositionStrategy
-import android.view.WindowManager.LayoutParams.FLAG_NOT_TOUCH_MODAL
-import android.content.pm.ActivityInfo
 
-class TimerService : Service(), LifecycleOwner, ViewModelStoreOwner, SavedStateRegistryOwner {
+class TimerService : Service() {
 
     private val serviceScope = CoroutineScope(Dispatchers.Default + SupervisorJob())
     private var timerJob: Job? = null
@@ -45,40 +27,41 @@ class TimerService : Service(), LifecycleOwner, ViewModelStoreOwner, SavedStateR
 
     private var currentSession: WatchSessionEntity? = null
     private lateinit var database: VertBlockDatabase
-    private lateinit var questionRepository: QuestionRepository
-    private lateinit var windowManager: WindowManager
-    private var overlayView: ComposeView? = null
 
-    // ------------- Жизненный цикл и владельцы -------------
-    private lateinit var lifecycleRegistry: LifecycleRegistry
-    private lateinit var savedStateRegistryController: SavedStateRegistryController
-    private val _viewModelStore = ViewModelStore()
-
-    override val lifecycle: Lifecycle get() = lifecycleRegistry
-    override val viewModelStore: ViewModelStore get() = _viewModelStore
-    override val savedStateRegistry: SavedStateRegistry get() = savedStateRegistryController.savedStateRegistry
-    // ----------------------------------------------------
+    // Приёмник для перезапуска таймера после ответа
+    private val restartReceiver = object : BroadcastReceiver() {
+        override fun onReceive(context: Context?, intent: Intent?) {
+            if (intent?.action == ACTION_RESTART_TIMER) {
+                // Создаём новую сессию и перезапускаем таймер
+                remainingSeconds = totalTimeSeconds
+                serviceScope.launch {
+                    createAndStartNewSession()
+                    val notification = buildNotification(remainingSeconds)
+                    startForeground(
+                        NOTIFICATION_ID,
+                        notification,
+                        ServiceInfo.FOREGROUND_SERVICE_TYPE_DATA_SYNC
+                    )
+                    startTimer()
+                }
+            }
+        }
+    }
 
     override fun onCreate() {
         super.onCreate()
-
-        // ---------- Инициализация владельцев в строгом порядке ----------
-        lifecycleRegistry = LifecycleRegistry(this)
-        savedStateRegistryController = SavedStateRegistryController.create(this)
-        savedStateRegistryController.performAttach()   // без аргументов!
-        savedStateRegistryController.performRestore(null)
-
-        lifecycleRegistry.currentState = Lifecycle.State.CREATED
-        // ----------------------------------------------------------------
-
         createNotificationChannel()
         database = Room.databaseBuilder(
             applicationContext,
             VertBlockDatabase::class.java,
             "vertblock.db"
         ).build()
-        questionRepository = QuestionRepository(this)
-        windowManager = getSystemService(WINDOW_SERVICE) as WindowManager
+
+        registerReceiver(
+            restartReceiver,
+            IntentFilter(ACTION_RESTART_TIMER),
+            Context.RECEIVER_NOT_EXPORTED
+        )
     }
 
     override fun onStartCommand(intent: Intent?, flags: Int, startId: Int): Int {
@@ -87,8 +70,6 @@ class TimerService : Service(), LifecycleOwner, ViewModelStoreOwner, SavedStateR
             stopSelf()
             return START_NOT_STICKY
         }
-
-        lifecycleRegistry.currentState = Lifecycle.State.STARTED
 
         serviceScope.launch {
             val activeSession = database.watchSessionDao().getActiveSession()
@@ -127,8 +108,12 @@ class TimerService : Service(), LifecycleOwner, ViewModelStoreOwner, SavedStateR
                     saveProgress()
                 }
             }
+            // Таймер истёк – завершаем сессию и показываем вопрос
             finishSession()
-            showQuestionOverlay()
+            val intent = Intent(this@TimerService, QuestionActivity::class.java).apply {
+                addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+            }
+            startActivity(intent)
         }
     }
 
@@ -189,24 +174,6 @@ class TimerService : Service(), LifecycleOwner, ViewModelStoreOwner, SavedStateR
         currentSession = null
     }
 
-    // --------------- Оверлей с вопросом ---------------
-
-    private fun showQuestionOverlay() {
-        val intent = Intent(this, QuestionActivity::class.java).apply {
-            addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
-            addFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT)
-        }
-        startActivity(intent)
-    }
-
-    private fun hideOverlay() {
-        overlayView?.let {
-            it.disposeComposition() // Явно уничтожаем UI-дерево Compose
-            windowManager.removeView(it)
-            overlayView = null
-        }
-    }
-
     private suspend fun createAndStartNewSession() {
         val session = WatchSessionEntity(
             startTime = System.currentTimeMillis(),
@@ -216,9 +183,9 @@ class TimerService : Service(), LifecycleOwner, ViewModelStoreOwner, SavedStateR
         val sessionId = database.watchSessionDao().insertSession(session)
         currentSession = session.copy(id = sessionId)
     }
-    // ----------------------------------------------
 
     override fun onDestroy() {
+        unregisterReceiver(restartReceiver)
         serviceScope.launch {
             saveProgress()
             if (remainingSeconds <= 0) {
@@ -227,9 +194,6 @@ class TimerService : Service(), LifecycleOwner, ViewModelStoreOwner, SavedStateR
         }
         timerJob?.cancel()
         serviceScope.cancel()
-        hideOverlay()
-        lifecycleRegistry.currentState = Lifecycle.State.DESTROYED
-        _viewModelStore.clear()
         super.onDestroy()
     }
 
@@ -238,5 +202,6 @@ class TimerService : Service(), LifecycleOwner, ViewModelStoreOwner, SavedStateR
     companion object {
         private const val NOTIFICATION_ID = 100
         private const val CHANNEL_ID = "timer_channel"
+        const val ACTION_RESTART_TIMER = "com.kernelpanic.vertblock.RESTART_TIMER"
     }
 }

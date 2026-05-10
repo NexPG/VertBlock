@@ -14,6 +14,7 @@ import com.kernelpanic.vertblock.database.QuizResultEntity
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
+import android.content.Intent
 
 class QuestionActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -52,6 +53,9 @@ class QuestionActivity : ComponentActivity() {
                                         category = question.category
                                     )
                                 )
+                                // после успешного ответа
+                                val restartIntent = Intent("com.kernelpanic.vertblock.RESTART_TIMER")
+                                sendBroadcast(restartIntent)
                                 finish()
                             }
                         }
