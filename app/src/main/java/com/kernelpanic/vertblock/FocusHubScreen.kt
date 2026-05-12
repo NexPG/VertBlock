@@ -68,7 +68,10 @@ fun FocusHubScreen(
 
             Spacer(modifier = Modifier.height(32.dp))
 
-            MainScoreCard(score = focusHubState.attentionScore, streakDays = focusHubState.streakDays)
+            MainScoreCard(
+                score = focusHubState.attentionScore,
+                streakDays = focusHubState.streakDays
+            )
 
             Spacer(modifier = Modifier.height(24.dp))
 
@@ -118,37 +121,9 @@ fun FocusHubScreen(
             }
 
             Spacer(modifier = Modifier.height(24.dp))
-
-            // Переключатель периодов и мини-график
-            var selectedPeriod by remember { mutableStateOf("daily") }
-            Row(
-                modifier = Modifier.fillMaxWidth(),
-                horizontalArrangement = Arrangement.SpaceEvenly
-            ) {
-                for (period in listOf("daily", "weekly", "monthly")) {
-                    TextButton(onClick = {
-                        selectedPeriod = period
-                        // если захотим обновлять данные для периода, вызовем loadData
-                    }) {
-                        Text(
-                            text = period.uppercase(),
-                            color = if (selectedPeriod == period) PrimaryPurple else TextGray,
-                            fontWeight = if (selectedPeriod == period) FontWeight.Bold else FontWeight.Normal
-                        )
-                    }
-                }
-            }
-
-            Spacer(modifier = Modifier.height(8.dp))
-
-            // Мини-график активности (столбики)
-            ActivityChart(data = focusHubState.activityData)
-
-            Spacer(modifier = Modifier.height(16.dp))
         }
     }
 }
-
 // ------------------- Вспомогательные composable -------------------
 
 @Composable
