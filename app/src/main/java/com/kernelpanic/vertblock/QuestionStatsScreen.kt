@@ -25,64 +25,23 @@ import java.text.DecimalFormat
 //private val PrimaryPurple = Color(0xFF8A5BFF)
 //private val TextGray = Color(0xFFA0A0A0)
 //private val DividerColor = Color(0xFF2A2A2E)
-private val BarBackgroundColor = Color(0xFF18181A) // Чуть темнее карточки для фона полоски
+private val BarBackgroundColor = Color(0xFF18181A)
 
 // Модель для одной строки статистики
 data class StatItem(val label: String, val value: Int)
 
-// Модель данных для экрана (готова к подключению БД)
-data class QuestionStatsState(
-    val totalAnswers: Int = 0,
-    val attempts: List<StatItem> = listOf(
-        StatItem("1st try", 0),
-        StatItem("2nd try", 0),
-        StatItem("3rd try", 0),
-        StatItem("4th try", 0)
-    ),
-    val categories: List<StatItem> = listOf(
-        StatItem("Math", 0),
-        StatItem("History", 0),
-        StatItem("Science", 0),
-        StatItem("Tech", 0),
-        StatItem("Health", 0),
-        StatItem("Art", 0),
-        StatItem("Travel", 0),
-        StatItem("Music", 0),
-        StatItem("Custom", 0) // Добавленная кастомная тема
-    )
-)
-
 @Composable
 fun QuestionStatsScreen(
+    questionStatsState: QuestionStatsState,   // ← теперь принимает состояние
     onNavigateBack: () -> Unit = {}
 ) {
-    // Состояние экрана. По умолчанию нули.
-    var uiState by remember { mutableStateOf(QuestionStatsState()) }
-
-/*     // РАСКОММЕНТИРУЙ для проверки внешнего вида с данными (сумма = 1284):
-    uiState = QuestionStatsState(
-        totalAnswers = 1284,
-        attempts = listOf(
-            StatItem("1st try", 842), StatItem("2nd try", 312),
-            StatItem("3rd try", 98), StatItem("4th try", 32)
-        ),
-        categories = listOf(
-            StatItem("Math", 350), StatItem("History", 250),
-            StatItem("Science", 200), StatItem("Tech", 150),
-            StatItem("Health", 100), StatItem("Art", 80),
-            StatItem("Travel", 60), StatItem("Music", 50),
-            StatItem("Custom", 44)
-        )
-    )
-*/
-
     Column(
         modifier = Modifier
             .fillMaxSize()
             .background(BackgroundColor)
             .statusBarsPadding()
     ) {
-        // 1. Верхняя панель (Top Bar)
+        // Верхняя панель
         Row(
             modifier = Modifier
                 .fillMaxWidth()
@@ -116,20 +75,19 @@ fun QuestionStatsScreen(
 
         HorizontalDivider(color = DividerColor, thickness = 1.dp)
 
-        // Основной контент экрана
+        // Основной контент
         Column(
             modifier = Modifier
                 .fillMaxSize()
                 .padding(horizontal = 24.dp),
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
-            // Адаптивный отступ сверху
             Spacer(modifier = Modifier.weight(0.5f))
 
-            // 2. Блок Total Answers
+            // Общее число ответов
             val formatter = DecimalFormat("#,###")
             Text(
-                text = formatter.format(uiState.totalAnswers),
+                text = formatter.format(questionStatsState.totalAnswers),
                 color = Color.White,
                 fontSize = 56.sp,
                 fontWeight = FontWeight.Light,
@@ -143,27 +101,24 @@ fun QuestionStatsScreen(
                 fontWeight = FontWeight.SemiBold
             )
 
-            // Адаптивный отступ между тоталом и первой карточкой
             Spacer(modifier = Modifier.weight(0.8f))
 
-            // 3. Карточка Attempt Breakdown
+            // Карточка Attempt Breakdown
             StatsCard(
                 title = "ATTEMPT BREAKDOWN",
-                items = uiState.attempts,
-                totalValue = uiState.totalAnswers
+                items = questionStatsState.attempts,
+                totalValue = questionStatsState.totalAnswers
             )
 
-            // Адаптивный отступ между карточками
             Spacer(modifier = Modifier.weight(0.6f))
 
-            // 4. Карточка Top Categories
+            // Карточка Top Categories
             StatsCard(
                 title = "TOP CATEGORIES",
-                items = uiState.categories,
-                totalValue = uiState.totalAnswers
+                items = questionStatsState.categories,
+                totalValue = questionStatsState.totalAnswers
             )
 
-            // Отступ снизу
             Spacer(modifier = Modifier.weight(1f))
         }
     }
@@ -199,7 +154,6 @@ fun StatsCard(
                     item = statItem,
                     totalValue = totalValue
                 )
-                // Отступ между строками (у последней не делаем)
                 if (index < items.size - 1) {
                     Spacer(modifier = Modifier.height(12.dp))
                 }
@@ -213,7 +167,6 @@ fun StatRowItem(
     item: StatItem,
     totalValue: Int
 ) {
-    // Защита от деления на 0. Если тотал 0, то прогресс 0f
     val fraction = if (totalValue > 0) {
         (item.value.toFloat() / totalValue.toFloat()).coerceIn(0f, 1f)
     } else {
@@ -224,7 +177,6 @@ fun StatRowItem(
         modifier = Modifier.fillMaxWidth(),
         verticalAlignment = Alignment.CenterVertically
     ) {
-        // Жесткая фиксация левого текста для идеального выравнивания
         Text(
             text = item.label,
             color = TextGray,
@@ -234,7 +186,6 @@ fun StatRowItem(
 
         Spacer(modifier = Modifier.width(12.dp))
 
-        // Полоска прогресса (занимает всё доступное место между текстами)
         Box(
             modifier = Modifier
                 .weight(1f)
@@ -245,7 +196,6 @@ fun StatRowItem(
             Box(
                 modifier = Modifier
                     .fillMaxHeight()
-                    // fillMaxWidth(fraction) заполнит процент от родителя
                     .fillMaxWidth(fraction)
                     .clip(RoundedCornerShape(50))
                     .background(PrimaryPurple)
@@ -254,7 +204,6 @@ fun StatRowItem(
 
         Spacer(modifier = Modifier.width(12.dp))
 
-        // Жесткая фиксация правого значения для идеального выравнивания по правому краю
         Text(
             text = item.value.toString(),
             color = Color.White,
@@ -268,5 +217,5 @@ fun StatRowItem(
 @Preview(showBackground = true)
 @Composable
 fun PreviewQuestionStatsScreen() {
-    QuestionStatsScreen()
+    QuestionStatsScreen(questionStatsState = QuestionStatsState())
 }

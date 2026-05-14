@@ -120,10 +120,20 @@ fun AppNavigation() {
             )
         }
         composable("watchtime") {
-            WatchTimeScreen(onNavigateBack = dropUnlessResumed { navController.popBackStack() })
+            val wvm: WatchTimeViewModel = viewModel()
+            val wState by wvm.state.collectAsState()
+            WatchTimeScreen(
+                watchTimeState = wState,
+                onNavigateBack = dropUnlessResumed { navController.popBackStack() }
+            )
         }
         composable("questionstats") {
-            QuestionStatsScreen(onNavigateBack = dropUnlessResumed { navController.popBackStack() })
+            val qvm: QuestionStatsViewModel = viewModel()
+            val qState by qvm.state.collectAsState()
+            QuestionStatsScreen(
+                questionStatsState = qState,
+                onNavigateBack = dropUnlessResumed { navController.popBackStack() }
+            )
         }
     }
 }

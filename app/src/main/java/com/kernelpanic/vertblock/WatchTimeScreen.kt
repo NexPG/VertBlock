@@ -4,6 +4,7 @@ import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
@@ -15,17 +16,15 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.Path
+import androidx.compose.ui.geometry.CornerRadius
+import androidx.compose.ui.geometry.Offset
+import androidx.compose.ui.geometry.Size
+import androidx.compose.ui.graphics.drawscope.Stroke
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import java.text.DecimalFormat
-import androidx.compose.foundation.shape.CircleShape
-import androidx.compose.ui.geometry.CornerRadius
-import androidx.compose.ui.geometry.Offset
-import androidx.compose.ui.geometry.Size
-import androidx.compose.ui.graphics.drawscope.Stroke
 
 // Палитра приложения
 //private val BackgroundColor = Color(0xFF121214)
@@ -34,14 +33,12 @@ import androidx.compose.ui.graphics.drawscope.Stroke
 //private val TextGray = Color(0xFFA0A0A0)
 //private val DividerColor = Color(0xFF2A2A2E)
 
-// Модель данных, готовая для работы с БД/ViewModel
 data class WatchTimeState(
     val totalHours: Float = 0f,
     val dailyHours: Float = 0f,
     val weeklyHours: Float = 0f,
     val monthlyHours: Float = 0f,
     val yearlyHours: Float = 0f,
-    // Проценты по дням недели (от ПН до ВС). Сумма должна быть 100 (или 0 по умолчанию)
     val weeklyPercentages: List<Float> = listOf(0f, 0f, 0f, 0f, 0f, 0f, 0f),
     val mostActiveDay: String = "None",
     val mostActiveHours: Float = 0f
@@ -49,27 +46,15 @@ data class WatchTimeState(
 
 @Composable
 fun WatchTimeScreen(
+    watchTimeState: WatchTimeState,   // ← теперь принимает состояние
     onNavigateBack: () -> Unit = {}
 ) {
-    // Состояние экрана. Сейчас все по нулям, как ты просил.
-    // Когда подключишь БД, просто передавай сюда данные из ViewModel.
-    var uiState by remember { mutableStateOf(WatchTimeState()) }
-
-/*     // Раскомментируй этот блок, чтобы увидеть, как выглядит заполненный график:
-    uiState = WatchTimeState(
-        totalHours = 2840f, dailyHours = 4.2f, weeklyHours = 28.5f, monthlyHours = 114.8f, yearlyHours = 1392f,
-        weeklyPercentages = listOf(15f, 30f, 45f, 25f, 60f, 35f, 20f), // Имитация данных графика
-        mostActiveDay = "Friday", mostActiveHours = 5.4f
-    )
-*/
-
     Column(
         modifier = Modifier
             .fillMaxSize()
             .background(BackgroundColor)
             .statusBarsPadding()
     ) {
-        // 1. Верхняя панель (Top Bar)
         Row(
             modifier = Modifier
                 .fillMaxWidth()
@@ -109,36 +94,32 @@ fun WatchTimeScreen(
                 .fillMaxSize()
                 .padding(horizontal = 24.dp)
         ) {
-            // Небольшой фиксированный отступ сверху (можно оставить)
             Spacer(modifier = Modifier.height(12.dp))
 
-            // 2. Карточка TOTAL WATCH TIME – фиксированная высота по контенту
-            TotalWatchTimeCard(uiState.totalHours)
+            TotalWatchTimeCard(watchTimeState.totalHours)
 
             Spacer(modifier = Modifier.height(12.dp))
 
-            // 3. Сетка со статистикой – занимает долю доступного места
             Column(
-                modifier = Modifier.weight(1f)   // ← забирает всё свободное пространство, чтобы график не вылезал
+                modifier = Modifier.weight(1f)
             ) {
                 Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(16.dp)) {
-                    TimeStatCard(modifier = Modifier.weight(1f), title = "Daily", value = uiState.dailyHours)
-                    TimeStatCard(modifier = Modifier.weight(1f), title = "Weekly", value = uiState.weeklyHours)
+                    TimeStatCard(modifier = Modifier.weight(1f), title = "Daily", value = watchTimeState.dailyHours)
+                    TimeStatCard(modifier = Modifier.weight(1f), title = "Weekly", value = watchTimeState.weeklyHours)
                 }
                 Spacer(modifier = Modifier.height(12.dp))
                 Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(16.dp)) {
-                    TimeStatCard(modifier = Modifier.weight(1f), title = "Monthly", value = uiState.monthlyHours)
-                    TimeStatCard(modifier = Modifier.weight(1f), title = "Yearly", value = uiState.yearlyHours)
+                    TimeStatCard(modifier = Modifier.weight(1f), title = "Monthly", value = watchTimeState.monthlyHours)
+                    TimeStatCard(modifier = Modifier.weight(1f), title = "Yearly", value = watchTimeState.yearlyHours)
                 }
 
                 Spacer(modifier = Modifier.height(12.dp))
 
-                // 4. График Activity Insights – тоже внутри weight, чтобы делить пространство
                 Box(modifier = Modifier.padding(bottom = 36.dp)) {
                     ActivityInsightsCard(
-                        percentages = uiState.weeklyPercentages,
-                        mostActiveDay = uiState.mostActiveDay,
-                        mostActiveHours = uiState.mostActiveHours
+                        percentages = watchTimeState.weeklyPercentages,
+                        mostActiveDay = watchTimeState.mostActiveDay,
+                        mostActiveHours = watchTimeState.mostActiveHours
                     )
                 }
             }
@@ -344,5 +325,5 @@ fun ActivityInsightsCard(
 @Preview(showBackground = true)
 @Composable
 fun PreviewWatchTimeScreen() {
-    WatchTimeScreen()
+    WatchTimeScreen(watchTimeState = WatchTimeState())
 }
