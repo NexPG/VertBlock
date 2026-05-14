@@ -41,13 +41,23 @@ class StatsRepository(
     // -- Распределение по дням недели (проценты) --
     suspend fun getWeeklyPercentages(): List<Float> {
         val dayStats = watchSessionDao.getWatchTimeByDayOfWeek(appName)
-        if (dayStats.isEmpty()) return listOf(0f, 0f, 0f, 0f, 0f, 0f, 0f)
+        if (dayStats.isEmpty()) return List(7) { 0f }
 
+        // Суммируем общее время
         val totalSeconds = dayStats.sumOf { it.totalSeconds }
-        if (totalSeconds == 0) return listOf(0f, 0f, 0f, 0f, 0f, 0f, 0f)
+        if (totalSeconds == 0) return List(7) { 0f }
 
-        val sorted = dayStats.sortedBy { it.dayOfWeek }
-        return sorted.map { (it.totalSeconds.toFloat() / totalSeconds) * 100f }
+        // Создаём массив из 7 нулей (индексы 0..6), где 0 будет соответствовать понедельнику, а 6 — воскресенью
+        val percentages = FloatArray(7)
+
+        for (entry in dayStats) {
+            // entry.dayOfWeek: 0=Sunday, 1=Monday, ..., 6=Saturday
+            // Преобразуем в индекс для нашего списка (0=Monday, ..., 6=Sunday)
+            val index = (entry.dayOfWeek + 6) % 7   // воскресенье (0) → 6, понедельник (1) → 0, ..., суббота (6) → 5
+            percentages[index] = (entry.totalSeconds.toFloat() / totalSeconds) * 100f
+        }
+
+        return percentages.toList()
     }
 
     // -- Самый активный день --
