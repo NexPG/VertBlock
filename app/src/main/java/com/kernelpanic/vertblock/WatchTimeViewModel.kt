@@ -25,22 +25,21 @@ class WatchTimeViewModel(application: Application) : AndroidViewModel(applicatio
 
     fun loadData() {
         viewModelScope.launch {
-            val totalSeconds = repository.getTotalWatchTimeSeconds()
-            val totalHours = totalSeconds / 3600f
-            val daily = repository.getDailyHours()
-            val weekly = repository.getWeeklyHours()
-            val monthly = repository.getMonthlyHours()
-            val yearly = repository.getYearlyHours()
+            val total = repository.getTotalSeconds()
+            val daily = repository.getDailySeconds()
+            val weekly = repository.getWeeklySeconds()
+            val monthly = repository.getMonthlySeconds()
+            val yearly = repository.getYearlySeconds()
             val percentages = repository.getWeeklyPercentages()
             val mostActiveDay = repository.getMostActiveDay()
             val mostActiveHours = repository.getMostActiveHours()
 
             _state.value = WatchTimeState(
-                totalHours = totalHours,
-                dailyHours = daily,
-                weeklyHours = weekly,
-                monthlyHours = monthly,
-                yearlyHours = yearly,
+                totalSeconds = total,
+                dailySeconds = daily,
+                weeklySeconds = weekly,
+                monthlySeconds = monthly,
+                yearlySeconds = yearly,
                 weeklyPercentages = percentages,
                 mostActiveDay = mostActiveDay,
                 mostActiveHours = mostActiveHours

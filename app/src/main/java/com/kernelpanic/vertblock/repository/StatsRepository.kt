@@ -1,6 +1,6 @@
 package com.kernelpanic.vertblock.repository
 
-import com.kernelpanic.vertblock.StatItem  // теперь StatItem в отдельном файле
+import com.kernelpanic.vertblock.StatItem
 import com.kernelpanic.vertblock.database.DayOfWeekActivity
 import com.kernelpanic.vertblock.database.QuizResultDao
 import com.kernelpanic.vertblock.database.WatchSessionDao
@@ -12,37 +12,33 @@ class StatsRepository(
 ) {
     private val appName = "youtube_shorts"
 
-    // -- Общее время (все завершённые сессии) --
-    suspend fun getTotalWatchTimeSeconds(): Int {
+    // -- Общее время (секунды) --
+    suspend fun getTotalSeconds(): Int {
         return watchSessionDao.getTotalWatchTime(appName)
     }
 
-    // -- Периоды (день, неделя, месяц, год) --
-    suspend fun getDailyHours(): Float {
+    // -- Периоды в секундах --
+    suspend fun getDailySeconds(): Int {
         val (start, end) = getDayRange()
-        val seconds = watchSessionDao.getTotalWatchTimeForPeriod(appName, start, end) ?: 0
-        return seconds / 3600f
+        return watchSessionDao.getTotalWatchTimeForPeriod(appName, start, end) ?: 0
     }
 
-    suspend fun getWeeklyHours(): Float {
+    suspend fun getWeeklySeconds(): Int {
         val (start, end) = getWeekRange()
-        val seconds = watchSessionDao.getTotalWatchTimeForPeriod(appName, start, end) ?: 0
-        return seconds / 3600f
+        return watchSessionDao.getTotalWatchTimeForPeriod(appName, start, end) ?: 0
     }
 
-    suspend fun getMonthlyHours(): Float {
+    suspend fun getMonthlySeconds(): Int {
         val (start, end) = getMonthRange()
-        val seconds = watchSessionDao.getTotalWatchTimeForPeriod(appName, start, end) ?: 0
-        return seconds / 3600f
+        return watchSessionDao.getTotalWatchTimeForPeriod(appName, start, end) ?: 0
     }
 
-    suspend fun getYearlyHours(): Float {
+    suspend fun getYearlySeconds(): Int {
         val (start, end) = getYearRange()
-        val seconds = watchSessionDao.getTotalWatchTimeForPeriod(appName, start, end) ?: 0
-        return seconds / 3600f
+        return watchSessionDao.getTotalWatchTimeForPeriod(appName, start, end) ?: 0
     }
 
-    // -- Распределение по дням недели (в процентах) --
+    // -- Распределение по дням недели (проценты) --
     suspend fun getWeeklyPercentages(): List<Float> {
         val dayStats = watchSessionDao.getWatchTimeByDayOfWeek(appName)
         if (dayStats.isEmpty()) return listOf(0f, 0f, 0f, 0f, 0f, 0f, 0f)
@@ -113,7 +109,7 @@ class StatsRepository(
         return streak
     }
 
-    // --- Вспомогательные функции для расчёта периодов ---
+    // --- Вспомогательные функции для периодов ---
     private fun getDayRange(): Pair<Long, Long> {
         val cal = Calendar.getInstance()
         cal.set(Calendar.HOUR_OF_DAY, 0)

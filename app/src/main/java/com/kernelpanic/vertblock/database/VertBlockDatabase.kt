@@ -9,7 +9,7 @@ import com.kernelpanic.vertblock.database.QuizResultEntity
 
 @Database(
     entities = [WatchSessionEntity::class, QuizResultEntity::class],
-    version = 2,
+    version = 3,
     exportSchema = false
 )
 abstract class VertBlockDatabase : RoomDatabase() {

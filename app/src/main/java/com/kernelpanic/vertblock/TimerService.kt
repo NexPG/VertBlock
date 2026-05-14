@@ -81,7 +81,7 @@ class TimerService : Service() {
 
             val activeSession = database.watchSessionDao().getActiveSession()
             if (activeSession != null) {
-                remainingSeconds = activeSession.durationSeconds
+                remainingSeconds = activeSession.remainingSeconds
                 currentSession = activeSession
             } else {
                 val session = WatchSessionEntity(
@@ -163,18 +163,25 @@ class TimerService : Service() {
 
     private suspend fun saveProgress() {
         currentSession?.let { session ->
+            // elapsed = общее время минус оставшееся
+            val elapsed = totalTimeSeconds - remainingSeconds
             database.watchSessionDao().updateSession(
-                session.copy(durationSeconds = remainingSeconds)
+                session.copy(
+                    durationSeconds = elapsed,
+                    remainingSeconds = remainingSeconds
+                )
             )
         }
     }
 
     private suspend fun finishSession() {
         currentSession?.let { session ->
+            val elapsed = totalTimeSeconds - remainingSeconds
             database.watchSessionDao().updateSession(
                 session.copy(
                     endTime = System.currentTimeMillis(),
-                    durationSeconds = 0
+                    durationSeconds = elapsed,
+                    remainingSeconds = 0
                 )
             )
         }
@@ -184,7 +191,8 @@ class TimerService : Service() {
     private suspend fun createAndStartNewSession() {
         val session = WatchSessionEntity(
             startTime = System.currentTimeMillis(),
-            durationSeconds = remainingSeconds,
+            durationSeconds = 0,           // пока ничего не прошло
+            remainingSeconds = remainingSeconds, // для восстановления
             appName = "youtube_shorts"
         )
         val sessionId = database.watchSessionDao().insertSession(session)

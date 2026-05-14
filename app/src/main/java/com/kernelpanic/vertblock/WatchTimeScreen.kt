@@ -8,8 +8,8 @@ import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
+import androidx.compose.material.icons.automirrored.filled.TrendingUp
 import androidx.compose.material.icons.filled.SsidChart
-import androidx.compose.material.icons.filled.TrendingUp
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
@@ -24,7 +24,6 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import java.text.DecimalFormat
 
 // Палитра приложения
 //private val BackgroundColor = Color(0xFF121214)
@@ -34,11 +33,11 @@ import java.text.DecimalFormat
 //private val DividerColor = Color(0xFF2A2A2E)
 
 data class WatchTimeState(
-    val totalHours: Float = 0f,
-    val dailyHours: Float = 0f,
-    val weeklyHours: Float = 0f,
-    val monthlyHours: Float = 0f,
-    val yearlyHours: Float = 0f,
+    val totalSeconds: Int = 0,
+    val dailySeconds: Int = 0,
+    val weeklySeconds: Int = 0,
+    val monthlySeconds: Int = 0,
+    val yearlySeconds: Int = 0,
     val weeklyPercentages: List<Float> = listOf(0f, 0f, 0f, 0f, 0f, 0f, 0f),
     val mostActiveDay: String = "None",
     val mostActiveHours: Float = 0f
@@ -46,7 +45,7 @@ data class WatchTimeState(
 
 @Composable
 fun WatchTimeScreen(
-    watchTimeState: WatchTimeState,   // ← теперь принимает состояние
+    watchTimeState: WatchTimeState,
     onNavigateBack: () -> Unit = {}
 ) {
     Column(
@@ -96,7 +95,7 @@ fun WatchTimeScreen(
         ) {
             Spacer(modifier = Modifier.height(12.dp))
 
-            TotalWatchTimeCard(watchTimeState.totalHours)
+            TotalWatchTimeCard(watchTimeState.totalSeconds)
 
             Spacer(modifier = Modifier.height(12.dp))
 
@@ -104,13 +103,13 @@ fun WatchTimeScreen(
                 modifier = Modifier.weight(1f)
             ) {
                 Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(16.dp)) {
-                    TimeStatCard(modifier = Modifier.weight(1f), title = "Daily", value = watchTimeState.dailyHours)
-                    TimeStatCard(modifier = Modifier.weight(1f), title = "Weekly", value = watchTimeState.weeklyHours)
+                    TimeStatCard(modifier = Modifier.weight(1f), title = "Daily", seconds = watchTimeState.dailySeconds)
+                    TimeStatCard(modifier = Modifier.weight(1f), title = "Weekly", seconds = watchTimeState.weeklySeconds)
                 }
                 Spacer(modifier = Modifier.height(12.dp))
                 Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(16.dp)) {
-                    TimeStatCard(modifier = Modifier.weight(1f), title = "Monthly", value = watchTimeState.monthlyHours)
-                    TimeStatCard(modifier = Modifier.weight(1f), title = "Yearly", value = watchTimeState.yearlyHours)
+                    TimeStatCard(modifier = Modifier.weight(1f), title = "Monthly", seconds = watchTimeState.monthlySeconds)
+                    TimeStatCard(modifier = Modifier.weight(1f), title = "Yearly", seconds = watchTimeState.yearlySeconds)
                 }
 
                 Spacer(modifier = Modifier.height(12.dp))
@@ -128,10 +127,7 @@ fun WatchTimeScreen(
 }
 
 @Composable
-fun TotalWatchTimeCard(totalHours: Float) {
-    val formatter = DecimalFormat("#,###")
-    val formattedHours = formatter.format(totalHours.toInt())
-
+fun TotalWatchTimeCard(totalSeconds: Int) {
     Surface(
         modifier = Modifier.fillMaxWidth(),
         shape = RoundedCornerShape(24.dp),
@@ -139,9 +135,8 @@ fun TotalWatchTimeCard(totalHours: Float) {
         border = BorderStroke(1.dp, DividerColor)
     ) {
         Box(modifier = Modifier.fillMaxWidth()) {
-            // Декоративная иконка на фоне справа
             Icon(
-                imageVector = Icons.Default.TrendingUp,
+                imageVector = Icons.AutoMirrored.Filled.TrendingUp,
                 contentDescription = null,
                 tint = DividerColor.copy(alpha = 0.5f),
                 modifier = Modifier
@@ -164,32 +159,24 @@ fun TotalWatchTimeCard(totalHours: Float) {
                     fontWeight = FontWeight.Bold
                 )
                 Spacer(modifier = Modifier.height(8.dp))
-                Row(verticalAlignment = Alignment.Bottom) {
-                    Text(
-                        text = formattedHours,
-                        color = Color.White,
-                        fontSize = 48.sp,
-                        fontWeight = FontWeight.Bold
-                    )
-                    Text(
-                        text = " hrs",
-                        color = TextGray,
-                        fontSize = 24.sp,
-                        modifier = Modifier.padding(bottom = 6.dp)
-                    )
-                }
+                Text(
+                    text = formatWatchTime(totalSeconds),
+                    color = Color.White,
+                    fontSize = 48.sp,
+                    fontWeight = FontWeight.Bold
+                )
             }
         }
     }
 }
 
 @Composable
-fun TimeStatCard(modifier: Modifier = Modifier, title: String, value: Float) {
+fun TimeStatCard(modifier: Modifier = Modifier, title: String, seconds: Int) {
     Surface(
         modifier = modifier,
         shape = RoundedCornerShape(16.dp),
         color = SurfaceColor,
-        border = androidx.compose.foundation.BorderStroke(1.dp, DividerColor)
+        border = BorderStroke(1.dp, DividerColor)
     ) {
         Column(
             modifier = Modifier.padding(20.dp)
@@ -202,7 +189,7 @@ fun TimeStatCard(modifier: Modifier = Modifier, title: String, value: Float) {
             )
             Spacer(modifier = Modifier.height(8.dp))
             Text(
-                text = "${value}h",
+                text = formatWatchTime(seconds),
                 color = Color.White,
                 fontSize = 24.sp,
                 fontWeight = FontWeight.Bold
@@ -220,13 +207,11 @@ fun ActivityInsightsCard(
     Surface(
         modifier = Modifier
             .fillMaxWidth(),
-//            .fillMaxHeight(),
         shape = RoundedCornerShape(24.dp),
         color = SurfaceColor,
-        border = androidx.compose.foundation.BorderStroke(1.dp, DividerColor)
+        border = BorderStroke(1.dp, DividerColor)
     ) {
         Column(modifier = Modifier.padding(24.dp)) {
-            // Заголовок карточки графика
             Row(
                 modifier = Modifier.fillMaxWidth(),
                 horizontalArrangement = Arrangement.SpaceBetween,
@@ -242,7 +227,6 @@ fun ActivityInsightsCard(
 
             Spacer(modifier = Modifier.height(32.dp))
 
-            // Сам график (Canvas)
             Box(
                 modifier = Modifier
                     .fillMaxWidth()
@@ -258,7 +242,7 @@ fun ActivityInsightsCard(
                     val bottomPadding = 4.dp.toPx()
                     val availableHeight = height - topPadding - bottomPadding
                     val colWidth = width / 7f
-                    val barWidth = colWidth * 0.66f // 2/3 ширины колонки
+                    val barWidth = colWidth * 0.66f
                     val cornerRadius = 8.dp.toPx()
 
                     for (i in 0 until 7) {
@@ -267,14 +251,12 @@ fun ActivityInsightsCard(
                         val x = i * colWidth + (colWidth - barWidth) / 2f
                         val y = topPadding + (availableHeight - barHeight)
 
-                        // Залитый столбец с закруглёнными углами
                         drawRoundRect(
                             color = PrimaryPurple,
                             topLeft = Offset(x, y),
                             size = Size(barWidth, barHeight),
                             cornerRadius = CornerRadius(cornerRadius, cornerRadius)
                         )
-                        // Обводка столбца
                         drawRoundRect(
                             color = DividerColor,
                             topLeft = Offset(x, y),
@@ -288,7 +270,6 @@ fun ActivityInsightsCard(
 
             Spacer(modifier = Modifier.height(16.dp))
 
-            // Подписи дней недели
             Row(
                 modifier = Modifier.fillMaxWidth(),
                 horizontalArrangement = Arrangement.SpaceAround
@@ -303,7 +284,6 @@ fun ActivityInsightsCard(
             HorizontalDivider(color = DividerColor, thickness = 1.dp)
             Spacer(modifier = Modifier.height(16.dp))
 
-            // Подвал графика (Disclaimer и Most active)
             Row(
                 modifier = Modifier.fillMaxWidth(),
                 horizontalArrangement = Arrangement.SpaceBetween,
@@ -319,6 +299,18 @@ fun ActivityInsightsCard(
                 Text(activeText, color = TextGray, fontSize = 12.sp)
             }
         }
+    }
+}
+
+fun formatWatchTime(totalSeconds: Int): String {
+    if (totalSeconds <= 0) return "0s"
+    val hours = totalSeconds / 3600
+    val minutes = (totalSeconds % 3600) / 60
+    val seconds = totalSeconds % 60
+    return when {
+        hours > 0 -> String.format("%dh %dm", hours, minutes)
+        minutes > 0 -> String.format("%dm %ds", minutes, seconds)
+        else -> String.format("%ds", seconds)
     }
 }
 

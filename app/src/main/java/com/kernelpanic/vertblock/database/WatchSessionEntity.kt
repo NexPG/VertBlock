@@ -7,8 +7,9 @@ import androidx.room.PrimaryKey
 data class WatchSessionEntity(
     @PrimaryKey(autoGenerate = true)
     val id: Long = 0L,
-    val startTime: Long,      // время начала сессии (System.currentTimeMillis())
-    val endTime: Long? = null, // время окончания (если ещё не закончена – null)
-    val durationSeconds: Int = 0, // итоговая продолжительность в секундах
+    val startTime: Long,
+    val endTime: Long? = null,
+    val durationSeconds: Int = 0,   // теперь прошедшее время (elapsed)
+    val remainingSeconds: Int = 0,  // для восстановления таймера
     val appName: String = "youtube_shorts"
 )

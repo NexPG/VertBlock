@@ -34,7 +34,7 @@ class FocusHubViewModel(application: Application) : AndroidViewModel(application
 
     fun loadData() {
         viewModelScope.launch {
-            val totalSeconds = repository.getTotalWatchTimeSeconds()
+            val totalSeconds = repository.getTotalSeconds()
             val firstTryCount = repository.getFirstTryCount()
             val totalAnswers = repository.getTotalAnswers()
             val streak = repository.getStreakDays()
