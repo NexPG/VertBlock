@@ -28,7 +28,6 @@ import java.text.DecimalFormat
 private val BarBackgroundColor = Color(0xFF18181A)
 
 // Модель для одной строки статистики
-data class StatItem(val label: String, val value: Int)
 
 @Composable
 fun QuestionStatsScreen(

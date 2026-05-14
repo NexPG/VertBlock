@@ -38,7 +38,7 @@ class FocusHubViewModel(application: Application) : AndroidViewModel(application
             val firstTryCount = repository.getFirstTryCount()
             val totalAnswers = repository.getTotalAnswers()
             val streak = repository.getStreakDays()
-            val topicsToday = repository.getTodaysTopics()
+            val topicsToday = repository.getTodayTopics()
 
             // Время с пользой: переводим секунды в читаемый вид
             val minutes = totalSeconds / 60

@@ -1,26 +1,76 @@
 package com.kernelpanic.vertblock.repository
 
+import com.kernelpanic.vertblock.StatItem  // теперь StatItem в отдельном файле
+import com.kernelpanic.vertblock.database.DayOfWeekActivity
 import com.kernelpanic.vertblock.database.QuizResultDao
 import com.kernelpanic.vertblock.database.WatchSessionDao
-import com.kernelpanic.vertblock.StatItem  // импорт из QuestionStatsScreen
+import java.util.*
 
 class StatsRepository(
     private val watchSessionDao: WatchSessionDao,
     private val quizResultDao: QuizResultDao
 ) {
-    // -- Время просмотра --
+    private val appName = "youtube_shorts"
+
+    // -- Общее время (все завершённые сессии) --
     suspend fun getTotalWatchTimeSeconds(): Int {
-        return watchSessionDao.getTotalWatchTime("youtube_shorts")
+        return watchSessionDao.getTotalWatchTime(appName)
+    }
+
+    // -- Периоды (день, неделя, месяц, год) --
+    suspend fun getDailyHours(): Float {
+        val (start, end) = getDayRange()
+        val seconds = watchSessionDao.getTotalWatchTimeForPeriod(appName, start, end) ?: 0
+        return seconds / 3600f
+    }
+
+    suspend fun getWeeklyHours(): Float {
+        val (start, end) = getWeekRange()
+        val seconds = watchSessionDao.getTotalWatchTimeForPeriod(appName, start, end) ?: 0
+        return seconds / 3600f
+    }
+
+    suspend fun getMonthlyHours(): Float {
+        val (start, end) = getMonthRange()
+        val seconds = watchSessionDao.getTotalWatchTimeForPeriod(appName, start, end) ?: 0
+        return seconds / 3600f
+    }
+
+    suspend fun getYearlyHours(): Float {
+        val (start, end) = getYearRange()
+        val seconds = watchSessionDao.getTotalWatchTimeForPeriod(appName, start, end) ?: 0
+        return seconds / 3600f
+    }
+
+    // -- Распределение по дням недели (в процентах) --
+    suspend fun getWeeklyPercentages(): List<Float> {
+        val dayStats = watchSessionDao.getWatchTimeByDayOfWeek(appName)
+        if (dayStats.isEmpty()) return listOf(0f, 0f, 0f, 0f, 0f, 0f, 0f)
+
+        val totalSeconds = dayStats.sumOf { it.totalSeconds }
+        if (totalSeconds == 0) return listOf(0f, 0f, 0f, 0f, 0f, 0f, 0f)
+
+        val sorted = dayStats.sortedBy { it.dayOfWeek }
+        return sorted.map { (it.totalSeconds.toFloat() / totalSeconds) * 100f }
+    }
+
+    // -- Самый активный день --
+    suspend fun getMostActiveDay(): String {
+        val dayStats = watchSessionDao.getWatchTimeByDayOfWeek(appName)
+        val best = dayStats.maxByOrNull { it.totalSeconds } ?: return "None"
+        return dayOfWeekName(best.dayOfWeek)
+    }
+
+    suspend fun getMostActiveHours(): Float {
+        val dayStats = watchSessionDao.getWatchTimeByDayOfWeek(appName)
+        val best = dayStats.maxByOrNull { it.totalSeconds } ?: return 0f
+        return best.totalSeconds / 3600f
     }
 
     // -- Вопросы --
-    suspend fun getTotalAnswers(): Int {
-        return quizResultDao.getAllResults().size
-    }
+    suspend fun getTotalAnswers(): Int = quizResultDao.getAllResults().size
 
-    suspend fun getFirstTryCount(): Int {
-        return quizResultDao.getFirstTryCount()
-    }
+    suspend fun getFirstTryCount(): Int = quizResultDao.getFirstTryCount()
 
     suspend fun getAttemptsBreakdown(): List<StatItem> {
         val all = quizResultDao.getAllResults()
@@ -45,7 +95,7 @@ class StatsRepository(
             .take(8)
     }
 
-    suspend fun getTodaysTopics(): Set<String> {
+    suspend fun getTodayTopics(): Set<String> {
         return quizResultDao.getAllResults().map { it.category }.toSet()
     }
 
@@ -63,21 +113,68 @@ class StatsRepository(
         return streak
     }
 
-    // --- Статистика времени (заглушки) ---
-    suspend fun getDailyHours(): Float {
-        val totalSeconds = getTotalWatchTimeSeconds()
-        return totalSeconds / 3600f
+    // --- Вспомогательные функции для расчёта периодов ---
+    private fun getDayRange(): Pair<Long, Long> {
+        val cal = Calendar.getInstance()
+        cal.set(Calendar.HOUR_OF_DAY, 0)
+        cal.set(Calendar.MINUTE, 0)
+        cal.set(Calendar.SECOND, 0)
+        cal.set(Calendar.MILLISECOND, 0)
+        val start = cal.timeInMillis
+        cal.add(Calendar.DAY_OF_MONTH, 1)
+        val end = cal.timeInMillis
+        return start to end
     }
 
-    suspend fun getWeeklyHours(): Float = getDailyHours() * 7f
-    suspend fun getMonthlyHours(): Float = getDailyHours() * 30f
-    suspend fun getYearlyHours(): Float = getDailyHours() * 365f
-
-    suspend fun getWeeklyPercentages(): List<Float> {
-        // Заглушка: равномерное распределение по дням недели
-        return listOf(15f, 20f, 18f, 25f, 30f, 10f, 5f)
+    private fun getWeekRange(): Pair<Long, Long> {
+        val cal = Calendar.getInstance()
+        cal.set(Calendar.HOUR_OF_DAY, 0)
+        cal.set(Calendar.MINUTE, 0)
+        cal.set(Calendar.SECOND, 0)
+        cal.set(Calendar.MILLISECOND, 0)
+        cal.set(Calendar.DAY_OF_WEEK, cal.firstDayOfWeek)
+        val start = cal.timeInMillis
+        cal.add(Calendar.WEEK_OF_YEAR, 1)
+        val end = cal.timeInMillis
+        return start to end
     }
 
-    suspend fun getMostActiveDay(): String = "Friday"
-    suspend fun getMostActiveHours(): Float = 5.4f
+    private fun getMonthRange(): Pair<Long, Long> {
+        val cal = Calendar.getInstance()
+        cal.set(Calendar.HOUR_OF_DAY, 0)
+        cal.set(Calendar.MINUTE, 0)
+        cal.set(Calendar.SECOND, 0)
+        cal.set(Calendar.MILLISECOND, 0)
+        cal.set(Calendar.DAY_OF_MONTH, 1)
+        val start = cal.timeInMillis
+        cal.add(Calendar.MONTH, 1)
+        val end = cal.timeInMillis
+        return start to end
+    }
+
+    private fun getYearRange(): Pair<Long, Long> {
+        val cal = Calendar.getInstance()
+        cal.set(Calendar.HOUR_OF_DAY, 0)
+        cal.set(Calendar.MINUTE, 0)
+        cal.set(Calendar.SECOND, 0)
+        cal.set(Calendar.MILLISECOND, 0)
+        cal.set(Calendar.DAY_OF_YEAR, 1)
+        val start = cal.timeInMillis
+        cal.add(Calendar.YEAR, 1)
+        val end = cal.timeInMillis
+        return start to end
+    }
+
+    private fun dayOfWeekName(dayOfWeek: Int): String {
+        return when (dayOfWeek) {
+            0 -> "Sunday"
+            1 -> "Monday"
+            2 -> "Tuesday"
+            3 -> "Wednesday"
+            4 -> "Thursday"
+            5 -> "Friday"
+            6 -> "Saturday"
+            else -> "Unknown"
+        }
+    }
 }
