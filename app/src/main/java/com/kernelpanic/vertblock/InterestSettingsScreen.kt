@@ -17,15 +17,13 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import androidx.compose.ui.graphics.Color
-
-// Палитра берётся из FocusHubScreen.kt (BackgroundColor, SurfaceColor и т.д.)
 
 data class InterestTopic(
     val id: String,
@@ -41,27 +39,59 @@ val topicsList = listOf(
     InterestTopic("history", "HISTORY", Icons.Default.History),
     InterestTopic("travel", "TRAVEL", Icons.Default.Flight),
     InterestTopic("math", "MATH", Icons.Default.Functions),
-    InterestTopic("nature", "NATURE", Icons.Default.Park)
+    InterestTopic("nature", "NATURE", Icons.Default.Park),
+
+    InterestTopic(
+        id = "custom_ai",
+        title = "CUSTOM",
+        icon = Icons.Default.Edit
+    )
 )
 
 @Composable
 fun InterestSettingsScreen(
     onNavigateBack: () -> Unit = {}
 ) {
+
     val context = LocalContext.current
-    val prefs = remember { context.getSharedPreferences("profile_prefs", Context.MODE_PRIVATE) }
 
-    // Загружаем сохранённый набор тем (строка с разделителем)
-    val savedTopicsStr = prefs.getString("selected_topics", "") ?: ""
-    val savedTopics = savedTopicsStr.split(",").filter { it.isNotBlank() }.toSet()
+    val prefs = remember {
+        context.getSharedPreferences(
+            "profile_prefs",
+            Context.MODE_PRIVATE
+        )
+    }
 
-    var selectedTopics by remember { mutableStateOf(savedTopics) }
+    val savedTopicsStr =
+        prefs.getString("selected_topics", "")
+            ?: ""
 
-    // При выходе сохраняем выбор
+    val savedTopics =
+        savedTopicsStr
+            .split(",")
+            .filter { it.isNotBlank() }
+            .toSet()
+
+    var selectedTopics by remember {
+        mutableStateOf(savedTopics)
+    }
+
+    var customTopic by remember {
+        mutableStateOf(
+            prefs.getString(
+                "custom_topic",
+                ""
+            ) ?: ""
+        )
+    }
+
     DisposableEffect(Unit) {
         onDispose {
             prefs.edit()
-                .putString("selected_topics", selectedTopics.joinToString(","))
+                .putString(
+                    "selected_topics",
+                    selectedTopics.joinToString(",")
+                )
                 .apply()
         }
     }
@@ -72,14 +102,21 @@ fun InterestSettingsScreen(
             .background(BackgroundColor)
             .statusBarsPadding()
     ) {
-        // 1. Верхняя панель (Top Bar)
+
+        // TOP BAR
         Row(
             modifier = Modifier
                 .fillMaxWidth()
-                .padding(horizontal = 16.dp, vertical = 16.dp),
+                .padding(
+                    horizontal = 16.dp,
+                    vertical = 16.dp
+                ),
             verticalAlignment = Alignment.CenterVertically
         ) {
-            IconButton(onClick = onNavigateBack) {
+
+            IconButton(
+                onClick = onNavigateBack
+            ) {
                 Icon(
                     Icons.AutoMirrored.Filled.ArrowBack,
                     contentDescription = "Back",
@@ -89,8 +126,10 @@ fun InterestSettingsScreen(
 
             Column(
                 modifier = Modifier.weight(1f),
-                horizontalAlignment = Alignment.CenterHorizontally
+                horizontalAlignment =
+                    Alignment.CenterHorizontally
             ) {
+
                 Text(
                     text = "VERTBLOCK",
                     color = TextGray,
@@ -98,6 +137,7 @@ fun InterestSettingsScreen(
                     letterSpacing = 2.sp,
                     fontWeight = FontWeight.SemiBold
                 )
+
                 Text(
                     text = "Interest Settings",
                     color = Color.White,
@@ -106,59 +146,169 @@ fun InterestSettingsScreen(
                 )
             }
 
-            // Пустая коробка для правильного центрирования текста
-            Spacer(modifier = Modifier.width(48.dp))
+            Spacer(
+                modifier = Modifier.width(48.dp)
+            )
         }
 
-        HorizontalDivider(color = DividerColor, thickness = 1.dp)
+        HorizontalDivider(
+            color = DividerColor,
+            thickness = 1.dp
+        )
 
-        // 2. Описание экрана
         Text(
-            text = "Choose topics that spark your curiosity to\npersonalize your focus hub.",
+            text =
+                "Choose topics that spark your curiosity to\npersonalize your focus hub.",
             color = Color.White,
             fontSize = 16.sp,
             textAlign = TextAlign.Center,
             modifier = Modifier
                 .fillMaxWidth()
-                .padding(horizontal = 24.dp, vertical = 24.dp),
+                .padding(
+                    horizontal = 24.dp,
+                    vertical = 24.dp
+                ),
             lineHeight = 24.sp
         )
 
-        // 3. Адаптивная сетка плиток (всегда на экране, без скролла)
+        // GRID
         Column(
             modifier = Modifier
                 .fillMaxSize()
-                .padding(start = 16.dp, end = 16.dp, top = 1.dp, bottom = 38.dp),
-            verticalArrangement = Arrangement.spacedBy(12.dp)
+                .padding(
+                    start = 16.dp,
+                    end = 16.dp,
+                    top = 1.dp,
+                    bottom = 38.dp
+                ),
+            verticalArrangement =
+                Arrangement.spacedBy(12.dp)
         ) {
-            // Разбиваем список тем на строки по 2 элемента
+
             val rows = topicsList.chunked(2)
-            for (row in rows) {
+
+            rows.forEach { row ->
+
                 Row(
                     modifier = Modifier
                         .fillMaxWidth()
-                        .weight(1f), // каждая строка забирает равную долю доступной высоты
-                    horizontalArrangement = Arrangement.spacedBy(12.dp)
+                        .weight(1f),
+                    horizontalArrangement =
+                        Arrangement.spacedBy(12.dp)
                 ) {
-                    for (topic in row) {
-                        val isSelected = selectedTopics.contains(topic.id)
+
+                    row.forEach { topic ->
+
+                        val isSelected =
+                            selectedTopics.contains(topic.id)
+
                         InterestTile(
-                            modifier = Modifier.weight(1f),
+                            modifier =
+                                Modifier.weight(1f),
                             topic = topic,
                             isSelected = isSelected,
                             onClick = {
-                                selectedTopics = if (isSelected) selectedTopics - topic.id
-                                else selectedTopics + topic.id
-                                println("Текущие выбранные темы: $selectedTopics")
+
+                                if (topic.id == "custom_ai") {
+
+                                    customTopic = ""
+
+                                    prefs.edit()
+                                        .putString(
+                                            "custom_topic",
+                                            ""
+                                        )
+                                        .apply()
+                                }
+
+                                selectedTopics =
+                                    if (isSelected)
+                                        selectedTopics - topic.id
+                                    else
+                                        selectedTopics + topic.id
                             }
                         )
                     }
-                    // Если в последней строке только одна тема (нечётное количество),
-                    // добавляем пустой заполнитель, чтобы плитка не растянулась на всю ширину
+
                     if (row.size < 2) {
-                        Spacer(modifier = Modifier.weight(1f))
+                        Spacer(
+                            modifier =
+                                Modifier.weight(1f)
+                        )
                     }
                 }
+            }
+
+            // CUSTOM TOPIC INPUT
+            if (
+                selectedTopics.contains(
+                    "custom_ai"
+                )
+            ) {
+
+                Spacer(
+                    modifier =
+                        Modifier.height(12.dp)
+                )
+
+                OutlinedTextField(
+                    value = customTopic,
+
+                    onValueChange = {
+
+                        customTopic = it
+
+                        prefs.edit()
+                            .putString(
+                                "custom_topic",
+                                it
+                            )
+                            .apply()
+                    },
+
+                    modifier =
+                        Modifier.fillMaxWidth(),
+
+                    placeholder = {
+                        Text(
+                            "Например: Artificial Intelligence"
+                        )
+                    },
+
+                    label = {
+                        Text(
+                            "Your custom topic"
+                        )
+                    },
+
+                    singleLine = true,
+
+                    shape =
+                        RoundedCornerShape(
+                            16.dp
+                        ),
+
+                    colors =
+                        OutlinedTextFieldDefaults.colors(
+                            focusedBorderColor =
+                                PrimaryPurple,
+
+                            unfocusedBorderColor =
+                                DividerColor,
+
+                            focusedTextColor =
+                                Color.White,
+
+                            unfocusedTextColor =
+                                Color.White,
+
+                            focusedLabelColor =
+                                PrimaryPurple,
+
+                            unfocusedLabelColor =
+                                TextGray
+                        )
+                )
             }
         }
     }
@@ -171,63 +321,117 @@ fun InterestTile(
     isSelected: Boolean,
     onClick: () -> Unit
 ) {
-    // Анимация плавного изменения цветов при клике
-    val backgroundColor by animateColorAsState(
-        targetValue = if (isSelected) PrimaryPurple.copy(alpha = 0.15f) else SurfaceColor,
-        animationSpec = tween(300), label = "bgColor"
+
+    val backgroundColor by
+    animateColorAsState(
+        targetValue =
+            if (isSelected)
+                PrimaryPurple.copy(alpha = 0.15f)
+            else
+                SurfaceColor,
+
+        animationSpec = tween(300),
+        label = "bgColor"
     )
-    val contentColor by animateColorAsState(
-        targetValue = if (isSelected) PrimaryPurple else TextGray,
-        animationSpec = tween(300), label = "contentColor"
+
+    val contentColor by
+    animateColorAsState(
+        targetValue =
+            if (isSelected)
+                PrimaryPurple
+            else
+                TextGray,
+
+        animationSpec = tween(300),
+        label = "contentColor"
     )
-    val borderColor by animateColorAsState(
-        targetValue = if (isSelected) PrimaryPurple else Color.Transparent,
-        animationSpec = tween(300), label = "borderColor"
+
+    val borderColor by
+    animateColorAsState(
+        targetValue =
+            if (isSelected)
+                PrimaryPurple
+            else
+                Color.Transparent,
+
+        animationSpec = tween(300),
+        label = "borderColor"
     )
 
     Box(
         modifier = modifier
-            .clip(RoundedCornerShape(16.dp))
+            .clip(
+                RoundedCornerShape(16.dp)
+            )
             .background(backgroundColor)
-            .border(1.dp, borderColor, RoundedCornerShape(16.dp))
-            .clickable { onClick() }
+            .border(
+                1.dp,
+                borderColor,
+                RoundedCornerShape(16.dp)
+            )
+            .clickable {
+                onClick()
+            }
     ) {
+
         Column(
             modifier = Modifier.fillMaxSize(),
-            verticalArrangement = Arrangement.Center,
-            horizontalAlignment = Alignment.CenterHorizontally
+            verticalArrangement =
+                Arrangement.Center,
+            horizontalAlignment =
+                Alignment.CenterHorizontally
         ) {
+
             Icon(
                 imageVector = topic.icon,
-                contentDescription = topic.title,
+                contentDescription =
+                    topic.title,
                 tint = contentColor,
-                modifier = Modifier.size(36.dp)
+                modifier =
+                    Modifier.size(36.dp)
             )
-            Spacer(modifier = Modifier.height(16.dp))
+
+            Spacer(
+                modifier =
+                    Modifier.height(16.dp)
+            )
+
             Text(
                 text = topic.title,
                 color = contentColor,
                 fontSize = 14.sp,
-                fontWeight = FontWeight.Medium,
+                fontWeight =
+                    FontWeight.Medium,
                 letterSpacing = 1.sp
             )
         }
 
-        // Галочка в правом верхнем углу (появляется только если выбрано)
         if (isSelected) {
+
             Box(
                 modifier = Modifier
-                    .align(Alignment.TopEnd)
+                    .align(
+                        Alignment.TopEnd
+                    )
                     .padding(12.dp)
                     .size(20.dp)
-                    .background(PrimaryPurple, CircleShape),
-                contentAlignment = Alignment.Center
+                    .background(
+                        PrimaryPurple,
+                        CircleShape
+                    ),
+
+                contentAlignment =
+                    Alignment.Center
             ) {
+
                 Icon(
-                    imageVector = Icons.Default.Check,
-                    contentDescription = "Selected",
+                    imageVector =
+                        Icons.Default.Check,
+                    contentDescription =
+                        "Selected",
                     tint = Color.White,
-                    modifier = Modifier.size(14.dp)
+                    modifier =
+                        Modifier.size(14.dp)
                 )
             }
         }
