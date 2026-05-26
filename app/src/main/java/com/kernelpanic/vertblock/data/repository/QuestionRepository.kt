@@ -5,7 +5,6 @@ import android.util.Log
 import com.google.ai.client.generativeai.GenerativeModel
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
-import com.kernelpanic.vertblock.BuildConfig
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 
@@ -37,7 +36,6 @@ You create quiz questions for a mobile productivity app.
 Topic: $customTopic
 
 STRICT CONTENT RULES:
-STRICT CONTENT RULES:
 - Do NOT create questions about illegal drugs, substance abuse, or alcohol.
 - Do NOT create questions with sexual themes, racism, hate speech, profanity, or LGBT topics.
 - If the user's topic violates these rules, generate a question about a neutral topic like 'science'.
@@ -63,9 +61,15 @@ WRONG3: answer
         """.trimIndent()
 
             // 1. Создаем модель Gemini
+            val prefs = context.getSharedPreferences("profile_prefs", Context.MODE_PRIVATE)
+            val apiKey = prefs.getString("user_api_key", "")?.ifBlank { null }
+            if (apiKey.isNullOrBlank()) {
+                Log.e("GEMINI_ERROR", "API key is empty. Enter your key in Interest Settings.")
+                return null
+            }
             val generativeModel = GenerativeModel(
-                modelName = "gemini-2.5-flash", // Быстрая и эффективная модель
-                apiKey = BuildConfig.GEMINI_API_KEY
+                modelName = "gemini-2.5-flash",
+                apiKey = apiKey
             )
 
 
@@ -118,32 +122,36 @@ WRONG3: answer
     private val gson = Gson()
 
     suspend fun getRandomQuestion(): Question? {
-        val prefs = context
-            .getSharedPreferences("profile_prefs", Context.MODE_PRIVATE)
+        val prefs = context.getSharedPreferences("profile_prefs", Context.MODE_PRIVATE)
+        val selectedTopicsStr = prefs.getString("selected_topics", "") ?: ""
+        val selectedCategories = selectedTopicsStr.split(",").filter { it.isNotBlank() }
 
-        val selectedTopicsStr = prefs
-            .getString("selected_topics", "") ?: ""
-
-        val selectedCategories = selectedTopicsStr
-            .split(",")
-            .filter { it.isNotBlank() }
+        if (selectedCategories.isEmpty()) return null
 
         return withContext(Dispatchers.IO) {
             try {
                 Log.d("QUESTION_DEBUG", "Selected categories = $selectedCategories")
 
-                if (selectedCategories.contains("custom_ai")) {
-                    Log.d("QUESTION_DEBUG", "Using AI question")
-                    return@withContext generateAiQuestion()
-                }
-
                 val allQuestions = mutableListOf<Question>()
 
                 for (category in selectedCategories) {
-                    val jsonString = loadJsonFromAsset("questions/$category.json")
-                    val listType = object : TypeToken<List<Question>>() {}.type
-                    val questions: List<Question> = gson.fromJson(jsonString, listType)
-                    allQuestions.addAll(questions)
+                    if (category == "custom_ai") {
+                        // Генерируем AI-вопрос по кастомной теме
+                        val aiQuestion = generateAiQuestion()
+                        if (aiQuestion != null) {
+                            allQuestions.add(aiQuestion)
+                        }
+                    } else {
+                        // Загружаем вопросы из JSON
+                        try {
+                            val jsonString = loadJsonFromAsset("questions/$category.json")
+                            val listType = object : TypeToken<List<Question>>() {}.type
+                            val questions: List<Question> = gson.fromJson(jsonString, listType)
+                            allQuestions.addAll(questions)
+                        } catch (e: Exception) {
+                            Log.e("QUESTION_DEBUG", "Failed to load category: $category", e)
+                        }
+                    }
                 }
 
                 if (allQuestions.isEmpty()) null
@@ -154,6 +162,7 @@ WRONG3: answer
             }
         }
     }
+
 
     private fun loadJsonFromAsset(path: String): String {
         return context.assets.open(path).bufferedReader().use { it.readText() }

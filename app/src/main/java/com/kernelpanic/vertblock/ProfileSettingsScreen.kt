@@ -185,11 +185,14 @@ fun ProfileSettingsScreen(
                     .background(SurfaceColor)
                     .clickable { onNavigateToInterest() }
                     .padding(16.dp),
-                verticalAlignment = Alignment.CenterVertically
+                verticalAlignment = Alignment.CenterVertically,
+                horizontalArrangement = Arrangement.SpaceBetween  // ← Добавить
             ) {
-                Icon(Icons.Outlined.Psychology, contentDescription = null, tint = PrimaryPurple)
-                Spacer(modifier = Modifier.width(12.dp))
-                Text("Interest Settings", color = Color.White, fontSize = 16.sp, modifier = Modifier.weight(1f))
+                Row(verticalAlignment = Alignment.CenterVertically) {
+                    Icon(Icons.Outlined.Psychology, contentDescription = null, tint = PrimaryPurple)
+                    Spacer(modifier = Modifier.width(12.dp))
+                    Text("Interest Settings", color = Color.White, fontSize = 16.sp)
+                }
                 Icon(Icons.AutoMirrored.Filled.KeyboardArrowRight, contentDescription = null, tint = TextGray)
             }
 

@@ -22,7 +22,6 @@ android {
         applicationId = "com.kernelpanic.vertblock"
 
         // ✅ Правильный способ — читаем из local.properties:
-        buildConfigField("String", "GEMINI_API_KEY", "\"${localProperties.getProperty("GEMINI_API_KEY")}\"")
         minSdk = 33
         targetSdk = 36
         versionCode = 5

@@ -21,6 +21,8 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.input.PasswordVisualTransformation
+import androidx.compose.ui.text.input.VisualTransformation
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -84,6 +86,13 @@ fun InterestSettingsScreen(
             ) ?: ""
         )
     }
+
+    var apiKey by remember {
+        mutableStateOf(
+            prefs.getString("user_api_key", "") ?: ""
+        )
+    }
+    var showApiKey by remember { mutableStateOf(false) }
 
     DisposableEffect(Unit) {
         onDispose {
@@ -229,85 +238,89 @@ fun InterestSettingsScreen(
                             }
                         )
                     }
-
-                    if (row.size < 2) {
-                        Spacer(
-                            modifier =
-                                Modifier.weight(1f)
-                        )
-                    }
                 }
             }
 
             // CUSTOM TOPIC INPUT
-            if (
-                selectedTopics.contains(
-                    "custom_ai"
-                )
-            ) {
+            if (selectedTopics.contains("custom_ai")) {
 
-                Spacer(
-                    modifier =
-                        Modifier.height(12.dp)
-                )
+                Spacer(modifier = Modifier.height(12.dp))
 
                 OutlinedTextField(
                     value = customTopic,
-
                     onValueChange = {
-
                         customTopic = it
-
                         prefs.edit()
-                            .putString(
-                                "custom_topic",
-                                it
-                            )
+                            .putString("custom_topic", it)
                             .apply()
                     },
-
-                    modifier =
-                        Modifier.fillMaxWidth(),
-
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(horizontal = 8.dp),
                     placeholder = {
-                        Text(
-                            "Например: Artificial Intelligence"
-                        )
+                        Text("Например: Artificial Intelligence")
                     },
-
                     label = {
-                        Text(
-                            "Your custom topic"
-                        )
+                        Text("Your custom topic")
                     },
-
                     singleLine = true,
+                    shape = RoundedCornerShape(16.dp),
+                    colors = OutlinedTextFieldDefaults.colors(
+                        focusedBorderColor = PrimaryPurple,
+                        unfocusedBorderColor = DividerColor,
+                        focusedTextColor = Color.White,
+                        unfocusedTextColor = Color.White,
+                        focusedLabelColor = PrimaryPurple,
+                        unfocusedLabelColor = TextGray
+                    )
+                )
 
-                    shape =
-                        RoundedCornerShape(
-                            16.dp
-                        ),
+                // API KEY INPUT
+                Spacer(modifier = Modifier.height(12.dp))
 
-                    colors =
-                        OutlinedTextFieldDefaults.colors(
-                            focusedBorderColor =
-                                PrimaryPurple,
-
-                            unfocusedBorderColor =
-                                DividerColor,
-
-                            focusedTextColor =
-                                Color.White,
-
-                            unfocusedTextColor =
-                                Color.White,
-
-                            focusedLabelColor =
-                                PrimaryPurple,
-
-                            unfocusedLabelColor =
-                                TextGray
-                        )
+                OutlinedTextField(
+                    value = apiKey,
+                    onValueChange = {
+                        apiKey = it
+                        prefs.edit()
+                            .putString("user_api_key", it)
+                            .apply()
+                    },
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(horizontal = 8.dp),
+                    placeholder = {
+                        Text("Enter your Gemini API Key")
+                    },
+                    label = {
+                        Text("Your API Key (optional)")
+                    },
+                    singleLine = true,
+                    visualTransformation = if (showApiKey)
+                        VisualTransformation.None
+                    else
+                        PasswordVisualTransformation(),
+                    trailingIcon = {
+                        IconButton(onClick = { showApiKey = !showApiKey }) {
+                            Icon(
+                                imageVector = if (showApiKey)
+                                    Icons.Default.VisibilityOff
+                                else
+                                    Icons.Default.Visibility,
+                                contentDescription = if (showApiKey) "Hide key" else "Show key",
+                                tint = TextGray
+                            )
+                        }
+                    },
+                    shape = RoundedCornerShape(16.dp),
+                    colors = OutlinedTextFieldDefaults.colors(
+                        focusedBorderColor = PrimaryPurple,
+                        unfocusedBorderColor = DividerColor,
+                        focusedTextColor = Color.White,
+                        unfocusedTextColor = Color.White,
+                        focusedLabelColor = PrimaryPurple,
+                        unfocusedLabelColor = TextGray
+                    )
                 )
             }
         }
