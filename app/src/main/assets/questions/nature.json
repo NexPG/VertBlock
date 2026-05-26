@@ -3327,7 +3327,11 @@
     "category": "Nature",
     "question": "What is the seven-letter compound word which is considered the dominant root for a plant from which other roots typically grow horizontally?",
     "correct_answer": "Taproot",
-    "incorrect_answers": "Fibrous root, Aerial root, Lateral root"
+    "incorrect_answers": [
+      "Fibrous root",
+      "Aerial root",
+      "Lateral root"
+    ]
   },
   {
     "type": "multiple",
