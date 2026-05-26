@@ -37,8 +37,9 @@ You create quiz questions for a mobile productivity app.
 Topic: $customTopic
 
 STRICT CONTENT RULES:
+STRICT CONTENT RULES:
 - Do NOT create questions about illegal drugs, substance abuse, or alcohol.
-- Do NOT create questions with sexual themes, racism, hate speech, or profanity.
+- Do NOT create questions with sexual themes, racism, hate speech, profanity, or LGBT topics.
 - If the user's topic violates these rules, generate a question about a neutral topic like 'science'.
 
 Generate ONE interesting knowledge question in ENGLISH.
