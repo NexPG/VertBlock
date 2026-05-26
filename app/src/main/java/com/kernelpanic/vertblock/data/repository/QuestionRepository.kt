@@ -2,17 +2,13 @@ package com.kernelpanic.vertblock.data
 
 import android.content.Context
 import android.util.Log
+import com.google.ai.client.generativeai.GenerativeModel
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 import com.kernelpanic.vertblock.BuildConfig
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
-import okhttp3.*
-import okhttp3.MediaType.Companion.toMediaType
-import okhttp3.RequestBody.Companion.toRequestBody
-import org.json.JSONArray
-import org.json.JSONObject
-import java.util.concurrent.TimeUnit
+
 
 data class Question(
     val type: String,
@@ -35,15 +31,15 @@ class QuestionRepository(private val context: Context) {
                 return null
             }
 
-            val client = OkHttpClient.Builder()
-                .connectTimeout(30, TimeUnit.SECONDS)
-                .readTimeout(30, TimeUnit.SECONDS)
-                .build()
-
             val prompt = """
 You create quiz questions for a mobile productivity app.
 
 Topic: $customTopic
+
+STRICT CONTENT RULES:
+- Do NOT create questions about illegal drugs, substance abuse, or alcohol.
+- Do NOT create questions with sexual themes, racism, hate speech, or profanity.
+- If the user's topic violates these rules, generate a question about a neutral topic like 'science'.
 
 Generate ONE interesting knowledge question in ENGLISH.
 
@@ -63,48 +59,22 @@ CORRECT: answer
 WRONG1: answer
 WRONG2: answer
 WRONG3: answer
-            """.trimIndent()
+        """.trimIndent()
 
-            val json = JSONObject().apply {
-                put("model", "llama-3.3-70b-versatile")
-                put(
-                    "messages",
-                    JSONArray().put(
-                        JSONObject().apply {
-                            put("role", "user")
-                            put("content", prompt)
-                        }
-                    )
-                )
-            }
+            // 1. Создаем модель Gemini
+            val generativeModel = GenerativeModel(
+                modelName = "gemini-2.5-flash", // Быстрая и эффективная модель
+                apiKey = BuildConfig.GEMINI_API_KEY
+            )
 
-            val requestBody = json
-                .toString()
-                .toRequestBody("application/json".toMediaType())
 
-            val request = Request.Builder()
-                .url("https://api.groq.com/openai/v1/chat/completions")
-                .addHeader("Authorization", "Bearer ${BuildConfig.GROQ_API_KEY}")
-                .post(requestBody)
-                .build()
+            // 2. Отправляем запрос и получаем ответ
+            val response = generativeModel.generateContent(prompt)
+            val content = response.text ?: return null
 
-            val response = client.newCall(request).execute()
+            Log.d("GEMINI_RESPONSE", content) // Тег для логов
 
-            if (!response.isSuccessful) {
-                Log.e("GROQ_ERROR", "HTTP ${response.code}: ${response.body?.string()}")
-                return null
-            }
-
-            val responseText = response.body?.string() ?: return null
-
-            Log.d("GROQ_RESPONSE", responseText)
-
-            val content = JSONObject(responseText)
-                .getJSONArray("choices")
-                .getJSONObject(0)
-                .getJSONObject("message")
-                .getString("content")
-
+            // 3. Парсим ответ (эта часть остается без изменений)
             val question = content
                 .substringAfter("QUESTION:")
                 .substringBefore("CORRECT:")
@@ -139,7 +109,7 @@ WRONG3: answer
             )
 
         } catch (e: Exception) {
-            Log.e("GROQ_ERROR", "Failed", e)
+            Log.e("GEMINI_ERROR", "Failed", e) // Тег для логов
             null
         }
     }

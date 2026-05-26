@@ -1,3 +1,5 @@
+import java.util.Properties
+
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.compose)
@@ -5,12 +7,9 @@ plugins {
     id("com.google.devtools.ksp")
 }
 
-import java.util.Properties
-
 val localProperties = Properties().apply {
     load(rootProject.file("local.properties").inputStream())
 }
-
 android {
     namespace = "com.kernelpanic.vertblock"
     compileSdk {
@@ -23,12 +22,7 @@ android {
         applicationId = "com.kernelpanic.vertblock"
 
         // ✅ Правильный способ — читаем из local.properties:
-        buildConfigField(
-            "String",
-            "GROQ_API_KEY",
-            "\"${localProperties.getProperty("GROQ_API_KEY")}\""
-        )
-
+        buildConfigField("String", "GEMINI_API_KEY", "\"${localProperties.getProperty("GEMINI_API_KEY")}\"")
         minSdk = 33
         targetSdk = 36
         versionCode = 5
@@ -90,6 +84,7 @@ dependencies {
     implementation("androidx.activity:activity-compose:1.13.0")
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.10.0")
     implementation("io.coil-kt:coil-compose:2.7.0")
-    implementation("com.squareup.okhttp3:okhttp:4.12.0")
     implementation("org.json:json:20250107")
+    implementation("com.google.ai.client.generativeai:generativeai:0.9.0")
+
 }
