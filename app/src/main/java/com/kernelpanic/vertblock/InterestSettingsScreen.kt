@@ -44,7 +44,7 @@ val topicsList = listOf(
     InterestTopic("nature", "NATURE", Icons.Default.Park),
 
     InterestTopic(
-        id = "custom_ai",
+        id = "custom",
         title = "CUSTOM",
         icon = Icons.Default.Edit
     )
@@ -92,14 +92,39 @@ fun InterestSettingsScreen(
             prefs.getString("user_api_key", "") ?: ""
         )
     }
+
+    // Состояние "открыта ли панель настройки кастомной темы"
+    var isCustomPanelOpen by remember {
+        mutableStateOf(savedTopics.contains("custom"))
+    }
+    
     var showApiKey by remember { mutableStateOf(false) }
+
+    // Синхронизируем активность кастомной темы с наличием API ключа
+    LaunchedEffect(apiKey, isCustomPanelOpen) {
+        if (isCustomPanelOpen && apiKey.isNotBlank()) {
+            if (!selectedTopics.contains("custom")) {
+                selectedTopics = selectedTopics + "custom"
+            }
+        } else {
+            if (selectedTopics.contains("custom")) {
+                selectedTopics = selectedTopics - "custom"
+            }
+        }
+    }
 
     DisposableEffect(Unit) {
         onDispose {
+            // При выходе сохраняем только валидные темы
+            val finalTopics = if (apiKey.isBlank()) {
+                selectedTopics - "custom"
+            } else {
+                selectedTopics
+            }
             prefs.edit()
                 .putString(
                     "selected_topics",
-                    selectedTopics.joinToString(",")
+                    finalTopics.joinToString(",")
                 )
                 .apply()
         }
@@ -208,8 +233,13 @@ fun InterestSettingsScreen(
 
                     row.forEach { topic ->
 
-                        val isSelected =
+                        val isSelected = if (topic.id == "custom") {
+                            // Для визуализации: кастомная тема "выбрана" (фиолетовая),
+                            // только если открыта панель И введен API ключ.
+                            isCustomPanelOpen && apiKey.isNotBlank()
+                        } else {
                             selectedTopics.contains(topic.id)
+                        }
 
                         InterestTile(
                             modifier =
@@ -217,24 +247,15 @@ fun InterestSettingsScreen(
                             topic = topic,
                             isSelected = isSelected,
                             onClick = {
-
-                                if (topic.id == "custom_ai") {
-
-                                    customTopic = ""
-
-                                    prefs.edit()
-                                        .putString(
-                                            "custom_topic",
-                                            ""
-                                        )
-                                        .apply()
+                                if (topic.id == "custom") {
+                                    isCustomPanelOpen = !isCustomPanelOpen
+                                } else {
+                                    selectedTopics =
+                                        if (isSelected)
+                                            selectedTopics - topic.id
+                                        else
+                                            selectedTopics + topic.id
                                 }
-
-                                selectedTopics =
-                                    if (isSelected)
-                                        selectedTopics - topic.id
-                                    else
-                                        selectedTopics + topic.id
                             }
                         )
                     }
@@ -242,7 +263,7 @@ fun InterestSettingsScreen(
             }
 
             // CUSTOM TOPIC INPUT
-            if (selectedTopics.contains("custom_ai")) {
+            if (isCustomPanelOpen) {
 
                 Spacer(modifier = Modifier.height(12.dp))
 
@@ -290,10 +311,10 @@ fun InterestSettingsScreen(
                         .fillMaxWidth()
                         .padding(horizontal = 8.dp),
                     placeholder = {
-                        Text("Enter your Gemini API Key")
+                        Text("Paste your Gemini API Key here")
                     },
                     label = {
-                        Text("Your API Key (optional)")
+                        Text("Gemini API Key (Required for AI)")
                     },
                     singleLine = true,
                     visualTransformation = if (showApiKey)

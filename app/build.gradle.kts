@@ -23,8 +23,8 @@ android {
         // ✅ Правильный способ — читаем из local.properties:
         minSdk = 33
         targetSdk = 36
-        versionCode = 5
-        versionName = "0.0.5-alpha"
+        versionCode = 6
+        versionName = "0.1.0-beta"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         ndk {

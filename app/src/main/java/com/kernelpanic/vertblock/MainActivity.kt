@@ -46,6 +46,12 @@ class MainActivity : ComponentActivity() {
         val intent = Intent(android.provider.Settings.ACTION_ACCESSIBILITY_SETTINGS)
         startActivity(intent)
     }
+
+    override fun onResume() {
+        super.onResume()
+        // При возвращении в приложение проверяем, дали ли доступ
+        // Если доступ дали, UI обновится сам в FocusHubScreen благодаря LaunchedEffect или проверке при рекомпозиции
+    }
 }
 
 @Composable

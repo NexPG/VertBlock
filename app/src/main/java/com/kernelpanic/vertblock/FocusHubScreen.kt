@@ -25,6 +25,11 @@ import androidx.compose.ui.platform.LocalContext
 import coil.compose.AsyncImage
 import androidx.compose.ui.layout.ContentScale
 import androidx.core.net.toUri
+import androidx.compose.ui.window.Dialog
+import androidx.compose.ui.window.DialogProperties
+import androidx.lifecycle.Lifecycle
+import androidx.lifecycle.compose.LocalLifecycleOwner
+import androidx.compose.runtime.collectAsState
 
 // Цветовая палитра
 val BackgroundColor = Color(0xFF121214)
@@ -42,6 +47,71 @@ fun FocusHubScreen(
     onQuestionStatsClick: () -> Unit = {}
 ) {
     val context = LocalContext.current
+    var showAccessibilityDialog by remember { mutableStateOf(false) }
+
+    // Проверяем при каждом возобновлении (Lifecycle)
+    val lifecycleOwner = androidx.lifecycle.compose.LocalLifecycleOwner.current
+    val lifecycleState by lifecycleOwner.lifecycle.currentStateFlow.collectAsState()
+
+    LaunchedEffect(lifecycleState) {
+        if (lifecycleState == androidx.lifecycle.Lifecycle.State.RESUMED) {
+            showAccessibilityDialog = !AccessibilityUtils.isAccessibilityServiceEnabled(context, AppWatcherService::class.java)
+        }
+    }
+
+    if (showAccessibilityDialog) {
+        Dialog(
+            onDismissRequest = { /* Не позволяем закрыть просто так, если хотим обязательный доступ */ },
+            properties = DialogProperties(dismissOnBackPress = false, dismissOnClickOutside = false)
+        ) {
+            Surface(
+                shape = RoundedCornerShape(24.dp),
+                color = SurfaceColor,
+                modifier = Modifier.fillMaxWidth().padding(16.dp),
+                border = BorderStroke(1.dp, DividerColor)
+            ) {
+                Column(
+                    modifier = Modifier.padding(24.dp),
+                    horizontalAlignment = Alignment.CenterHorizontally
+                ) {
+                    Icon(
+                        Icons.Default.AccessibilityNew,
+                        contentDescription = null,
+                        tint = PrimaryPurple,
+                        modifier = Modifier.size(48.dp)
+                    )
+                    Spacer(modifier = Modifier.height(24.dp))
+                    Text(
+                        text = "Accessibility Service Required",
+                        color = Color.White,
+                        fontSize = 20.sp,
+                        fontWeight = FontWeight.Bold,
+                        textAlign = TextAlign.Center
+                    )
+                    Spacer(modifier = Modifier.height(16.dp))
+                    Text(
+                        text = "To ensure the app works properly, you must grant accessibility service access to VertBlock.",
+                        color = TextGray,
+                        fontSize = 16.sp,
+                        textAlign = TextAlign.Center
+                    )
+                    Spacer(modifier = Modifier.height(32.dp))
+                    Button(
+                        onClick = {
+                            if (context is MainActivity) {
+                                context.openAccessibilitySettings()
+                            }
+                        },
+                        colors = ButtonDefaults.buttonColors(containerColor = PrimaryPurple),
+                        shape = RoundedCornerShape(12.dp),
+                        modifier = Modifier.fillMaxWidth().height(56.dp)
+                    ) {
+                        Text("Grant Access", color = Color.White, fontSize = 16.sp, fontWeight = FontWeight.Bold)
+                    }
+                }
+            }
+        }
+    }
 
     Column(
         modifier = Modifier

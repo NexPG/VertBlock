@@ -132,19 +132,18 @@ class TimerService : Service() {
 
     private fun buildNotification(secondsLeft: Int): Notification {
         return NotificationCompat.Builder(this, CHANNEL_ID)
-            .setContentTitle("VertBlock")
+            .setContentTitle("Active")
             .setContentText("Next question in ${formatTime(secondsLeft)}")
             .setSmallIcon(android.R.drawable.ic_dialog_info)
             .setOngoing(true)
             .setPriority(NotificationCompat.PRIORITY_LOW)
-            .setStyle(NotificationCompat.BigTextStyle().bigText("There is time left until the next question: ${formatTime(secondsLeft)}"))
             .build()
     }
 
     private fun createNotificationChannel() {
         val channel = NotificationChannel(
             CHANNEL_ID,
-            "VertBlock Timer",
+            "Timer",
             NotificationManager.IMPORTANCE_LOW
         ).apply {
             description = "Shows remaining time until next question"
