@@ -41,6 +41,8 @@ fun FocusHubScreen(
     onWatchTimeClick: () -> Unit = {},
     onQuestionStatsClick: () -> Unit = {}
 ) {
+    val context = LocalContext.current
+
     Column(
         modifier = Modifier
             .fillMaxSize()
