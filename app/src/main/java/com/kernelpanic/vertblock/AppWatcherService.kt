@@ -28,8 +28,8 @@ class AppWatcherService : AccessibilityService() {
         if (event == null) return
         val packageName = event.packageName?.toString() ?: return
 
-        // 1. Игнорируем системные пакеты
-        if (isSystemPackage(packageName)) return
+        // 1. Игнорируем шторку уведомлений (systemui), чтобы таймер не сбрасывался при её открытии
+        if (packageName == "com.android.systemui") return
 
         // 2. Если мы не в YouTube, а таймер запущен — останавливаем
         if (packageName != "com.google.android.youtube") {
@@ -40,10 +40,8 @@ class AppWatcherService : AccessibilityService() {
             return
         }
 
-        // 3. Мы в YouTube — запускаем повторные проверки для поиска Shorts
-        if (rootInActiveWindow != null) {
-            checkForShortsWithRetry(4)  // 4 попытки
-        }
+        // 3. Мы в YouTube — запускаем проверку на Shorts
+        checkForShortsWithRetry(4)
     }
 
     private fun checkForShortsWithRetry(retryCount: Int = 0) {
@@ -73,10 +71,14 @@ class AppWatcherService : AccessibilityService() {
     }
 
     private fun isYouTubeShorts(node: AccessibilityNodeInfo): Boolean {
+        // Проверка по основным ID Shorts
         node.findAccessibilityNodeInfosByViewId("com.google.android.youtube:id/reel_watch_fragment_root")
             ?.let { if (it.isNotEmpty()) return true }
         node.findAccessibilityNodeInfosByViewId("com.google.android.youtube:id/reel_recycler")
             ?.let { if (it.isNotEmpty()) return true }
+        node.findAccessibilityNodeInfosByViewId("com.google.android.youtube:id/shorts_player_view")
+            ?.let { if (it.isNotEmpty()) return true }
+
         return false
     }
 

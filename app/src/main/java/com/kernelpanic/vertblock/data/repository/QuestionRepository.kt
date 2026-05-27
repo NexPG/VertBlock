@@ -10,13 +10,15 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 
 
+import com.google.gson.annotations.SerializedName
+
 data class Question(
-    val type: String,
-    val difficulty: String,
-    val category: String,
-    val question: String,
-    val correct_answer: String,
-    val incorrect_answers: List<String>
+    @SerializedName("type") val type: String,
+    @SerializedName("difficulty") val difficulty: String,
+    @SerializedName("category") val category: String,
+    @SerializedName("question") val question: String,
+    @SerializedName("correct_answer") val correct_answer: String,
+    @SerializedName("incorrect_answers") val incorrect_answers: List<String>
 )
 
 class QuestionRepository(private val context: Context) {
