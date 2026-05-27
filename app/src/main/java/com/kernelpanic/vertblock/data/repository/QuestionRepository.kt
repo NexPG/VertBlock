@@ -38,12 +38,11 @@ Topic: $customTopic
 STRICT CONTENT RULES:
 - Do NOT create questions about illegal drugs, substance abuse, or alcohol.
 - Do NOT create questions with sexual themes, racism, hate speech, profanity, or LGBT topics.
-- If the user's topic violates these rules, generate a question about a neutral topic like 'science'.
+- If the user's topic violates these rules, generate a question about a neutral topic like 'How to get better every day'.
 
-Generate ONE interesting knowledge question in ENGLISH.
+Generate ONE interesting knowledge question in topic's language.
 
 Rules:
-- Everything MUST be in English
 - short question
 - 4 answer options
 - only 1 correct answer
@@ -68,7 +67,7 @@ WRONG3: answer
                 return null
             }
             val generativeModel = GenerativeModel(
-                modelName = "gemini-2.5-flash",
+                modelName = "gemini-flash-lite-latest",
                 apiKey = apiKey
             )
 
